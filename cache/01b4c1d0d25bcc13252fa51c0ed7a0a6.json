@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260609_105509_691",
+  "timestamp": "2026-06-09T10:55:09Z",
+  "image_path": "data\\images\\img_0702.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Caixas de molhos asiáticos estão vazias ou faltando unidades, deixando espaços vazios na prateleira.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos de sushi kit estão ligeiramente desalinhados em relação à frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "sushi kits",
+    "asian sauces",
+    "plum sauce",
+    "soy sauce",
+    "rice"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de corredor de supermercado com várias prateleiras contendo produtos asiáticos (kits de sushi, molhos, arroz). PASSO 2: Dividindo a prateleira: Superior (contém molhos em caixas, algumas vazias), Meio (kits de sushi à esquerda, molhos em garrafa ao centro/direita), Inferior (molhos e arroz). Anomalias: Na prateleira superior, há caixas de cartão de molhos que estão vazias ou com falta de stock. Na prateleira do meio, os kits de sushi estão um pouco desorganizados. PASSO 3: Identifiquei 'empty_shelf' na prateleira superior (caixas vazias) com severidade média e 'misaligned' na prateleira do meio. PASSO 4: O fill rate é alto, mas com lacunas pontuais, estimado em 0.85."
+}

@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260606_165614_450",
+  "timestamp": "2026-06-06T16:56:14Z",
+  "image_path": "data\\images\\img_0461.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Um expositor vertical de brinquedos (Twinkle Tots) está pendurado à frente dos produtos, obstruindo a visão e o acesso às fraldas Huggies.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Espaço vazio visível na prateleira inferior, indicando falta de stock ou desorganização.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Huggies Nappy-Pants",
+    "Huggies Walker",
+    "Huggies Junior",
+    "Huggies Toddler",
+    "Twinkle Tots (brinquedos)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de retalho com fraldas Huggies de vários tamanhos e tipos. Há um expositor vertical de brinquedos pendurado no lado esquerdo que atravessa várias prateleiras. PASSO 2: Prateleira superior: bem abastecida, mas com obstrução visual. Prateleira do meio: bem abastecida. Prateleira inferior: presença de um espaço vazio no lado esquerdo. PASSO 3: Identifiquei o expositor de brinquedos como 'misaligned' (obstrução) na parte superior/meio esquerda, com severidade média. Identifiquei um 'empty_shelf' na parte inferior esquerda, com severidade baixa. PASSO 4: O fill rate é elevado, estimado em 0.85, considerando que a maioria dos espaços está preenchida, exceto pela pequena lacuna na base e a obstrução do expositor."
+}

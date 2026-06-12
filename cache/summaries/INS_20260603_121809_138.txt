@@ -1,0 +1,1 @@
+zona Z_S5; estado ok; fill rate 98%; produtos: vinho tinto, vinho branco; data 2026-06-03T12:18:09Z

@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260609_105957_787",
+  "timestamp": "2026-06-09T10:59:57Z",
+  "image_path": "data\\images\\img_0798.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "As embalagens de cartão (saquetas) estão empilhadas de forma desorganizada e ligeiramente desalinhadas em relação às latas adjacentes.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro-direita",
+      "severity": "medium",
+      "description": "Espaço vazio visível entre as latas de Karicare e as latas da extremidade direita, indicando falta de stock ou produto deslocado.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Karicare Gold infant formula",
+    "S-26 Gold infant formula",
+    "S-26 Progress infant formula"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo latas de leite em pó para bebés (Karicare e S-26). Há também embalagens de cartão no canto superior esquerdo. PASSO 2: Prateleira superior: contém latas Karicare e um pequeno grupo de embalagens de cartão desalinhadas à esquerda; há um espaço vazio à direita. Prateleira do meio: bem preenchida com latas S-26 Step 1 e Progress Step 2. Prateleira inferior: latas S-26 e outras variedades, com preenchimento aceitável. PASSO 3: Identifiquei desalinhamento nas embalagens de cartão (superior esquerda) e um espaço vazio (gap) na prateleira superior. A severidade é baixa/média. PASSO 4: O preenchimento é bom na maioria das áreas, estimado em 85% devido aos pequenos espaços vazios e organização."
+}

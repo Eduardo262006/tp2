@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260607_113727_581",
+  "timestamp": "2026-06-07T11:37:27Z",
+  "image_path": "data\\images\\img_0592.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, à direita das garrafas de Coca-Cola.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro-direita",
+      "severity": "low",
+      "description": "As caixas de Coca-Cola na prateleira inferior apresentam desalinhamento e sobreposição irregular.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Coca-Cola Classic (caixas de 24)",
+    "Coca-Cola Zero (caixas)",
+    "Coca-Cola (garrafas individuais)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho contendo produtos Coca-Cola. A prateleira superior contém caixas de Coca-Cola Classic, Coca-Cola Zero e algumas garrafas individuais à direita. A prateleira inferior está preenchida quase exclusivamente por caixas de 24 unidades de Coca-Cola Classic. PASSO 2: Prateleira superior: esquerda/centro ocupados, direita com espaço vazio. Prateleira inferior: esquerda/centro ocupados, direita com caixas desalinhadas. PASSO 3: Identifiquei um espaço vazio (empty_shelf) na prateleira superior direita (severidade média) e um desalinhamento (misaligned) na prateleira inferior (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira superior e a densidade de ocupação na inferior."
+}

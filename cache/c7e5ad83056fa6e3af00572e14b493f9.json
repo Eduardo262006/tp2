@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260603_121442_069",
+  "timestamp": "2026-06-03T12:14:42Z",
+  "image_path": "data\\images\\img_0069.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos Huggies, sugerindo rutura de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Produtos Huggies ligeiramente desalinhados e com embalagens sobrepostas de forma desorganizada.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "chupetas",
+    "toalhitas Huggies",
+    "fraldas Huggies",
+    "acessórios de bebé"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de corredor de bebé com prateleiras metálicas. À esquerda, temos acessórios pequenos (chupetas, mordedores) pendurados. À direita, temos embalagens de toalhitas e fraldas Huggies de vários tamanhos. Há uma sinalética vertical 'BABY ON BOARD' no centro.\nPASSO 2: \n- Superior: Bem abastecida, mas com alguma desorganização no lado direito.\n- Meio: Lado esquerdo com produtos, lado direito apresenta um espaço vazio considerável (falta de stock).\n- Inferior: Bem abastecida com embalagens de toalhitas e caixas de produtos.\nPASSO 3: \n- Anomalia 1: Espaço vazio na prateleira do meio (lado direito). Tipo: empty_shelf. Severidade: medium. Confiança: 0.95.\n- Anomalia 2: Desalinhamento na prateleira superior. Tipo: misaligned. Severidade: low. Confiança: 0.85.\nPASSO 4: O fill rate é elevado na maioria das secções, mas o vazio na prateleira do meio reduz a média global para cerca de 0.85."
+}

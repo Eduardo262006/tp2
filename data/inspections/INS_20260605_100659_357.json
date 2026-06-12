@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260605_100659_357",
+  "timestamp": "2026-06-05T10:06:59Z",
+  "image_path": "data\\images\\img_0368.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro-direita",
+      "severity": "medium",
+      "description": "Espaço vazio visível entre os produtos de café, indicando falta de stock ou desorganização.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos de café desalinhados e inclinados dentro da caixa de exposição.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "café em grão",
+    "café moído",
+    "acessórios de café",
+    "adoçantes"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com 4 níveis principais contendo café (pacotes e caixas) e adoçantes na lateral direita. PASSO 2: Prateleira superior: bem preenchida, mas com um pequeno gap no centro. Prateleira intermédia: preenchida, mas com alguns produtos ligeiramente fora de esquadria. Prateleira inferior: produtos desalinhados à esquerda. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior (gap entre produtos) e 'misaligned' na prateleira inferior (pacotes de café tombados). A severidade é baixa/média pois a maioria do stock está presente. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria dos espaços está ocupada, com pequenas lacunas e desorganização pontual."
+}

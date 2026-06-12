@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260609_105642_722",
+  "timestamp": "2026-06-09T10:56:42Z",
+  "image_path": "data\\images\\img_0733.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos, mas apenas a estrutura metálica é visível.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Produto Doritos Dippas ligeiramente desalinhado em relação ao alinhamento frontal da prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "Doritos Tapas",
+    "Doritos Dippas",
+    "Doritos Sweet Chilli & Sour Cream"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho com snacks (Doritos). A prateleira superior está bem preenchida com Doritos Tapas e Dippas. A prateleira inferior contém Doritos Sweet Chilli & Sour Cream à direita, mas apresenta um espaço vazio considerável à esquerda. PASSO 2: Prateleira superior: preenchida, apenas um ligeiro desalinhamento à direita. Prateleira inferior: lado esquerdo vazio, lado direito preenchido. PASSO 3: Anomalia 1: empty_shelf na prateleira inferior esquerda (severidade média, confiança 0.95). Anomalia 2: misaligned na prateleira superior direita (severidade baixa, confiança 0.8). PASSO 4: O fill rate é estimado em 0.75, considerando que cerca de 1/4 da área total visível na prateleira inferior está vazia."
+}

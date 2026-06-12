@@ -1,0 +1,26 @@
+{
+  "inspection_id": "INS_20260609_105636_720",
+  "timestamp": "2026-06-09T10:56:36Z",
+  "image_path": "data\\images\\img_0731.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos, revelando a grelha de fundo.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "sumos Ribena",
+    "sumos Smart Juice",
+    "sumos P&N",
+    "brinquedos/miniaturas Coca-Cola"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado com sumos (Ribena, Smart Juice, P&N) e uma tira de exposição de miniaturas Coca-Cola. A prateleira superior está bem abastecida. A prateleira inferior apresenta uma falha de stock no centro. PASSO 2: Prateleira superior: cheia e organizada. Prateleira inferior: lado esquerdo com Ribena, centro com vazio, lado direito com P&N e tira de produtos. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira inferior central. Severidade média pois afeta a visibilidade e disponibilidade. Confiança alta. PASSO 4: O fill rate é estimado em 0.85, considerando a ocupação total das duas prateleiras visíveis, descontando o espaço vazio central na prateleira inferior."
+}

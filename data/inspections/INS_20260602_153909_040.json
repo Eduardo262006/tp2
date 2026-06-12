@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260602_153909_040",
+  "timestamp": "2026-06-02T15:39:09Z",
+  "image_path": "data\\images\\img_0040.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "wrong_product",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Presença de revistas/banda desenhada (Spider-Man) numa secção dedicada a sumos e bebidas.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "low",
+      "description": "Algumas embalagens de 'Popper Juice' estão ligeiramente desalinhadas em relação à frente da prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "sumos de fruta (Popper Juice, Golden Circle, Just Juice)",
+    "revistas/banda desenhada (Spider-Man)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra prateleiras de supermercado com sumos de fruta (Popper Juice, Golden Circle, Just Juice) e uma secção de revistas/banda desenhada (Spider-Man) inserida no meio dos produtos alimentares. PASSO 2: Dividindo a prateleira: Superior (sumos), Meio (sumos e revistas), Inferior (sumos). Anomalia principal: a presença de revistas no meio da prateleira de sumos. PASSO 3: A revista Spider-Man está numa zona de sumos, o que é um 'wrong_product'. A severidade é média pois ocupa espaço de venda. O desalinhamento de algumas embalagens de sumo é menor. PASSO 4: O fill rate é elevado, estimado em 0.85, considerando que a maioria do espaço está preenchido com produtos, apesar da categoria mista."
+}

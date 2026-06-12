@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260605_100656_356",
+  "timestamp": "2026-06-05T10:06:56Z",
+  "image_path": "data\\images\\img_0367.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Pacote de batatas Thins posicionado de forma irregular/inclinada sobre os outros produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Espaço vazio visível na prateleira inferior, indicando falta de stock ou organização deficiente.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Tasty Jacks chips",
+    "Thins chips",
+    "Smiths chips"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de retalho contendo sacos de batatas fritas (marcas Tasty Jacks, Thins e Smiths). A organização é geralmente boa, mas há desordem pontual. PASSO 2: Prateleira superior: bem organizada. Prateleira do meio: um pacote de Thins está desalinhado/inclinado no centro. Prateleira inferior: há um espaço vazio no lado direito onde deveriam estar produtos. PASSO 3: Identifiquei um desalinhamento (misaligned) na prateleira do meio e um espaço vazio (empty_shelf) na prateleira inferior. A severidade é média para o desalinhamento e baixa para o espaço vazio. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria dos espaços está preenchida, exceto pela falha na prateleira inferior."
+}

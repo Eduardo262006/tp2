@@ -1,0 +1,38 @@
+{
+  "inspection_id": "INS_20260605_100538_330",
+  "timestamp": "2026-06-05T10:05:38Z",
+  "image_path": "data\\images\\img_0341.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos Schweppes Soda e Schweppes Tonic Water.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio entre os produtos Schweppes Lime & Soda e Schweppes Lemonade.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Schweppes Soda",
+    "Schweppes Tonic Water",
+    "Schweppes Lemon & Soda",
+    "Schweppes Lime & Soda",
+    "Schweppes Lemonade",
+    "Schweppes Mineral Water",
+    "Schweppes Ginger Ale"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo packs de bebidas da marca Schweppes. Os produtos estão organizados em filas. PASSO 2: Prateleira superior: contém produtos à esquerda e à direita, com um espaço vazio no centro. Prateleira do meio: contém produtos à esquerda e à direita, com um espaço vazio no centro. Prateleira inferior: está bem preenchida com várias variedades de Schweppes. PASSO 3: Identifiquei duas anomalias de 'empty_shelf' (prateleira superior centro e prateleira do meio centro). A severidade é média pois, embora haja stock, a organização está interrompida. Confiança alta devido à clareza visual dos espaços vazios. PASSO 4: Considerando a ocupação total das três prateleiras, estimo um fill rate de 0.85, dado que cerca de 15% do espaço linear total está desocupado."
+}

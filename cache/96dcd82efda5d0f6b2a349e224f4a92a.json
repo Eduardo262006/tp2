@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260606_165447_421",
+  "timestamp": "2026-06-06T16:54:47Z",
+  "image_path": "data\\images\\img_0432.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, onde deveriam estar garrafas de vinho.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas ligeiramente desalinhadas em relação ao padrão de faceamento frontal.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "vinho branco",
+    "vinho tinto",
+    "acessórios de vinho (saca-rolhas)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um expositor de vinhos. A prateleira superior contém vinhos brancos e tintos, com um saca-rolhas pendurado. A prateleira inferior contém vinhos brancos e tintos de várias marcas (Yellow Tail, Lindemans, etc.).\nPASSO 2: \n- Superior: Esquerda/Centro bem preenchidos; Direita apresenta um espaço vazio considerável.\n- Inferior: Preenchimento consistente, com pequenos desalinhamentos nas garrafas à esquerda.\nPASSO 3: \n- Anomalia 1: Empty_shelf na prateleira superior direita. Severidade média, confiança alta (0.95).\n- Anomalia 2: Misaligned na prateleira inferior esquerda. Severidade baixa, confiança 0.8.\nPASSO 4: O fill rate é estimado em 0.88, considerando o espaço vazio na prateleira superior e a densidade geral das garrafas."
+}

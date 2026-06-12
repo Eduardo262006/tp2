@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260606_165414_410",
+  "timestamp": "2026-06-06T16:54:14Z",
+  "image_path": "data\\images\\img_0421.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior onde deveriam estar produtos.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Produtos da marca Coon estão desorganizados e inclinados, obstruindo a visão da etiqueta de preço.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Coon Cheese",
+    "Mainland Cheese",
+    "Bega Cheese"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de refrigeração de supermercado com queijos embalados (Coon, Mainland, Bega). A organização é geralmente boa, mas com algumas falhas de stock e alinhamento. PASSO 2: Prateleira superior: apresenta um vazio à esquerda. Prateleira do meio: bem preenchida, mas com alguns produtos ligeiramente desalinhados. Prateleira inferior: apresenta desorganização no centro com produtos Coon tombados. PASSO 3: Anomalia 1 (empty_shelf): Prateleira superior esquerda, severidade média, confiança 0.9. Anomalia 2 (misaligned): Prateleira inferior centro, severidade baixa, confiança 0.85. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto por pequenas lacunas e desorganização pontual."
+}

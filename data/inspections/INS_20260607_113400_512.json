@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260607_113400_512",
+  "timestamp": "2026-06-07T11:34:00Z",
+  "image_path": "data\\images\\img_0523.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na extremidade direita da prateleira superior.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas de Coltee's Raspberry ligeiramente desalinhadas em relação ao padrão de faceamento.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "sumos",
+    "cordiais",
+    "bebidas de fruta"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo garrafas de plástico de sumos e cordiais (marcas como Coltee's, Extra Juicy, Farmland). A organização é predominantemente por faceamento frontal. PASSO 2: Prateleira superior: cheia à esquerda e centro, mas com um espaço vazio à direita. Prateleira do meio: bem preenchida, com alinhamento aceitável. Prateleira inferior: bem preenchida, alinhamento consistente. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior direita (severidade média, pois há espaço para pelo menos 2-3 garrafas). Identifiquei um ligeiro 'misaligned' na prateleira do meio, mas é uma questão estética menor. PASSO 4: O fill rate é alto, estimado em 0.88, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na parte superior direita."
+}

@@ -1,0 +1,16 @@
+{
+  "inspection_id": "INS_20260608_175223_668",
+  "timestamp": "2026-06-08T17:52:23Z",
+  "image_path": "data\\images\\img_0679.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Coolabah wine boxes",
+    "Stanley wine boxes",
+    "Sunnyvale wine boxes",
+    "Promotional hanging clips"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um supermercado contendo caixas de vinho (bag-in-box). Há uma tira promocional vertical pendurada no centro. Os produtos estão organizados em filas. PASSO 2: Prateleira superior: bem abastecida com vinhos brancos. Prateleira do meio: bem abastecida com vinhos Stanley e Coolabah. Prateleira inferior: bem abastecida com vinhos Sunnyvale e Stanley. Não há falhas de stock significativas ou produtos desalinhados que comprometam a integridade da prateleira. PASSO 3: Não foram identificadas anomalias críticas. A tira promocional está corretamente posicionada. PASSO 4: O fill rate é elevado, com quase todas as posições ocupadas, estimando-se em 0.95."
+}

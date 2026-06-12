@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260607_113348_508",
+  "timestamp": "2026-06-07T11:33:48Z",
+  "image_path": "data\\images\\img_0519.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível entre as caixas de Uncle Tobys Delights, sugerindo falta de stock ou produto deslocado.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "As caixas na extremidade direita da prateleira inferior estão ligeiramente desalinhadas em relação ao bloco principal.",
+      "confidence": 0.8,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Fruit Bars",
+    "Uncle Tobys Delights"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras com produtos de snack (barras de fruta e barras de cereais Uncle Tobys). A organização é predominantemente em blocos. PASSO 2: Prateleira superior (cheia), prateleira do meio (presença de um pequeno espaço vazio entre produtos), prateleira inferior (maioritariamente cheia, com ligeiro desalinhamento à direita). PASSO 3: Identifiquei um 'empty_shelf' na prateleira do meio (gap entre produtos) e um 'misaligned' na prateleira inferior. A severidade é baixa/média pois a maioria do stock está presente. PASSO 4: O fill rate é elevado, estimado em 0.92, dado que a grande maioria do espaço está ocupado por produto, com apenas pequenas lacunas."
+}

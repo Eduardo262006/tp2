@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260608_175250_677",
+  "timestamp": "2026-06-08T17:52:50Z",
+  "image_path": "data\\images\\img_0688.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos Yoplait e Vaalia na prateleira do meio.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos ligeiramente desalinhados na frente da prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Yoplait yogurt",
+    "Vaalia yogurt",
+    "Duos yogurt"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo iogurtes (Yoplait e Vaalia). A organização é geralmente boa, mas há lacunas visíveis. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: apresenta uma lacuna central notável entre os iogurtes Yoplait e Vaalia. Prateleira inferior: bem abastecida com produtos alinhados. PASSO 3: Identifiquei uma anomalia de 'empty_shelf' no centro da prateleira do meio, onde falta stock. Há também um ligeiro desalinhamento na prateleira superior. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna central na prateleira do meio."
+}

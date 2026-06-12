@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260605_100517_323",
+  "timestamp": "2026-06-05T10:05:17Z",
+  "image_path": "data\\images\\img_0334.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, entre os pacotes de água e a lateral esquerda.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "low",
+      "description": "Os produtos estão ligeiramente desalinhados, com um espaço vazio visível entre as garrafas de Pureau e a garrafa de Mount Franklin.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "água engarrafada",
+    "pacotes de água (multipacks)",
+    "autocolantes (lateral esquerda)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho contendo garrafas de água individuais e pacotes de água (multipacks). À esquerda, há uma coluna de autocolantes. PASSO 2: Prateleira superior: contém garrafas individuais de H2O, Pureau, Mount Franklin e outras marcas. Há um pequeno desalinhamento no centro. Prateleira inferior: contém pacotes de água (P&N, Fiji, Value Pack). Há uma zona vazia notável no lado esquerdo. PASSO 3: Identifiquei um 'empty_shelf' na prateleira inferior esquerda (severidade média, confiança 0.95) e um 'misaligned' na prateleira superior central (severidade baixa, confiança 0.85). PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria do espaço está ocupado, exceto pela lacuna na prateleira inferior e o pequeno espaçamento na superior."
+}

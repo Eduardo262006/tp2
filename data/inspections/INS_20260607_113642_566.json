@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260607_113642_566",
+  "timestamp": "2026-06-07T11:36:42Z",
+  "image_path": "data\\images\\img_0577.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio visível atrás das embalagens de sumos, indicando falta de stock ou profundidade insuficiente.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Embalagens de sumos individuais estão ligeiramente desorganizadas dentro das caixas expositoras.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "sumos",
+    "bebidas energéticas",
+    "xaropes/concentrados",
+    "palhinhas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A prateleira superior contém caixas de sumos individuais à esquerda e garrafas de sumos/bebidas à direita. A prateleira inferior contém garrafas de vidro de xaropes ou bebidas concentradas e garrafas de plástico de sumos. Há um expositor de palhinhas na extremidade esquerda. PASSO 2: Prateleira superior: Esquerda (caixas de sumos, ok), Centro (espaço vazio atrás dos produtos, visível através da grelha), Direita (garrafas de Boosta, ok). Prateleira inferior: Bem preenchida, sem anomalias graves. PASSO 3: Identifiquei um 'empty_shelf' parcial no centro da prateleira superior (atrás dos produtos) e um ligeiro 'misaligned' nas caixas de sumos à esquerda. A severidade é média devido ao espaço vazio visível. PASSO 4: O fill rate é alto, estimado em 0.85, pois a maioria das frentes está ocupada, apesar do vazio no fundo da prateleira superior."
+}

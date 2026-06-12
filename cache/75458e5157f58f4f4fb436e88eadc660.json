@@ -1,0 +1,25 @@
+{
+  "inspection_id": "INS_20260607_113600_552",
+  "timestamp": "2026-06-07T11:36:00Z",
+  "image_path": "data\\images\\img_0563.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Uma caixa de Uncle Tobys Yoghurt está tombada e fora de alinhamento com as restantes caixas na prateleira.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "barras de cereais",
+    "barras de iogurte",
+    "barras de muesli"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo caixas de barras de cereais e iogurte (marcas Uncle Tobys e Mother Earth). A organização é geralmente boa, com produtos alinhados frontalmente. PASSO 2: Prateleira superior: bem organizada. Prateleira do meio: existe uma caixa de 'Uncle Tobys Yoghurt' tombada sobre a prateleira, interrompendo o alinhamento. Prateleira inferior: organizada, com etiquetas de preço visíveis. PASSO 3: Identificada uma anomalia de 'misaligned' na prateleira do meio, lado direito, onde uma caixa está deitada em vez de em pé. Severidade média, pois afeta a estética e a acessibilidade. Confiança alta. PASSO 4: O fill rate é elevado, com apenas pequenos espaços vazios ou produtos tombados, estimado em 0.85."
+}

@@ -1,0 +1,38 @@
+{
+  "inspection_id": "INS_20260605_100817_383",
+  "timestamp": "2026-06-05T10:08:17Z",
+  "image_path": "data\\images\\img_0394.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível entre os produtos Flora e os produtos Nola/Eta, indicando falta de stock ou desorganização.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Os produtos Tablelands estão ligeiramente desalinhados em relação à coluna adjacente.",
+      "confidence": 0.7,
+      "affected_area_pct": 2.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Flora margarine",
+    "Spread tubs",
+    "Tablelands dairy free",
+    "Eta 5 Star",
+    "Nola margarine",
+    "Gold Canola",
+    "Latina fresh pasta"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um supermercado contendo margarinas e produtos de barrar. A organização é predominantemente em colunas verticais. PASSO 2: Prateleira superior: bem preenchida, exceto por um ligeiro desalinhamento à direita. Prateleira do meio: existe uma lacuna notável entre os produtos Flora e os produtos Eta/Nola. Prateleira inferior: bem preenchida com produtos Gold Canola e Canola. PASSO 3: Identificada uma lacuna (empty_shelf) na prateleira do meio e um desalinhamento (misaligned) na superior. A severidade é baixa/média pois a maioria do stock está presente. PASSO 4: O fill rate é elevado, estimado em 0.92, dado que a maioria das prateleiras está cheia, com apenas pequenas lacunas."
+}

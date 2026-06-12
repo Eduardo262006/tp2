@@ -1,0 +1,42 @@
+{
+  "inspection_id": "INS_20260609_105727_737",
+  "timestamp": "2026-06-09T10:57:27Z",
+  "image_path": "data\\images\\img_0748.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na secção central da prateleira superior.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio na secção central da prateleira do meio.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro-esquerda",
+      "severity": "medium",
+      "description": "Espaço vazio na secção central-esquerda da prateleira inferior.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "Deli-style Potato Chips",
+    "Smiths Crinkle Cut Chips"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de metal contendo sacos de batatas fritas (Deli-style e Smiths). As prateleiras estão organizadas por divisórias de arame. PASSO 2: Prateleira superior: lado esquerdo e direito ocupados, centro vazio. Prateleira do meio: lado esquerdo e direito ocupados, centro vazio. Prateleira inferior: lado esquerdo com espaço vazio, centro e direita ocupados. PASSO 3: Identificadas três zonas de 'empty_shelf' nas secções centrais de cada nível. Severidade média pois o stock está presente mas com falhas de faceamento/reposição. Confiança alta devido à visibilidade clara das grelhas vazias. PASSO 4: Estimativa de fill rate baseada na ocupação visual das grelhas: cerca de 75% do espaço total disponível está preenchido com produto."
+}

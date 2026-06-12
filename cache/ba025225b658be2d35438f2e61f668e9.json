@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260609_105857_767",
+  "timestamp": "2026-06-09T10:58:57Z",
+  "image_path": "data\\images\\img_0778.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos Playtex, indicando falta de stock ou desorganização.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos pendurados de forma irregular, com sobreposição visual.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "copos de treino",
+    "biberões",
+    "acessórios de alimentação infantil",
+    "talheres infantis"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de retalho com produtos de puericultura (copos, biberões, acessórios). A prateleira está dividida por um separador vertical central. PASSO 2: Superior esquerda: presença de lacunas entre produtos. Superior direita: bem preenchida. Meio esquerda: produtos pendurados com desalinhamento. Meio direita: bem preenchida. Inferior: preenchimento consistente. PASSO 3: Identifiquei uma zona de 'empty_shelf' na prateleira superior esquerda (severidade média) e 'misaligned' na prateleira do meio esquerda (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das faces está ocupada, apesar das lacunas pontuais."
+}

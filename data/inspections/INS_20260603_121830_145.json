@@ -1,0 +1,27 @@
+{
+  "inspection_id": "INS_20260603_121830_145",
+  "timestamp": "2026-06-03T12:18:30Z",
+  "image_path": "data\\images\\img_0145.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Gancho de exposição vazio, indicando falta de stock de um produto específico.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Maybelline Pure Powder",
+    "Maybelline Fit Me Matte",
+    "Maybelline SuperStay",
+    "Maybelline Wet Shine",
+    "Cosméticos faciais em blister"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho de cosméticos (Maybelline) organizada em ganchos. Os produtos estão dispostos em blisters. PASSO 2: Dividindo a prateleira: Superior (contém pós e bases), Meio (batons e glosses), Inferior (batons e produtos de longa duração). Identifiquei um gancho vazio na prateleira superior, no centro. PASSO 3: Anomalia identificada: 'empty_shelf' no centro da prateleira superior. Severidade média, pois afeta apenas um SKU. Confiança alta devido à clareza do gancho metálico exposto. PASSO 4: O fill rate é elevado, com apenas um gancho vazio num total de aproximadamente 20-25 posições, resultando num fill rate estimado de 0.92."
+}

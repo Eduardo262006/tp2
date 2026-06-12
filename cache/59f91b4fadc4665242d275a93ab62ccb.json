@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260604_163425_269",
+  "timestamp": "2026-06-04T16:34:25Z",
+  "image_path": "data\\images\\img_0280.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "critical",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "damaged",
+      "location": "prateleira do meio, centro-direita",
+      "severity": "high",
+      "description": "Produto 'Logical' aberto e derramado sobre a prateleira, criando risco de contaminação e sujidade.",
+      "confidence": 1.0,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Vários recipientes de 'Country Gold' e 'Flora' estão tombados, fora das suas posições de empilhamento correto.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Country Gold",
+    "Flora",
+    "Logical",
+    "Proactiv"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de refrigeração com margarinas/manteigas. Observa-se uma organização caótica no centro da prateleira do meio. PASSO 2: Prateleira superior (organizada), Prateleira do meio (zona central com produtos tombados e um produto aberto/derramado), Prateleira inferior (organizada). PASSO 3: Identifiquei um produto 'Logical' aberto com conteúdo derramado (danificado/risco sanitário) e vários produtos tombados (desalinhados) na zona central da prateleira do meio. A severidade é alta devido ao derrame. PASSO 4: O fill rate é relativamente alto, pois a maioria dos espaços está ocupada, mas a desorganização e o derrame reduzem a qualidade da exposição. Estimo 0.85."
+}

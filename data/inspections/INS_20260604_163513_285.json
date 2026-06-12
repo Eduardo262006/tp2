@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260604_163513_285",
+  "timestamp": "2026-06-04T16:35:13Z",
+  "image_path": "data\\images\\img_0296.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos alinhados com as restantes secções.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, centro-direita",
+      "severity": "low",
+      "description": "Uma embalagem de Smirnoff está colocada isolada no topo da pilha, desalinhada com a estrutura organizada das restantes embalagens.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Vodka Cruiser",
+    "Cougar Bourbon",
+    "Jim Beam Cola",
+    "Jack Daniel's Cola",
+    "Smirnoff",
+    "Bundaberg Cola"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho de bebidas alcoólicas pré-misturadas. Estão presentes várias marcas como Cougar, Jim Beam, Jack Daniel's, Smirnoff e Bundaberg. A organização é feita por blocos de marca. PASSO 2: Prateleira superior: bem preenchida, exceto por uma unidade isolada de Smirnoff no topo. Prateleira média: bem preenchida com Cougar e Jim Beam. Prateleira inferior: presença de Vodka Cruiser à esquerda e Bundaberg à direita, mas com um vazio central notável. PASSO 3: Identifiquei um 'empty_shelf' na zona central inferior (severidade média) e um 'misaligned' na prateleira superior (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, mas com uma lacuna clara na parte inferior central."
+}

@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260608_175038_633",
+  "timestamp": "2026-06-08T17:50:38Z",
+  "image_path": "data\\images\\img_0644.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, onde faltam produtos entre as latas de Valcom e as de Satay.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Latas de conservas desalinhadas e algumas tombadas ou fora da fila frontal padrão.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "latas de molhos asiáticos",
+    "pastas de caril",
+    "cogumelos em lata",
+    "açúcar de palma",
+    "sacos de arroz"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com três níveis principais. Contém latas de molhos, pastas, cogumelos, caixas de açúcar de palma e sacos de arroz. PASSO 2: Prateleira superior: apresenta uma lacuna visível no lado esquerdo. Prateleira do meio: bem organizada, com produtos alinhados. Prateleira inferior: apresenta alguns produtos desalinhados e latas ligeiramente desorganizadas no centro. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior (severidade média, pois interrompe a continuidade do stock) e 'misaligned' na inferior (severidade baixa, apenas estética). PASSO 4: O fill rate é elevado, estimado em 0.85, dado que a maioria das prateleiras está cheia, com apenas pequenas lacunas e desorganização pontual."
+}

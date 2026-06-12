@@ -1,0 +1,24 @@
+{
+  "inspection_id": "INS_20260609_105712_732",
+  "timestamp": "2026-06-09T10:57:12Z",
+  "image_path": "data\\images\\img_0743.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, centro-direita",
+      "severity": "low",
+      "description": "Uma embalagem de ovos está posicionada de forma invertida ou com a etiqueta voltada para trás, dificultando a identificação do produto.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "ovos (Pace Farm 6 unidades)",
+    "ovos (Pace Farm 12 unidades)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado contendo embalagens de ovos da marca 'Pace Farm'. A prateleira superior contém embalagens de 6 ovos, organizadas em colunas. A prateleira inferior contém embalagens de 12 ovos. PASSO 2: Prateleira superior: organizada, exceto por uma embalagem no centro-direita que está virada para trás. Prateleira inferior: bem organizada e cheia. PASSO 3: Identificada uma anomalia de 'misaligned' (embalagem virada) na prateleira superior, centro-direita. Severidade baixa, pois o produto está presente e acessível, apenas com a etiqueta oculta. Confiança alta. PASSO 4: O preenchimento é muito elevado, com quase todos os espaços ocupados. Estimo um fill rate de 0.95."
+}

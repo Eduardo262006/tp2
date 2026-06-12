@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260606_165502_426",
+  "timestamp": "2026-06-06T16:55:02Z",
+  "image_path": "data\\images\\img_0437.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível atrás da primeira fila de produtos (Weight Watchers), indicando falta de profundidade ou stock insuficiente.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Produtos da marca Uncle Tobys na prateleira inferior estão desalinhados e parcialmente ocultos pela estrutura.",
+      "confidence": 0.8,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Coles Oven Baked Duos",
+    "Weight Watchers Cereal Bars",
+    "Coles Farmland Apple Bars",
+    "Uncle Tobys Bars"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de metal contendo barras de cereais/fruta. A prateleira superior contém 'Coles Duos' e 'Weight Watchers'. A prateleira do meio contém 'Coles Farmland Apple'. A prateleira inferior contém 'Uncle Tobys'. Há etiquetas de preço visíveis. PASSO 2: Prateleira superior: lado esquerdo apresenta um vazio atrás dos produtos. Prateleira do meio: bem organizada. Prateleira inferior: produtos Uncle Tobys desalinhados e empilhados de forma irregular. PASSO 3: Identifiquei um 'empty_shelf' parcial na prateleira superior (severidade média) e 'misaligned' na inferior (severidade baixa). PASSO 4: O fill rate é alto, estimado em 0.85, pois a maioria das frentes está preenchida, apesar dos vazios de profundidade e desalinhamentos."
+}

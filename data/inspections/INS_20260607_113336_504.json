@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260607_113336_504",
+  "timestamp": "2026-06-07T11:33:36Z",
+  "image_path": "data\\images\\img_0515.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível à esquerda da primeira embalagem de Red Rock Deli.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Embalagens de Kettle Chips encontram-se ligeiramente desorganizadas e sobrepostas, dificultando a visualização frontal.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Red Rock Deli Potato Chips",
+    "Kettle Brand Potato Chips"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho com sacos de batatas fritas (Red Rock Deli e Kettle Brand). A prateleira superior contém Red Rock Deli (Sweet Chili e Sea Salt) e Kettle (Honey Baked Ham). A prateleira inferior contém Kettle (Original Salted e Sea Salt & Cracked Pepper). PASSO 2: Prateleira superior: lado esquerdo tem um pequeno espaço vazio. Prateleira inferior: centro apresenta desalinhamento e sobreposição de sacos. PASSO 3: Anomalia 1 (empty_shelf): prateleira superior esquerda, severidade média, confiança 0.9. Anomalia 2 (misaligned): prateleira inferior centro, severidade baixa, confiança 0.85. PASSO 4: O fill rate é elevado, estimado em 0.92, dado que a maioria do espaço está preenchido, com apenas pequenas lacunas e desorganização."
+}

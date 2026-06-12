@@ -1,0 +1,41 @@
+{
+  "inspection_id": "INS_20260608_174826_589",
+  "timestamp": "2026-06-08T17:48:26Z",
+  "image_path": "data\\images\\img_0600.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Espaço vazio no final da prateleira superior.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira intermédia, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo no lado direito da prateleira intermédia.",
+      "confidence": 0.98,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio no final da prateleira inferior.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "sumos de fruta em garrafas de plástico"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra quatro prateleiras de um supermercado preenchidas com garrafas de sumo de várias marcas (Just Juice, Daily Juice, etc.). Os produtos estão organizados em filas. PASSO 2: Dividindo a prateleira: Superior (quase cheia, pequeno vazio à direita), Segunda (cheia até ao centro, vazio à direita), Terceira (cheia até ao centro, vazio à direita), Inferior (cheia até ao centro, vazio à direita). PASSO 3: Identifiquei espaços vazios (empty_shelf) nas extremidades direitas das prateleiras 2, 3 e 4. A severidade é média devido à falta de stock visível nessas zonas. A confiança é alta pois o fundo preto da prateleira é claramente visível. PASSO 4: O fill rate global é estimado em 0.85, considerando que cerca de 15% do espaço total das prateleiras está vazio."
+}

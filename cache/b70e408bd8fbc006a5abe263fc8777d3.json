@@ -1,0 +1,26 @@
+{
+  "inspection_id": "INS_20260605_100429_307",
+  "timestamp": "2026-06-05T10:04:29Z",
+  "image_path": "data\\images\\img_0318.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio entre os produtos Mae Ploy e Nicecook, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Lee Kum Kee Singapore Noodles",
+    "Mae Ploy Red Curry Paste",
+    "Nicecook Instant Noodles",
+    "Indomie Mi Goreng Instant Noodles (5-pack)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A superior contém molhos e pacotes de noodles (Lee Kum Kee, Mae Ploy, Nicecook). A inferior contém pacotes de 5 unidades de Indomie Mi Goreng. PASSO 2: Na prateleira superior, há uma lacuna clara entre o produto Mae Ploy e os produtos Nicecook. A prateleira inferior está bem preenchida e organizada. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior, centro, com severidade média, pois interrompe a continuidade do linear. Confiança alta devido à visibilidade da grelha metálica de fundo. PASSO 4: O fill rate é estimado em 0.85, considerando que a prateleira inferior está cheia, mas a superior apresenta uma falha de stock no centro."
+}

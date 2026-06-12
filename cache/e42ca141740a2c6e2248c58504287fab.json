@@ -1,0 +1,26 @@
+{
+  "inspection_id": "INS_20260605_100611_341",
+  "timestamp": "2026-06-05T10:06:11Z",
+  "image_path": "data\\images\\img_0352.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Os sacos de batatas fritas (marca Thins) estão desorganizados, tombados e empilhados de forma irregular, dificultando a visualização e o acesso.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.9,
+  "products_detected": [
+    "Coles Potato Chip Stix",
+    "Smith's Crinkle Cut",
+    "Thins Potato Chips",
+    "Smith's Thinly Cut"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado contendo sacos de batatas fritas. A prateleira superior contém Coles Potato Chip Stix e Smith's Crinkle Cut. A prateleira inferior contém Thins Potato Chips e Smith's Thinly Cut. PASSO 2: Prateleira superior: organização estável e alinhada. Prateleira inferior: lado esquerdo apresenta desorganização significativa com produtos tombados e fora do alinhamento padrão. PASSO 3: Identificada anomalia de 'misaligned' na prateleira inferior esquerda. Severidade média, pois o produto está presente mas mal apresentado. Confiança alta (0.95). PASSO 4: O fill rate é elevado, com quase todos os espaços preenchidos, estimado em 0.9."
+}

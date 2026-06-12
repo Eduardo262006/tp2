@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260603_121800_135",
+  "timestamp": "2026-06-03T12:18:00Z",
+  "image_path": "data\\images\\img_0135.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível atrás da primeira fila de pacotes de batatas fritas, indicando falta de profundidade ou stock insuficiente.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Os pacotes de batatas fritas estão desorganizados e inclinados, não seguindo o alinhamento vertical dos restantes produtos.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Kettle Chips",
+    "Jacks Potato Chips",
+    "Thins Potato Chips"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo pacotes de batatas fritas (Kettle, Jacks, Thins). A organização é geralmente boa, mas com algumas falhas de preenchimento e alinhamento. PASSO 2: Prateleira superior: bem preenchida. Prateleira do meio: apresenta um espaço vazio atrás da primeira fila de produtos à esquerda. Prateleira inferior: os produtos estão um pouco desarrumados no centro. PASSO 3: Identifiquei um 'empty_shelf' parcial na prateleira do meio (severidade média, pois o produto da frente ainda existe, mas a profundidade está comprometida) e um 'misaligned' na prateleira inferior (severidade baixa, apenas estética). PASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das faces está preenchida, mas há lacunas de profundidade e desorganização pontual."
+}

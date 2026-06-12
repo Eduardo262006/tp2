@@ -1,0 +1,15 @@
+{
+  "inspection_id": "INS_20260607_113300_492",
+  "timestamp": "2026-06-07T11:33:00Z",
+  "image_path": "data\\images\\img_0503.jpg",
+  "zone_id": "Z_N2",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "vinho tinto",
+    "vinho rosé",
+    "vinho branco"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de uma secção de vinhos. Os produtos estão organizados em filas verticais, maioritariamente alinhados pela frente. Há etiquetas de preço visíveis abaixo de cada grupo de produtos. PASSO 2: Prateleira superior: bem abastecida, sem falhas. Prateleira do meio: bem abastecida, com uma variedade de vinhos (Mateus, Jacob's Creek, etc.). Prateleira inferior: bem abastecida, com vinhos rosé e brancos. Não se observam espaços vazios significativos, produtos danificados ou etiquetas em falta. PASSO 3: Não foram identificadas anomalias. O alinhamento é consistente com a prática de retalho padrão. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todo o espaço disponível na prateleira está ocupado por garrafas, com apenas espaços mínimos entre unidades."
+}

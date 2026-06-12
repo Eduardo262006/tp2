@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260603_121709_118",
+  "timestamp": "2026-06-03T12:17:09Z",
+  "image_path": "data\\images\\img_0118.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, à direita dos produtos 'Dripping'.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Os produtos 'Flora' apresentam desalinhamento vertical e desorganização na frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.9,
+  "products_detected": [
+    "margarina",
+    "banha/gordura culinária",
+    "spreads",
+    "produtos lácteos"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo produtos refrigerados (margarinas, spreads, banha). A organização é predominantemente em blocos. PASSO 2: Prateleira superior: blocos de margarina, Supafry, Frymasta e banha/dripping. Há um espaço vazio à direita. Prateleira do meio: blocos de Flora, spreads genéricos e Dairy Free. Ligeiro desalinhamento nos produtos Flora. Prateleira inferior: Flora, Eta 5 Star e outros spreads. Organização estável. PASSO 3: Identifiquei um espaço vazio na prateleira superior (empty_shelf, severidade média) e um desalinhamento na prateleira do meio (misaligned, severidade baixa). PASSO 4: O fill rate é alto, estimado em 0.9, dado que a maioria das prateleiras está cheia, com apenas uma lacuna notável na parte superior."
+}

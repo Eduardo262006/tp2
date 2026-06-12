@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260605_100650_354",
+  "timestamp": "2026-06-05T10:06:50Z",
+  "image_path": "data\\images\\img_0365.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos de massa ou acompanhamentos.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos ligeiramente desalinhados ou com stock reduzido na extremidade esquerda.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "pasta",
+    "tortellini",
+    "ravioli",
+    "gnocchi",
+    "garlic bread"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 4 níveis. Nível superior: massas frescas (tortellini/ravioli). Nível 2: massas frescas (Pasta di Casa, Gnocchi). Nível 3: massas frescas. Nível inferior: pão de alho. PASSO 2: Nível superior está bem preenchido. Nível 2 está completo. Nível 3 apresenta uma lacuna no lado direito. Nível inferior tem uma área vazia considerável no lado direito. PASSO 3: Identificada anomalia de 'empty_shelf' na prateleira inferior direita (severidade média, confiança alta). Identificado desalinhamento menor na prateleira superior esquerda. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pelas lacunas identificadas no lado direito dos níveis inferiores."
+}

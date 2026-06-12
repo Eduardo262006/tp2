@@ -1,0 +1,1 @@
+zona Z_N2; estado ok; fill rate 95%; produtos: Ferrero Rocher, Lindt Lindor, Raffaello; data 2026-06-06T16:58:08Z

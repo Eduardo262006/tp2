@@ -1,0 +1,44 @@
+{
+  "inspection_id": "INS_20260606_165523_433",
+  "timestamp": "2026-06-06T16:55:23Z",
+  "image_path": "data\\images\\img_0444.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "critical",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "high",
+      "description": "Grande lacuna de stock no centro da prateleira superior.",
+      "confidence": 0.95,
+      "affected_area_pct": 30.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira média, centro",
+      "severity": "high",
+      "description": "Grande lacuna de stock no centro da prateleira média.",
+      "confidence": 0.95,
+      "affected_area_pct": 40.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos à esquerda e à direita na prateleira inferior.",
+      "confidence": 0.9,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.55,
+  "products_detected": [
+    "pão de forma",
+    "pães de fruta",
+    "muffins",
+    "produtos de padaria embalados"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 4 níveis de prateleiras contendo produtos de padaria (pães, muffins, pães de fruta). Há uma distribuição irregular de stock. PASSO 2: Prateleira superior: esquerda e direita ocupadas, centro vazio. Prateleira média: esquerda e direita ocupadas, centro vazio. Prateleira inferior: esquerda e direita ocupadas, centro com lacuna. PASSO 3: Identificadas três zonas principais de 'empty_shelf' no centro de cada nível. A severidade é alta nas prateleiras superiores devido à extensão do vazio. Confiança elevada baseada na visibilidade clara das grelhas metálicas de fundo. PASSO 4: O fill rate é estimado em aproximadamente 55%, considerando que quase metade da área total de exposição está vazia ou com falta de produtos."
+}

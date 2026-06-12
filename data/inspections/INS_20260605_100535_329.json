@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260605_100535_329",
+  "timestamp": "2026-06-05T10:05:35Z",
+  "image_path": "data\\images\\img_0340.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, sugerindo falta de stock ou produtos deslocados para trás.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Produtos desalinhados e com espaçamento irregular na extremidade direita da prateleira superior.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "Cottee's Fruit Cup Crush",
+    "Extra Juicy 90% Fruit Juice Cordial",
+    "Cottee's Lemon Crush"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado preenchidas com garrafas de sumo/cordial da marca Cottee's e Extra Juicy. A prateleira superior contém principalmente sumos de laranja e sabores variados. A prateleira inferior contém sumos de limão e sabores escuros (provavelmente lima ou frutos silvestres). PASSO 2: Prateleira superior: bem organizada, exceto por um ligeiro desalinhamento à direita. Prateleira inferior: organização consistente à esquerda e centro, mas com um espaço vazio notável à direita. PASSO 3: Identifiquei um 'empty_shelf' na prateleira inferior direita (severidade média, confiança 0.9) e um 'misaligned' na superior direita (severidade baixa, confiança 0.85). PASSO 4: O fill rate é elevado, estimado em 0.88, considerando que a maioria das frentes está preenchida, exceto pela lacuna na prateleira inferior."
+}

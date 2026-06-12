@@ -1,0 +1,13 @@
+{
+  "inspection_id": "INS_20260602_153830_027",
+  "timestamp": "2026-06-02T15:38:30Z",
+  "image_path": "data\\images\\img_0027.jpg",
+  "zone_id": "Z_N4",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Coltee's Cordial (Coola, Lemon Crush, Apple Blackcurrant, Orange Mango, Raspberry)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho preenchidas com garrafas de sumo/cordial da marca Coltee's. Na prateleira superior, vemos garrafas de 'Coola' (verde) e 'Lemon Crush' (amarelo). Na prateleira inferior, vemos uma variedade de sabores: 'Apple Blackcurrant', 'Orange Mango' e 'Raspberry'. Há também embalagens de produtos penduradas na lateral esquerda. PASSO 2: Prateleira superior: preenchimento completo, alinhamento correto. Prateleira inferior: preenchimento completo, alinhamento correto. Não há espaços vazios significativos ou produtos fora do lugar. PASSO 3: Não foram identificadas anomalias. Todos os produtos estão devidamente alinhados e as etiquetas de preço parecem estar presentes e correspondentes. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todo o espaço disponível na prateleira está ocupado por produtos, com apenas espaços mínimos entre garrafas para manuseamento."
+}

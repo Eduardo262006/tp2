@@ -1,0 +1,38 @@
+{
+  "inspection_id": "INS_20260604_162901_161",
+  "timestamp": "2026-06-04T16:29:01Z",
+  "image_path": "data\\images\\img_0172.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos alinhados com as etiquetas de preço.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Produtos (bisnagas de maionese) estão ligeiramente desorganizados e inclinados, saindo do alinhamento frontal padrão.",
+      "confidence": 0.8,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "vinagres",
+    "molhos asiáticos",
+    "sopas miso instantâneas",
+    "molhos para salada",
+    "kits de sushi",
+    "maionese",
+    "misturas para tempero"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado com produtos asiáticos (vinagres, molhos, sopas miso, maionese e kits de sushi). A organização é geralmente boa, com produtos voltados para a frente. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: bem abastecida com sopas e molhos. Prateleira inferior: apresenta um espaço vazio à esquerda e alguma desorganização nas bisnagas de maionese. PASSO 3: Identifiquei um 'empty_shelf' na parte inferior esquerda (severidade média, pois há espaço vago) e 'misaligned' nas bisnagas de maionese (severidade baixa). PASSO 4: O fill rate é alto, estimado em 0.85, considerando que a maioria das faces está preenchida, exceto pela lacuna na prateleira inferior."
+}

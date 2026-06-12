@@ -1,0 +1,38 @@
+{
+  "inspection_id": "INS_20260604_163234_232",
+  "timestamp": "2026-06-04T16:32:34Z",
+  "image_path": "data\\images\\img_0243.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro-direita",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos Anusol e os produtos Sylk/KY, indicando falta de stock ou desorganização.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos (frascos) desalinhados e com orientação irregular na frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "laxantes",
+    "suplementos de fibra",
+    "cremes hemorroidais",
+    "lubrificantes",
+    "preservativos",
+    "sais de epsom",
+    "testes de diabetes"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de uma farmácia/retalho. A prateleira superior contém laxantes, cremes e lubrificantes. A prateleira do meio contém suplementos de fibra, sais de epsom e preservativos. A prateleira inferior contém frascos de suplementos e caixas de testes de diabetes. PASSO 2: Prateleira superior: zona central com um espaço vazio entre o Anusol e o Sylk. Prateleira do meio: bem organizada. Prateleira inferior: lado esquerdo com frascos desalinhados. PASSO 3: Anomalia 1: empty_shelf na prateleira superior, severidade média, confiança 0.9. Anomalia 2: misaligned na prateleira inferior, severidade baixa, confiança 0.85. PASSO 4: O fill rate é elevado, estimado em 0.85, dado que a maioria das faces está preenchida, exceto pelo gap na prateleira superior."
+}

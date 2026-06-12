@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260607_113515_537",
+  "timestamp": "2026-06-07T11:35:15Z",
+  "image_path": "data\\images\\img_0548.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os sumos de laranja em garrafa e os pacotes de cartão 'Australian Fresh'.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Os pacotes de cartão na extremidade direita estão ligeiramente desalinhados e desorganizados.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "sumos de fruta em garrafa",
+    "sumos de fruta em pacote de cartão"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado com 4 níveis. Contém sumos de fruta em garrafas de plástico (laranja) e pacotes de cartão (vários sabores). PASSO 2: Prateleira superior: bem abastecida. Prateleira 2 (meio): existe um gap considerável no lado esquerdo, entre as garrafas e os pacotes. Prateleira 3: bem abastecida. Prateleira inferior: bem abastecida, com ligeira desorganização à direita. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira do meio (gap de stock) e 'misaligned' na prateleira inferior. Severidade média para o gap, baixa para o desalinhamento. PASSO 4: O fill rate é alto, mas com uma quebra notável na segunda prateleira, estimado em 0.85."
+}

@@ -1,0 +1,1 @@
+zona Z_N2; estado ok; fill rate 98%; produtos: vinho tinto, vinho espumante; data 2026-06-06T16:54:23Z

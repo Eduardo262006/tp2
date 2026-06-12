@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260603_121409_058",
+  "timestamp": "2026-06-03T12:14:09Z",
+  "image_path": "data\\images\\img_0058.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Uma embalagem de 'Cat Mince' está posicionada de forma irregular, sobressaindo ligeiramente da fila alinhada.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível na extremidade esquerda da prateleira inferior, onde deveriam estar produtos da marca V.I.P.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Cat Mince",
+    "V.I.P. Gourmet Cat",
+    "Fussy Cat"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado com comida para gato. A prateleira superior contém embalagens de 'Cat Mince'. A prateleira inferior contém embalagens de 'V.I.P. Gourmet Cat' e 'Fussy Cat'. PASSO 2: Prateleira superior: bem organizada, exceto por uma unidade desalinhada à direita. Prateleira inferior: organizada, mas com um espaço vazio (gap) no canto esquerdo. PASSO 3: Anomalia 1: Misaligned na prateleira superior, severidade baixa, confiança alta. Anomalia 2: Empty_shelf na prateleira inferior esquerda, severidade média, confiança alta. PASSO 4: O fill rate é elevado, estimado em 92%, considerando apenas uma pequena falha de stock na parte inferior e um ligeiro desalinhamento na superior."
+}

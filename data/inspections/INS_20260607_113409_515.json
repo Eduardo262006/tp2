@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260607_113409_515",
+  "timestamp": "2026-06-07T11:34:09Z",
+  "image_path": "data\\images\\img_0526.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas de cordial estão desalinhadas e inclinadas, não seguindo o padrão de faceamento frontal.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas de cordial estão desorganizadas e com orientação inconsistente.",
+      "confidence": 0.8,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Bickford's Cordials",
+    "Schweppes Cordials",
+    "Cascade Cordials",
+    "Value pack water bottles"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo garrafas de vidro de cordiais (Bickford's, Schweppes, Cascade) e pacotes de água. PASSO 2: Prateleira superior: bem organizada, preenchida. Prateleira do meio: preenchida, mas com desalinhamento visível nas garrafas à esquerda. Prateleira inferior: preenchida, mas com desorganização e desalinhamento nas garrafas de cordial. PASSO 3: Identifiquei desalinhamentos (misaligned) nas prateleiras do meio e inferior. Não há prateleiras vazias (empty_shelf) nem produtos danificados visíveis. A severidade é baixa pois o produto está presente e acessível, apenas esteticamente desorganizado. PASSO 4: O fill rate é alto, estimado em 0.92, pois quase todo o espaço disponível está ocupado por produto, com apenas pequenas lacunas de organização."
+}

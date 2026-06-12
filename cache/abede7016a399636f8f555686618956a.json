@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260608_175147_656",
+  "timestamp": "2026-06-08T17:51:47Z",
+  "image_path": "data\\images\\img_0667.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na secção de bebidas/garrafas, indicando falta de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos de pipocas estão desorganizados e caídos para fora da zona de contenção.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.8,
+  "products_detected": [
+    "bebidas",
+    "snacks (burger snacks)",
+    "pipocas",
+    "cheese & bacon balls"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A superior contém garrafas (esquerda) e sacos de 'burger snacks' (direita). A inferior contém vários tipos de snacks, incluindo pipocas e 'cheese & bacon balls'. PASSO 2: Prateleira superior: lado esquerdo vazio (falta de stock), lado direito cheio. Prateleira inferior: lado esquerdo com produtos desorganizados/caídos, centro e direita bem abastecidos. PASSO 3: Identifiquei uma zona de 'empty_shelf' na parte superior esquerda (severidade média, confiança alta) e uma zona de 'misaligned' na parte inferior esquerda (severidade baixa, confiança alta). PASSO 4: O fill rate global é estimado em 0.8, considerando que a maioria das secções está cheia, exceto pela falha de stock na parte superior esquerda e alguma desorganização na inferior."
+}

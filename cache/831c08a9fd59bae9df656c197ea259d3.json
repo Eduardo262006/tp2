@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260609_105927_777",
+  "timestamp": "2026-06-09T10:59:27Z",
+  "image_path": "data\\images\\img_0788.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na extremidade esquerda da prateleira superior.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "low",
+      "description": "Produtos da marca Mainland Vintage estão ligeiramente desalinhados e sobrepostos.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "queijo em bloco",
+    "queijo fatiado",
+    "snacks de queijo (Munchables)",
+    "queijo em porções individuais (On-the-Go)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de refrigeração com produtos de queijo. A prateleira superior contém blocos de queijo (Mainland, Cracker Barrel). A prateleira do meio contém embalagens verticais de queijo (On-the-Go, Munchables). A prateleira inferior contém snacks de queijo e embalagens diversas. PASSO 2: Prateleira superior: lado esquerdo com espaço vazio (falta de stock). Centro com produtos Mainland ligeiramente desorganizados. Prateleira do meio: bem organizada, preenchida. Prateleira inferior: bem organizada. PASSO 3: Anomalia 1: empty_shelf na prateleira superior esquerda, severidade média, confiança alta. Anomalia 2: misaligned na prateleira superior central, severidade baixa, confiança alta. PASSO 4: O fill rate é elevado, estimado em 0.88, considerando o espaço vazio na prateleira superior e a ocupação total das restantes."
+}

@@ -1,0 +1,26 @@
+{
+  "inspection_id": "INS_20260606_165526_434",
+  "timestamp": "2026-06-06T16:55:26Z",
+  "image_path": "data\\images\\img_0445.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, onde deveriam estar garrafas de Pepsi.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Pepsi garrafas",
+    "Pepsi Diet garrafas",
+    "Pepsi Light packs",
+    "Pepsi Max packs"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras. A superior contém garrafas individuais de Pepsi e Pepsi Diet. A inferior contém packs de 24 unidades de Pepsi Light e Pepsi Max. PASSO 2: Prateleira superior: lado esquerdo e centro preenchidos, lado direito com um espaço vazio considerável. Prateleira inferior: totalmente preenchida com packs. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira superior, lado direito, onde o stock de garrafas termina abruptamente antes do fim da prateleira. Severidade média, pois afeta a disponibilidade do produto. PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira superior."
+}

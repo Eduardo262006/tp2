@@ -1,0 +1,1 @@
+zona Z_N1; estado warning; fill rate 70%; empty_shelf (high) em prateleira do meio, lado esquerdo: A secção de prateleira metálica está completamente vazia, sem produtos expostos.; produtos: copos de vidro, snacks para animais, garrafas de água mineral com sabor (frutos vermelhos), garrafas de água mineral com sabor (laranja), pratos de jantar; data 2026-06-03T12:18:15Z

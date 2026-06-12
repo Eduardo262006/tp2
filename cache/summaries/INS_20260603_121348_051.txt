@@ -1,0 +1,1 @@
+zona Z_N2; estado ok; fill rate 98%; produtos: refrigerantes, sumos, bebidas gaseosas; data 2026-06-03T12:13:48Z

@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260603_121603_096",
+  "timestamp": "2026-06-03T12:16:03Z",
+  "image_path": "data\\images\\img_0096.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Uma garrafa de Pepsi está deitada horizontalmente em vez de estar na vertical.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "other",
+      "location": "centro da imagem, sobrepondo prateleiras",
+      "severity": "medium",
+      "description": "Produtos promocionais (garrafas de Coca-Cola com bolas de críquete) estão pendurados em frente às prateleiras, obstruindo a visão e o acesso aos produtos de fundo.",
+      "confidence": 0.98,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Pepsi",
+    "Coca-Cola",
+    "La Ice Cola",
+    "La Maxi Ice Cola"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra prateleiras de supermercado com refrigerantes (Pepsi, Coca-Cola, La Ice). Há uma obstrução central causada por produtos promocionais pendurados. PASSO 2: Prateleira superior: garrafa de Pepsi deitada (anomalia). Prateleira inferior: organização geral boa, mas com obstrução visual severa no centro. PASSO 3: A garrafa deitada é classificada como 'misaligned'. Os produtos pendurados são classificados como 'other' pois impedem o acesso e a visibilidade correta. A severidade é média devido à obstrução do fluxo de compras. PASSO 4: O fill rate é alto (cerca de 85%), pois as prateleiras estão bem abastecidas, apesar da desorganização pontual e obstrução."
+}

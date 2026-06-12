@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260609_105854_766",
+  "timestamp": "2026-06-09T10:58:54Z",
+  "image_path": "data\\images\\img_0777.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio visível entre as garrafas de Pureau e a garrafa de Mount Franklin, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "A garrafa de água individual à esquerda está desalinhada em relação à fila de produtos Fiji adjacentes.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "água mineral",
+    "bebidas desportivas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho contendo garrafas de água e bebidas desportivas. A prateleira superior contém garrafas de água Fiji e bebidas Mizone. A prateleira inferior contém packs de H2O, garrafas Pureau e garrafas Mount Franklin. PASSO 2: Prateleira superior: organizada, exceto por uma garrafa isolada à esquerda. Prateleira inferior: organizada à esquerda e direita, mas com um espaço vazio notável no centro. PASSO 3: Anomalia 1: Espaço vazio (empty_shelf) no centro da prateleira inferior, severidade média, confiança alta. Anomalia 2: Desalinhamento (misaligned) da garrafa individual na prateleira superior esquerda, severidade baixa, confiança alta. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria do espaço está preenchido, com pequenas lacunas no centro da prateleira inferior."
+}

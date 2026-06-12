@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260604_163440_274",
+  "timestamp": "2026-06-04T16:34:40Z",
+  "image_path": "data\\images\\img_0285.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, onde deveriam estar produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos de noodles estão desorganizados e inclinados, ocupando espaço de forma irregular.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Indomie Mi Goreng",
+    "Indomie Satay",
+    "Shin Ramyun",
+    "Cup Noodles"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo pacotes de noodles instantâneos. A prateleira superior contém pacotes de 5 unidades de Mi Goreng. A prateleira do meio contém diversos pacotes individuais de sabores variados. A prateleira inferior contém copos e pacotes individuais. PASSO 2: Prateleira superior: lado direito apresenta um vazio considerável. Prateleira do meio: lado esquerdo apresenta desorganização/alinhamento precário. Prateleira inferior: bem abastecida. PASSO 3: Anomalia 1: empty_shelf na prateleira superior direita, severidade média, confiança 0.95. Anomalia 2: misaligned na prateleira do meio esquerda, severidade baixa, confiança 0.85. PASSO 4: O fill rate global é estimado em 0.85, considerando o espaço vazio na parte superior e a densidade razoável nos outros níveis."
+}

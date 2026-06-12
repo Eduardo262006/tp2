@@ -1,0 +1,42 @@
+{
+  "inspection_id": "INS_20260604_163037_193",
+  "timestamp": "2026-06-04T16:30:37Z",
+  "image_path": "data\\images\\img_0204.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Espaço vazio na extremidade direita da prateleira superior.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "wrong_product",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Um brinquedo (Twinkle Tots) está pendurado na frente da prateleira de fraldas, obstruindo a visão e o acesso aos produtos.",
+      "confidence": 0.98,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Espaço vazio entre os pacotes de fraldas Huggies.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "fraldas descartáveis",
+    "brinquedos infantis"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras contendo pacotes de fraldas (Huggies). Há uma obstrução vertical central causada por um brinquedo pendurado. PASSO 2: Prateleira superior: quase cheia, exceto uma pequena lacuna à direita. Prateleira do meio: presença de um brinquedo intruso no centro e um pequeno espaço vazio à esquerda. Prateleira inferior: bem organizada com pacotes de fraldas. PASSO 3: Identifiquei o brinquedo como 'wrong_product' (ou obstrução) por estar fora da categoria e bloquear o acesso. Identifiquei espaços vazios como 'empty_shelf'. A severidade do brinquedo é média pois impede a compra do produto atrás. PASSO 4: O fill rate é estimado em 0.85, considerando a ocupação total das prateleiras menos as lacunas e a área ocupada pelo brinquedo."
+}

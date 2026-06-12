@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260607_113633_563",
+  "timestamp": "2026-06-07T11:36:33Z",
+  "image_path": "data\\images\\img_0574.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, onde faltam várias unidades de produto.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafa de sumo Berri posicionada de forma irregular em relação ao alinhamento da fila.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "sumos Berri",
+    "sumos Smart Juice",
+    "sumos Golden Circle"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo garrafas de sumo de várias marcas (Berri, Smart Juice, Golden Circle). A organização é predominantemente por filas verticais. PASSO 2: Prateleira superior: lado esquerdo apresenta um vazio (falta de stock). Prateleira do meio: alinhamento geral bom, exceto por uma garrafa ligeiramente desalinhada à esquerda. Prateleira inferior: preenchimento completo e organizado. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira superior esquerda (severidade média, confiança alta) e uma 'misaligned' na prateleira do meio (severidade baixa, confiança alta). PASSO 4: O fill rate é elevado, com apenas uma lacuna notável na parte superior, estimado em 0.88."
+}

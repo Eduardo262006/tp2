@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260607_113700_572",
+  "timestamp": "2026-06-07T11:37:00Z",
+  "image_path": "data\\images\\img_0583.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos Coles e SnowyHydro.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos Coles e Canberra Milk.",
+      "confidence": 0.95,
+      "affected_area_pct": 30.0
+    }
+  ],
+  "shelf_fill_rate": 0.65,
+  "products_detected": [
+    "Coles Milk",
+    "SnowyHydro SouthCare Milk",
+    "Canberra Milk"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras contendo embalagens de leite. A prateleira superior contém leite Coles (esquerda) e SnowyHydro (direita). A prateleira do meio contém leite Coles (esquerda) e Canberra Milk (direita). A prateleira inferior contém garrafas de leite de 2 litros. PASSO 2: Prateleira superior: centro vazio. Prateleira do meio: centro vazio. Prateleira inferior: bem abastecida. PASSO 3: Identificadas duas zonas de 'empty_shelf' no centro das duas prateleiras superiores. Severidade média pois há ruptura de stock visível que afeta a continuidade da exposição. Confiança alta devido à clareza da imagem. PASSO 4: Estimativa de fill rate global considerando o espaço ocupado vs. total disponível: aproximadamente 65%."
+}

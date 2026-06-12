@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260608_175320_687",
+  "timestamp": "2026-06-08T17:53:20Z",
+  "image_path": "data\\images\\img_0698.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "low",
+      "description": "Espaço vazio entre as garrafas de Diet Water, sugerindo falta de stock ou produto removido.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Garrafas deitadas/fora de posição na prateleira inferior.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "bebidas gaseificadas",
+    "sumos",
+    "águas aromatizadas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 4 níveis visíveis, preenchida maioritariamente por garrafas de plástico de bebidas (Schweppes, Diet Water, etc.). PASSO 2: Prateleira superior: cheia. Prateleira 2 (contando de cima): cheia, mas com um pequeno espaço vazio no centro. Prateleira 3: cheia, com um pequeno buraco visível na grelha metálica. Prateleira inferior: presença de garrafas deitadas no lado direito. PASSO 3: Identifiquei um 'empty_shelf' (pequeno buraco) na prateleira do meio e 'misaligned' (garrafas deitadas) na prateleira inferior. A severidade é baixa pois a maioria do stock está organizada. PASSO 4: O fill rate é elevado, estimado em 0.92, dado que a grande maioria das faces da prateleira estão ocupadas."
+}

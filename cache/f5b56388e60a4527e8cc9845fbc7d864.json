@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260602_153918_043",
+  "timestamp": "2026-06-02T15:39:18Z",
+  "image_path": "data\\images\\img_0043.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "critical",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "high",
+      "description": "Grande secção da prateleira do meio encontra-se vazia, sem produtos expostos.",
+      "confidence": 1.0,
+      "affected_area_pct": 40.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "high",
+      "description": "Secção da prateleira inferior encontra-se vazia, sem produtos expostos.",
+      "confidence": 1.0,
+      "affected_area_pct": 50.0
+    }
+  ],
+  "shelf_fill_rate": 0.55,
+  "products_detected": [
+    "Smiths chips",
+    "Twisties",
+    "Value Mix snacks",
+    "Batatas fritas (pacotes brancos)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de metal contendo snacks (batatas fritas e misturas). A prateleira superior está bem abastecida. A prateleira do meio tem produtos à direita, mas um grande espaço vazio à esquerda. A prateleira inferior tem produtos à esquerda, mas um grande espaço vazio à direita. PASSO 2: Prateleira superior: OK. Prateleira do meio: Esquerda vazia, Centro/Direita ocupada. Prateleira inferior: Esquerda ocupada, Direita vazia. PASSO 3: Identificadas duas zonas de 'empty_shelf' significativas. Severidade alta devido à falta de stock visível em áreas de exposição primária. Confiança máxima na deteção de espaços vazios. PASSO 4: Estimativa de fill rate: Superior (~95%), Meio (~50%), Inferior (~50%). Média global ponderada aproximadamente 0.55."
+}

@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260603_121545_090",
+  "timestamp": "2026-06-03T12:15:45Z",
+  "image_path": "data\\images\\img_0090.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro-direita",
+      "severity": "medium",
+      "description": "Vários ganchos de exposição estão vazios, indicando falta de stock de produtos específicos.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Espaço vazio entre os produtos de pó compacto, sugerindo falta de uma unidade.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "base líquida",
+    "pó compacto",
+    "corretor",
+    "maquilhagem facial"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho de cosméticos (Maybelline) organizada em 3 níveis principais. Os produtos estão pendurados em ganchos (pegboard). Observam-se bases, pós e corretores. PASSO 2: Dividindo a prateleira: Superior (vários ganchos vazios no centro), Meio (bem preenchida, organização consistente), Inferior (maioritariamente preenchida, com uma falha pontual no centro). PASSO 3: Identifiquei anomalias de 'empty_shelf' na prateleira superior (vários ganchos sem produto) e uma pequena falha na prateleira inferior. Não há produtos danificados ou desalinhados significativos. A severidade é média devido à quantidade de ganchos vazios na parte superior. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria dos ganchos está ocupada, mas há lacunas visíveis na secção superior e uma pequena falha na inferior."
+}

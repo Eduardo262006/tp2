@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260606_165405_407",
+  "timestamp": "2026-06-06T16:54:05Z",
+  "image_path": "data\\images\\img_0418.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo e centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio onde deveriam estar produtos, indicando rutura de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 30.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "low",
+      "description": "Produtos (latas) encontram-se desorganizados e fora do alinhamento frontal padrão.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "biscoitos",
+    "halva",
+    "latas de tomate",
+    "latas de grão/feijão"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com três níveis visíveis. O nível superior contém biscoitos. O nível do meio contém latas de halva e latas de tomate. O nível inferior contém latas de vegetais e tomate. Existem etiquetas azuis de 'Discontinued line' em várias posições.\nPASSO 2: \n- Superior: Bem abastecido.\n- Meio: Presença de espaços vazios consideráveis no lado esquerdo e central, com algumas latas desalinhadas.\n- Inferior: Abastecimento parcial, com algumas lacunas.\nPASSO 3: \n- Anomalia 1: Empty_shelf na prateleira do meio (centro/esquerda), severidade média, confiança 0.95.\n- Anomalia 2: Misaligned na prateleira do meio, severidade baixa, confiança 0.85.\nPASSO 4: O fill rate global é estimado em 0.75, considerando que cerca de 25% do espaço total de prateleira visível está vazio ou desorganizado."
+}

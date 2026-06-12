@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260606_165611_449",
+  "timestamp": "2026-06-06T16:56:11Z",
+  "image_path": "data\\images\\img_0460.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo onde deveriam estar produtos, interrompendo a continuidade da faceamento.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Lacuna visível na prateleira inferior, indicando falta de stock ou má organização.",
+      "confidence": 0.9,
+      "affected_area_pct": 8.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "fruta em calda",
+    "compotas",
+    "conservas de fruta"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 5 níveis de prateleiras contendo frascos de fruta em calda/compotas. A organização é predominantemente por blocos de produtos. PASSO 2: Dividindo a prateleira: Superior (cheia), Segunda (cheia), Terceira (vazia no lado esquerdo), Quarta (vazia no centro), Inferior (cheia). Anomalias: lacunas de stock na terceira e quarta prateleiras. PASSO 3: Identificadas duas zonas de 'empty_shelf'. A severidade é média pois afeta a disponibilidade imediata, mas não compromete a estrutura. Confiança alta devido à clareza visual das grelhas vazias. PASSO 4: O fill rate é estimado em 0.88, considerando que a maioria das prateleiras está bem preenchida, com exceção de dois pontos de rutura de stock."
+}

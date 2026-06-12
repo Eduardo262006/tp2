@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260606_165329_395",
+  "timestamp": "2026-06-06T16:53:29Z",
+  "image_path": "data\\images\\img_0406.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os vinhos Rosemount Estate e os vinhos Henschke, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas de vinho ligeiramente desalinhadas em relação à frente da prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "vinho branco",
+    "vinho tinto",
+    "vinho rosé"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho de vinhos com três níveis visíveis. Os produtos estão maioritariamente organizados em filas. PASSO 2: Prateleira superior (cheia), prateleira do meio (cheia, bem organizada), prateleira inferior (apresenta uma lacuna notável no centro). PASSO 3: Identifiquei uma anomalia de 'empty_shelf' na prateleira inferior, centro, onde o espaço de exposição está vazio. Há também um ligeiro desalinhamento na prateleira inferior esquerda. A severidade da lacuna é média pois interrompe a continuidade visual. PASSO 4: O fill rate é estimado em 0.85, considerando a ocupação total das prateleiras superior e média, e a lacuna na inferior."
+}

@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260605_100738_370",
+  "timestamp": "2026-06-05T10:07:38Z",
+  "image_path": "data\\images\\img_0381.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "O produto 'Trident Green Curry Paste' está ligeiramente desalinhado em relação à frente da prateleira e aos produtos adjacentes.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "low",
+      "description": "Os pacotes de 'Trident Mussaman Curry Paste' apresentam desalinhamento vertical e frontal.",
+      "confidence": 0.8,
+      "affected_area_pct": 8.0
+    }
+  ],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Trident Curry Pastes",
+    "Rasaku Satay Sauce Mix",
+    "Asian Home Gourmet Curry/Stir-fry packets"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado com pacotes de molhos e pastas de caril asiático. A prateleira superior contém produtos da marca Trident e Rasaku. A prateleira inferior contém produtos da marca Asian Home Gourmet. PASSO 2: Prateleira superior: Esquerda (Trident Green/Red/Mussaman), Centro (Trident Yellow), Direita (Rasaku). Prateleira inferior: Esquerda para a direita (vários sabores Asian Home Gourmet). Anomalias: Na prateleira superior, os produtos Trident estão ligeiramente desorganizados/desalinhados. PASSO 3: Identifiquei desalinhamento nos produtos Trident da prateleira superior. Severidade baixa, pois os produtos estão presentes e visíveis. Confiança alta baseada na geometria das embalagens. PASSO 4: O fill rate é elevado, com quase todos os espaços ocupados, estimado em 0.95."
+}

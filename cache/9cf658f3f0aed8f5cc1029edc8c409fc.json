@@ -1,0 +1,27 @@
+{
+  "inspection_id": "INS_20260607_113509_535",
+  "timestamp": "2026-06-07T11:35:09Z",
+  "image_path": "data\\images\\img_0546.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre a garrafa de Schweppes Tonic isolada e o bloco de garrafas de Schweppes Lemon à direita.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Schweppes Ginger Ale",
+    "Schweppes Lemon & Bitters",
+    "Schweppes Tonic Water",
+    "Schweppes Lemon",
+    "Schweppes Lemon & Soda"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo bebidas da marca Schweppes. A prateleira superior contém garrafas individuais de Ginger Ale e Lemon & Bitters. A prateleira do meio contém garrafas individuais de Tonic Water e Lemon. A prateleira inferior contém packs de 4 garrafas de Tonic Water e Lemon & Soda. PASSO 2: Prateleira superior: bem organizada. Prateleira do meio: existe uma falha de stock/organização no lado esquerdo, onde há apenas uma garrafa isolada e um espaço vazio considerável antes do bloco de garrafas de Lemon. Prateleira inferior: bem organizada. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira do meio, lado esquerdo, devido à falta de produtos para preencher o espaço entre a garrafa isolada e o resto do stock. Severidade média, pois o produto está disponível mas mal organizado/com falta de frente. Confiança alta. PASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na prateleira do meio."
+}

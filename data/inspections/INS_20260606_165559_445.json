@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260606_165559_445",
+  "timestamp": "2026-06-06T16:55:59Z",
+  "image_path": "data\\images\\img_0456.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos da marca P&N e Berri na prateleira superior.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Garrafas de sumo ligeiramente desalinhadas em relação ao padrão de faceamento.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "P&N Brekky Juice",
+    "Berri Breakfast Time Juice",
+    "Just Juice"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo garrafas de sumo de 2L. As marcas visíveis são P&N Brekky Juice, Berri Breakfast Time e Just Juice. Há uma obstrução parcial por uma pessoa à direita. PASSO 2: Prateleira superior: contém P&N e Berri, com um espaço vazio notável no centro. Prateleira do meio: contém Just Juice, P&N e Berri, com organização razoável, mas ligeiro desalinhamento. Prateleira inferior: contém garrafas de sumo, parcialmente visíveis. PASSO 3: Identificada uma falha de stock (empty_shelf) na prateleira superior (centro) com severidade média. Identificado desalinhamento (misaligned) na prateleira do meio. PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira superior e a ocupação densa nas restantes."
+}

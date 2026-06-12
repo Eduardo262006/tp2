@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260607_113445_527",
+  "timestamp": "2026-06-07T11:34:45Z",
+  "image_path": "data\\images\\img_0538.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "low",
+      "description": "Uma embalagem de manteiga 'Butter Soft' está colocada de forma irregular sobre as outras, desalinhada em relação ao bloco principal.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível na prateleira inferior, à esquerda do produto Western Star, indicando falta de stock ou produto deslocado.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Butter Soft",
+    "Allowrie Choicest Butter",
+    "Western Star Butter Portions",
+    "Western Star Butter Blocks"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado contendo produtos de manteiga. Na prateleira superior, há embalagens de 'Butter Soft' e 'Allowrie Choicest Butter'. Na prateleira inferior, há embalagens de 'Western Star' (porções e blocos). PASSO 2: Prateleira superior: organizada, exceto por uma unidade de 'Butter Soft' desalinhada no centro. Prateleira inferior: organizada, mas com um espaço vazio à esquerda. PASSO 3: Identifiquei um desalinhamento na prateleira superior (severidade baixa) e um espaço vazio na prateleira inferior (severidade média). PASSO 4: O preenchimento é elevado, com apenas pequenas lacunas, estimando um fill rate de 0.85."
+}

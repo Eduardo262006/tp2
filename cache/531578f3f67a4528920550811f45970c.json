@@ -1,0 +1,25 @@
+{
+  "inspection_id": "INS_20260604_163340_254",
+  "timestamp": "2026-06-04T16:33:40Z",
+  "image_path": "data\\images\\img_0265.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Os sacos de batatas fritas da marca Kettle estão desorganizados, tombados e sobrepostos, dificultando a visualização e o acesso.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    }
+  ],
+  "shelf_fill_rate": 0.9,
+  "products_detected": [
+    "Red Rock Deli Potato Chips",
+    "Kettle Crinkle Cut Potato Chips",
+    "Kettle Crispy Bacon & Sour Cream Potato Chips"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho contendo sacos de batatas fritas das marcas Red Rock Deli e Kettle. A prateleira inferior está organizada com os produtos alinhados. A prateleira superior apresenta uma mistura de produtos, com os sacos da marca Kettle à direita visivelmente desorganizados e tombados. PASSO 2: Prateleira superior: Esquerda/Centro (Red Rock Deli) estão bem alinhados. Direita (Kettle) apresenta desalinhamento severo. Prateleira inferior: Todos os produtos (Red Rock Deli e Kettle) estão bem alinhados e organizados. PASSO 3: Identificada anomalia de desalinhamento na prateleira superior direita. Severidade média, pois o produto está presente mas a apresentação está comprometida. Confiança alta. PASSO 4: O fill rate é elevado, estimado em 0.9, pois quase todo o espaço da prateleira está preenchido com stock, apesar da desorganização num dos segmentos."
+}

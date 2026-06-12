@@ -1,0 +1,5 @@
+Avalia, de 0 a 1, se a RESPOSTA responde adequadamente à PERGUNTA do gestor de loja.
+Responde APENAS com JSON: {"relevance": 0.0, "justification": "..."}.
+
+PERGUNTA: %s
+RESPOSTA: %s

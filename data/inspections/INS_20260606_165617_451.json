@@ -1,0 +1,15 @@
+{
+  "inspection_id": "INS_20260606_165617_451",
+  "timestamp": "2026-06-06T16:56:17Z",
+  "image_path": "data\\images\\img_0462.jpg",
+  "zone_id": "Z_S3",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "cat food pouches",
+    "dog food treats",
+    "sausage-style pet food rolls"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um corredor de produtos para animais de estimação. A prateleira superior contém sacos de comida para gatos (Fresh) e embalagens de snacks para cães (4legs). A prateleira inferior contém rolos de comida para animais (Platinum) e sacos de comida (Chunker). PASSO 2: Prateleira superior: esquerda (sacos azuis), centro (sacos azuis), direita (snacks 4legs). Prateleira inferior: esquerda (rolos Platinum), centro (rolos Platinum), direita (sacos Chunker). Não se observam espaços vazios significativos, produtos danificados ou etiquetas em falta. PASSO 3: Não foram identificadas anomalias. A organização está alinhada e os produtos estão bem dispostos. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase toda a área de exposição está preenchida com stock, com apenas espaços marginais entre embalagens."
+}

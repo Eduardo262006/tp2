@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260608_175226_669",
+  "timestamp": "2026-06-08T17:52:26Z",
+  "image_path": "data\\images\\img_0680.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior esquerda, onde apenas um pacote pequeno está presente, deixando grande parte da área desocupada.",
+      "confidence": 0.95,
+      "affected_area_pct": 30.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos ligeiramente desalinhados ou com embalagens sobrepostas na extremidade esquerda da prateleira superior.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "Huggies Walker diapers",
+    "Huggies Toddler diapers"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho com fraldas Huggies. Existem duas prateleiras principais visíveis. A superior contém pacotes de Huggies Walker. A inferior contém pacotes de Huggies Toddler (com personagens do Winnie the Pooh). Há um elemento decorativo pendurado (brinquedos de plástico) que obstrui parcialmente a visão. PASSO 2: Prateleira superior: bem abastecida, mas com ligeiro desalinhamento à esquerda. Prateleira inferior: lado esquerdo apresenta um grande vazio (apenas um pacote pequeno presente), enquanto o centro e a direita estão bem abastecidos com pilhas de caixas. PASSO 3: Identificada anomalia de 'empty_shelf' na prateleira inferior esquerda (severidade média, confiança alta) e 'misaligned' na superior esquerda (severidade baixa, confiança alta). PASSO 4: O fill rate é estimado em 0.75, considerando que a prateleira superior está cheia, mas a inferior tem uma lacuna considerável no lado esquerdo."
+}

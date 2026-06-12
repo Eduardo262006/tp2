@@ -1,0 +1,14 @@
+{
+  "inspection_id": "INS_20260609_105706_730",
+  "timestamp": "2026-06-09T10:57:06Z",
+  "image_path": "data\\images\\img_0741.jpg",
+  "zone_id": "Z_S4",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.98,
+  "products_detected": [
+    "vinho tinto",
+    "vinho branco"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um expositor de vinhos. Os produtos estão organizados em filas verticais, com etiquetas de preço correspondentes abaixo de cada grupo. A densidade de ocupação é muito alta, com quase todos os espaços preenchidos. PASSO 2: Prateleira superior: totalmente preenchida, sem falhas. Prateleira do meio: totalmente preenchida, alinhamento consistente. Prateleira inferior: totalmente preenchida, alinhamento consistente. Não foram detetadas anomalias como produtos em falta, desalinhamentos graves ou etiquetas ausentes. PASSO 3: Não existem anomalias a reportar. PASSO 4: O fill rate é estimado em 0.98, dado que a prateleira está praticamente cheia em toda a sua extensão, com apenas espaços marginais irrelevantes entre garrafas."
+}

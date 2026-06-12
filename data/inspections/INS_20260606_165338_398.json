@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260606_165338_398",
+  "timestamp": "2026-06-06T16:53:38Z",
+  "image_path": "data\\images\\img_0409.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos embalados (snacks/especiarias) estão desorganizados e inclinados, sem alinhamento frontal.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos embalados estão misturados e desalinhados, ocupando o espaço de forma desordenada.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "coconut milk",
+    "coconut cream",
+    "dried snacks",
+    "rice noodles",
+    "canned goods"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de supermercado com produtos alimentares asiáticos (leite de coco, creme de coco, noodles de arroz e snacks secos). A organização é mista, com latas bem alinhadas à direita e produtos embalados à esquerda. PASSO 2: Prateleira superior: esquerda com snacks desorganizados, direita com latas bem alinhadas. Prateleira do meio: esquerda com embalagens de plástico desalinhadas, direita com latas bem alinhadas. Prateleira inferior: esquerda com pacotes de arroz/noodles, direita com latas de creme de coco. PASSO 3: Identifiquei desalinhamento nos produtos embalados à esquerda nas prateleiras superior e do meio. Não há prateleiras vazias, mas a desorganização visual é notável. Severidade baixa pois os produtos estão presentes e acessíveis. PASSO 4: O fill rate é alto, estimado em 0.85, pois a maioria dos espaços está preenchida, apesar da desorganização em algumas secções."
+}

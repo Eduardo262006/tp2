@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260603_121506_077",
+  "timestamp": "2026-06-03T12:15:06Z",
+  "image_path": "data\\images\\img_0077.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, à direita das garrafas de espumante.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos (sacos de ingredientes de cerveja) estão ligeiramente desorganizados e inclinados.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "vinho rosé",
+    "espumante",
+    "ingredientes para cerveja (sacos)",
+    "latas de ginger beer",
+    "packs de cerveja",
+    "latas de cerveja"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com três níveis visíveis. Nível superior: vinhos rosé e espumantes. Nível médio: sacos de ingredientes, latas de ginger beer e packs de cerveja. Nível inferior: latas de cerveja. PASSO 2: Nível superior: lado esquerdo cheio, lado direito com espaço vazio. Nível médio: lado esquerdo com sacos desalinhados, centro e direita organizados. Nível inferior: bem preenchido. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira superior direita (severidade média, confiança alta) e 'misaligned' nos sacos da prateleira do meio (severidade baixa, confiança alta). PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira superior e a densidade geral dos outros níveis."
+}

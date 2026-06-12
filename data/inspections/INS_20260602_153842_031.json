@@ -1,0 +1,40 @@
+{
+  "inspection_id": "INS_20260602_153842_031",
+  "timestamp": "2026-06-02T15:38:42Z",
+  "image_path": "data\\images\\img_0031.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos da marca Veromax estão desalinhados e ligeiramente inclinados em relação à frente da prateleira.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio visível no canto superior direito, indicando falta de stock ou produto deslocado.",
+      "confidence": 0.85,
+      "affected_area_pct": 8.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Centrum",
+    "MenoEze",
+    "Promensil",
+    "Veromax",
+    "ViG",
+    "30 Plus",
+    "Remifemin",
+    "Musashi",
+    "Slimtech Patches"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de uma farmácia/loja de suplementos. A prateleira superior contém multivitaminas (Centrum). A prateleira do meio contém suplementos para a menopausa e saúde feminina (MenoEze, Promensil, Veromax, ViG, 30 Plus, Remifemin). A prateleira inferior contém suplementos desportivos em pó (Musashi) e adesivos de emagrecimento. PASSO 2: Prateleira superior: bem organizada, exceto por um pequeno espaço vazio à direita. Prateleira do meio: os produtos Veromax à esquerda estão desalinhados. Prateleira inferior: organização estável. PASSO 3: Identifiquei um desalinhamento nos produtos Veromax (severidade baixa) e um espaço vazio na prateleira superior (severidade média). PASSO 4: O fill rate é elevado, estimado em 92%, dado que a maioria das faces da prateleira estão preenchidas com stock."
+}

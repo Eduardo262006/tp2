@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260606_165714_470",
+  "timestamp": "2026-06-06T16:57:14Z",
+  "image_path": "data\\images\\img_0481.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Uma garrafa de sumo está posicionada à frente das outras, desalinhada com o facing principal.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Espaço vazio visível na prateleira superior, indicando falta de stock.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "sumos de fruta",
+    "bebidas de pequeno-almoço"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um supermercado contendo garrafas de sumos de várias marcas (Breakfast Time, Ribena, Smart Juice, Berri, Golden Circle). A organização é geralmente boa, mas com algumas irregularidades. PASSO 2: Prateleira superior: apresenta um espaço vazio à direita. Prateleira do meio: uma garrafa de sumo está desalinhada, projetada para a frente em relação às restantes. Prateleira inferior: bem organizada, sem anomalias graves. PASSO 3: Anomalia 1 (misaligned): garrafa desalinhada no centro da prateleira do meio, severidade média. Anomalia 2 (empty_shelf): espaço vazio na prateleira superior direita, severidade baixa. PASSO 4: O fill rate é elevado, estimado em 0.85, dado que a maioria das prateleiras está preenchida, exceto pelo pequeno espaço na parte superior."
+}

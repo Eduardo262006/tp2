@@ -1,0 +1,45 @@
+{
+  "inspection_id": "INS_20260606_165720_472",
+  "timestamp": "2026-06-06T16:57:20Z",
+  "image_path": "data\\images\\img_0483.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Espaço vazio entre os produtos Ease a Cold.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo onde deveriam estar produtos Strepsils.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio na secção de pastilhas para a garganta.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Ease a Cold",
+    "Strepsils",
+    "Anticol",
+    "Vicks VapoDrops",
+    "Nyal"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de uma farmácia/supermercado contendo pastilhas para a garganta e medicamentos para constipações. As marcas visíveis incluem Ease a Cold, Strepsils, Anticol, Vicks e Nyal. PASSO 2: Prateleira superior: quase cheia, com um pequeno espaço vazio à esquerda. Prateleira do meio: apresenta lacunas notáveis no centro e à direita. Prateleira inferior: bem organizada, com produtos Vicks e Nyal. PASSO 3: Identifiquei três zonas de 'empty_shelf'. A maior lacuna está na prateleira do meio, afetando a continuidade do stock de Strepsils. A severidade é média devido ao impacto na disponibilidade do produto. PASSO 4: O fill rate global é estimado em 0.85, considerando que cerca de 15% do espaço total de prateleira está vazio."
+}

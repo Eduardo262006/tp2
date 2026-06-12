@@ -1,0 +1,26 @@
+{
+  "inspection_id": "INS_20260604_163304_242",
+  "timestamp": "2026-06-04T16:33:04Z",
+  "image_path": "data\\images\\img_0253.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Os pacotes de 'Just Juice' estão desalinhados e projetados para fora da borda da prateleira, criando uma aparência desorganizada.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "sumos em garrafa (Sunnyboy)",
+    "sumos em pacote (Just Juice)",
+    "sumos em pacote (Golden Circle)",
+    "sumos em pacote (Popper)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo sumos. Nível superior: garrafas Sunnyboy e pacotes Just Juice/Golden Circle. Nível médio: garrafas Sunnyboy e pacotes Just Juice/Popper. Nível inferior: pacotes Just Juice/Popper. PASSO 2: Prateleira superior: organização aceitável. Prateleira do meio: os pacotes de 'Just Juice' no centro estão desalinhados, avançando para além da linha frontal dos outros produtos. Prateleira inferior: organização densa e correta. PASSO 3: Identificada anomalia de desalinhamento na prateleira do meio. Severidade média, pois compromete a estética e a estabilidade, mas não impede a compra. Confiança alta. PASSO 4: O preenchimento é elevado, com poucas lacunas visíveis, estimando um fill rate de 0.92."
+}

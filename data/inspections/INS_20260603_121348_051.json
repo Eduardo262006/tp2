@@ -1,0 +1,15 @@
+{
+  "inspection_id": "INS_20260603_121348_051",
+  "timestamp": "2026-06-03T12:13:48Z",
+  "image_path": "data\\images\\img_0051.jpg",
+  "zone_id": "Z_N2",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.98,
+  "products_detected": [
+    "refrigerantes",
+    "sumos",
+    "bebidas gaseosas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado repletas de garrafas de bebidas (refrigerantes e sumos). A organização é densa, com produtos alinhados frontalmente. Há etiquetas de preço visíveis abaixo de cada grupo de produtos. Existem separadores verticais e materiais promocionais (cartões 'win') pendurados.\nPASSO 2: \n- Prateleira superior: Totalmente preenchida, sem espaços vazios. Produtos alinhados corretamente.\n- Prateleira inferior: Totalmente preenchida, sem espaços vazios. Produtos alinhados corretamente.\nPASSO 3: Não foram identificadas anomalias significativas. O preenchimento é consistente e não há produtos danificados ou etiquetas em falta que comprometam a visibilidade do preço.\nPASSO 4: O fill rate é muito elevado, estimado em 0.98, dado que quase não há espaços vazios entre as garrafas e a prateleira está totalmente ocupada."
+}

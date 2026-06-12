@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260607_113345_507",
+  "timestamp": "2026-06-07T11:33:45Z",
+  "image_path": "data\\images\\img_0518.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos alinhados com o restante da categoria.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas de sumo P&N ligeiramente desalinhadas em relação à frente da prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "sumos de fruta",
+    "sumos de vegetais",
+    "bebidas de pequeno-almoço"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras principais de um supermercado contendo garrafas de sumos (P&N, Brekky Juice, Berri). A prateleira superior está quase totalmente preenchida. A prateleira inferior apresenta uma secção vazia à esquerda e uma fila de garrafas de 2L à direita. PASSO 2: Prateleira superior: preenchimento bom, ligeiro desalinhamento. Prateleira inferior: zona esquerda vazia, zona central/direita com produtos. PASSO 3: Identifiquei um 'empty_shelf' na prateleira inferior (lado esquerdo) com severidade média, pois interrompe a continuidade do produto. Identifiquei 'misaligned' na prateleira superior, com severidade baixa. PASSO 4: O fill rate global é estimado em 0.85, considerando a área total ocupada pelas garrafas em relação ao espaço disponível nas prateleiras visíveis."
+}

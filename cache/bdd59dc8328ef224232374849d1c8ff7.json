@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260604_163001_181",
+  "timestamp": "2026-06-04T16:30:01Z",
+  "image_path": "data\\images\\img_0192.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio entre os produtos de unhas e os produtos de limpeza, indicando falta de stock ou ganchos vazios.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Alguns produtos de manicure estão ligeiramente desalinhados nos ganchos, dificultando a leitura da etiqueta de preço.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "unhas postiças",
+    "produtos de manicure",
+    "bálsamos labiais",
+    "toalhitas de limpeza"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com três níveis principais contendo produtos de beleza (unhas, manicure, bálsamos labiais) e produtos de limpeza à direita. PASSO 2: Prateleira superior: bem preenchida à esquerda, mas com um espaço vazio significativo à direita antes dos produtos de limpeza. Prateleira do meio: preenchida, com alguns produtos ligeiramente desalinhados. Prateleira inferior: bem preenchida com produtos de cuidado labial. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior (lado direito) devido a ganchos vazios e um 'misaligned' na prateleira do meio. A severidade é média para o espaço vazio e baixa para o desalinhamento. PASSO 4: O fill rate é estimado em 0.85, considerando a ocupação total dos ganchos disponíveis."
+}

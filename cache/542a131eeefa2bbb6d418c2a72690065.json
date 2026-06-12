@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260609_105948_784",
+  "timestamp": "2026-06-09T10:59:48Z",
+  "image_path": "data\\images\\img_0795.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio visível entre as caixas de cereais Heinz, indicando falta de stock ou produto deslocado.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "low",
+      "description": "Caixas de produtos Heinz Organic estão desalinhadas e com orientação irregular.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "sumos de fruta",
+    "cereais infantis",
+    "papinhas infantis",
+    "acessórios de fixação"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado com quatro níveis. Nível 1 (topo): sumos e cereais Heinz. Nível 2: papas Heinz Organic. Nível 3: boiões de comida para bebé. Nível 4: boiões de comida para bebé. Há um expositor lateral de molas/fixadores à direita. PASSO 2: Nível superior: zona direita apresenta um espaço vazio entre caixas. Nível médio: zona central/direita apresenta desalinhamento de caixas. Níveis inferiores: bem organizados. PASSO 3: Anomalia 1 (empty_shelf): prateleira superior, lado direito, severidade média, confiança 0.95. Anomalia 2 (misaligned): prateleira do meio, lado direito, severidade baixa, confiança 0.85. PASSO 4: O preenchimento é elevado, com apenas pequenas lacunas pontuais. Estimativa de fill rate: 0.88."
+}

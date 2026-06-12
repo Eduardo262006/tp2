@@ -1,0 +1,24 @@
+{
+  "inspection_id": "INS_20260609_105730_738",
+  "timestamp": "2026-06-09T10:57:30Z",
+  "image_path": "data\\images\\img_0749.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos de tortilhas.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "tortilhas",
+    "feijão enlatado"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras. O nível superior contém embalagens de tortilhas/kits de taco. O nível do meio contém embalagens de tortilhas 'Wrapups'. O nível inferior contém latas de feijão 'Old El Paso'. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: lado esquerdo apresenta um espaço vazio considerável (falta de produto). Prateleira inferior: bem abastecida. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira do meio, lado esquerdo, com severidade média devido ao impacto na disponibilidade do produto. Confiança alta. PASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na prateleira do meio."
+}

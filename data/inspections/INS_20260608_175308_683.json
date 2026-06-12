@@ -1,0 +1,43 @@
+{
+  "inspection_id": "INS_20260608_175308_683",
+  "timestamp": "2026-06-08T17:53:08Z",
+  "image_path": "data\\images\\img_0694.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro-direita",
+      "severity": "medium",
+      "description": "Espaço vazio entre as embalagens de Kilkenny e Budweiser, indicando falta de stock ou produto deslocado.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Embalagens de Hollandia desalinhadas em relação à frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Kronenbourg 1664",
+    "Carlsberg",
+    "Kilkenny",
+    "Budweiser",
+    "Asahi",
+    "Corona",
+    "Guinness",
+    "Bavaria",
+    "Hollandia",
+    "Stella Artois",
+    "Heineken",
+    "Becks"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado focadas em cervejas. Os produtos estão maioritariamente organizados em packs. PASSO 2: Prateleira superior: contém várias marcas (1664, Carlsberg, Kilkenny, Budweiser, Asahi). Há um pequeno espaço vazio entre Kilkenny e Budweiser. Prateleira do meio: Corona, Guinness, Bavaria, Hollandia. Organização estável. Prateleira inferior: Hollandia, Stella Artois, Heineken, Becks. As embalagens de Hollandia à esquerda estão ligeiramente desalinhadas. PASSO 3: Anomalia 1: empty_shelf na prateleira superior, centro-direita, severidade média, confiança 0.9. Anomalia 2: misaligned na prateleira inferior, lado esquerdo, severidade baixa, confiança 0.85. PASSO 4: O fill rate é elevado, estimado em 0.92, dado que a maioria das prateleiras está bem preenchida com apenas pequenas lacunas."
+}

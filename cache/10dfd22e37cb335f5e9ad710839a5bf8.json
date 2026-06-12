@@ -1,0 +1,41 @@
+{
+  "inspection_id": "INS_20260609_105721_735",
+  "timestamp": "2026-06-09T10:57:21Z",
+  "image_path": "data\\images\\img_0746.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos Advil e Panadol na prateleira do meio.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Produtos Dencorub e caixas adjacentes estão desalinhados e inclinados.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.9,
+  "products_detected": [
+    "Paracetamol",
+    "Panadol",
+    "Advil",
+    "Herron",
+    "Aspro",
+    "Medi-Pak",
+    "Elastoplast",
+    "Deep Heat",
+    "Dencorub",
+    "Swisspers"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de farmácia/retalho com quatro níveis. Contém analgésicos (Panadol, Advil, Aspro), produtos de primeiros socorros (Elastoplast, Medi-Pak), géis musculares (Deep Heat, Dencorub) e produtos de higiene (Swisspers). PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: existe um espaço vazio notável no centro entre o Advil e o Panadol. Prateleira inferior: produtos de primeiros socorros organizados, mas com algum desalinhamento à direita. Prateleira base: produtos de higiene bem organizados. PASSO 3: Identificada uma falha de stock (empty_shelf) no centro da prateleira do meio (severidade média). Identificado desalinhamento (misaligned) na prateleira inferior direita (severidade baixa). PASSO 4: O fill rate é elevado, estimado em 0.9, dado que a maioria das faces está preenchida, exceto pelo espaço vazio central e pequenas desorganizações."
+}

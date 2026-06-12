@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260608_175202_661",
+  "timestamp": "2026-06-08T17:52:02Z",
+  "image_path": "data\\images\\img_0672.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo/centro",
+      "severity": "medium",
+      "description": "Garrafa de Diet Waterfords tombada/deitada entre as filas de produtos, interrompendo o alinhamento vertical.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Garrafa de Diet Waterfords tombada horizontalmente sobre a prateleira, ocupando espaço de forma desorganizada.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Diet Waterfords",
+    "De-lite"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo garrafas de bebidas (Diet Waterfords e De-lite). As prateleiras estão maioritariamente cheias, com organização por filas. PASSO 2: Prateleira superior: bem organizada. Prateleira do meio: apresenta uma garrafa tombada no centro. Prateleira inferior: apresenta uma garrafa tombada no lado esquerdo. PASSO 3: Identificadas duas anomalias de desalinhamento (misaligned) devido a garrafas tombadas que quebram o padrão de exposição. Severidade média pois o produto está presente, mas a apresentação está comprometida. Confiança alta devido à clareza visual. PASSO 4: O fill rate é elevado, estimado em 92%, pois a maioria das garrafas está em pé e ocupando o espaço designado, com apenas pequenas áreas afetadas pelas garrafas tombadas."
+}

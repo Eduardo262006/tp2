@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260606_165505_427",
+  "timestamp": "2026-06-06T16:55:05Z",
+  "image_path": "data\\images\\img_0438.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os packs de Victoria Bitter e a extremidade direita da prateleira.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio entre os packs de VB, indicando falta de stock ou produto removido.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Guinness",
+    "Carlton Draught",
+    "Tooheys New",
+    "Sterling",
+    "Tasman",
+    "Victoria Bitter (VB)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado com bebidas alcoólicas (cervejas). A prateleira superior contém garrafas individuais e packs de Carlton Draught. A prateleira do meio contém packs de Tooheys, garrafas de Sterling, Tasman e packs de VB. A prateleira inferior contém caixas de cartão de VB. PASSO 2: Prateleira superior: bem preenchida. Prateleira do meio: lado esquerdo e centro preenchidos, mas há um vazio notável no lado direito. Prateleira inferior: preenchida, mas com um vazio central entre as caixas. PASSO 3: Identificadas duas zonas de 'empty_shelf'. A da prateleira do meio é mais crítica por ser uma zona de exposição de produto individual/pack. Severidade média devido ao impacto visual. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pelos espaços vazios identificados."
+}

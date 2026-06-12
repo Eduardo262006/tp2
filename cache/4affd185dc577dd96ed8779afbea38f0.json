@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260608_175005_622",
+  "timestamp": "2026-06-08T17:50:05Z",
+  "image_path": "data\\images\\img_0633.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos de sabonete líquido.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro-direita",
+      "severity": "low",
+      "description": "Espaço vazio entre os produtos de sabonete líquido na prateleira inferior.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "sabonete líquido",
+    "refil de sabonete",
+    "gel de banho"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra quatro prateleiras de retalho contendo sabonetes líquidos e refis de diversas marcas (Palmolive, Dettol, Pears, Softsoap). A organização é geralmente boa, com produtos alinhados frontalmente. PASSO 2: Prateleira superior: bem abastecida. Prateleira 2 (contando de cima): apresenta uma lacuna clara no lado esquerdo. Prateleira 3: bem abastecida. Prateleira inferior: apresenta pequenas lacunas de stock no centro-direita. PASSO 3: Identifiquei duas zonas de 'empty_shelf'. A da prateleira 2 é mais notável (severidade média). A da prateleira inferior é menor (severidade baixa). PASSO 4: O fill rate é elevado, estimado em 88%, dado que a maioria das prateleiras está cheia, com apenas pequenas falhas de stock pontuais."
+}

@@ -1,0 +1,27 @@
+{
+  "inspection_id": "INS_20260605_100426_306",
+  "timestamp": "2026-06-05T10:04:26Z",
+  "image_path": "data\\images\\img_0317.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira de latas, indicando falta de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "noodles",
+    "latas de leite de coco",
+    "latas de molhos/condimentos",
+    "papel de arroz",
+    "arroz"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com várias prateleiras. A superior contém pacotes de noodles. A segunda prateleira contém latas (leite de coco e outros). A terceira e quarta prateleiras contêm latas de molhos e condimentos, além de pacotes de papel de arroz e arroz. PASSO 2: Dividindo a prateleira: Superior (noodles, ok), Segunda (latas, anomalia de stock no centro), Terceira/Quarta (molhos e arroz, ok). PASSO 3: Identificada uma falha de stock (empty_shelf) na prateleira das latas (segunda a contar de cima), no centro, onde faltam várias unidades. Severidade média, pois o resto da prateleira está bem abastecido. Confiança alta. PASSO 4: O fill rate é elevado, estimado em 0.85, dado que apenas uma secção central de uma prateleira apresenta rutura de stock."
+}

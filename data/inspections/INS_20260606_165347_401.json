@@ -1,0 +1,25 @@
+{
+  "inspection_id": "INS_20260606_165347_401",
+  "timestamp": "2026-06-06T16:53:47Z",
+  "image_path": "data\\images\\img_0412.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior entre os sumos Smart Juice e P&N, onde se vê a grelha de fundo.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "sumos de fruta",
+    "bebidas de fruta",
+    "brinquedos (carrinhos em fita)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho. A superior contém garrafas de sumo (Ribena, Smart Juice, P&N) e uma fita de brinquedos à direita. A prateleira inferior está densamente preenchida com garrafas de sumo de laranja e 'Brekky Juice'. PASSO 2: Prateleira superior: lado esquerdo e direito ocupados, centro com falha de stock. Prateleira inferior: ocupação total e organizada. PASSO 3: Identificada uma zona de 'empty_shelf' no centro da prateleira superior. A severidade é média pois interrompe a continuidade do linear. Confiança alta devido à visibilidade da grelha metálica de fundo. PASSO 4: O fill rate é elevado na prateleira inferior (quase 1.0) e moderado na superior (~0.7), resultando numa média global de aproximadamente 0.85."
+}

@@ -1,0 +1,1 @@
+zona Z_N3; estado warning; fill rate 85%; empty_shelf (medium) em prateleira inferior, lado esquerdo e centro: A secção esquerda e central da prateleira inferior está vazia, indicando falta de stock.; produtos: Twisties Chicken, Twisties Zig Zag Wicked Cheddar, Twisties Cheese, Cheetos Cheese & Bacon Balls, Red Rock Deli Potato Chips; data 2026-06-06T16:53:23Z

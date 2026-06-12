@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260609_105639_721",
+  "timestamp": "2026-06-09T10:56:39Z",
+  "image_path": "data\\images\\img_0732.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar embalagens de fruta em copo.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Embalagem de produto tombada/fora de alinhamento no meio da prateleira inferior.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "latas de conservas",
+    "fruta em copo (SPC)",
+    "compotas/geleias",
+    "marshmallows"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 5 níveis visíveis. Contém latas, embalagens de fruta em copo (SPC), compotas e sacos de marshmallows pendurados. PASSO 2: A prateleira superior está bem abastecida. A segunda e terceira prateleiras estão cheias. A quarta prateleira (inferior) apresenta uma falha de stock no centro e um produto tombado. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira inferior central (severidade média, confiança 0.95) e uma 'misaligned' (produto tombado) adjacente (severidade baixa, confiança 0.9). PASSO 4: O fill rate é elevado, estimado em 0.92, dado que a maioria das prateleiras está totalmente preenchida, com apenas uma pequena rutura na parte inferior."
+}

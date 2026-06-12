@@ -1,0 +1,15 @@
+{
+  "inspection_id": "INS_20260605_100544_332",
+  "timestamp": "2026-06-05T10:05:44Z",
+  "image_path": "data\\images\\img_0343.jpg",
+  "zone_id": "Z_S7",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.98,
+  "products_detected": [
+    "pão de forma Mighty Soft",
+    "pão de forma Sunblest",
+    "pão de forma Wonder White"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado organizada com cinco prateleiras horizontais contendo pão de forma de várias marcas (Mighty Soft, Sunblest, Wonder White). Os produtos estão alinhados e preenchem quase toda a largura das prateleiras. PASSO 2: Analisando as regiões: Superior, 2ª, 3ª, 4ª e Inferior. Em todas as prateleiras, os produtos estão bem organizados, sem espaços vazios significativos, sem produtos danificados visíveis e com etiquetas de preço correspondentes. Não há anomalias de alinhamento ou falta de stock. PASSO 3: Não foram identificadas anomalias. PASSO 4: O fill rate é muito elevado, estimado em 0.98, dado que quase não existem espaços vazios nas prateleiras, apenas pequenas folgas naturais entre embalagens."
+}

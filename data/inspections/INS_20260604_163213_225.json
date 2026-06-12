@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260604_163213_225",
+  "timestamp": "2026-06-04T16:32:13Z",
+  "image_path": "data\\images\\img_0236.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, entre as garrafas de água e os sumos à direita.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Os pacotes de sumo estão ligeiramente desalinhados em relação à borda da prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "sumos de fruta em pacote",
+    "garrafas de água",
+    "sumos de fruta em garrafão (apple, orange, breakfast, just juice)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com três níveis visíveis. O nível superior contém pacotes de sumo e garrafas de água. Os níveis médio e inferior contêm garrafões de sumo de várias marcas. PASSO 2: Prateleira superior: lado esquerdo com pacotes, centro com água, lado direito com um espaço vazio considerável. Prateleiras média e inferior: bem preenchidas, com alinhamento aceitável. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior (lado direito) com severidade média, pois interrompe a continuidade do stock. Identifiquei um ligeiro 'misaligned' nos pacotes da esquerda. PASSO 4: O fill rate global é estimado em 0.85, considerando o espaço vazio na prateleira superior e a ocupação densa das prateleiras inferiores."
+}

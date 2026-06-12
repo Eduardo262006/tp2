@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260603_121351_052",
+  "timestamp": "2026-06-03T12:13:51Z",
+  "image_path": "data\\images\\img_0052.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, marcado com sinalização de 'Discontinued line'.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado central",
+      "severity": "low",
+      "description": "Espaço vazio entre os sacos de nachos e os frascos de azeitonas.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Old El Paso seasoning packets",
+    "Old El Paso salsa jars",
+    "Canned tomatoes/sauce",
+    "Nachos/Corn chips",
+    "Olives"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado. Nível superior: pacotes de temperos Old El Paso à esquerda e uma área vazia à direita com sinalização de 'Discontinued line'. Nível médio: frascos de salsa Old El Paso alinhados e latas à direita. Nível inferior: sacos de nachos e frascos de azeitonas. PASSO 2: Superior esquerda (cheia), Superior direita (vazia/descontinuada). Médio (bem organizado). Inferior (alguns espaços vazios entre categorias). PASSO 3: Identificada anomalia de 'empty_shelf' na prateleira superior direita (área descontinuada) e um pequeno espaço vazio na prateleira inferior. A severidade é média devido à descontinuação do produto. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das faces está preenchida, exceto pelas áreas marcadas como descontinuadas e pequenos vãos."
+}

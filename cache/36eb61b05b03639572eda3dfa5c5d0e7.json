@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260608_175323_688",
+  "timestamp": "2026-06-08T17:53:23Z",
+  "image_path": "data\\images\\img_0699.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira central, zona centro-direita",
+      "severity": "medium",
+      "description": "Espaço vazio visível na prateleira, indicando falta de stock de uma unidade de produto.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "wrong_product",
+      "location": "prateleira central, zona centro-direita",
+      "severity": "low",
+      "description": "Uma garrafa de 'Passiona' está colocada na zona destinada a 'Deep Spring Lemon & Lime', interrompendo o alinhamento da marca.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.9,
+  "products_detected": [
+    "Coles Mineral Water Orange & Mango",
+    "Deep Spring Lemon & Lime",
+    "Passiona Passionfruit"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado com garrafas de 1.25L de bebidas gaseificadas/água mineral. Há duas filas principais de produtos. PASSO 2: A prateleira está organizada em filas. Na zona central, nota-se uma falha no alinhamento: uma garrafa de 'Passiona' está inserida entre as garrafas de 'Deep Spring'. Imediatamente ao lado desta garrafa, há um espaço vazio na grelha metálica da prateleira. PASSO 3: Identifiquei um 'empty_shelf' (espaço vazio) e um 'wrong_product' (Passiona no lugar de Deep Spring). A severidade é média para o espaço vazio e baixa para o produto trocado. PASSO 4: O fill rate é elevado, estimado em 0.9, dado que apenas uma posição de produto está vazia e o resto da prateleira está bem preenchido."
+}

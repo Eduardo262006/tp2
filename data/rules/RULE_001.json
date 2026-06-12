@@ -1,0 +1,35 @@
+{
+  "rule_id": "RULE_001",
+  "created_at": "2026-06-12T11:08:00Z",
+  "natural_language": "Avisa-me quando a prateleira inferior estiver mais de 40% vazia",
+  "description": "Emitir um alerta quando o nível de preenchimento da prateleira inferior for inferior a 60%.",
+  "conditions": {
+    "zone_filter": [],
+    "time_filter": {
+      "hours_start": null,
+      "hours_end": null
+    },
+    "issue_types": [
+      "empty_shelf"
+    ],
+    "severity_threshold": null,
+    "fill_rate_threshold": 0.6,
+    "location_filter": "bottom"
+  },
+  "action": {
+    "alert_level": "warning",
+    "notification_message": "Atenção: A prateleira na localização {location} atingiu um fill rate de {fill_rate} na zona {zone_id}."
+  },
+  "validation": {
+    "is_valid": true,
+    "ambiguities": [
+      "Nível de urgência do alerta não especificado.",
+      "Zonas específicas não definidas."
+    ],
+    "assumptions": [
+      "Assumido 'warning' como nível de alerta padrão.",
+      "Assumido 'empty_shelf' como o tipo de problema associado a prateleiras vazias.",
+      "Convertido 'mais de 40% vazia' para um fill_rate_threshold de 0.6 (60% de preenchimento)."
+    ]
+  }
+}

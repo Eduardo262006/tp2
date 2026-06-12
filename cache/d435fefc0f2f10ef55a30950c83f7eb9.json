@@ -1,0 +1,38 @@
+{
+  "inspection_id": "INS_20260603_121721_122",
+  "timestamp": "2026-06-03T12:17:21Z",
+  "image_path": "data\\images\\img_0122.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível à esquerda da prateleira superior, onde deveriam estar produtos da marca Le Snak.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Produtos (Happy Feet e Roll-Ups) encontram-se desorganizados e desalinhados em relação ao plano frontal da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.9,
+  "products_detected": [
+    "Le Snak",
+    "Nutri-Grain Bar",
+    "Milo",
+    "Uncle Tobys OTs",
+    "Uncle Tobys Roll-Ups",
+    "Snack Pack",
+    "Happy Feet"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 4 níveis de prateleiras contendo snacks, barras de cereais e produtos infantis. A organização é predominantemente por blocos de marca. PASSO 2: Prateleira superior: Espaço vazio à esquerda. Prateleira 2: Bem organizada. Prateleira 3: Bem organizada. Prateleira inferior: Desorganização no centro com produtos misturados e desalinhados. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior (severidade média, pois interrompe o bloco de produto) e 'misaligned' na prateleira inferior (severidade baixa, apenas estética). PASSO 4: O fill rate é elevado, estimado em 0.9, dado que a maioria das prateleiras está cheia, com apenas pequenas lacunas e desorganização pontual."
+}

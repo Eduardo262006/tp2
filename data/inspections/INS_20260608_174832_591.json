@@ -1,0 +1,29 @@
+{
+  "inspection_id": "INS_20260608_174832_591",
+  "timestamp": "2026-06-08T17:48:32Z",
+  "image_path": "data\\images\\img_0602.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo ao lado do pack de Coca-Cola, indicando falta de stock ou produto removido.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Schweppes Lemon & Soda",
+    "Schweppes Lime & Soda",
+    "Coca-Cola",
+    "Schweppes Lemonade",
+    "Kirks Soda Water",
+    "Kirks Ginger Ale",
+    "Schweppes Agrum"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com bebidas gaseificadas (Schweppes, Coca-Cola, Kirks). A organização é feita por prateleiras e colunas. PASSO 2: Dividindo a prateleira: Superior (esquerda: Schweppes, direita: Coca-Cola + espaço vazio), Meio (esquerda: Schweppes Lemonade, direita: Kirks), Inferior (Schweppes Agrum e outros). Identifiquei uma anomalia na prateleira superior direita, onde há um espaço vazio considerável ao lado do pack de Coca-Cola. PASSO 3: Anomalia: empty_shelf, localização: prateleira superior, lado direito, severidade: medium (o espaço é notável mas não crítico para a secção toda), confiança: 0.95, área afetada: ~25% daquela secção. PASSO 4: O fill rate global é alto, mas o vazio na prateleira superior reduz a eficiência de ocupação para cerca de 0.85."
+}

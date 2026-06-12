@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260609_105812_752",
+  "timestamp": "2026-06-09T10:58:12Z",
+  "image_path": "data\\images\\img_0763.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na secção de bebidas/garrafas, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos de pipocas estão desorganizados e misturados, dificultando a visualização da frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "snacks de batata",
+    "bebidas",
+    "pipocas",
+    "snacks de queijo"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho. A superior contém snacks (Burger Snacks) à direita e uma zona de bebidas/garrafas à esquerda. A inferior contém vários tipos de snacks (pipocas e Cheese & Bacon balls). PASSO 2: Prateleira superior: esquerda (vazia/desorganizada), direita (cheia). Prateleira inferior: esquerda (pipocas, alguma desorganização), direita (snacks de queijo, bem organizados). PASSO 3: Identifiquei uma zona vazia na prateleira superior esquerda (empty_shelf, severidade média) e uma desorganização/mistura de produtos nas pipocas da prateleira inferior esquerda (misaligned, severidade baixa). PASSO 4: O fill rate é alto na maioria das secções, mas a zona vazia superior reduz a média global para cerca de 0.85."
+}

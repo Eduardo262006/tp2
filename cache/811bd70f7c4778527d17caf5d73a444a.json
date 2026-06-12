@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260606_165635_457",
+  "timestamp": "2026-06-06T16:56:35Z",
+  "image_path": "data\\images\\img_0468.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro-esquerda",
+      "severity": "medium",
+      "description": "Espaço vazio entre as embalagens de Sprite Zero e Fanta Zero, indicando falta de stock ou organização deficiente.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na extremidade direita da prateleira inferior.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Sprite Zero",
+    "Fanta Zero",
+    "Lift Lemon",
+    "Coca-Cola",
+    "Diet Coke",
+    "Caffeine Free Diet Coke"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado com bebidas refrigeradas (latas em packs e garrafas de 1.5L/2L). As marcas incluem Sprite, Fanta, Lift, Coca-Cola e Diet Coke. PASSO 2: Prateleira superior: organizada, mas com um espaço vazio notável entre Sprite e Fanta. Prateleira do meio: bem preenchida com packs de Diet Coke e garrafas de Coca-Cola. Prateleira inferior: packs de Coca-Cola e Diet Coke, com um espaço vazio à direita. PASSO 3: Identifiquei dois pontos de 'empty_shelf'. O primeiro na prateleira superior (centro-esquerda) e o segundo na prateleira inferior (direita). A severidade é média pois não compromete a totalidade da prateleira, mas afeta a disponibilidade. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pelos dois espaços vazios identificados."
+}

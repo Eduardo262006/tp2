@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260607_113251_489",
+  "timestamp": "2026-06-07T11:32:51Z",
+  "image_path": "data\\images\\img_0500.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo onde deveriam estar produtos, possivelmente devido a rutura de stock ou má organização.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos desalinhados e caídos, dificultando a visibilidade e o acesso.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "frutos secos",
+    "snacks",
+    "leguminosas",
+    "misturas de sementes"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com 4 níveis visíveis, contendo sacos de frutos secos, snacks e sementes da marca 'Mellow Yellow' e outras marcas próprias. A organização é geralmente boa, mas com falhas pontuais.\nPASSO 2: \n- Superior: Presença de um espaço vazio no centro (falta de stock).\n- Meio: Lado esquerdo apresenta produtos desalinhados e alguns caídos na prateleira.\n- Inferior: Bem preenchido, sem anomalias graves.\nPASSO 3: \n- Anomalia 1: empty_shelf, prateleira superior centro, severidade medium, confiança 0.9, área 15%.\n- Anomalia 2: misaligned, prateleira meio esquerda, severidade low, confiança 0.85, área 10%.\nPASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das prateleiras está bem abastecida, exceto pela lacuna central superior e alguma desorganização no nível médio."
+}

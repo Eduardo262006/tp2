@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260608_174920_607",
+  "timestamp": "2026-06-08T17:49:20Z",
+  "image_path": "data\\images\\img_0618.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos Palmolive, indicando falta de stock ou organização deficiente.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Produtos desalinhados e com orientação irregular na parte inferior direita.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Palmolive Softwash Refill",
+    "Palmolive Naturals",
+    "Palmolive Aroma Therapy"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de retalho contendo recargas de sabonete líquido Palmolive. A prateleira superior está bem abastecida. A prateleira do meio apresenta uma lacuna notável no centro. A prateleira inferior está cheia, mas com alguns produtos desalinhados à direita. PASSO 2: Prateleira superior: organizada. Prateleira do meio: zona central com falta de produto (empty_shelf). Prateleira inferior: zona direita com produtos desalinhados. PASSO 3: Identificada uma falha de stock (empty_shelf) no centro da prateleira do meio (severidade média, confiança 0.95). Identificado desalinhamento (misaligned) na prateleira inferior direita (severidade baixa, confiança 0.85). PASSO 4: O fill rate global é estimado em 0.85, considerando a lacuna central e a densidade geral dos produtos."
+}

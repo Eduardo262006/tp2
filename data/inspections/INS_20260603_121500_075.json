@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260603_121500_075",
+  "timestamp": "2026-06-03T12:15:00Z",
+  "image_path": "data\\images\\img_0075.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na extremidade esquerda da prateleira superior, onde deveriam estar produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "low",
+      "description": "As pilhas de caixas de ovos Pace Farm apresentam um desalinhamento ligeiro na vertical, sugerindo uma reposição apressada.",
+      "confidence": 0.8,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Pace Farm free range eggs",
+    "Coles free range eggs",
+    "The Fresh egg brand"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado contendo caixas de ovos de cartão. Na prateleira superior, vemos pilhas de 'Pace Farm free range eggs'. Na prateleira inferior, vemos 'Coles free range eggs' e outras marcas. PASSO 2: Prateleira superior: lado esquerdo vazio, centro e direita ocupados. Prateleira inferior: ocupação densa. Anomalias: vazio à esquerda na prateleira superior e desalinhamento nas pilhas centrais. PASSO 3: O vazio é classificado como 'empty_shelf' (severidade média, confiança alta). O desalinhamento é 'misaligned' (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio à esquerda e a ocupação total da prateleira inferior."
+}

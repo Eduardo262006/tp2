@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260604_162940_174",
+  "timestamp": "2026-06-04T16:29:40Z",
+  "image_path": "data\\images\\img_0185.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo onde deveriam estar produtos, possivelmente devido a rutura de stock ou desorganização.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Produtos (frascos) desalinhados e alguns caídos ou fora da orientação correta.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Nobbys nuts",
+    "Bhuja snacks",
+    "Fat free snacks",
+    "Soy crisps",
+    "Pistachios",
+    "Mixed nuts"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com 4 níveis visíveis. Nível superior: sacos de frutos secos Nobbys. Nível 2: sacos de snacks Bhuja e Fat Free. Nível 3: sacos de snacks (Soy crisps) e espaço vazio. Nível 4: frascos de frutos secos e sacos. Há um expositor lateral de lápis/canetas à direita. PASSO 2: Superior: bem organizado. Meio: zona esquerda com falha de stock (vazio). Inferior: zona central com produtos desalinhados/caídos. PASSO 3: Identificada rutura de stock parcial na prateleira do meio (empty_shelf, severidade média) e desorganização na prateleira inferior (misaligned, severidade baixa). PASSO 4: O fill rate é alto, mas com lacunas pontuais, estimado em 0.85."
+}

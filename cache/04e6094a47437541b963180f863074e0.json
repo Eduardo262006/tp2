@@ -1,0 +1,25 @@
+{
+  "inspection_id": "INS_20260605_100450_314",
+  "timestamp": "2026-06-05T10:04:50Z",
+  "image_path": "data\\images\\img_0325.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos de massa (Mae Ploy e Nicecook), indicando falta de stock ou organização deficiente.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "molhos (Hoisin, Char Siu, Spare Rib)",
+    "massas (Singapore Noodles, Nicecook)",
+    "pasta de caril (Mae Ploy)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho. A superior contém frascos de molhos da marca Lee Kum Kee. A inferior contém embalagens de massa e pastas de caril. PASSO 2: Prateleira superior: bem organizada, sem falhas. Prateleira inferior: lado esquerdo com produtos, lado direito com produtos, mas existe um vazio notável no centro. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira inferior, zona central, onde o espaço de exposição está desocupado. Severidade média, pois interrompe a continuidade da prateleira. Confiança alta. PASSO 4: O fill rate é estimado em 0.85, considerando que a prateleira superior está quase cheia e a inferior apresenta uma lacuna central."
+}

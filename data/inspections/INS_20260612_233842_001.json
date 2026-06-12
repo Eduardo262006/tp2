@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260612_233842_001",
+  "timestamp": "2026-06-12T22:38:42Z",
+  "image_path": "test_images\\img_0153.jpg",
+  "zone_id": "Z_S3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "high",
+      "description": "Espaço de prateleira vazio onde deveriam estar os produtos Parker's.",
+      "confidence": 1.0,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço de prateleira vazio, apenas com vestígios de embalagens no fundo.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "Parker's Mini Pretzels",
+    "Crinkle Cut Rock Salt & Vinegar Chips",
+    "Herb & Spice Chips",
+    "Chilli Chips",
+    "Kettle Crispy Bacon & Sour Cream Chips",
+    "Kettle Sea Salt & Cracked Pepper Chips"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de retalho contendo sacos de batatas fritas e snacks. Existem zonas de stock completo e zonas vazias. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: lado esquerdo vazio, centro e direita com stock. Prateleira inferior: lado esquerdo vazio, centro e direita com stock. PASSO 3: Identificadas duas zonas de 'empty_shelf'. A zona do meio é mais crítica por estar diretamente associada a uma etiqueta de preço visível. A zona inferior também apresenta falta de stock. Confiança elevada devido à visibilidade clara das grelhas metálicas vazias. PASSO 4: Considerando 3 níveis com 5 posições de produto cada (total 15), temos 2 posições vazias. Fill rate estimado em aproximadamente 13/15 = 0.86, ajustado para 0.75 devido à área de ocupação visual."
+}

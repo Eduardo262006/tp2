@@ -1,0 +1,26 @@
+{
+  "inspection_id": "INS_20260606_165632_456",
+  "timestamp": "2026-06-06T16:56:32Z",
+  "image_path": "data\\images\\img_0467.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, ao lado das geleiras portáteis, sugerindo falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "geleiras portáteis",
+    "artigos de campismo",
+    "louça de plástico",
+    "acessórios de cozinha"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com três níveis visíveis. O nível superior contém blocos de gelo e acessórios. O nível do meio contém duas geleiras com rodas e um espaço vazio à direita. O nível inferior contém geleiras rígidas e conjuntos de louça de plástico. PASSO 2: Dividindo a prateleira: Superior (ok), Meio (anomalia de espaço vazio à direita), Inferior (ok). PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira do meio, lado direito, onde a grelha metálica está exposta sem produtos. Severidade média, pois interrompe a continuidade da exposição. Confiança alta. PASSO 4: O fill rate é estimado em 0.75, considerando que a prateleira do meio tem um espaço vazio considerável, enquanto as outras estão bem preenchidas."
+}

@@ -1,0 +1,17 @@
+{
+  "inspection_id": "INS_20260602_153930_047",
+  "timestamp": "2026-06-02T15:39:30Z",
+  "image_path": "data\\images\\img_0047.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "batatas fritas Kettle",
+    "batatas fritas Herb & Spice",
+    "batatas fritas Chilli",
+    "batatas fritas Sea Salt & Cracked Pepper",
+    "batatas fritas Crispy Bacon & Sour Cream"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de retalho contendo sacos de batatas fritas da marca Kettle. Os produtos estão organizados em filas, com etiquetas de preço visíveis abaixo de cada secção. PASSO 2: Prateleira superior: cheia, produtos alinhados. Prateleira do meio: cheia, produtos alinhados. Prateleira inferior: cheia, produtos alinhados. Não foram detetadas zonas vazias significativas, produtos fora do lugar ou etiquetas em falta. PASSO 3: Não existem anomalias detetadas. Todos os produtos estão devidamente orientados e as prateleiras estão bem abastecidas. PASSO 4: O fill rate é elevado, estimado em 0.95, considerando que quase todo o espaço disponível está ocupado por produto, com apenas pequenas folgas naturais entre embalagens."
+}

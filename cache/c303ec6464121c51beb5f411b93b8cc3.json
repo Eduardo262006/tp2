@@ -1,0 +1,16 @@
+{
+  "inspection_id": "INS_20260604_163316_246",
+  "timestamp": "2026-06-04T16:33:16Z",
+  "image_path": "data\\images\\img_0257.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Cheezels",
+    "Twisties",
+    "Doritos Viapas",
+    "Doritos Salsa"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. Na prateleira superior, vemos pacotes de Twisties à esquerda, três caixas de Cheezels no centro e um pacote de Doritos Viapas à direita. Na prateleira inferior, vemos Twisties à esquerda, três caixas de Cheezels no centro e vários frascos de molho Doritos Salsa à direita. PASSO 2: Dividindo em regiões: Superior Esquerda (Twisties), Superior Centro (Cheezels), Superior Direita (Doritos Viapas); Inferior Esquerda (Twisties), Inferior Centro (Cheezels), Inferior Direita (Doritos Salsa). Não foram identificadas anomalias significativas; os produtos estão alinhados e as etiquetas de preço estão presentes. PASSO 3: Não existem anomalias a reportar. PASSO 4: O preenchimento das prateleiras é muito elevado, com quase todos os espaços ocupados por produtos, resultando num fill rate estimado de 0.95."
+}

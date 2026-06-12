@@ -1,0 +1,14 @@
+{
+  "inspection_id": "INS_20260607_113309_495",
+  "timestamp": "2026-06-07T11:33:09Z",
+  "image_path": "data\\images\\img_0506.jpg",
+  "zone_id": "Z_S5",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Movietime Buttered Popcorn",
+    "Tasty Jacks Top 20 Variety Packs"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A prateleira superior contém pacotes de pipoca 'Movietime Buttered Popcorn'. A prateleira inferior contém pacotes de snacks 'Tasty Jacks Top 20'. Há etiquetas de preço visíveis. PASSO 2: Prateleira superior: totalmente preenchida, sem espaços vazios. Prateleira inferior: totalmente preenchida, sem espaços vazios. Não foram detetadas anomalias de alinhamento, produtos danificados ou falta de etiquetas. PASSO 3: Não existem anomalias a reportar. PASSO 4: O fill rate é estimado em 0.95, dado que as prateleiras estão praticamente cheias, com apenas pequenos espaços marginais típicos de exposição."
+}

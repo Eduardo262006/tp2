@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260606_165756_484",
+  "timestamp": "2026-06-06T16:57:56Z",
+  "image_path": "data\\images\\img_0495.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "wrong_product",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Uma lata de refrigerante individual está colocada entre as garrafas de Pepsi, quebrando o padrão de alinhamento e categoria.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "low",
+      "description": "Luvas de limpeza penduradas na frente da prateleira obstruem a visão e o acesso aos produtos.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Sprite",
+    "Pepsi",
+    "Pepsi Light",
+    "Diet Coke",
+    "Coke Zero"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A superior contém garrafas de refrigerante (Sprite, Pepsi, Pepsi Light) alinhadas. A inferior contém caixas de cartão de refrigerantes (Diet Coke, Coke, Pepsi Light). Há luvas penduradas no centro da prateleira superior. PASSO 2: Prateleira superior: alinhamento geral bom, exceto por uma lata intrusa e luvas penduradas. Prateleira inferior: organização em caixas, sem anomalias graves. PASSO 3: Anomalia 1: Lata de refrigerante no meio das garrafas de Pepsi (wrong_product, severidade média). Anomalia 2: Luvas penduradas (other/misaligned, severidade baixa). PASSO 4: O preenchimento é alto, com poucas lacunas, estimado em 92%."
+}

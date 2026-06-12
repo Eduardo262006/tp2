@@ -1,0 +1,44 @@
+{
+  "inspection_id": "INS_20260608_174950_617",
+  "timestamp": "2026-06-08T17:49:50Z",
+  "image_path": "data\\images\\img_0628.jpg",
+  "zone_id": "Z_C1",
+  "overall_status": "critical",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "high",
+      "description": "Vários produtos (Country Gold e Logical) estão tombados, fora de alinhamento e obstruindo o espaço de exposição.",
+      "confidence": 0.95,
+      "affected_area_pct": 30.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "damaged",
+      "location": "prateleira superior, lado direito",
+      "severity": "high",
+      "description": "Embalagem de margarina Proactiv aberta ou danificada com derrame de conteúdo sobre a prateleira.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro-esquerda",
+      "severity": "medium",
+      "description": "Espaço vazio atrás das embalagens tombadas, indicando falta de organização ou stock insuficiente.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "Country Gold",
+    "Flora",
+    "Logical",
+    "Proactiv"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado com margarinas. À esquerda, pilhas de Country Gold. Ao centro, produtos tombados (Country Gold e Logical). À direita, uma pilha de Flora e uma embalagem de Proactiv com sinais de derrame. PASSO 2: Prateleira superior: Esquerda (pilhas estáveis), Centro (desorganização severa, produtos tombados), Direita (pilhas de Flora e produto danificado). PASSO 3: Identificadas três anomalias principais: 1. Misaligned (produtos tombados no centro), 2. Damaged (derrame de produto Proactiv), 3. Empty_shelf (espaço vazio atrás dos produtos tombados). A severidade é alta devido ao derrame e à desorganização que impede a compra. PASSO 4: O fill rate é estimado em 0.75, considerando que, embora haja produto, a área útil está comprometida pela desorganização e pelo derrame."
+}

@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260604_163443_275",
+  "timestamp": "2026-06-04T16:34:43Z",
+  "image_path": "data\\images\\img_0286.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre as embalagens de leite de chocolate e os produtos adjacentes.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Embalagens de leite orgânico desalinhadas e inclinadas, não seguindo o padrão de faceamento frontal.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "leite vegetal",
+    "leite de soja",
+    "leite de chocolate",
+    "bebidas lácteas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de refrigeração de supermercado com três níveis de prateleiras contendo embalagens de leite (soja, orgânico, chocolate). PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: apresenta uma lacuna visível à esquerda. Prateleira inferior: produtos presentes, mas com desalinhamento nas embalagens da esquerda. PASSO 3: Identificada uma falha de stock (empty_shelf) na prateleira do meio e desalinhamento (misaligned) na inferior. A severidade é média para o vazio e baixa para o desalinhamento. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pelas lacunas pontuais mencionadas."
+}

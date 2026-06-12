@@ -1,0 +1,15 @@
+{
+  "inspection_id": "INS_20260603_121542_089",
+  "timestamp": "2026-06-03T12:15:42Z",
+  "image_path": "data\\images\\img_0089.jpg",
+  "zone_id": "Z_S4",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Kettle Sweet Chilli & Sour Cream",
+    "Kettle Original Salted",
+    "Kettle Teriyaki Chicken"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado contendo sacos de batatas fritas da marca Kettle. A prateleira superior contém sabores 'Sweet Chilli & Sour Cream' e 'Original Salted'. A prateleira inferior contém sabores 'Teriyaki Chicken' e 'Original Salted'. Os produtos estão alinhados e organizados dentro de cestos metálicos. PASSO 2: Prateleira superior: preenchida uniformemente. Prateleira inferior: preenchida uniformemente. Não há espaços vazios significativos, produtos trocados ou etiquetas em falta. PASSO 3: Não foram identificadas anomalias. Todos os produtos estão bem posicionados e as etiquetas de preço correspondem aos produtos visíveis. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que os cestos estão quase totalmente preenchidos com os produtos, havendo apenas um espaço residual mínimo nas extremidades."
+}

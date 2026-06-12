@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260603_121354_053",
+  "timestamp": "2026-06-03T12:13:54Z",
+  "image_path": "data\\images\\img_0053.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os kits de sushi e os molhos verdes, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Produtos (pacotes de ingredientes para sushi) encontram-se desalinhados e ligeiramente caídos para a frente.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "sushi kits",
+    "maionese Kewpie",
+    "molhos Lee Kum Kee",
+    "molhos Ayam",
+    "arroz para sushi",
+    "molhos de peixe"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado com produtos asiáticos (kits de sushi, molhos, arroz). A organização é geralmente boa, mas com falhas pontuais. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: lado esquerdo apresenta um espaço vazio considerável entre os produtos. Prateleira inferior: produtos de arroz e molhos presentes, com alguns pacotes de ingredientes desalinhados no centro. PASSO 3: Identifiquei um 'empty_shelf' na prateleira do meio (lado esquerdo) com severidade média, pois interrompe a continuidade da prateleira. Identifiquei 'misaligned' na prateleira inferior (centro) devido à disposição irregular dos pacotes. PASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das faces está preenchida, exceto pela lacuna na prateleira do meio."
+}

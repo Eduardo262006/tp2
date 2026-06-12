@@ -1,0 +1,16 @@
+{
+  "inspection_id": "INS_20260603_121748_131",
+  "timestamp": "2026-06-03T12:17:48Z",
+  "image_path": "data\\images\\img_0131.jpg",
+  "zone_id": "Z_N2",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Asia at Home meal kits",
+    "Thai Gourmet curry kits",
+    "Crown biscuits/cookies",
+    "Crown Pie"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A prateleira superior contém kits de refeição da marca 'Asia at Home' e outros produtos asiáticos. A prateleira inferior contém kits de caril 'Thai Gourmet', caixas de biscoitos 'Crown' e 'Crown Pie'. PASSO 2: Prateleira superior: totalmente preenchida, sem lacunas. Prateleira inferior: preenchida de forma consistente, com alinhamento adequado dos produtos. Não há produtos danificados visíveis ou etiquetas em falta. PASSO 3: Não foram identificadas anomalias significativas. O alinhamento está dentro dos padrões aceitáveis de retalho. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todo o espaço linear está ocupado por produtos, com apenas espaços mínimos entre unidades."
+}

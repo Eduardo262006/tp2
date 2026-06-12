@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260603_121812_139",
+  "timestamp": "2026-06-03T12:18:12Z",
+  "image_path": "data\\images\\img_0139.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "As caixas de Crown Lager estão desalinhadas e projetadas para fora da borda da prateleira, criando um risco de queda.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "As caixas de Tooheys Extra Dry estão ligeiramente desalinhadas em relação à face da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "XXXX Gold",
+    "Carlton Dry",
+    "Hahn Premium",
+    "Tooheys Extra Dry",
+    "Pure Blonde",
+    "Crown Lager"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um expositor de bebidas alcoólicas. A prateleira superior contém packs de 6 garrafas (XXXX Gold, Carlton Dry, Hahn). A prateleira inferior contém caixas de cartão de 24 unidades (XXXX Gold, Tooheys Extra Dry, Pure Blonde, Crown Lager). PASSO 2: Prateleira superior: organização estável e alinhada. Prateleira inferior: zona esquerda (XXXX Gold) está organizada. Zona central (Tooheys) apresenta ligeiro desalinhamento. Zona direita (Crown Lager) apresenta desalinhamento significativo, com as caixas projetadas para fora da prateleira. PASSO 3: Anomalia 1: Crown Lager (inferior direita), desalinhada/instável, severidade média, confiança 0.95. Anomalia 2: Tooheys (inferior centro), desalinhada, severidade baixa, confiança 0.85. PASSO 4: O preenchimento é quase total, com apenas pequenos espaços vazios entre produtos, resultando num fill rate de 0.95."
+}

@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260607_113327_501",
+  "timestamp": "2026-06-07T11:33:27Z",
+  "image_path": "data\\images\\img_0512.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar latas de fruta, sugerindo rutura de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "low",
+      "description": "Algumas latas de fruta estão desalinhadas ou com a face virada para o lado, prejudicando a visibilidade do produto.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "latas de fruta em calda",
+    "frascos de cerejas",
+    "marshmallows",
+    "caixas de fruta"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 4 níveis visíveis. Contém latas de fruta, frascos de cerejas, embalagens de marshmallows e caixas de fruta. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: apresenta um espaço vazio notável no lado esquerdo e algumas latas desalinhadas no centro. Prateleira inferior: bem organizada. PASSO 3: Identifiquei um 'empty_shelf' na prateleira do meio (lado esquerdo) com severidade média e um 'misaligned' no centro da mesma prateleira. PASSO 4: O fill rate é elevado, estimado em 0.88, dado que a maioria das prateleiras está cheia, exceto pela lacuna mencionada."
+}

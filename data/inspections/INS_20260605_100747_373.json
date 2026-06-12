@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260605_100747_373",
+  "timestamp": "2026-06-05T10:07:47Z",
+  "image_path": "data\\images\\img_0384.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, lado direito, onde deveriam estar produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Espaço vazio entre os produtos na prateleira inferior central.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "pão de forma",
+    "pão artesanal",
+    "pão sem glúten",
+    "pão de fruta"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com 5 níveis de prateleiras contendo diversos tipos de pão embalado. A organização é por tipo de pão. PASSO 2: Prateleira superior: bem preenchida. Segunda prateleira: preenchida, mas com espaços. Terceira prateleira (meio): apresenta uma lacuna considerável no lado direito. Quarta prateleira: preenchida, com pequeno espaço central. Quinta prateleira (inferior): preenchida, com espaço central. PASSO 3: Identifiquei duas zonas de 'empty_shelf' principais. A mais crítica é na prateleira do meio, lado direito, com severidade média. A segunda é na prateleira inferior, com severidade baixa. PASSO 4: O fill rate global é estimado em 0.75, considerando que cerca de 25% do espaço total visível nas prateleiras está vazio ou subutilizado."
+}

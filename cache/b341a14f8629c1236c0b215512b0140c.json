@@ -1,0 +1,25 @@
+{
+  "inspection_id": "INS_20260608_175214_665",
+  "timestamp": "2026-06-08T17:52:14Z",
+  "image_path": "data\\images\\img_0676.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo onde deveriam estar produtos Cutex, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.9,
+  "products_detected": [
+    "vernizes de unhas",
+    "tratamentos de unhas",
+    "produtos de cuidado de unhas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra um expositor de retalho com 4 níveis de prateleiras (pegboards) contendo produtos de cuidado de unhas (vernizes e tratamentos). A organização é feita por ganchos. PASSO 2: Prateleira superior: bem preenchida. Segunda prateleira: bem preenchida. Terceira prateleira: existe um espaço vazio notável no centro, onde faltam produtos Cutex. Prateleira inferior: preenchida, mas com alguns espaços vazios entre produtos. PASSO 3: Identificada uma anomalia de 'empty_shelf' na terceira prateleira (centro), severidade média, pois interrompe a continuidade da marca. Confiança alta devido à visibilidade dos ganchos vazios. PASSO 4: O fill rate é elevado, estimado em 0.9, considerando que a grande maioria dos ganchos está ocupada, exceto pela falha central identificada."
+}

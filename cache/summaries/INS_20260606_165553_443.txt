@@ -1,0 +1,1 @@
+zona Z_N9; estado warning; fill rate 85%; other (medium) em prateleira superior, centro: Cesto de compras vermelho abandonado sobre as caixas de Coca-Cola, obstruindo a visualização e o acesso aos produtos.; produtos: Coca-Cola, Sprite Zero, Lift Lemon; data 2026-06-06T16:55:53Z

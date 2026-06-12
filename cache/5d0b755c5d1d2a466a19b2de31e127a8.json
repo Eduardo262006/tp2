@@ -1,0 +1,17 @@
+{
+  "inspection_id": "INS_20260605_100608_340",
+  "timestamp": "2026-06-05T10:06:08Z",
+  "image_path": "data\\images\\img_0351.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.98,
+  "products_detected": [
+    "Fussy Cat food pouches",
+    "V.I.P. Beef & Lamb rolls",
+    "V.I.P. Chicken & Rice rolls",
+    "V.I.P. Gourmet Chicken rolls",
+    "ProtaDog rolls"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho. A prateleira superior contém embalagens de comida para gato (Fussy Cat). A prateleira inferior contém rolos de comida para cão (V.I.P. e ProtaDog). Os produtos estão organizados em filas e colunas bem definidas. PASSO 2: Prateleira superior: totalmente preenchida, sem espaços vazios. Prateleira inferior: preenchida, com uma pequena variação na profundidade ou alinhamento à direita, mas sem falhas de stock. PASSO 3: Não foram detetadas anomalias significativas. O alinhamento é satisfatório e não há produtos danificados ou etiquetas em falta visíveis. PASSO 4: O fill rate é muito elevado, estimado em 0.98, dado que quase todo o espaço disponível está ocupado por produto, com apenas espaços marginais entre embalagens."
+}

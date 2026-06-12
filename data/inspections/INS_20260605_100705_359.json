@@ -1,0 +1,15 @@
+{
+  "inspection_id": "INS_20260605_100705_359",
+  "timestamp": "2026-06-05T10:07:05Z",
+  "image_path": "data\\images\\img_0370.jpg",
+  "zone_id": "Z_S5",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Trident Curry Pastes",
+    "Pasaku Satay Marinade",
+    "Asian Home Gourmet Curry/Stir-fry/Soup mixes"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de retalho bem organizadas, contendo pacotes de pastas de caril (Trident), marinadas (Pasaku) e misturas para culinária asiática (Asian Home Gourmet). Os produtos estão alinhados e voltados para a frente. PASSO 2: Prateleira superior: contém Trident e Pasaku, organização completa. Prateleira do meio: contém Asian Home Gourmet, organização completa. Prateleira inferior: contém Asian Home Gourmet, organização completa. Não foram detetadas falhas de stock (empty_shelf), produtos fora do lugar ou etiquetas em falta. PASSO 3: Não existem anomalias a reportar. A organização é consistente e o facing está correto. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todo o espaço disponível está preenchido com produto, com apenas espaços marginais naturais entre embalagens."
+}

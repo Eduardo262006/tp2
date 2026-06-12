@@ -1,0 +1,44 @@
+{
+  "inspection_id": "INS_20260609_105736_740",
+  "timestamp": "2026-06-09T10:57:36Z",
+  "image_path": "data\\images\\img_0751.jpg",
+  "zone_id": "Z_C2",
+  "overall_status": "critical",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "damaged",
+      "location": "prateleira superior, lado direito",
+      "severity": "high",
+      "description": "Embalagem de margarina Proactiv aberta com derramamento de conteúdo sobre a prateleira.",
+      "confidence": 0.98,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Produtos (Country Gold e Flora) encontram-se tombados e desorganizados, obstruindo a visualização correta.",
+      "confidence": 0.95,
+      "affected_area_pct": 30.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "wrong_product",
+      "location": "prateleira superior, centro",
+      "severity": "low",
+      "description": "Embalagem de produto 'Logical' colocada de forma avulsa e desalinhada sobre a prateleira.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "Country Gold",
+    "Flora",
+    "Proactiv",
+    "Logical"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado com margarinas. À esquerda, pilhas de Country Gold. À direita, pilhas de Flora. No centro, há desorganização severa com produtos tombados, uma embalagem de 'Logical' solta e uma embalagem de 'Proactiv' danificada com vazamento. PASSO 2: Prateleira superior: Esquerda (organizada), Centro (desorganizada/tombada), Direita (pilhas de Flora, mas com produto danificado à frente). PASSO 3: Identifiquei três problemas principais: 1) Produto danificado (Proactiv) com vazamento (severidade alta); 2) Produtos tombados/desalinhados (severidade média); 3) Produto fora de lugar (Logical) (severidade baixa). PASSO 4: O fill rate é estimado em 0.75, pois embora haja produto, a desorganização e o dano ocupam espaço útil e impedem a venda correta."
+}

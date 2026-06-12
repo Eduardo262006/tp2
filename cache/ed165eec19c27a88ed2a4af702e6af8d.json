@@ -1,0 +1,43 @@
+{
+  "inspection_id": "INS_20260605_100502_318",
+  "timestamp": "2026-06-05T10:05:02Z",
+  "image_path": "data\\images\\img_0329.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo no final da prateleira superior, sugerindo falta de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio entre os sumos Squeeze e os sumos de maçã, indicando falta de stock.",
+      "confidence": 0.9,
+      "affected_area_pct": 8.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio considerável após o último sumo Squeeze na prateleira inferior.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "sumos de fruta em pacote",
+    "sumos de fruta em garrafa (Squeeze)",
+    "sumos de maçã em garrafa"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com três níveis de prateleiras contendo sumos de fruta em pacotes de cartão e garrafas de plástico. A organização é predominantemente por blocos de marca/tipo. PASSO 2: Dividindo a prateleira: Superior (cheia à esquerda, vazia à direita), Meio (cheia à esquerda, lacuna à direita), Inferior (cheia à esquerda, lacuna à direita). PASSO 3: Identifiquei três zonas de 'empty_shelf' nas extremidades direitas de cada prateleira, onde o stock não chega ao fim da prateleira. A severidade é média pois não há rutura total de produto, apenas falta de preenchimento. PASSO 4: O fill rate é estimado em 0.85, considerando que cerca de 15% do espaço total disponível nas prateleiras está vazio."
+}

@@ -1,0 +1,18 @@
+{
+  "inspection_id": "INS_20260603_121833_146",
+  "timestamp": "2026-06-03T12:18:33Z",
+  "image_path": "data\\images\\img_0146.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Tasman Bitter",
+    "Grolsch Premium Lager",
+    "Hollandia",
+    "Hahn Premium Light",
+    "Cascade Premium Light",
+    "Crown Lager"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado contendo caixas de cerveja. Os produtos estão organizados em blocos verticais. Há também uma tira de produtos pendurados (palhinhas ou acessórios) no lado esquerdo. PASSO 2: Prateleira superior: Esquerda (Tasman Bitter), Centro (Grolsch), Direita (Hollandia). Prateleira inferior: Esquerda (Hahn Premium Light), Centro (Cascade Premium Light), Direita (Crown Lager). Não se observam espaços vazios significativos, produtos danificados ou etiquetas em falta. PASSO 3: Não foram identificadas anomalias. A organização está consistente com o plano de merchandising. PASSO 4: O fill rate é elevado, com quase todas as posições ocupadas por caixas de produto, estimando-se em 0.95 devido a pequenos espaços marginais entre as caixas."
+}

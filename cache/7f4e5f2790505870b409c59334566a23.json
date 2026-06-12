@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260602_153900_037",
+  "timestamp": "2026-06-02T15:39:00Z",
+  "image_path": "data\\images\\img_0037.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira onde deveriam estar produtos, interrompendo a continuidade do stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "low",
+      "description": "Produtos (caixas de fruta) desalinhados e empilhados de forma irregular.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "fruta em conserva",
+    "salada de fruta",
+    "pêssegos em calda",
+    "fruta em copos"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 5 níveis visíveis, contendo conservas de fruta (copos e caixas). A organização é geralmente boa, mas com algumas falhas de preenchimento. PASSO 2: Analisando por zonas: Nível superior (cheio), Nível 2 (alguns espaços vazios à esquerda e desalinhamento à direita), Nível 3 (copos de fruta, preenchimento ok), Nível 4 (fruta em frascos, preenchimento ok), Nível 5 (fruta em frascos, preenchimento ok). PASSO 3: Identifiquei um 'empty_shelf' no segundo nível (lado esquerdo) e um 'misaligned' no mesmo nível (lado direito). A severidade é média devido ao impacto na experiência do cliente. PASSO 4: O fill rate é elevado, estimado em 0.88, considerando que a maioria das prateleiras está bem abastecida, exceto pela lacuna no segundo nível."
+}

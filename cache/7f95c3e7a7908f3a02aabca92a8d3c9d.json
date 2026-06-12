@@ -1,0 +1,46 @@
+{
+  "inspection_id": "INS_20260607_113321_499",
+  "timestamp": "2026-06-07T11:33:21Z",
+  "image_path": "data\\images\\img_0510.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "wrong_product",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Um conjunto de luvas está pendurado na frente da prateleira de bebidas, obstruindo a visão e o acesso aos produtos Pepsi.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "wrong_product",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Uma lata de refrigerante isolada está posicionada entre as garrafas de Pepsi, quebrando o padrão de organização.",
+      "confidence": 0.9,
+      "affected_area_pct": 2.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafa de Sprite desalinhada em relação à fila de produtos adjacentes.",
+      "confidence": 0.85,
+      "affected_area_pct": 2.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Pepsi",
+    "Pepsi Max",
+    "Pepsi Light",
+    "Sprite",
+    "Diet Coke",
+    "Luvas (item intruso)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado. Nível superior: garrafas de 2L de Pepsi e Pepsi Max. Nível médio: garrafas de 2L de Pepsi, Pepsi Light e Sprite. Nível inferior: caixas de Diet Coke e Pepsi. Há um expositor vertical de luvas obstruindo o centro das prateleiras superior e média. PASSO 2: Prateleira superior: obstrução por luvas no centro. Prateleira média: obstrução por luvas no centro, Sprite desalinhada à esquerda. Prateleira inferior: uma lata isolada no meio das garrafas. PASSO 3: Identifiquei a obstrução das luvas como 'wrong_product' (item fora de categoria), a lata isolada como 'wrong_product' e a Sprite como 'misaligned'. A severidade é média para as luvas devido à obstrução visual significativa. PASSO 4: O preenchimento é alto, com poucas falhas de stock, estimado em 0.92."
+}

@@ -1,0 +1,23 @@
+{
+  "inspection_id": "INS_20260602_153715_002",
+  "timestamp": "2026-06-02T15:37:15Z",
+  "image_path": "data\\images\\img_0002.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, entre o primeiro e o segundo bloco de produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Coles Ice Cream Cones"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com 4 níveis visíveis. O produto é consistente (Coles Ice Cream Cones), com embalagens roxas e azuis. PASSO 2: Prateleira superior (cheia), segunda prateleira (cheia), terceira prateleira (cheia), prateleira inferior (presença de um espaço vazio entre o primeiro produto à esquerda e o bloco central). PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira inferior, lado esquerdo, com severidade média devido à descontinuidade do stock. Confiança alta. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na base."
+}

@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260607_113512_536",
+  "timestamp": "2026-06-07T11:35:12Z",
+  "image_path": "data\\images\\img_0547.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre as caixas de Tooheys New e as caixas de Carlton Draught, indicando falta de stock ou produto deslocado.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "As embalagens de Hahn Premium Light estão ligeiramente desalinhadas em relação à frente da prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Tooheys Extra Dry",
+    "Tooheys Extra Dry Platinum",
+    "Hahn Premium Light",
+    "Tooheys New",
+    "Carlton Draught",
+    "Victoria Bitter"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado com bebidas alcoólicas (cervejas). A prateleira superior contém garrafas individuais em packs de 6. A prateleira inferior contém caixas de cartão (cartons) de 24/30 unidades. PASSO 2: Prateleira superior: bem organizada, apenas um ligeiro desalinhamento à direita. Prateleira inferior: zona central apresenta um vazio entre as caixas de Tooheys New e Carlton Draught. PASSO 3: Identificada uma falha de stock (empty_shelf) na prateleira inferior (centro-esquerda) e um desalinhamento menor na superior. A severidade é 'warning' devido ao espaço vazio na prateleira inferior que prejudica a apresentação. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria do espaço está preenchido, exceto pela lacuna na prateleira inferior."
+}

@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260604_163325_249",
+  "timestamp": "2026-06-04T16:33:25Z",
+  "image_path": "data\\images\\img_0260.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, extrema direita",
+      "severity": "low",
+      "description": "Espaço vazio na extremidade direita da prateleira superior, sugerindo falta de stock ou produto deslocado.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro-direita",
+      "severity": "low",
+      "description": "Frascos de molhos desalinhados e com espaçamento irregular na prateleira inferior.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Asian Home Gourmet curry pastes",
+    "Mae Ploy curry paste",
+    "Indomie instant noodles",
+    "Cooking sauces/jars"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado com produtos de culinária asiática (Asian Home Gourmet, Mae Ploy, Indomie). A organização é predominantemente por filas verticais com etiquetas de preço correspondentes. PASSO 2: Prateleira superior: bem organizada, exceto por um pequeno espaço vazio na extrema direita. Prateleira do meio: bem organizada, com produtos alinhados. Prateleira inferior: contém frascos de vidro, com algum desalinhamento no centro-direita. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior (severidade baixa, confiança alta) e 'misaligned' na prateleira inferior (severidade baixa, confiança alta). PASSO 4: O fill rate é elevado, estimado em 0.92, dado que a grande maioria dos espaços está preenchida com produtos."
+}

@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260604_163107_203",
+  "timestamp": "2026-06-04T16:31:07Z",
+  "image_path": "data\\images\\img_0214.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde faltam várias unidades de produto.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Produtos da marca Ski D'lite encontram-se desalinhados e com organização irregular.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "iogurtes Yoplait",
+    "iogurtes Ski D'lite",
+    "iogurtes Nestlé"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 4 níveis de prateleiras contendo iogurtes de várias marcas (Yoplait, Ski D'lite, Nestlé). As prateleiras superiores estão bem abastecidas. A prateleira inferior apresenta lacunas. PASSO 2: Superior/Meio: Bem organizados, sem anomalias visíveis. Inferior: Lado esquerdo apresenta um espaço vazio (empty_shelf). Centro: Produtos Ski D'lite estão desorganizados/desalinhados. PASSO 3: Anomalia 1 (empty_shelf): Localizada na prateleira inferior esquerda, severidade média, confiança 0.95. Anomalia 2 (misaligned): Localizada na prateleira inferior central, severidade baixa, confiança 0.85. PASSO 4: O fill rate é alto nas prateleiras superiores (>95%), mas cai na inferior devido ao espaço vazio, resultando numa média global estimada de 0.88."
+}

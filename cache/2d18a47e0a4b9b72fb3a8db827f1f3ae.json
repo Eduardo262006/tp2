@@ -1,0 +1,25 @@
+{
+  "inspection_id": "INS_20260607_113503_533",
+  "timestamp": "2026-06-07T11:35:03Z",
+  "image_path": "data\\images\\img_0544.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos pendurados no gancho central da prateleira superior.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "copos de treino para bebé",
+    "talheres infantis",
+    "acessórios de alimentação"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de retalho com produtos de puericultura (copos de treino, talheres, recipientes). Os produtos estão organizados em ganchos e prateleiras. PASSO 2: Dividindo a prateleira: Superior (contém copos de treino em ganchos), Meio (copos Disney e talheres), Inferior (copos e acessórios). Anomalia detetada na prateleira superior, zona central, onde existe um gancho vazio ou com falta de stock, criando um espaço desocupado. PASSO 3: A anomalia é classificada como 'empty_shelf' na prateleira superior, centro. Severidade média, pois afeta a estética e a disponibilidade, com alta confiança. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria dos ganchos e prateleiras estão bem preenchidos, exceto pela lacuna identificada."
+}

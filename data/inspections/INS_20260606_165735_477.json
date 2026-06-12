@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260606_165735_477",
+  "timestamp": "2026-06-06T16:57:35Z",
+  "image_path": "data\\images\\img_0488.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira central, zona central",
+      "severity": "low",
+      "description": "Garrafas de água mineral estão desalinhadas, com algumas viradas para direções diferentes, prejudicando a estética da face da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "wrong_product",
+      "location": "prateleira central, lado direito",
+      "severity": "medium",
+      "description": "Presença de garrafas de 'Deep Spring Orange & Mango' misturadas na secção de 'Coles Pineapple Mango Mineral Water'.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Coles Pineapple Mango Mineral Water",
+    "Deep Spring Orange & Mango Mineral Water"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado preenchida com garrafas de 1.25L de água mineral. A maioria são da marca própria (Coles), sabor Pineapple Mango. Há uma secção à direita com garrafas da marca Deep Spring (Orange & Mango). PASSO 2: A prateleira está quase totalmente preenchida. A zona central apresenta desalinhamento das garrafas (rótulos não orientados uniformemente). A zona direita apresenta uma mistura de produtos (Deep Spring inserido no espaço da Coles). PASSO 3: Identifiquei desalinhamento (baixa severidade) e mistura de produtos/wrong_product (média severidade, pois quebra o planograma). PASSO 4: O fill rate é elevado, estimado em 0.95, pois quase não há espaços vazios visíveis na frente da prateleira."
+}

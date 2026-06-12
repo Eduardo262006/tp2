@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260609_105651_725",
+  "timestamp": "2026-06-09T10:56:51Z",
+  "image_path": "data\\images\\img_0736.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Os pacotes de snacks estão desorganizados, empilhados de forma irregular e alguns virados de costas, dificultando a visualização da marca.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "other",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Presença de material promocional (cartaz de concurso) que obstrui parcialmente a visão dos produtos atrás.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.9,
+  "products_detected": [
+    "Twisties Cheese",
+    "Twisties Chicken",
+    "Cheese Snacks"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de snacks. A superior contém pacotes de 'Cheese Snacks' (azul) e 'Twisties Cheese' (vermelho). A inferior contém pacotes de 'Twisties' (amarelo/vermelho) e 'Twisties Chicken' (verde). PASSO 2: Prateleira superior: organizada, exceto por um cartaz promocional sobre os snacks azuis. Prateleira inferior: lado direito organizado com Twisties Chicken, lado esquerdo com produtos desorganizados, alguns virados de costas e empilhados sem alinhamento. PASSO 3: Anomalia 1 (misaligned): prateleira inferior esquerda, severidade média, produtos desarrumados. Anomalia 2 (other): prateleira superior esquerda, severidade baixa, obstrução por cartaz. PASSO 4: O fill rate é alto, estimado em 0.9, pois as prateleiras estão quase totalmente preenchidas, apesar da desorganização."
+}

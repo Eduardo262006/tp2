@@ -1,0 +1,27 @@
+{
+  "inspection_id": "INS_20260607_113424_520",
+  "timestamp": "2026-06-07T11:34:24Z",
+  "image_path": "data\\images\\img_0531.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, toda a extensão",
+      "severity": "medium",
+      "description": "Os pacotes de Roti Wraps e produtos similares estão empilhados de forma desorganizada, sobrepostos e desalinhados, dificultando a visualização e o acesso.",
+      "confidence": 0.95,
+      "affected_area_pct": 60.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "molhos de caril",
+    "ghee",
+    "pappadams",
+    "roti wraps",
+    "molhos Sharwood's"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado com produtos indianos/étnicos. A prateleira superior contém caixas de caril, ghee e pappadams. A prateleira do meio contém embalagens de Roti Wraps e pães planos. A prateleira inferior contém uma variedade de molhos em frascos de vidro. PASSO 2: Prateleira superior: organizada. Prateleira do meio: desorganizada, produtos empilhados sem alinhamento. Prateleira inferior: organizada. PASSO 3: Identificada anomalia de desalinhamento na prateleira do meio. A severidade é média pois, embora os produtos estejam presentes, a apresentação está caótica. Confiança alta devido à clara desordem visual. PASSO 4: O fill rate é alto (cerca de 85%), pois as prateleiras estão quase cheias, mas a organização compromete a eficiência do espaço."
+}

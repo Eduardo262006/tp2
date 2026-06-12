@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260606_165805_487",
+  "timestamp": "2026-06-06T16:58:05Z",
+  "image_path": "data\\images\\img_0498.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos Colgate.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos de higiene oral (frascos) desalinhados e com espaçamento irregular.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "pasta de dentes Colgate",
+    "elixires/frascos de higiene oral"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com 4 níveis de prateleiras contendo produtos de higiene oral (maioritariamente pasta de dentes Colgate e alguns frascos). PASSO 2: Prateleira superior: frascos de higiene oral, alguns desalinhados. Prateleira 2: caixas de pasta de dentes Colgate bem organizadas. Prateleira 3: caixas de pasta de dentes Colgate, organização aceitável. Prateleira inferior: caixas de pasta de dentes, com uma zona vazia notável no lado direito. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira inferior (severidade média, confiança alta) e desalinhamento ('misaligned') na prateleira superior (severidade baixa, confiança alta). PASSO 4: O fill rate é estimado em 0.88, considerando a ocupação quase total das prateleiras superiores e a falha de stock na inferior."
+}

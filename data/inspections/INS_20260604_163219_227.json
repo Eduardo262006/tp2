@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260604_163219_227",
+  "timestamp": "2026-06-04T16:32:19Z",
+  "image_path": "data\\images\\img_0238.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos alinhados com as etiquetas de preço.",
+      "confidence": 0.95,
+      "affected_area_pct": 30.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Produto (Arnott's) encontra-se deitado e desalinhado em relação ao padrão de exposição vertical dos restantes produtos.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "pipocas de micro-ondas",
+    "snacks/bolachas",
+    "brinquedos (bolas de ténis)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho. A superior contém sacos de pipocas de micro-ondas (Poppin' Popped) bem organizados. A inferior contém snacks (Arnott's) e uma área vazia à esquerda. Há também uma coluna vertical de bolas de ténis à esquerda. PASSO 2: Prateleira superior: bem organizada, sem anomalias. Prateleira inferior: zona esquerda vazia (empty_shelf), zona central com produto desalinhado/deitado (misaligned). PASSO 3: Identifiquei uma falha de stock (empty_shelf) na parte inferior esquerda com severidade média e um desalinhamento (misaligned) na parte inferior central. PASSO 4: O fill rate é estimado em 0.75, considerando que a prateleira superior está cheia, mas a inferior apresenta uma lacuna considerável e desorganização."
+}

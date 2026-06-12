@@ -1,0 +1,44 @@
+{
+  "inspection_id": "INS_20260604_163349_257",
+  "timestamp": "2026-06-04T16:33:49Z",
+  "image_path": "data\\images\\img_0268.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior esquerda, onde deveriam estar produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio na prateleira do meio, lado esquerdo, indicando falta de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Espaço vazio parcial na prateleira inferior esquerda.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "Goulburn Valley Fruit Salad",
+    "Goulburn Valley Apple",
+    "Goulburn Valley Peaches",
+    "Goulburn Valley Apple Strawberry"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 3 níveis principais. Os produtos são embalagens de fruta em conserva (Goulburn Valley). Há zonas de stock completo à direita e zonas com espaços vazios à esquerda em todos os níveis. PASSO 2: Prateleira superior: lado esquerdo vazio. Prateleira do meio: lado esquerdo vazio. Prateleira inferior: lado esquerdo com espaço vazio. PASSO 3: Identifiquei 3 zonas de 'empty_shelf' com severidade média/baixa dependendo da extensão. A confiança é alta devido à clareza da imagem. PASSO 4: Estimativa visual do fill rate: cerca de 75% da área total da prateleira está ocupada por produtos, com 25% de espaços vazios distribuídos principalmente na metade esquerda."
+}

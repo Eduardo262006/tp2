@@ -1,0 +1,25 @@
+{
+  "inspection_id": "INS_20260602_153733_008",
+  "timestamp": "2026-06-02T15:37:33Z",
+  "image_path": "data\\images\\img_0008.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os babetes brancos e os babetes cor-de-rosa, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "roupa de bebé",
+    "babetes",
+    "peluches"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de retalho de artigos para bebé. A prateleira superior contém caixas de stock (Dove, Kleenex). A prateleira do meio contém babetes e roupa de bebé em embalagens plásticas penduradas. A prateleira inferior contém mais roupa de bebé. Há peluches pendurados na frente da prateleira do meio. PASSO 2: Prateleira superior: OK (stock de armazém). Prateleira do meio: Existe uma lacuna visível no centro, entre os babetes brancos e os babetes cor-de-rosa. Prateleira inferior: OK. PASSO 3: Anomalia identificada na prateleira do meio (centro): empty_shelf. Severidade média, pois interrompe a continuidade da exposição. Confiança alta. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria dos ganchos está ocupada, exceto pela lacuna central na prateleira do meio."
+}

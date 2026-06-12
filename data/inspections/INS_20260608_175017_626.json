@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260608_175017_626",
+  "timestamp": "2026-06-08T17:50:17Z",
+  "image_path": "data\\images\\img_0637.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os kits de enchiladas e as latas, indicando falta de stock ou má organização.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Embalagens de tortilhas estão desorganizadas e sobrepostas, dificultando a visualização e acesso.",
+      "confidence": 0.9,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Kits de Enchiladas",
+    "Tortilhas",
+    "Latas de conservas (feijão/grão)",
+    "Bolachas/Sponge Fingers"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de supermercado com produtos de mercearia (kits de comida mexicana, tortilhas, latas de conservas e bolachas). Há etiquetas de preço e sinalética de 'Discontinued line'. PASSO 2: Dividindo a prateleira: Superior (bolachas e kits), Meio (kits, tortilhas e latas), Inferior (tortilhas e latas). Anomalias: Zona central da prateleira do meio apresenta um vazio entre os produtos. Na prateleira inferior, as tortilhas estão amontoadas e desalinhadas. PASSO 3: Identifiquei um 'empty_shelf' parcial no centro da prateleira do meio (severidade média) e 'misaligned' nas tortilhas da prateleira inferior (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria do espaço está preenchido, mas com lacunas e desorganização pontual."
+}

@@ -1,0 +1,43 @@
+{
+  "inspection_id": "INS_20260609_105933_779",
+  "timestamp": "2026-06-09T10:59:33Z",
+  "image_path": "data\\images\\img_0790.jpg",
+  "zone_id": "Z_C3",
+  "overall_status": "critical",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "high",
+      "description": "Grande área vazia na prateleira central, com apenas um item isolado fora de lugar.",
+      "confidence": 0.95,
+      "affected_area_pct": 60.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior.",
+      "confidence": 0.9,
+      "affected_area_pct": 40.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "low",
+      "description": "Produto isolado deixado fora de lugar na prateleira vazia.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.65,
+  "products_detected": [
+    "garrafas de água mineral",
+    "utensílios de cozinha (escovas/raspadores)",
+    "embalagens de bebidas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras. A superior está bem abastecida com garrafas de água. A prateleira do meio apresenta uma falha grave de stock no centro, com apenas um item isolado. A prateleira inferior tem garrafas de água nas extremidades, mas um vazio considerável no centro. Há também expositores verticais de utensílios de cozinha à direita. PASSO 2: Prateleira superior: OK. Prateleira do meio: Centro vazio (anomalia). Prateleira inferior: Centro vazio (anomalia). PASSO 3: Identificadas duas zonas de 'empty_shelf' (meio e inferior) e um item 'misaligned' na prateleira do meio. Severidade alta para o vazio central. PASSO 4: Estimativa de fill rate baseada na ocupação visual: superior (~95%), meio (~40%), inferior (~60%). Média global estimada em 0.65."
+}

@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260604_162846_156",
+  "timestamp": "2026-06-04T16:28:46Z",
+  "image_path": "data\\images\\img_0167.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre as caixas de Kirks e as caixas de Fanta, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "wrong_product",
+      "location": "prateleira superior, centro",
+      "severity": "low",
+      "description": "Um pacote de formas de papel para bolos (bake it) está colocado na prateleira de bebidas, fora da sua categoria.",
+      "confidence": 0.98,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "bebidas gaseificadas",
+    "sumos",
+    "caixas de refrigerantes",
+    "artigos de pastelaria"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A superior contém garrafas de refrigerantes (Pine Crush, Passion Crush, etc.) e um item de pastelaria. A inferior contém caixas de cartão de refrigerantes (Kirks, Fanta, Sunkist). PASSO 2: Prateleira superior: organizada, exceto por um item intruso. Prateleira inferior: lado esquerdo com caixas de Kirks, lado direito com caixas de Fanta/Sunkist, centro com um espaço vazio considerável. PASSO 3: Identifiquei um 'empty_shelf' no centro da prateleira inferior (severidade média) e um 'wrong_product' na prateleira superior (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria do espaço está ocupado, mas há uma lacuna clara no centro da prateleira inferior."
+}

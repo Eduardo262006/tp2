@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260604_163010_184",
+  "timestamp": "2026-06-04T16:30:10Z",
+  "image_path": "data\\images\\img_0195.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, onde deveriam estar produtos de leite.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio considerável na prateleira do meio, interrompendo a continuidade dos produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.82,
+  "products_detected": [
+    "leite em embalagem de cartão",
+    "leite em garrafa de plástico"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de laticínios com três níveis de prateleiras. A prateleira superior contém embalagens de cartão de leite (marcas Coles e Snowy Hydro). A prateleira do meio contém embalagens de cartão (Coles e Canberra Milk). A prateleira inferior contém garrafas de plástico de leite. PASSO 2: Prateleira superior: lado esquerdo e centro preenchidos, lado direito com falha de stock. Prateleira do meio: lado esquerdo preenchido, centro vazio, lado direito preenchido. Prateleira inferior: preenchida de forma consistente. PASSO 3: Identificadas duas zonas de 'empty_shelf' (prateleira superior direita e prateleira do meio centro). Severidade média pois o stock está disponível noutras áreas, mas a organização está comprometida. Confiança alta devido à clareza visual dos espaços vazios. PASSO 4: Estimativa de fill rate: considerando a ocupação total das três prateleiras, cerca de 82% do espaço está ocupado por produto."
+}

@@ -1,0 +1,23 @@
+{
+  "inspection_id": "INS_20260604_163337_253",
+  "timestamp": "2026-06-04T16:33:37Z",
+  "image_path": "data\\images\\img_0264.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na secção direita da prateleira, onde deveriam estar produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 50.0
+    }
+  ],
+  "shelf_fill_rate": 0.5,
+  "products_detected": [
+    "pizzas congeladas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de exposição refrigerada contendo pizzas congeladas (Hawaiian Pizza). A prateleira possui divisórias metálicas. PASSO 2: A prateleira está dividida em duas secções principais visíveis: a esquerda contém uma pizza, a central contém outra pizza, e a secção da direita está completamente vazia. PASSO 3: Identifiquei uma anomalia de 'empty_shelf' na metade direita da prateleira. A severidade é média, pois metade do espaço disponível está desocupado. A confiança é alta devido à clareza das divisórias vazias. PASSO 4: Considerando que existem 3 espaços delimitados pelas divisórias e apenas 2 estão ocupados, o fill rate é aproximadamente 0.5 (50%)."
+}

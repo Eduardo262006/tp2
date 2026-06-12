@@ -1,0 +1,32 @@
+{
+  "inspection_id": "INS_20260604_163225_229",
+  "timestamp": "2026-06-04T16:32:25Z",
+  "image_path": "data\\images\\img_0240.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível à esquerda da caixa de Pure Blonde, indicando falta de produto ou recuo excessivo.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Caixa de cerveja parcialmente visível e desalinhada na prateleira inferior.",
+      "confidence": 0.8,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Cerveja (Pure Blonde, Beck's, Coopers, König Pilsener)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras principais de um expositor de bebidas alcoólicas. Na prateleira superior, vejo caixas de Pure Blonde e Beck's. Na prateleira inferior, vejo caixas de Coopers e König Pilsener. Há uma prateleira adicional na base parcialmente visível. PASSO 2: Prateleira superior: lado esquerdo tem um espaço vazio significativo. Prateleira inferior: produtos bem alinhados, exceto por uma caixa na base que parece deslocada. PASSO 3: Identifiquei um 'empty_shelf' na parte superior esquerda (severidade média, confiança 0.9) e um 'misaligned' na prateleira inferior (severidade baixa, confiança 0.8). PASSO 4: O preenchimento é bom, mas com lacunas pontuais. Estimo um fill rate de 0.85."
+}

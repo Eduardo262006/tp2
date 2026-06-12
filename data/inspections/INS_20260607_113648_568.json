@@ -1,0 +1,27 @@
+{
+  "inspection_id": "INS_20260607_113648_568",
+  "timestamp": "2026-06-07T11:36:48Z",
+  "image_path": "data\\images\\img_0579.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre as garrafas de Coca-Cola e as garrafas à direita, indicando falta de stock ou organização deficiente.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "Coca-Cola",
+    "Diet Coke",
+    "Sprite",
+    "Lift",
+    "Coca-Cola Zero"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado com bebidas carbonatadas. No topo, garrafas de 2L de Coca-Cola e caixas de Lift. No meio, garrafas de Coca-Cola, caixas de Diet Coke e Sprite, com um espaço vazio notável no centro. Na base, caixas de Coca-Cola Zero e garrafas de Coca-Cola. Há também expositores suspensos de garrafas individuais à direita. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: lado esquerdo com caixas, centro com um grande vazio, lado direito com garrafas. Prateleira inferior: bem abastecida. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira do meio, zona central, onde o stock não está alinhado ou falta produto, criando um buraco visual. Severidade média, pois afeta a estética e a disponibilidade imediata. Confiança alta. PASSO 4: O fill rate global é estimado em 0.75, considerando que a prateleira do meio tem uma lacuna de cerca de 25% do seu espaço útil."
+}

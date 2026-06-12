@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260603_121639_108",
+  "timestamp": "2026-06-03T12:16:39Z",
+  "image_path": "data\\images\\img_0108.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio na prateleira inferior, indicando falta de stock ou produto removido.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "low",
+      "description": "Etiqueta de preço desalinhada/pendurada de forma irregular.",
+      "confidence": 0.9,
+      "affected_area_pct": 2.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "margarina",
+    "manteiga",
+    "produtos de culinária",
+    "óleos vegetais"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado organizada com vários tipos de margarinas, manteigas e produtos de culinária (Fairy, Copha, Flora, Meadowlea). A organização é predominantemente em colunas verticais. PASSO 2: Dividindo a prateleira: Superior (cheia, organizada), Meio (cheia, com uma etiqueta de preço ligeiramente desalinhada), Inferior (maioritariamente cheia, mas com um espaço vazio visível no canto inferior direito). PASSO 3: Identificação de anomalias: 1) Espaço vazio na prateleira inferior direita (empty_shelf, severidade média, confiança alta). 2) Etiqueta de preço desalinhada na prateleira do meio (misaligned, severidade baixa, confiança alta). PASSO 4: O fill rate é elevado, estimado em 0.92, dado que a grande maioria das prateleiras está totalmente preenchida, com apenas uma pequena lacuna na parte inferior."
+}

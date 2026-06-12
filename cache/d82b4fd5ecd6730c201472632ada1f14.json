@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260606_165402_406",
+  "timestamp": "2026-06-06T16:54:02Z",
+  "image_path": "data\\images\\img_0417.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, à esquerda, onde deveriam estar produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "other",
+      "location": "lado direito, vertical",
+      "severity": "low",
+      "description": "Presença de um saco de bolas de ténis pendurado na zona de exposição de sumos, ocupando espaço de prateleira.",
+      "confidence": 0.98,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "Golden Circle Nectar",
+    "Berri Juice",
+    "Golden Circle Breakfast Juice",
+    "Golden Circle Tomato Juice"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado com sumos (Golden Circle e Berri). À direita, há um saco de bolas de ténis pendurado. PASSO 2: Prateleira superior: bem abastecida. Prateleira inferior: lado esquerdo com espaço vazio (falta de stock), centro e direita com sumos. Zona lateral direita: obstruída por bolas de ténis. PASSO 3: Anomalia 1: Espaço vazio na prateleira inferior (empty_shelf), severidade média. Anomalia 2: Obstrução por produto não alimentar (bolas de ténis) na zona de exposição (other), severidade baixa. PASSO 4: O fill rate é estimado em 0.75, considerando o espaço vazio na prateleira inferior e a ocupação indevida por bolas de ténis."
+}

@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260609_105536_700",
+  "timestamp": "2026-06-09T10:55:36Z",
+  "image_path": "data\\images\\img_0711.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "segunda prateleira a contar de cima, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos Vaalia e os iogurtes à direita.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos empilhados de forma irregular e desalinhada em comparação com o resto da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "iogurtes",
+    "iogurtes gregos",
+    "iogurtes de fruta",
+    "iogurtes naturais"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 5 níveis de prateleiras contendo diversos tipos de iogurtes (copos e embalagens de cartão). A organização é predominantemente por marca e tipo. PASSO 2: Analisando por regiões: Superior (bem preenchida), Segunda (presença de um espaço vazio notável à esquerda), Terceira (bem preenchida), Quarta (bem preenchida), Inferior (produtos desalinhados à esquerda). PASSO 3: Identifiquei um 'empty_shelf' na segunda prateleira (gap entre produtos) e 'misaligned' na prateleira inferior (pilhas instáveis). A severidade é média para o espaço vazio e baixa para o desalinhamento. PASSO 4: O fill rate é elevado, estimado em 0.88, dado que a maioria das prateleiras está quase totalmente ocupada, exceto pelos pequenos gaps identificados."
+}

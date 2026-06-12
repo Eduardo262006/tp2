@@ -1,0 +1,15 @@
+{
+  "inspection_id": "INS_20260607_113439_525",
+  "timestamp": "2026-06-07T11:34:39Z",
+  "image_path": "data\\images\\img_0536.jpg",
+  "zone_id": "Z_S1",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "sumos Berri",
+    "sumos Ribena",
+    "bolas de ténis"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A prateleira superior contém sumos Berri (vários sabores) e uma garrafa de Ribena. A prateleira inferior contém sumos Berri Breakfast Time e Ribena. À esquerda, há uma rede de bolas de ténis pendurada. PASSO 2: Prateleira superior: bem organizada, produtos alinhados. Prateleira inferior: bem organizada, produtos alinhados. Não há espaços vazios significativos ou produtos fora do lugar. PASSO 3: Não foram detetadas anomalias. Todos os produtos estão alinhados, com etiquetas de preço visíveis e sem danos aparentes. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que as prateleiras estão quase totalmente preenchidas com apenas pequenos espaços vazios nas extremidades ou entre produtos."
+}

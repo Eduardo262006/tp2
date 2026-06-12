@@ -1,0 +1,27 @@
+{
+  "inspection_id": "INS_20260603_121530_085",
+  "timestamp": "2026-06-03T12:15:30Z",
+  "image_path": "data\\images\\img_0085.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior esquerda, onde deveriam estar produtos similares aos brinquedos de bebé adjacentes.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "brinquedos de bebé",
+    "lancheiras",
+    "garrafas de água",
+    "recipientes de plástico",
+    "copos de plástico"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de retalho com brinquedos de bebé (lado esquerdo) e artigos de cozinha/lanche (lado direito). PASSO 2: Dividindo a prateleira: Superior (lancheiras), Meio (brinquedos de bebé, garrafas), Inferior (brinquedos de bebé, recipientes). Identifico um vazio notável na prateleira inferior esquerda. PASSO 3: Anomalia: empty_shelf na prateleira inferior esquerda. Severidade média, pois interrompe a continuidade da exposição. Confiança alta. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está bem abastecida, exceto pela lacuna mencionada."
+}

@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260607_113530_542",
+  "timestamp": "2026-06-07T11:35:30Z",
+  "image_path": "data\\images\\img_0553.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na extremidade direita da prateleira inferior, onde deveriam estar produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Produto posicionado de forma irregular, desalinhado em relação à fila principal.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "comida para gato (sacos)",
+    "comida para cão (rolos Platinum)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras. A superior contém sacos de comida para gato (V.I.P.). A inferior contém rolos de comida para cão (Platinum). PASSO 2: Prateleira superior: bem organizada, sem anomalias. Prateleira inferior: organizada no centro e esquerda, mas apresenta um espaço vazio considerável na extremidade direita e um rolo ligeiramente desalinhado no centro. PASSO 3: Identificada uma zona de 'empty_shelf' na direita inferior (severidade média) e um 'misaligned' no centro inferior (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira inferior e a ocupação total da superior."
+}

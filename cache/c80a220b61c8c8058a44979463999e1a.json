@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260603_121557_094",
+  "timestamp": "2026-06-03T12:15:57Z",
+  "image_path": "data\\images\\img_0094.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos de banho e a secção de Palmolive à direita.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "low",
+      "description": "Produtos Lynx e outros estão desalinhados, com alguns inclinados ou fora da fila frontal.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "gel de banho",
+    "champô",
+    "produtos de higiene corporal"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de retalho contendo produtos de higiene corporal (gel de banho/champô). As marcas visíveis incluem Palmolive, Lynx e outras. A organização é geralmente boa, mas há lacunas. PASSO 2: Prateleira superior: bem abastecida, exceto por um espaço vazio à direita. Prateleira do meio: bem abastecida, produtos alinhados. Prateleira inferior: bem abastecida. Anomalias: espaço vazio na prateleira superior e ligeiro desalinhamento de produtos na mesma prateleira. PASSO 3: Anomalia 1: empty_shelf, prateleira superior direita, severidade média, confiança 0.95, área afetada 10%. Anomalia 2: misaligned, prateleira superior, severidade baixa, confiança 0.85, área afetada 5%. PASSO 4: O fill rate é elevado, estimado em 0.92, dado que a maioria das prateleiras está cheia, com apenas uma pequena secção vazia na parte superior."
+}

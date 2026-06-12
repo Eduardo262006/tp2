@@ -1,0 +1,26 @@
+{
+  "inspection_id": "INS_20260603_121554_093",
+  "timestamp": "2026-06-03T12:15:54Z",
+  "image_path": "data\\images\\img_0093.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, à esquerda, onde deveriam estar produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "VB Bitter",
+    "Tooheys New",
+    "Cold Filtered Beer",
+    "Boonanza Beer"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado com bebidas alcoólicas (cervejas). Na prateleira superior, vemos packs de VB Bitter e Tooheys New. Na prateleira inferior, vemos packs de Cold Filtered Beer e Boonanza Beer. PASSO 2: Dividindo a prateleira: Superior Esquerda (vazia/espaço não preenchido), Superior Direita (preenchida), Inferior Esquerda (preenchida com Boonanza), Inferior Direita (preenchida com Cold Filtered). Anomalia identificada: espaço vazio na prateleira superior esquerda. PASSO 3: A anomalia é um 'empty_shelf' na prateleira superior esquerda, severidade média, confiança alta (0.95), afetando cerca de 15% da área visível da prateleira superior. PASSO 4: O fill rate global é estimado em 0.85, considerando o espaço vazio na parte superior esquerda e a ocupação densa do restante da prateleira."
+}

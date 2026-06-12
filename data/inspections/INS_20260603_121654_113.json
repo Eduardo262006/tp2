@@ -1,0 +1,25 @@
+{
+  "inspection_id": "INS_20260603_121654_113",
+  "timestamp": "2026-06-03T12:16:54Z",
+  "image_path": "data\\images\\img_0113.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "low",
+      "description": "Uma caixa de Kleenex está colocada transversalmente sobre as outras, quebrando o alinhamento do bloco de produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Sorbent Velvet",
+    "Sorbent Thick & Large",
+    "Kleenex"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de retalho contendo caixas de lenços de papel (Sorbent e Kleenex). A organização é geralmente em blocos, com produtos alinhados frontalmente. PASSO 2: Prateleira superior: bem organizada, sem anomalias. Prateleira do meio: apresenta um bloco de Kleenex, mas uma unidade está desalinhada, colocada de lado sobre as outras. Prateleira inferior: visível apenas parcialmente, parece organizada. PASSO 3: Identificada uma anomalia de desalinhamento na prateleira do meio (centro). Severidade baixa, pois o produto está presente e não danificado, apenas mal posicionado. Confiança alta. PASSO 4: O fill rate é elevado, com quase todos os espaços ocupados, estimado em 0.95."
+}

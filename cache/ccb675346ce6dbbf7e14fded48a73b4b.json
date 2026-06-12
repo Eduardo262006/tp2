@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260602_153724_005",
+  "timestamp": "2026-06-02T15:37:24Z",
+  "image_path": "data\\images\\img_0005.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo e centro",
+      "severity": "medium",
+      "description": "Espaço significativo vazio na prateleira superior, com etiquetas de 'Discontinued line' indicando falta de stock ou descontinuação.",
+      "confidence": 0.95,
+      "affected_area_pct": 30.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Vários espaços vazios na prateleira inferior, com etiquetas de 'Discontinued line' visíveis.",
+      "confidence": 0.9,
+      "affected_area_pct": 25.0
+    }
+  ],
+  "shelf_fill_rate": 0.65,
+  "products_detected": [
+    "latas de vegetais",
+    "molhos",
+    "tahini",
+    "azeitonas",
+    "snacks/grissini"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com 4 níveis visíveis. Contém latas de vegetais (Val Verde, tomate), frascos de molhos, tahini, azeitonas e embalagens de snacks. Existem várias etiquetas azuis de 'Discontinued line' espalhadas. PASSO 2: Prateleira superior: parcialmente preenchida, com lacunas. Prateleira 2: preenchida com latas de feijão e tomate. Prateleira 3: mista, com molhos e snacks, algumas lacunas. Prateleira inferior: várias lacunas e espaços vazios. PASSO 3: Identifiquei 'empty_shelf' em várias zonas onde as etiquetas de descontinuação sugerem falta de produto ou fim de linha. A severidade é média pois, embora existam espaços vazios, a prateleira não está totalmente desabastecida. PASSO 4: O fill rate global é estimado em 0.65, considerando a ocupação visual das prateleiras em relação ao espaço total disponível."
+}

@@ -1,0 +1,24 @@
+{
+  "inspection_id": "INS_20260609_105612_712",
+  "timestamp": "2026-06-09T10:56:12Z",
+  "image_path": "data\\images\\img_0723.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior e inferior, centro",
+      "severity": "medium",
+      "description": "Um expositor vertical de acessórios (taças descartáveis) está pendurado sobre a prateleira, obstruindo a visão e o acesso aos produtos de vinho nas prateleiras superior e inferior.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "vinhos em caixa (casks)",
+    "acessórios de festa"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho de bebidas alcoólicas (vinhos em caixa). Os produtos estão organizados em duas prateleiras principais visíveis. Há um expositor vertical de plástico verde com taças descartáveis pendurado no centro, cobrindo parte da prateleira. PASSO 2: Prateleira superior: produtos Morris e Berri Estates. Prateleira inferior: produtos De Bortoli e Berri Estates. O centro está obstruído pelo expositor de acessórios. PASSO 3: Identifiquei o expositor de acessórios como uma anomalia de 'misaligned' (ou obstrução), pois interrompe o alinhamento linear dos produtos e dificulta o acesso. A severidade é média porque, embora os produtos estejam presentes, a experiência de compra é prejudicada. PASSO 4: O fill rate é alto (estimado em 0.85), pois as prateleiras estão quase totalmente preenchidas com stock, exceto pela área ocupada pelo expositor."
+}

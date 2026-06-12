@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260606_165332_396",
+  "timestamp": "2026-06-06T16:53:32Z",
+  "image_path": "data\\images\\img_0407.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "wrong_product",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Uma caixa amarela (aparentemente de outro produto ou embalagem de stock) está colocada entre as caixas de Uncle Tobys Roll-Ups, interrompendo o alinhamento do facing.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Espaço vazio visível na extremidade direita da prateleira inferior, onde deveriam estar mais unidades de produto.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "Cereal bars",
+    "Uncle Tobys Roll-Ups",
+    "Fruit snacks",
+    "IXL Fruit bars"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com 4 níveis visíveis. Os produtos são snacks, barras de cereais e guloseimas de fruta (Uncle Tobys, IXL). A organização é geralmente boa, com facings alinhados. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: alinhamento interrompido por uma caixa amarela estranha no centro. Prateleira inferior: bem abastecida, exceto por um pequeno espaço vazio à direita. PASSO 3: Anomalia 1: Caixa amarela intrusa na prateleira do meio (wrong_product), severidade média, confiança alta. Anomalia 2: Espaço vazio na prateleira inferior direita (empty_shelf), severidade baixa, confiança alta. PASSO 4: O fill rate é elevado, estimado em 0.88, considerando que a maioria dos facings está completa, com apenas pequenas interrupções."
+}

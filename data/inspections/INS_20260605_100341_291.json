@@ -1,0 +1,26 @@
+{
+  "inspection_id": "INS_20260605_100341_291",
+  "timestamp": "2026-06-05T10:03:41Z",
+  "image_path": "data\\images\\img_0302.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "other",
+      "location": "lado direito, sobrepondo várias prateleiras",
+      "severity": "medium",
+      "description": "Uma corrente de peluches (unicórnios) está pendurada verticalmente sobre a prateleira, obstruindo a visão e o acesso aos produtos (biscoitos/cart wheels) na parte direita.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "custard",
+    "jelly",
+    "biscuits",
+    "plush toys"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado com produtos alimentares (custard, gelatina, biscoitos) e uma obstrução significativa causada por uma corrente de peluches pendurada. PASSO 2: A prateleira está organizada em colunas. A zona esquerda e central está bem organizada com produtos alimentares. A zona direita apresenta uma anomalia: uma corrente de peluches pendurada verticalmente que bloqueia o acesso a várias prateleiras de biscoitos. PASSO 3: A anomalia é classificada como 'other' (obstrução por merchandising não alimentar). A severidade é média, pois impede o acesso e visibilidade dos produtos. Confiança alta devido à clareza visual do objeto estranho. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, mas a área ocupada pelos peluches reduz a eficiência de exposição dos produtos de biscoitos."
+}

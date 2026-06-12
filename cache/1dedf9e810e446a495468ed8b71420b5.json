@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260607_113539_545",
+  "timestamp": "2026-06-07T11:35:39Z",
+  "image_path": "data\\images\\img_0556.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Os produtos estão empilhados de forma desorganizada, com caixas viradas de lado e desalinhadas, dificultando a visualização e o acesso.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro-direita",
+      "severity": "low",
+      "description": "Espaço vazio visível na prateleira superior entre os produtos Kleenex.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Kleenex facial tissues",
+    "Sorbent facial tissues",
+    "Coles Persona pocket tissues"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de supermercado com lenços de papel (Kleenex, Sorbent, Persona). A prateleira superior está organizada, mas com um pequeno espaço vazio. A prateleira inferior apresenta desorganização significativa no centro. PASSO 2: Superior: organizada, exceto por um pequeno gap. Meio: organizada. Inferior: zona central com produtos desalinhados, caixas tombadas e empilhamento irregular. PASSO 3: Identifiquei desalinhamento severo na prateleira inferior (centro) e um pequeno vazio na superior. A severidade do desalinhamento é média pois afeta a experiência de compra. PASSO 4: O fill rate é alto, mas a desorganização reduz a eficiência do espaço. Estimativa de 0.85."
+}

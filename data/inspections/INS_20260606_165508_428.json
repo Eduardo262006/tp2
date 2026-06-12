@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260606_165508_428",
+  "timestamp": "2026-06-06T16:55:08Z",
+  "image_path": "data\\images\\img_0439.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Espaço vazio visível à esquerda do produto 'Greek Souvlaki Wrap Kit', sugerindo falta de stock ou produto deslocado.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Embalagens de 'Souvlaki Seasoning' estão desorganizadas dentro de uma caixa de cartão danificada/aberta, dificultando a visualização e acesso.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Wrap Kits (Greek, Thai, Chinese)",
+    "Pita Wraps",
+    "Souvlaki Seasoning",
+    "Chilli Paste"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho com kits de wraps e produtos relacionados. Na prateleira superior, há três caixas de 'Wraps of the World' (Greek, Thai, Chinese). Na prateleira inferior, há pacotes de 'Pita Wraps', uma caixa com 'Souvlaki Seasoning' e um produto de 'Chilli Paste'. PASSO 2: Prateleira superior: esquerda tem um pequeno espaço vazio. Centro e direita estão cheios. Prateleira inferior: esquerda e centro estão organizados. Direita apresenta uma caixa de cartão danificada com produtos desarrumados. PASSO 3: Anomalia 1: empty_shelf na prateleira superior esquerda (severidade baixa). Anomalia 2: misaligned/damaged na prateleira inferior direita (severidade média, caixa de cartão danificada). PASSO 4: O fill rate é alto, estimado em 0.85, considerando que a maioria dos espaços está preenchida, exceto pela pequena lacuna superior e a desorganização na caixa inferior."
+}

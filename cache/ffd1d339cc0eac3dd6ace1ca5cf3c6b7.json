@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260608_175244_675",
+  "timestamp": "2026-06-08T17:52:44Z",
+  "image_path": "data\\images\\img_0686.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio visível na prateleira inferior, entre os produtos San Remo e Dorato.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos da marca Latina estão ligeiramente desorganizados e desalinhados na frente da prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "molhos Latina",
+    "massas frescas Ubaldi",
+    "massas frescas San Remo",
+    "massas frescas Dorato"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado com 4 níveis. Nível superior: molhos em frascos (Latina). Níveis médio e inferior: massas frescas embaladas (Ubaldi, San Remo, Dorato). PASSO 2: Dividindo a prateleira: Superior (molhos), Médio (massas), Inferior (massas). Anomalias: No nível superior, há um ligeiro desalinhamento dos frascos. No nível inferior, há um pequeno espaço vazio entre as marcas San Remo e Dorato. PASSO 3: Anomalia 1 (empty_shelf): prateleira inferior, lado direito, severidade média, confiança 0.9. Anomalia 2 (misaligned): prateleira superior, lado esquerdo, severidade baixa, confiança 0.8. PASSO 4: O fill rate é alto, estimado em 0.92, pois a grande maioria do espaço está ocupada por produtos, com apenas pequenas lacunas."
+}

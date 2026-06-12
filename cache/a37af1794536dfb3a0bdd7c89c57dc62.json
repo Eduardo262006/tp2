@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260604_162943_175",
+  "timestamp": "2026-06-04T16:29:43Z",
+  "image_path": "data\\images\\img_0186.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo onde deveriam estar produtos, possivelmente devido a rutura de stock ou organização.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "low",
+      "description": "Produtos (embalagens de mel cremoso) encontram-se desalinhados e com orientação irregular.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "mel em frasco de vidro",
+    "mel em embalagem plástica",
+    "extrato de malte"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado contendo produtos de mel (marca Capilano) e extrato de malte. A prateleira superior está bem abastecida com frascos de vidro. A prateleira do meio contém embalagens plásticas de mel cremoso e um pote de extrato de malte, com uma lacuna visível à esquerda. A prateleira inferior contém frascos de mel de maior dimensão. PASSO 2: Prateleira superior: organizada. Prateleira do meio: apresenta um espaço vazio à esquerda e desalinhamento nas embalagens de mel cremoso. Prateleira inferior: organizada. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira do meio (lado esquerdo) com severidade média. Identificado 'misaligned' na mesma prateleira (centro) devido à disposição irregular das embalagens. Confiança alta baseada na clareza visual. PASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na prateleira do meio."
+}

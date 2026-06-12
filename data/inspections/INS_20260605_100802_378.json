@@ -1,0 +1,15 @@
+{
+  "inspection_id": "INS_20260605_100802_378",
+  "timestamp": "2026-06-05T10:08:02Z",
+  "image_path": "data\\images\\img_0389.jpg",
+  "zone_id": "Z_S3",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "sumos de fruta Berri",
+    "sumos de fruta Golden Circle",
+    "sumos Smart Juice"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado contendo garrafas de sumos de fruta (marcas Berri, Golden Circle e Smart Juice). As prateleiras estão bem abastecidas e organizadas. PASSO 2: Prateleira superior: alinhamento consistente de garrafas Berri. Prateleira inferior: alinhamento consistente de garrafas Golden Circle e Berri. Não foram detetadas falhas de stock, produtos fora do lugar ou etiquetas em falta. PASSO 3: Não existem anomalias detetadas. O estado geral é excelente. PASSO 4: O fill rate é elevado, estimado em 0.95, considerando que quase todo o espaço disponível está ocupado por produtos, com apenas pequenos espaços vazios naturais entre garrafas."
+}

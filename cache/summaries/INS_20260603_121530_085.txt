@@ -1,0 +1,1 @@
+zona Z_N8; estado warning; fill rate 85%; empty_shelf (medium) em prateleira inferior, lado esquerdo: Espaço vazio significativo na prateleira inferior esquerda, onde deveriam estar produtos similares aos brinquedos de bebé adjacentes.; produtos: brinquedos de bebé, lancheiras, garrafas de água, recipientes de plástico, copos de plástico; data 2026-06-03T12:15:30Z

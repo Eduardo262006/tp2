@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260603_121727_124",
+  "timestamp": "2026-06-03T12:17:27Z",
+  "image_path": "data\\images\\img_0124.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos (molhos) estão ligeiramente desalinhados em relação à frente da prateleira, criando uma aparência desorganizada.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira superior, extremo esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível onde deveriam estar produtos, sugerindo rutura de stock ou falta de reposição.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "molhos de pimenta",
+    "molhos de soja",
+    "molhos tailandeses",
+    "molhos sriracha"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado repletas de molhos (chili sauce, soy sauce, sriracha). A organização é predominantemente por marca e tipo. PASSO 2: Prateleira superior: lado esquerdo apresenta um pequeno espaço vazio e alguns produtos desalinhados. Centro e direita estão bem preenchidos. Prateleira inferior: bem organizada, com produtos alinhados frontalmente. PASSO 3: Identifiquei uma zona de 'empty_shelf' no canto superior esquerdo (severidade média) e 'misaligned' na mesma prateleira (severidade baixa). A confiança é alta devido à clareza da imagem. PASSO 4: O fill rate é elevado, estimado em 0.85, considerando que a maioria das prateleiras está cheia, com apenas pequenas lacunas no topo esquerdo."
+}

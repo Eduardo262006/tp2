@@ -1,0 +1,25 @@
+{
+  "inspection_id": "INS_20260609_105842_762",
+  "timestamp": "2026-06-09T10:58:42Z",
+  "image_path": "data\\images\\img_0773.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos Sharwood's e os sacos de snacks à direita.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Patty Indian Meals",
+    "Sharwood's Mini Poppadoms",
+    "Snacks/Pappadum bags"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras. O nível superior contém caixas de refeições indianas 'Patty'. O nível do meio contém caixas de 'Sharwood's Mini Poppadoms' à esquerda e sacos de snacks à direita, com um espaço vazio no centro. O nível inferior contém embalagens de 'Pappadum Snacks'. PASSO 2: Prateleira superior: bem organizada. Prateleira do meio: zona central apresenta uma falha de stock (empty_shelf). Prateleira inferior: organizada. PASSO 3: Identificada uma anomalia de 'empty_shelf' no centro da prateleira do meio. Severidade média, pois interrompe a continuidade do linear. Confiança alta. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna central na prateleira do meio."
+}

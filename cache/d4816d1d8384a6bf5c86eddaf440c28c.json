@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260603_121730_125",
+  "timestamp": "2026-06-03T12:17:30Z",
+  "image_path": "data\\images\\img_0125.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "low",
+      "description": "As caixas de açúcar de palma (Palm Sugar) estão ligeiramente desalinhadas e inclinadas para fora da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Latas de cogumelos e outros produtos estão com rótulos virados para direções diferentes, prejudicando a uniformidade visual.",
+      "confidence": 0.75,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "molhos asiáticos",
+    "latas de vegetais",
+    "pastas de caril",
+    "açúcar de palma",
+    "cogumelos em lata",
+    "arroz"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com três níveis principais. Contém latas de conservas (molhos, vegetais, cogumelos), caixas de açúcar de palma e sacos de arroz. A organização é densa. PASSO 2: Prateleira superior: bem organizada, sem falhas. Prateleira do meio: as caixas de açúcar de palma à direita estão desalinhadas. Prateleira inferior: os produtos estão presentes, mas há uma falta de alinhamento nos rótulos das latas à esquerda. PASSO 3: Identifiquei desalinhamento nas caixas de açúcar (severidade baixa, confiança 0.85) e desalinhamento de rótulos nas latas inferiores (severidade baixa, confiança 0.75). Não há prateleiras vazias significativas. PASSO 4: O preenchimento é muito alto, com quase todos os espaços ocupados, estimando um fill rate de 0.92."
+}

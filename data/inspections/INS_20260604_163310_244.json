@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260604_163310_244",
+  "timestamp": "2026-06-04T16:33:10Z",
+  "image_path": "data\\images\\img_0255.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os iogurtes à esquerda e os iogurtes à direita.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "segunda prateleira a contar de cima, centro",
+      "severity": "low",
+      "description": "Espaço vazio onde deveriam estar produtos, possivelmente uma falha de reposição.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "iogurtes",
+    "manteiga"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de refrigeração de supermercado com 4 prateleiras principais. Contém iogurtes de várias marcas (Vaalia, marcas próprias) e manteiga na coluna da extrema direita. PASSO 2: Prateleira superior: iogurtes à esquerda e direita, com um vazio central. Segunda prateleira: iogurtes, com um pequeno vazio central. Terceira prateleira: iogurtes bem organizados. Quarta prateleira: iogurtes e manteiga, bem organizados. PASSO 3: Identifiquei dois vazios (empty_shelf) na parte superior e segunda prateleira. A severidade é média/baixa pois o stock geral é bom. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pelos espaços vazios identificados."
+}

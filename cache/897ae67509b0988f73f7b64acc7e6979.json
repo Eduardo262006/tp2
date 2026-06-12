@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260606_165711_469",
+  "timestamp": "2026-06-06T16:57:11Z",
+  "image_path": "data\\images\\img_0480.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, à esquerda das embalagens de sumo, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Algumas garrafas de sumo estão ligeiramente desalinhadas ou com rótulos virados para direções diferentes.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "sumos de fruta em garrafa",
+    "sumos de fruta em pacote (cartão)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com 4 níveis de prateleiras contendo sumos de fruta em garrafas (topo) e pacotes de cartão (restantes). PASSO 2: Prateleira superior: bem abastecida, mas com ligeiro desalinhamento à direita. Prateleira 2: cheia, organização consistente. Prateleira 3: cheia, organização consistente. Prateleira inferior: lado esquerdo apresenta um espaço vazio considerável onde deveriam estar produtos, sugerindo uma rutura de stock ou má gestão de faceamento. PASSO 3: Identificada anomalia de 'empty_shelf' na prateleira inferior esquerda (severidade média) e 'misaligned' na superior direita (severidade baixa). PASSO 4: O fill rate é elevado na maioria das prateleiras, mas a lacuna na prateleira inferior reduz a média global para aproximadamente 0.88."
+}

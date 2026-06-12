@@ -1,0 +1,46 @@
+{
+  "inspection_id": "INS_20260608_175035_632",
+  "timestamp": "2026-06-08T17:50:35Z",
+  "image_path": "data\\images\\img_0643.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo onde deveriam estar produtos, sugerindo rutura de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafa de bebida cinzenta desalinhada em relação à fila frontal.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "wrong_product",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Mistura de latas de refrigerante (Coca-Cola, Pepsi) no espaço destinado a garrafas de 1.5L.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Ginger Beer",
+    "Fuze Tea",
+    "Tiger Beer",
+    "Mixx Juice",
+    "Coca-Cola",
+    "Pepsi"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado com bebidas. A prateleira superior contém garrafas de Ginger Beer, Fuze Tea e Tiger Beer. A prateleira inferior contém garrafas de Fuze Tea, Mixx Juice e algumas latas de refrigerante. PASSO 2: Prateleira superior: lado esquerdo apresenta um espaço vazio (rutura). Prateleira inferior: lado esquerdo tem uma garrafa desalinhada; lado direito apresenta latas misturadas com garrafas. PASSO 3: Identificadas 3 anomalias: 1) Empty shelf (superior esquerda, severidade média), 2) Misaligned (inferior esquerda, severidade baixa), 3) Wrong product (inferior direita, severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira superior e a densidade de ocupação na inferior."
+}

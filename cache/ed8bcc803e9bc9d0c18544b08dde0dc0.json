@@ -1,0 +1,25 @@
+{
+  "inspection_id": "INS_20260604_163252_238",
+  "timestamp": "2026-06-04T16:32:52Z",
+  "image_path": "data\\images\\img_0249.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "high",
+      "description": "Espaço vazio significativo na prateleira superior, onde deveriam estar produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 40.0
+    }
+  ],
+  "shelf_fill_rate": 0.8,
+  "products_detected": [
+    "Kettle Sweet Chilli & Sour Cream chips",
+    "Parker's Baked Wheat Pretzel Twists",
+    "Kettle Teriyaki Chicken chips"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho. A superior contém batatas fritas Kettle (Sweet Chilli & Sour Cream) à direita, com um grande espaço vazio à esquerda. A inferior contém pretzels Parker's à esquerda e batatas fritas Kettle (Teriyaki Chicken) à direita. PASSO 2: Prateleira superior: esquerda (vazia), direita (cheia). Prateleira inferior: esquerda (cheia), direita (cheia). PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira superior esquerda. Severidade alta devido à falta de stock visível. Confiança elevada. PASSO 4: O fill rate é estimado em 0.8, considerando que a prateleira superior está cerca de 60% preenchida e a inferior está totalmente preenchida."
+}

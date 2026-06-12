@@ -1,0 +1,26 @@
+{
+  "inspection_id": "INS_20260607_113624_560",
+  "timestamp": "2026-06-07T11:36:24Z",
+  "image_path": "data\\images\\img_0571.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os frascos de mostarda Maille na prateleira do meio.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "mostarda Maille",
+    "molho honey & mustard",
+    "molho caesar",
+    "snacks para animais"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 4 níveis visíveis. Nível superior: mostarda Maille (cheio). Nível 2: mostarda Maille (apenas 3 unidades, com espaço vazio). Nível 3: molhos Honey & Mustard (cheio). Nível 4: molhos Caesar (cheio). Há também produtos de pet food pendurados na lateral direita. PASSO 2: Prateleira superior: OK. Prateleira 2 (meio-superior): Anomalia de stock (vazio). Prateleira 3 (meio-inferior): OK. Prateleira 4 (inferior): OK. PASSO 3: Identificada uma falha de stock na prateleira 2, onde faltam várias unidades de mostarda, criando um buraco no alinhamento. Severidade média pois o produto não está esgotado, mas a apresentação está comprometida. PASSO 4: O fill rate é alto na maioria das prateleiras, exceto na segunda, resultando numa média global estimada de 0.85."
+}

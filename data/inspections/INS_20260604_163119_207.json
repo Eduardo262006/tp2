@@ -1,0 +1,46 @@
+{
+  "inspection_id": "INS_20260604_163119_207",
+  "timestamp": "2026-06-04T16:31:19Z",
+  "image_path": "data\\images\\img_0218.jpg",
+  "zone_id": "Z_C1",
+  "overall_status": "critical",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "high",
+      "description": "Grande secção de prateleira vazia no centro superior.",
+      "confidence": 0.98,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "high",
+      "description": "Espaço vazio significativo na prateleira do meio, lado direito.",
+      "confidence": 0.98,
+      "affected_area_pct": 30.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio entre os produtos na prateleira inferior central.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.65,
+  "products_detected": [
+    "molhos/curries",
+    "sopas",
+    "massas/arroz",
+    "queijos",
+    "produtos refrigerados",
+    "massa filo"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com 4 níveis. Produtos de mercearia (curries, sopas, queijos, massas) estão presentes, mas há lacunas visíveis em várias secções. PASSO 2: Dividindo a prateleira: Superior (centro vazio), Meio (lado direito vazio), Inferior (centro com lacunas). PASSO 3: Identificadas três zonas principais de 'empty_shelf'. A severidade é alta devido à extensão das falhas de stock. PASSO 4: Estimativa visual do fill rate: cerca de 65% da área total da prateleira está ocupada por produtos, com 35% de espaço vazio ou não utilizado."
+}

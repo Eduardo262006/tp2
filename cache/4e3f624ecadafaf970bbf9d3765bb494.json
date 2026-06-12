@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260609_105551_705",
+  "timestamp": "2026-06-09T10:55:51Z",
+  "image_path": "data\\images\\img_0716.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos Listerine e a extremidade direita da prateleira.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos Colgate Sensitive desalinhados e com embalagens viradas de forma irregular.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "Listerine mouthwash",
+    "Colgate Plax mouthwash",
+    "Colgate Sensitive toothpaste",
+    "Colgate Total toothpaste",
+    "Oral care accessories"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra quatro níveis de prateleiras de retalho contendo produtos de higiene oral (elixires e pastas de dentes). A organização é predominantemente por marca e tipo. PASSO 2: Prateleira superior (elixires): bem organizada, mas com um espaço vazio à direita. Prateleira 2 (pastas Colgate Sensitive): organização razoável, mas com desalinhamento à esquerda. Prateleira 3 e 4 (pastas Colgate Total): boa organização e preenchimento. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior (lado direito) devido a uma lacuna no stock e 'misaligned' na prateleira 2 (lado esquerdo) devido a embalagens desorganizadas. A severidade é média para o espaço vazio e baixa para o desalinhamento. PASSO 4: O fill rate é elevado, estimado em 0.88, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na parte superior."
+}

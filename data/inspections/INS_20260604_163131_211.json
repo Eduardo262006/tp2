@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260604_163131_211",
+  "timestamp": "2026-06-04T16:31:31Z",
+  "image_path": "data\\images\\img_0222.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio visível entre os produtos Palmolive, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos de sabonete líquido.",
+      "confidence": 0.98,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Palmolive Liquid Hand Soap",
+    "Softsoap Liquid Hand Soap"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de retalho contendo sabonetes líquidos das marcas Palmolive e Softsoap. A organização é geralmente boa, mas existem lacunas visíveis. PASSO 2: Prateleira superior: apresenta um espaço vazio no centro. Prateleira do meio: bem preenchida, sem anomalias graves. Prateleira inferior: apresenta um espaço vazio considerável no lado esquerdo. PASSO 3: Anomalia 1 (superior, centro): empty_shelf, severidade média, confiança 0.95. Anomalia 2 (inferior, esquerda): empty_shelf, severidade média, confiança 0.98. PASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das prateleiras está cheia, mas com duas zonas de rutura de stock localizadas."
+}

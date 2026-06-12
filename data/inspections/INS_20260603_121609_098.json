@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260603_121609_098",
+  "timestamp": "2026-06-03T12:16:09Z",
+  "image_path": "data\\images\\img_0098.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Decoração de Natal (tiras brilhantes) está pendurada sobre a prateleira, obstruindo parcialmente a visão dos produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Decoração de Natal (tiras brilhantes) continua pendurada sobre a prateleira, obstruindo parcialmente a visão dos produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Cascade Premium Lager",
+    "Vodka Cruiser",
+    "James Boag's Premium",
+    "Cruiser Ice",
+    "Kronenbourg 1664",
+    "Strongbow Cider"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de bebidas com três níveis visíveis. Os produtos estão organizados em caixas (packs). Há decorações de Natal (tiras vermelhas e prateadas) penduradas verticalmente no lado esquerdo, cobrindo parte das prateleiras superior e média. PASSO 2: Prateleira superior: Cascade Lager e Vodka Cruiser. Prateleira média: James Boag's e Cruiser Ice. Prateleira inferior: Kronenbourg 1664 e Strongbow. Anomalias: As decorações penduradas no lado esquerdo obstruem a visualização dos produtos. Não há prateleiras vazias ou produtos danificados visíveis. PASSO 3: As decorações são classificadas como 'misaligned' (ou obstrução externa), pois impedem o acesso/visualização total. Severidade baixa, pois os produtos estão presentes e organizados. Confiança alta. PASSO 4: O fill rate é elevado, com quase todos os espaços ocupados por caixas de produtos, estimado em 0.95."
+}

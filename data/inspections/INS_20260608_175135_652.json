@@ -1,0 +1,27 @@
+{
+  "inspection_id": "INS_20260608_175135_652",
+  "timestamp": "2026-06-08T17:51:35Z",
+  "image_path": "data\\images\\img_0663.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos da marca Bundaberg.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "refrigerantes",
+    "ginger beer",
+    "chá gelado (Fuze)",
+    "brinquedos (caminhões Coca-Cola)",
+    "sumos"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado contendo bebidas (refrigerantes, ginger beer, chás Fuze, sumos) e uma tira vertical de brinquedos (caminhões Coca-Cola) pendurada no centro. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: bem abastecida, com mistura de bebidas. Prateleira inferior: lado esquerdo com garrafas, centro com um espaço vazio notável onde faltam unidades de Bundaberg, lado direito com sumos. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira inferior central. A severidade é média pois interrompe a continuidade do produto. Confiança alta devido à visibilidade da grelha de fundo. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna central na parte inferior."
+}

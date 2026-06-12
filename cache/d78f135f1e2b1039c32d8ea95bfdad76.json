@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260608_175032_631",
+  "timestamp": "2026-06-08T17:50:32Z",
+  "image_path": "data\\images\\img_0642.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "As caixas de Uncle Tobys estão empilhadas de forma desorganizada e desalinhada em relação ao resto da prateleira.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Espaço vazio visível atrás da primeira fila de produtos 'daily serve'.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.9,
+  "products_detected": [
+    "Mother Earth Muesli Bars",
+    "Uncle Tobys Crunchy",
+    "Daily Serve Orange Bar",
+    "Coles Farmland Chewy Muesli Bars",
+    "Natural Nut Bars"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo barras de cereais e snacks. Os produtos estão maioritariamente bem organizados, com etiquetas de preço visíveis. PASSO 2: Prateleira superior: produtos Mother Earth à esquerda, Uncle Tobys à direita (desorganizados). Prateleira do meio: produtos Daily Serve e Coles Farmland. Prateleira inferior: Natural Nut Bars e Coles Farmland. PASSO 3: Identifiquei um desalinhamento na prateleira superior direita (Uncle Tobys) e um pequeno espaço vazio na prateleira do meio esquerda. A severidade é baixa a média, pois o stock está presente, mas a apresentação é subótima. PASSO 4: O fill rate é elevado, estimado em 0.9, dado que a maioria das frentes está preenchida, com apenas pequenas lacunas ou desorganização."
+}

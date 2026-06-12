@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260606_165638_458",
+  "timestamp": "2026-06-06T16:56:38Z",
+  "image_path": "data\\images\\img_0469.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos de cuidados para bebé.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "low",
+      "description": "Produtos (toalhitas) empilhados de forma desorganizada e desalinhada.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "fraldas Huggies",
+    "toalhitas Huggies",
+    "acessórios para bebé"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com três níveis visíveis. O nível superior contém caixas de fraldas Huggies. O nível do meio contém toalhitas e acessórios. O nível inferior contém mais toalhitas e produtos de higiene. PASSO 2: Nível superior: bem organizado. Nível do meio: lado esquerdo com espaço vazio (empty_shelf), centro com produtos desalinhados. Nível inferior: ocupação razoável. PASSO 3: Identificada anomalia de 'empty_shelf' no meio-esquerda (severidade média) e 'misaligned' no meio-centro (severidade baixa). PASSO 4: O fill rate é estimado em 0.75, considerando o espaço vazio na prateleira do meio e a densidade variável dos produtos."
+}

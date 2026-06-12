@@ -1,0 +1,26 @@
+{
+  "inspection_id": "INS_20260602_153851_034",
+  "timestamp": "2026-06-02T15:38:51Z",
+  "image_path": "data\\images\\img_0034.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre as garrafas de sumo e o pack de Ginger Beer, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "sumos de fruta",
+    "ginger beer",
+    "refrigerantes em pack (Kirks)",
+    "brinquedos colecionáveis (camiões)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado com três níveis. Nível superior: garrafas de bebidas e brinquedos. Nível médio: garrafas de sumo (esquerda), garrafas de Ginger Beer (centro) e packs de Ginger Beer (direita). Nível inferior: packs de refrigerantes (Kirks). PASSO 2: A prateleira do meio apresenta uma descontinuidade clara no centro, onde existe um espaço vazio entre as garrafas individuais e os packs de Ginger Beer. As outras zonas estão bem preenchidas. PASSO 3: Identificada uma anomalia de 'empty_shelf' no centro da prateleira do meio. Severidade média, pois interrompe a continuidade do produto. Confiança alta. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna central no nível médio."
+}

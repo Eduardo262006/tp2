@@ -1,0 +1,17 @@
+{
+  "inspection_id": "INS_20260607_113736_584",
+  "timestamp": "2026-06-07T11:37:36Z",
+  "image_path": "data\\images\\img_0595.jpg",
+  "zone_id": "Z_N2",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.98,
+  "products_detected": [
+    "Vodka",
+    "Whisky & Cola",
+    "Bourbon & Cola",
+    "Beer",
+    "Vodka Cruiser"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho de bebidas alcoólicas organizada em quatro níveis. Os produtos estão dispostos em caixas de cartão (packs). A organização é densa e alinhada. PASSO 2: Dividindo a prateleira: Nível superior (Vodka packs), Nível médio-superior (Black Douglas e Cougar), Nível médio-inferior (Vodka Cruiser), Nível inferior (James Boag's e mais Vodka Cruiser). Não se observam espaços vazios significativos, produtos fora do lugar ou etiquetas em falta. PASSO 3: Não foram identificadas anomalias. A integridade das embalagens parece boa e o alinhamento é consistente com o padrão de exposição. PASSO 4: O fill rate é muito elevado, com quase todas as posições ocupadas por stock, estimado em 0.98."
+}

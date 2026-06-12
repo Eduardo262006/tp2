@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260606_165335_397",
+  "timestamp": "2026-06-06T16:53:35Z",
+  "image_path": "data\\images\\img_0408.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível na prateleira superior, indicando falta de stock de produtos de higiene.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "low",
+      "description": "Embalagens de algodão (Swissspers) estão empilhadas de forma irregular/desalinhada.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "cotton tips",
+    "cotton balls",
+    "cotton wool squares",
+    "health care products"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de retalho contendo produtos de higiene pessoal (cotonetes, bolas de algodão, discos de algodão). A organização é geralmente boa, mas com algumas irregularidades. PASSO 2: Prateleira superior: contém produtos de saúde diversos, com um espaço vazio à esquerda. Prateleira do meio: produtos Swissspers bem organizados, exceto por um ligeiro desalinhamento à direita. Prateleira inferior: sacos de bolas de algodão Coles, bem preenchidos. PASSO 3: Identifiquei um 'empty_shelf' na parte superior esquerda (severidade média) e um 'misaligned' na parte central direita (severidade baixa). PASSO 4: O fill rate é elevado, estimado em 0.85, dado que a maioria das faces está preenchida, com apenas pequenas lacunas."
+}

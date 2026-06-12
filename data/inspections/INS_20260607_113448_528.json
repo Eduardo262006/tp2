@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260607_113448_528",
+  "timestamp": "2026-06-07T11:34:48Z",
+  "image_path": "data\\images\\img_0539.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro-esquerda",
+      "severity": "medium",
+      "description": "Espaço vazio visível entre os produtos Jack Daniel's e Wild Turkey, indicando falta de stock ou organização inadequada.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Embalagens de Woodstock Bourbon & Cola estão ligeiramente desalinhadas em relação à frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "Jack Daniel's Cola",
+    "Jim Beam Black",
+    "Wild Turkey Cola",
+    "Woodstock Bourbon & Cola",
+    "Real McCoy Cola",
+    "Vinhos/Espirituosos"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de bebidas alcoólicas (RTD - Ready to Drink). A prateleira superior contém latas e packs de Jack Daniel's, Jim Beam e Wild Turkey, além de garrafas de vinho à direita. A prateleira inferior contém packs de Woodstock, Real McCoy e mais garrafas de vinho. PASSO 2: Prateleira superior: zona central apresenta um espaço vazio entre o Jack Daniel's e o Wild Turkey. Prateleira inferior: organização geral boa, mas com ligeiro desalinhamento nos packs de Woodstock à esquerda. PASSO 3: Anomalia 1: empty_shelf na prateleira superior, severidade média, confiança alta. Anomalia 2: misaligned na prateleira inferior, severidade baixa, confiança alta. PASSO 4: O fill rate é elevado, estimado em 0.88, considerando a ocupação quase total da prateleira inferior e a pequena lacuna na superior."
+}

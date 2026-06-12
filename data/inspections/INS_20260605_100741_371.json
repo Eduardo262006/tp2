@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260605_100741_371",
+  "timestamp": "2026-06-05T10:07:41Z",
+  "image_path": "data\\images\\img_0382.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre as latas de Coopers Stout e o final da prateleira.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos (sacos vermelhos) estão desorganizados e empilhados de forma irregular em comparação com as latas alinhadas.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "kits de cerveja Coopers",
+    "kits de cerveja Tooheys",
+    "kits de cerveja Cascade"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras metálicas contendo kits de fabricação de cerveja (latas cilíndricas e alguns sacos). A organização é predominantemente por marca e tipo. PASSO 2: Prateleira superior: sacos vermelhos à esquerda, latas Coopers à direita. Prateleira do meio: latas Tooheys e Coopers. Prateleira inferior: latas Cascade. Anomalias: Na prateleira superior, os sacos estão desordenados. Na prateleira do meio, há um espaço vazio considerável à direita. PASSO 3: Identifiquei um 'empty_shelf' na prateleira do meio (severidade média, pois há espaço para mais produtos) e 'misaligned' na superior (severidade baixa, apenas desorganização visual). PASSO 4: O fill rate é alto, mas não total, estimado em 0.85 devido aos espaços vazios e à densidade de ocupação das latas."
+}

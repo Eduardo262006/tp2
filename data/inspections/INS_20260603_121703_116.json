@@ -1,0 +1,18 @@
+{
+  "inspection_id": "INS_20260603_121703_116",
+  "timestamp": "2026-06-03T12:17:03Z",
+  "image_path": "data\\images\\img_0116.jpg",
+  "zone_id": "Z_S7",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.98,
+  "products_detected": [
+    "Burger Rings",
+    "Red Rock Deli Potato Chips",
+    "Twisties Chicken",
+    "Twisties Wicked Cheddar",
+    "Cheetos Cheese",
+    "Cheetos Cheese & Bacon"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um expositor de snacks. A prateleira superior contém sacos de Burger Rings e Red Rock Deli (Dijon Mustard & Honey). A prateleira do meio contém Twisties (Chicken e Wicked Cheddar) e um saco de Red Rock Deli (Lime & Black Pepper). A prateleira inferior contém Twisties, Cheetos e um saco de Red Rock Deli. Os produtos estão bem alinhados e preenchem quase toda a largura das prateleiras.\n\nPASSO 2: \n- Prateleira superior: Totalmente preenchida, sem espaços vazios.\n- Prateleira do meio: Totalmente preenchida, sem espaços vazios.\n- Prateleira inferior: Totalmente preenchida, sem espaços vazios.\nNão foram detetadas anomalias como produtos fora do lugar, etiquetas em falta ou prateleiras vazias.\n\nPASSO 3: Não existem anomalias a reportar. O estado geral é excelente.\n\nPASSO 4: O fill rate é estimado em 0.98, considerando que as prateleiras estão praticamente cheias, com apenas variações mínimas de alinhamento natural de embalagens flexíveis."
+}

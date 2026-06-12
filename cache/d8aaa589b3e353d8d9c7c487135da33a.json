@@ -1,0 +1,24 @@
+{
+  "inspection_id": "INS_20260609_105718_734",
+  "timestamp": "2026-06-09T10:57:18Z",
+  "image_path": "data\\images\\img_0745.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "other",
+      "location": "centro da imagem, sobrepondo prateleiras",
+      "severity": "medium",
+      "description": "Uma fita decorativa holográfica vertical está a obstruir a visão e o acesso a vários produtos nas prateleiras superior e inferior.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "vinhos espumantes",
+    "vinhos em caixa (bag-in-box)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado contendo vinhos (garrafas à esquerda e vinhos em caixa à direita). Existe uma fita decorativa holográfica vertical que atravessa ambas as prateleiras no centro. PASSO 2: Prateleira superior: garrafas à esquerda, vinhos em caixa à direita. Prateleira inferior: garrafas à esquerda, vinhos em caixa à direita. Anomalia principal: a fita decorativa obstrui a visualização e o acesso aos produtos centrais. PASSO 3: A fita decorativa é classificada como 'other' (obstrução visual/física), severidade média, pois impede a compra e visibilidade clara dos produtos afetados. Confiança alta. PASSO 4: O preenchimento das prateleiras é elevado, com poucas falhas de stock visíveis, estimando um fill rate de 0.92."
+}

@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260604_163210_224",
+  "timestamp": "2026-06-04T16:32:10Z",
+  "image_path": "data\\images\\img_0235.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, sugerindo falta de stock ou necessidade de reposição.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos de lenços de bolso (Persona) desalinhados e com falta de organização frontal.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.82,
+  "products_detected": [
+    "toalhetes húmidos",
+    "lenços de bolso",
+    "lenços faciais"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de retalho contendo produtos de higiene (toalhetes, lenços de bolso e lenços faciais). A prateleira superior contém toalhetes húmidos em tubos e embalagens flexíveis. A prateleira do meio contém embalagens de lenços de bolso (Sorbent, Kleenex). A prateleira inferior contém mais lenços de bolso e caixas de lenços faciais. PASSO 2: Prateleira superior: lado esquerdo preenchido, lado direito vazio. Prateleira do meio: bem organizada. Prateleira inferior: lado esquerdo com produtos desalinhados/caídos. PASSO 3: Identificada uma zona de 'empty_shelf' na parte superior direita (severidade média) e 'misaligned' na parte inferior esquerda (severidade baixa). PASSO 4: O fill rate é estimado em 0.82, considerando o espaço vazio na prateleira superior e a ocupação densa nas restantes."
+}

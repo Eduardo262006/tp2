@@ -1,0 +1,13 @@
+{
+  "inspection_id": "INS_20260605_100726_366",
+  "timestamp": "2026-06-05T10:07:26Z",
+  "image_path": "data\\images\\img_0377.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Bebidas alcoólicas (Smirnoff, Bacardi Breezer, Red Bear Vodka, Ruski)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um supermercado contendo bebidas alcoólicas (vodkas, coolers e misturas). Os produtos estão organizados em embalagens de cartão e garrafas individuais. PASSO 2: Prateleira superior: cheia, produtos alinhados. Prateleira do meio: cheia, produtos alinhados, etiquetas de preço presentes. Prateleira inferior: cheia, produtos organizados em blocos. Não foram detetadas falhas de stock significativas ou produtos fora do lugar. PASSO 3: Não existem anomalias detetadas. A organização é consistente e o preenchimento é quase total. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todo o espaço disponível está ocupado por stock, com apenas espaços mínimos entre embalagens."
+}

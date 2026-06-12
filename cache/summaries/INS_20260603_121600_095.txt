@@ -1,0 +1,1 @@
+zona Z_C1; estado critical; fill rate 85%; misaligned (high) em prateleira do meio, centro: Uma garrafa de sumo está deitada horizontalmente, bloqueando o espaço e obstruindo a visibilidade dos produtos atrás.; produtos: sumos de fruta em garrafa, sumos de fruta em pacote; data 2026-06-03T12:16:00Z

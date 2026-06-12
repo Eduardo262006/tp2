@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260604_162955_179",
+  "timestamp": "2026-06-04T16:29:55Z",
+  "image_path": "data\\images\\img_0190.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos de padaria.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "low",
+      "description": "Pequeno espaço vazio entre os produtos de pão de passas.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "pão de forma",
+    "pão de passas",
+    "pão de fruta",
+    "pão de centeio"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 5 níveis de prateleiras contendo diversos tipos de pães embalados. A organização é predominantemente por tipo de produto. PASSO 2: Dividindo a prateleira: Superior (cheia), Segunda (cheia), Terceira (cheia com pequena falha no centro), Quarta (falha visível no centro), Inferior (falha visível no centro). PASSO 3: Identifiquei duas zonas de 'empty_shelf'. A falha na prateleira inferior é a mais notável, ocupando cerca de 15% do espaço daquela secção. A falha na prateleira do meio é menor. Não há produtos danificados ou etiquetas em falta óbvias. PASSO 4: O fill rate global é alto, estimado em 0.88, considerando que a maioria das prateleiras está bem abastecida, exceto pelas lacunas identificadas nas secções centrais inferiores."
+}

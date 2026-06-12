@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260602_153803_018",
+  "timestamp": "2026-06-02T15:38:03Z",
+  "image_path": "data\\images\\img_0018.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, entre os chás Lipton e Dilmah.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "other",
+      "location": "centro da imagem",
+      "severity": "low",
+      "description": "Presença de material promocional/decorativo suspenso que obstrui parcialmente a visão de várias prateleiras.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Lipton Tea",
+    "Dilmah Tea"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de supermercado dedicada a chás (Lipton e Dilmah). A organização é predominantemente por blocos de marca e tipo. Há um elemento decorativo vertical no centro que obstrui a visão. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: bem abastecida à esquerda, mas com um espaço vazio notável à direita. Prateleira inferior: bem abastecida. PASSO 3: Identifiquei um 'empty_shelf' na prateleira do meio (lado direito) com severidade média, pois interrompe a continuidade do produto. O elemento decorativo central é classificado como 'other' por obstruir a visibilidade. PASSO 4: O fill rate é alto, estimado em 0.85, considerando que a maioria dos espaços está preenchida, exceto pela lacuna mencionada e pela obstrução visual."
+}

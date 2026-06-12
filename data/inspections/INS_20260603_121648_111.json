@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260603_121648_111",
+  "timestamp": "2026-06-03T12:16:48Z",
+  "image_path": "data\\images\\img_0111.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro-esquerda",
+      "severity": "medium",
+      "description": "Espaço vazio entre os sumos de laranja e os sumos Golden Circle, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Os pacotes de 'Just Juice' estão ligeiramente desalinhados e desorganizados na frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "sumos de fruta",
+    "bebidas de fruta",
+    "Golden Circle",
+    "Just Juice",
+    "Berri"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de supermercado com sumos de fruta em embalagens de cartão. Estão organizados em duas prateleiras principais visíveis. Há uma variedade de marcas como Golden Circle, Just Juice e Berri. PASSO 2: Prateleira superior: bem preenchida, exceto por um pequeno espaço vazio no centro. Prateleira inferior: bem preenchida, com ligeira desorganização nos pacotes de Just Juice à direita. PASSO 3: Identifiquei um 'empty_shelf' (gap) na prateleira superior (severidade média, confiança alta) e um 'misaligned' na prateleira inferior (severidade baixa, confiança alta). PASSO 4: O fill rate é elevado, estimado em 0.88, dado que a maioria das faces da prateleira estão ocupadas, com apenas pequenas lacunas."
+}

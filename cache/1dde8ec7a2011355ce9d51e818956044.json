@@ -1,0 +1,16 @@
+{
+  "inspection_id": "INS_20260605_100832_388",
+  "timestamp": "2026-06-05T10:08:32Z",
+  "image_path": "data\\images\\img_0399.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Fanta Orange",
+    "Fanta Zero",
+    "Sprite Zero",
+    "Lift Lemon"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado organizada com packs de 6 latas de bebidas (Fanta, Fanta Zero, Sprite Zero e Lift Lemon). Há uma prateleira superior parcialmente visível com caixas de cartão. PASSO 2: A prateleira principal está organizada em 4 colunas. Não há espaços vazios significativos, os produtos estão alinhados e as etiquetas de preço estão presentes abaixo de cada coluna. PASSO 3: Não foram detetadas anomalias. Os produtos estão bem empilhados, alinhados e com stock completo. PASSO 4: O fill rate é elevado, estimado em 0.95, considerando que a prateleira está quase totalmente preenchida com o produto padrão de exposição."
+}

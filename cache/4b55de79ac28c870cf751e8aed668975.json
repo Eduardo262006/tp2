@@ -1,0 +1,40 @@
+{
+  "inspection_id": "INS_20260605_100753_375",
+  "timestamp": "2026-06-05T10:07:53Z",
+  "image_path": "data\\images\\img_0386.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, atrás das caixas de Rice Porridge, indicando falta de stock ou desorganização.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "low",
+      "description": "Caixa de Crunchola Apple Cinnamon posicionada à frente das outras, desalinhada com o plano frontal.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Crunchola Breakfast Bars",
+    "Norganic bars",
+    "Go Natural bars",
+    "Lowan Cocoa Bombs",
+    "Lowan Rice Porridge",
+    "Freedom Foods Rice Puffs",
+    "Freedom Foods Quick Oats",
+    "Lowan Soy Flakes",
+    "Crunchola Apple Cinnamon cereal"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de supermercado com cereais e barras de pequeno-almoço. Os produtos estão maioritariamente organizados, mas há zonas com stock reduzido. PASSO 2: Dividindo a prateleira: Superior (barras), Meio (cereais e papas), Inferior (cereais e aveia). Anomalias: Na prateleira do meio, há um espaço vazio atrás dos produtos 'Rice Porridge' e uma caixa de 'Crunchola' desalinhada (avançada para a frente). PASSO 3: Identifiquei um 'empty_shelf' parcial na prateleira do meio (severidade média) e um 'misaligned' na mesma prateleira (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das faces está preenchida, mas com lacunas visíveis no fundo da prateleira do meio."
+}

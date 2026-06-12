@@ -1,0 +1,1 @@
+zona Z_S6; estado ok; fill rate 95%; produtos: Chicken Snacks, Cheese Rings, Cheese Snacks, Twisties Cheese; data 2026-06-03T12:16:36Z

@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260608_174859_600",
+  "timestamp": "2026-06-08T17:48:59Z",
+  "image_path": "data\\images\\img_0611.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos de molho/salsa.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "low",
+      "description": "Frascos de molho desalinhados e com profundidade irregular na prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Doritos",
+    "Salsa jars",
+    "Dip jars"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras. Superior: sacos de Doritos. Meio: frascos de molhos (salsa/dip). Inferior: sacos de Doritos. PASSO 2: Prateleira superior está bem abastecida. Prateleira do meio apresenta uma lacuna visível no lado direito e desalinhamento nos frascos centrais. Prateleira inferior está bem abastecida. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira do meio (lado direito) e 'misaligned' nos frascos centrais. Severidade média para o vazio, baixa para o desalinhamento. PASSO 4: O fill rate é alto, estimado em 0.85, considerando a ocupação total das três prateleiras, descontando o espaço vazio na prateleira do meio."
+}

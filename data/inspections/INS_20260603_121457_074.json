@@ -1,0 +1,18 @@
+{
+  "inspection_id": "INS_20260603_121457_074",
+  "timestamp": "2026-06-03T12:14:57Z",
+  "image_path": "data\\images\\img_0074.jpg",
+  "zone_id": "Z_S3",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Thai sauces",
+    "Lime juice",
+    "Vietnamese dipping sauces",
+    "Trident curry paste",
+    "Sesame oil",
+    "Mae Ploy curry paste"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado contendo molhos asiáticos, óleos e pastas de caril. A organização é linear, com produtos alinhados frontalmente. PASSO 2: Prateleira superior: contém molhos em garrafa e embalagens de pasta de caril Trident. Prateleira inferior: contém óleos de sésamo e embalagens de pasta de caril Mae Ploy. Não se observam espaços vazios significativos, produtos danificados ou etiquetas em falta. PASSO 3: Não foram identificadas anomalias. Todos os produtos estão alinhados e com as etiquetas de preço correspondentes visíveis abaixo de cada item. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase toda a extensão da prateleira está preenchida com stock, com apenas espaços mínimos entre unidades."
+}

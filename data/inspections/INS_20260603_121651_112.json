@@ -1,0 +1,38 @@
+{
+  "inspection_id": "INS_20260603_121651_112",
+  "timestamp": "2026-06-03T12:16:51Z",
+  "image_path": "data\\images\\img_0112.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos alinhados com as etiquetas de preço.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Produto posicionado de forma irregular/inclinada na extremidade direita da prateleira superior.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Roll-Ups",
+    "IXL Alphabet Bites",
+    "Fruit Bar Sours",
+    "Sunbeam Sultanas",
+    "Coles Fruit Bars",
+    "IXL Fruit Bars",
+    "Raspberry Jelly"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo snacks de fruta (Roll-Ups, IXL, Fruit Bars). A organização é geralmente boa, mas com algumas falhas de preenchimento. PASSO 2: Prateleira superior: bem preenchida, exceto por um item ligeiramente desalinhado à direita. Prateleira do meio: apresenta uma lacuna visível no lado direito, onde faltam produtos. Prateleira inferior: bem preenchida com produtos IXL e Coles. PASSO 3: Identifiquei um 'empty_shelf' na prateleira do meio (lado direito) com severidade média, pois interrompe a continuidade do stock. Identifiquei um 'misaligned' na prateleira superior (lado direito) com severidade baixa. PASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das prateleiras está cheia, com exceção da lacuna na prateleira do meio."
+}

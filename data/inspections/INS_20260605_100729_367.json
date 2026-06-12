@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260605_100729_367",
+  "timestamp": "2026-06-05T10:07:29Z",
+  "image_path": "data\\images\\img_0378.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos Karicare, indicando falta de stock ou má organização.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Produtos S26 desalinhados e com profundidade irregular na prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Karicare infant formula",
+    "S26 Gold infant formula"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo latas de leite em pó para bebés (marcas Karicare e S26). A organização é geralmente boa, mas com lacunas visíveis. PASSO 2: Prateleira superior: bem preenchida. Prateleira do meio: apresenta um espaço vazio notável à esquerda. Prateleira inferior: produtos S26, com algum desalinhamento na parte direita. PASSO 3: Identifiquei um 'empty_shelf' na prateleira do meio (severidade média, pois interrompe o facing) e 'misaligned' na inferior (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, mas com lacunas pontuais e profundidade variável."
+}

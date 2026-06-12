@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260605_100459_317",
+  "timestamp": "2026-06-05T10:04:59Z",
+  "image_path": "data\\images\\img_0328.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo onde deveriam estar latas de fruta, interrompendo o alinhamento dos produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "low",
+      "description": "Latas de fruta desalinhadas e com orientação irregular em relação ao padrão de faceamento.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "latas de fruta em calda",
+    "pêssegos",
+    "peras",
+    "salada de frutas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com várias prateleiras repletas de latas de conservas de fruta (pêssegos, peras, salada de frutas). A organização é predominantemente por blocos de marca e tipo. PASSO 2: Dividindo a prateleira: Superior (bem abastecida), Meio (apresenta uma lacuna visível à esquerda e algum desarrumo no centro), Inferior (bem abastecida). PASSO 3: Identifiquei uma zona de 'empty_shelf' na prateleira do meio, lado esquerdo, onde faltam várias unidades, criando um buraco no stock. Também notei 'misaligned' no centro da mesma prateleira, onde as latas não estão perfeitamente alinhadas com a frente. A severidade é média devido ao impacto na experiência do cliente. PASSO 4: O fill rate é alto, estimado em 0.88, pois a grande maioria das prateleiras está cheia, com apenas pequenas falhas pontuais."
+}

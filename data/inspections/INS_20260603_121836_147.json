@@ -1,0 +1,12 @@
+{
+  "inspection_id": "INS_20260603_121836_147",
+  "timestamp": "2026-06-03T12:18:36Z",
+  "image_path": "data\\images\\img_0147.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [],
+  "shelf_fill_rate": 0.0,
+  "products_detected": [],
+  "model_reasoning": "[análise indisponível] quota diária esgotada (429)",
+  "error": "quota diária esgotada (429)"
+}

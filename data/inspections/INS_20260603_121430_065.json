@@ -1,0 +1,27 @@
+{
+  "inspection_id": "INS_20260603_121430_065",
+  "timestamp": "2026-06-03T12:14:30Z",
+  "image_path": "data\\images\\img_0065.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo à esquerda das embalagens de Hollandia, sugerindo falta de stock ou organização inadequada.",
+      "confidence": 0.9,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.8,
+  "products_detected": [
+    "König Pilsener",
+    "Corona Extra",
+    "Hollandia Beer",
+    "Bavaria Beer",
+    "Crown Lager"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado com várias marcas de cerveja (König Pilsener, Corona, Hollandia, Bavaria, Crown Lager). Há embalagens de cartão e packs de garrafas. PASSO 2: Dividindo a prateleira: Superior (König, Corona), Meio (Hollandia à esquerda, Bavaria à direita), Inferior (Crown Lager). Anomalia identificada: Na prateleira do meio, lado esquerdo, existe um espaço vazio considerável ao lado das caixas de Hollandia, indicando uma falha de preenchimento ou desorganização. PASSO 3: Classificação da anomalia: empty_shelf, localização prateleira do meio lado esquerdo, severidade média, confiança 0.9, área afetada estimada em 20%. PASSO 4: O fill rate global é estimado em 0.8, considerando que a maioria das posições está ocupada, exceto pelo espaço vazio identificado na prateleira do meio."
+}

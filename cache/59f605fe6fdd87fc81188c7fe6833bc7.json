@@ -1,0 +1,27 @@
+{
+  "inspection_id": "INS_20260607_113730_582",
+  "timestamp": "2026-06-07T11:37:30Z",
+  "image_path": "data\\images\\img_0593.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo onde deveriam estar produtos, possivelmente devido a rutura de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Parker's Baked Wheat Pretzel Twists",
+    "Teriyaki Chicken Chips",
+    "Parker's Mini Pretzels",
+    "Crinkle Cut Rock Salt & Vinegar Chips",
+    "Herb & Spice Chips"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com três níveis visíveis contendo sacos de snacks (pretzels e batatas fritas). Os produtos estão organizados em filas. PASSO 2: Prateleira superior: cheia. Prateleira do meio: cheia. Prateleira inferior: lado esquerdo apresenta um espaço vazio considerável (rutura de stock), enquanto o lado direito contém sacos de 'Herb & Spice'. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira inferior esquerda. Severidade média, pois afeta a disponibilidade do produto. Confiança alta devido à visibilidade clara da grelha metálica vazia. PASSO 4: Considerando a ocupação total das prateleiras, a área vazia representa cerca de 15% do espaço total visível, resultando num fill rate de 0.85."
+}

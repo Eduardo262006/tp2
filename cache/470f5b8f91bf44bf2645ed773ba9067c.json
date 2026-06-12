@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260605_100505_319",
+  "timestamp": "2026-06-05T10:05:05Z",
+  "image_path": "data\\images\\img_0330.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio visível na extremidade direita da prateleira inferior, onde deveriam estar produtos Polident.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Produtos Polident ligeiramente desalinhados em relação à frente da prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Listerine Mouthwash",
+    "Polident Denture Care"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho. A superior contém garrafas de Listerine (vários sabores/tipos). A inferior contém caixas de Polident e sprays de limpeza. PASSO 2: Prateleira superior: bem organizada, sem falhas. Prateleira inferior: lado esquerdo e centro preenchidos, lado direito apresenta um espaço vazio significativo. PASSO 3: Identificada uma zona de 'empty_shelf' na extremidade direita da prateleira inferior. O alinhamento geral é bom, mas há um ligeiro desalinhamento no centro da prateleira inferior. PASSO 4: O fill rate é elevado, estimado em 0.92, considerando que apenas uma pequena fração da prateleira inferior está vazia."
+}

@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260606_165647_461",
+  "timestamp": "2026-06-06T16:56:47Z",
+  "image_path": "data\\images\\img_0472.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Espaço vazio na extremidade direita da prateleira inferior.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "bebidas gaseificadas",
+    "refrigerantes",
+    "água com gás",
+    "brinquedos infantis (lateral)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo garrafas de refrigerante (Sprite, Pepsi, etc.) e água. Há uma coluna de brinquedos infantis na lateral direita. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: lado esquerdo e centro ocupados, lado direito vazio. Prateleira inferior: lado esquerdo e centro ocupados, lado direito com espaço vazio. PASSO 3: Identificadas duas zonas de 'empty_shelf'. A zona da prateleira do meio é mais crítica devido à extensão do vazio. PASSO 4: Estimativa de ocupação visual: cerca de 75% da área total de exposição está preenchida com produtos."
+}

@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260603_121706_117",
+  "timestamp": "2026-06-03T12:17:06Z",
+  "image_path": "data\\images\\img_0117.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Os sacos de batatas Kettle estão desorganizados, inclinados e sobrepostos, dificultando a visualização e o acesso.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Espaço vazio visível atrás dos produtos na parte superior direita.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Red Rock Deli Potato Chips",
+    "Kettle Chips"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho contendo sacos de batatas fritas (marcas Kettle e Red Rock Deli). A prateleira inferior está bem organizada com os produtos alinhados. A prateleira superior apresenta desorganização significativa no centro. PASSO 2: Prateleira superior: Esquerda (Red Rock Deli, ok), Centro (Kettle, desorganizado/misaligned), Direita (espaço vazio/empty_shelf). Prateleira inferior: Toda a extensão está bem organizada. PASSO 3: Anomalia 1: Misaligned no centro da prateleira superior. Os sacos estão tombados e misturados. Severidade média, confiança alta. Anomalia 2: Empty_shelf no lado direito da prateleira superior. Severidade baixa, confiança alta. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria do espaço está preenchido, exceto por uma pequena zona vazia e a desorganização que ocupa volume mas não é falta de stock."
+}

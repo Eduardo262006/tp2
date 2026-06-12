@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260604_163049_197",
+  "timestamp": "2026-06-04T16:30:49Z",
+  "image_path": "data\\images\\img_0208.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "As embalagens de V.I.P Gourmet estão ligeiramente desalinhadas e sobrepostas, dificultando a leitura frontal perfeita.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "As embalagens cilíndricas de V.I.P Lamb & Chicken estão empilhadas de forma irregular, com algumas unidades rodadas.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "V.I.P Gourmet Cat Food",
+    "Fussy Cat Food",
+    "V.I.P Lamb & Chicken Dog Food",
+    "V.I.P Beef & Lamb Dog Food"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado com comida para animais. A prateleira superior contém embalagens planas de comida para gato (V.I.P Gourmet e Fussy Cat). A prateleira inferior contém embalagens cilíndricas de comida para cão (V.I.P Lamb & Chicken e Beef & Lamb). PASSO 2: Prateleira superior: esquerda (V.I.P Gourmet) e direita (Fussy Cat). Prateleira inferior: esquerda (Lamb & Chicken) e direita (Beef & Lamb). Anomalias: Desalinhamento menor na prateleira superior esquerda e empilhamento irregular na prateleira inferior esquerda. PASSO 3: As anomalias são de severidade baixa, pois o produto está presente e visível, apenas com organização estética subótima. PASSO 4: O fill rate é elevado, próximo de 0.95, pois quase todo o espaço disponível está preenchido com produto, sem falhas de stock significativas."
+}

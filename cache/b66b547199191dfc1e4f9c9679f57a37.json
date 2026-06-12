@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260608_174835_592",
+  "timestamp": "2026-06-08T17:48:35Z",
+  "image_path": "data\\images\\img_0603.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos alinhados com o restante da categoria.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "wrong_product",
+      "location": "prateleira superior e do meio, centro",
+      "severity": "low",
+      "description": "Presença de embalagens de comida para animais (Coles tender strips) penduradas em zona de bebidas, causando obstrução visual.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.82,
+  "products_detected": [
+    "bebidas gaseificadas Schweppes",
+    "Coca-Cola",
+    "Coca-Cola Zero",
+    "comida para animais"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado. A prateleira superior contém garrafas de 1.25L de Schweppes (limão, laranja, framboesa, ginger ale). A prateleira do meio contém garrafas de Schweppes e um espaço vazio considerável à direita. A prateleira inferior contém packs de 6 unidades de Schweppes e Coca-Cola. Há pacotes de comida para animais pendurados no centro, bloqueando a visão. PASSO 2: Superior: bem abastecida, mas com obstrução central. Meio: lado esquerdo preenchido, lado direito com falha de stock (empty_shelf). Inferior: bem abastecida. PASSO 3: Anomalia 1: empty_shelf na prateleira do meio, lado direito (severidade média). Anomalia 2: wrong_product (comida de animal em corredor de bebidas) no centro (severidade baixa). PASSO 4: O fill rate é estimado em 0.82, considerando o espaço vazio na prateleira do meio e a densidade das outras prateleiras."
+}

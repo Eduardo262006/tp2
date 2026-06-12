@@ -1,0 +1,24 @@
+{
+  "inspection_id": "INS_20260608_175235_672",
+  "timestamp": "2026-06-08T17:52:35Z",
+  "image_path": "data\\images\\img_0683.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "other",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Objeto decorativo (fita holográfica) obstruindo a visão e o acesso aos produtos na prateleira do meio.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "vinho espumante",
+    "vinho em caixa (cask wine)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho com vinhos. Na parte superior, garrafas de espumante à esquerda e caixas de vinho Yalumba à direita. Na prateleira do meio, mais caixas de vinho Yalumba. Na parte inferior, mais caixas de vinho. PASSO 2: Prateleira superior: bem organizada. Prateleira do meio: existe uma fita decorativa holográfica pendurada que bloqueia parcialmente a visão e o acesso a algumas caixas de vinho. Prateleira inferior: organizada. PASSO 3: A fita decorativa é classificada como 'other' pois não é um produto, mas causa uma obstrução física e visual, afetando cerca de 15% da área da prateleira do meio. Severidade baixa, pois os produtos ainda são identificáveis. PASSO 4: O fill rate é elevado, com apenas pequenos espaços vazios ou obstruções, estimado em 0.92."
+}

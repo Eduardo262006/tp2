@@ -1,20 +1,4 @@
-"""
-evaluate.py — Harness de Avaliação (Secção 9).
 
-Executável com um único comando:
-    python evaluate.py --images-dir test_images/ --output evaluation_report.json
-
-Calcula as métricas obrigatórias de análise visual, RAG e Rule Engine, incluindo
-LLM-as-judge (Hallucination Rate, Faithfulness, Answer Relevance).
-
-Ground truth esperado em <images-dir>/ground_truth.json:
-  {"img1.jpg": {"zone_id":"Z_S3","overall_status":"warning",
-                "issues":[{"type":"empty_shelf","severity":"medium"}]}, ...}
-Opcional <images-dir>/rag_eval.json: {"queries":[{"query","relevant_ids"}]}.
-
-Este ficheiro é autossuficiente para o acesso ao LLM (camada embutida). Importa os
-componentes (ShelfInspector, RuleEngine, RAGMemory) sem depender de llm.py.
-"""
 
 from __future__ import annotations
 
@@ -32,10 +16,7 @@ from typing import Any, Optional
 import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 
-# =========================================================================== #
-# Camada de acesso ao LLM (embutida) — Gemini 1.5 Flash (texto + imagem).
-# Usada pelos avaliadores LLM-as-judge. Degradação graciosa.
-# =========================================================================== #
+
 try:
     from dotenv import load_dotenv
     load_dotenv()
@@ -216,29 +197,6 @@ def load_prompt(name: str, default: str = "") -> str:
 
 _IMG_EXTS = {".jpg", ".jpeg", ".png", ".webp", ".bmp"}
 
-'''_JUDGE_HALLUCINATION = """És um avaliador rigoroso. Dada a DESCRIÇÃO de um problema gerada por um modelo de
-visão e a imagem original, decide se a descrição é verificável na imagem ou se contém
-afirmações não fundamentadas (alucinação).
-Responde APENAS com JSON: {"hallucinated": true/false, "justification": "..."}.
-
-Descrição a avaliar: "%s"
-"""
-
-_JUDGE_RELEVANCE = """Avalia, de 0 a 1, se a RESPOSTA responde adequadamente à PERGUNTA do gestor de loja.
-Responde APENAS com JSON: {"relevance": 0.0, "justification": "..."}.
-
-PERGUNTA: %s
-RESPOSTA: %s
-"""
-
-_JUDGE_FAITHFULNESS = """Avalia se a RESPOSTA é integralmente suportada pelo CONTEXTO fornecido (sem inventar
-factos). Responde APENAS com JSON: {"faithfulness": 0.0, "justification": "..."}.
-
-CONTEXTO:
-%s
-
-RESPOSTA: %s
-"""'''
 
 
 def _judge(prompt: str, image_path: Optional[str] = None) -> Optional[dict]:
@@ -305,15 +263,7 @@ def evaluate_visual(images_dir: str, ground_truth: dict, strategy: str = "B") ->
     }
 
 def _build_rag_eval_from_inspections(inspections_dir: Path) -> list[dict]:
-    """
-    Gera automaticamente um conjunto de queries de avaliação RAG a partir
-    das inspeções geradas na sessão atual. Cada query é construída a partir
-    dos dados reais dos inspection records (zona, issue_type, fill_rate),
-    e os relevant_ids são os IDs das inspeções que contêm esses dados.
 
-    Isto garante que o rag_eval funciona com qualquer conjunto de imagens
-    fornecido pelo professor, sem depender de um ficheiro pré-definido.
-    """
     records = []
     for p in sorted(inspections_dir.glob("INS_*.json")):
         try:
@@ -329,9 +279,6 @@ def _build_rag_eval_from_inspections(inspections_dir: Path) -> list[dict]:
 
     queries = []
 
-    # Query 1 — por zona: "quais as inspeções da zona X?"
-    # Para cada zona única, cria uma query e os IDs relevantes são todas as
-    # inspeções dessa zona.
     zones_seen = {}
     for rec in records:
         z = rec["zone_id"]

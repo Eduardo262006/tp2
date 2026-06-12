@@ -1,0 +1,44 @@
+{
+  "inspection_id": "INS_20260608_175114_645",
+  "timestamp": "2026-06-08T17:51:14Z",
+  "image_path": "data\\images\\img_0656.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Vários ganchos de exposição estão vazios, indicando falta de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo nos ganchos à direita da prateleira do meio.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Ausência de produtos nos ganchos da extremidade direita.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "Maybelline base",
+    "Maybelline corretor",
+    "Maybelline pó compacto",
+    "Maybelline Dream Matte"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho de cosméticos (Maybelline) organizada em ganchos. Existem três níveis principais. Os produtos incluem bases, corretores e pós compactos. PASSO 2: Dividindo a prateleira: Superior (esquerda cheia, direita com ganchos vazios), Meio (esquerda e centro cheios, direita com ganchos vazios), Inferior (esquerda e centro cheios, direita com ganchos vazios). PASSO 3: Identifiquei anomalias de 'empty_shelf' em todas as prateleiras, especificamente no lado direito, onde os ganchos estão expostos sem produto. A severidade é média pois afeta a disponibilidade de stock, mas a organização geral está correta. PASSO 4: O fill rate é estimado em 0.75, considerando que cerca de 25% dos ganchos visíveis estão vazios."
+}

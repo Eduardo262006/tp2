@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260602_153739_010",
+  "timestamp": "2026-06-02T15:37:39Z",
+  "image_path": "data\\images\\img_0010.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas de molho estão ligeiramente desalinhadas em relação à frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira superior, extremo esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível onde deveriam estar produtos, sugerindo falta de stock.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "molhos asiáticos",
+    "molho de peixe",
+    "molho de soja",
+    "molho de chili",
+    "molho hoisin",
+    "snacks"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado contendo diversos tipos de molhos (soja, chili, peixe, hoisin, etc.) e alguns snacks no canto inferior esquerdo. A organização é predominantemente por filas de garrafas. PASSO 2: Prateleira superior: bem abastecida, mas com um pequeno espaço vazio à esquerda e ligeiro desalinhamento. Prateleira do meio: bem organizada, com etiquetas de preço alinhadas. Prateleira inferior: bem abastecida, com variedade de molhos de chili. PASSO 3: Identifiquei um pequeno espaço vazio na prateleira superior (empty_shelf, severidade média) e um ligeiro desalinhamento de garrafas na mesma zona (misaligned, severidade baixa). A confiança é alta devido à clareza da imagem. PASSO 4: O fill rate é elevado, estimado em 0.92, pois a grande maioria do espaço de prateleira está ocupado por produtos, com apenas pequenas lacunas."
+}

@@ -1,0 +1,33 @@
+{
+  "rule_id": "RULE_003",
+  "created_at": "2026-06-12T11:08:36Z",
+  "natural_language": "Se um produto estiver tombado ou danificado, é crítico",
+  "description": "Emitir um alerta de nível crítico caso seja detetado um produto tombado ou danificado.",
+  "conditions": {
+    "zone_filter": [],
+    "time_filter": {
+      "hours_start": null,
+      "hours_end": null
+    },
+    "issue_types": [
+      "damaged",
+      "other"
+    ],
+    "severity_threshold": null,
+    "fill_rate_threshold": null,
+    "location_filter": "any"
+  },
+  "action": {
+    "alert_level": "critical",
+    "notification_message": "Alerta crítico: produto {issue_type} detetado na zona {zone_id}."
+  },
+  "validation": {
+    "is_valid": true,
+    "ambiguities": [
+      "O termo 'tombado' não corresponde exatamente a um tipo de issue predefinido, sendo mapeado para 'other'."
+    ],
+    "assumptions": [
+      "Assumi que 'tombado' deve ser tratado como 'other' e 'danificado' como 'damaged'."
+    ]
+  }
+}

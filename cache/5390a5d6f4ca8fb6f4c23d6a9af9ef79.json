@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260609_105945_783",
+  "timestamp": "2026-06-09T10:59:45Z",
+  "image_path": "data\\images\\img_0794.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos da marca Sorbent.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Uma das caixas de Sorbent Teddies está posicionada de lado (orientação vertical em vez de horizontal), quebrando o padrão visual.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Sorbent Teddies",
+    "Sorbent Vogue",
+    "Sorbent Blue",
+    "Sorbent White",
+    "Cuidados pessoais (St. Ives/outros)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras principais de retalho. A prateleira superior contém caixas de lenços Sorbent (Teddies e Vogue). A prateleira inferior contém caixas de Sorbent Blue e White. Há uma zona vazia à esquerda na prateleira inferior. PASSO 2: Prateleira superior: organizada, exceto por uma caixa rodada. Prateleira inferior: lado esquerdo vazio, centro e direita preenchidos com Sorbent Blue. PASSO 3: Anomalia 1: empty_shelf na prateleira inferior esquerda (severidade média, confiança alta). Anomalia 2: misaligned na prateleira superior direita (severidade baixa, confiança alta). PASSO 4: O fill rate é estimado em 0.85, considerando a área vazia na prateleira inferior e a ocupação total das outras secções."
+}

@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260603_121439_068",
+  "timestamp": "2026-06-03T12:14:39Z",
+  "image_path": "data\\images\\img_0068.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro-direita",
+      "severity": "medium",
+      "description": "Espaço vazio entre os produtos Palmolive e a secção de sabonetes Simple.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio na prateleira onde deveriam estar produtos, entre os sabonetes verdes e os sabonetes Simple.",
+      "confidence": 0.95,
+      "affected_area_pct": 8.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "gel de banho",
+    "sabonetes em barra",
+    "produtos de higiene pessoal"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com 4 níveis visíveis contendo produtos de higiene pessoal (gel de banho, sabonetes em barra). A organização é feita por categorias e marcas. PASSO 2: Prateleira superior: contém géis de banho Palmolive, com uma lacuna visível à direita. Prateleira do meio: contém sabonetes em barra (Simple, marcas próprias), com uma lacuna central. Prateleira inferior: contém sabonetes em barra (Gold, Palmolive, Pure). Prateleira base: contém sabonetes em barra (Country Life, Oatmeal). PASSO 3: Identifiquei duas zonas de 'empty_shelf' significativas. A primeira na prateleira superior (centro-direita) e a segunda na prateleira do meio (centro). Ambas são lacunas de stock que interrompem o alinhamento dos produtos. A severidade é média pois não compromete a totalidade da prateleira, mas afeta a disponibilidade. PASSO 4: O fill rate é estimado em 0.88, considerando que a maioria das prateleiras está bem abastecida, exceto pelas duas lacunas identificadas."
+}

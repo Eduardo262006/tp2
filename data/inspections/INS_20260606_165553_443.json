@@ -1,0 +1,25 @@
+{
+  "inspection_id": "INS_20260606_165553_443",
+  "timestamp": "2026-06-06T16:55:53Z",
+  "image_path": "data\\images\\img_0454.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "other",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Cesto de compras vermelho abandonado sobre as caixas de Coca-Cola, obstruindo a visualização e o acesso aos produtos.",
+      "confidence": 0.98,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Coca-Cola",
+    "Sprite Zero",
+    "Lift Lemon"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma pilha de caixas de bebidas (packs de 24 latas) dispostas em formato de ilha ou prateleira de exposição. Os produtos identificados são Coca-Cola, Sprite Zero e Lift Lemon. Há um cesto de compras vermelho vazio colocado sobre a parte superior central da pilha. PASSO 2: A prateleira pode ser dividida em: Superior (onde está o cesto), Meio (área central com Coca-Cola e Sprite) e Inferior (base da pilha). A anomalia principal é o cesto de compras que não deveria estar ali. PASSO 3: O cesto de compras é classificado como 'other' (objeto estranho), localizado na parte superior central, com severidade média (obstrução de produto) e confiança alta. Não há prateleiras vazias ou produtos danificados visíveis. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria do espaço está ocupado por produto, com uma pequena perda de área útil devido ao cesto."
+}

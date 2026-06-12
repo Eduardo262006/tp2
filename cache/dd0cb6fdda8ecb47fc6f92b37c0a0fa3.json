@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260608_175159_660",
+  "timestamp": "2026-06-08T17:51:59Z",
+  "image_path": "data\\images\\img_0671.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Um pacote de batatas fritas está tombado e atravessado sobre os outros produtos, obstruindo a visualização e organização.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "low",
+      "description": "Espaço vazio visível atrás dos produtos na prateleira do meio, indicando falta de stock ou recuo excessivo.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "batatas fritas",
+    "snacks salgados"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de metal carregadas com sacos de batatas fritas. A prateleira superior contém sacos azuis e roxos. A prateleira inferior contém sacos laranjas e amarelos. Há etiquetas de preço visíveis. PASSO 2: Prateleira superior: organizada, mas com um produto tombado no centro. Prateleira inferior: bem preenchida, sem anomalias graves. PASSO 3: Identifiquei um produto tombado (misaligned) no centro da prateleira superior que causa desordem. Identifiquei um pequeno espaço vazio (empty_shelf) na parte posterior da prateleira superior direita. PASSO 4: O preenchimento é alto, estimado em 85%, considerando que a maioria dos espaços está ocupada, apesar da desorganização pontual."
+}

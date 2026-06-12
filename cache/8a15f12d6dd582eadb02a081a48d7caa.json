@@ -1,0 +1,25 @@
+{
+  "inspection_id": "INS_20260604_163122_208",
+  "timestamp": "2026-06-04T16:31:22Z",
+  "image_path": "data\\images\\img_0219.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "wrong_product",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Presença de garrafas da marca 'Squeeze' misturadas com a gama 'Mildura', quebrando a continuidade do planograma.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "sumo de laranja (cartão)",
+    "sumo de laranja e manga (cartão)",
+    "sumo de laranja (garrafas de plástico)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A prateleira superior contém pacotes de cartão de sumo de laranja (Coles) e sumo de laranja e manga (Mildura). A prateleira inferior contém garrafas de plástico de sumo de laranja (Mildura) e, no canto inferior direito, garrafas de uma marca diferente ('Squeeze'). PASSO 2: Prateleira superior: organização correta, sem falhas. Prateleira inferior: organização maioritariamente correta, mas com intrusão de produto diferente à direita. PASSO 3: Identificada uma anomalia de 'wrong_product' na prateleira inferior, onde garrafas da marca 'Squeeze' estão posicionadas entre as garrafas 'Mildura'. Severidade média, pois afeta a organização visual e a gestão de stock. Confiança alta. PASSO 4: O preenchimento é muito elevado, com quase todos os espaços ocupados. Estimo um fill rate de 0.95."
+}

@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260607_113615_557",
+  "timestamp": "2026-06-07T11:36:15Z",
+  "image_path": "data\\images\\img_0568.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os pacotes de Soda Water e Dry Ginger Ale.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio entre os pacotes de Tonic Water e Schweppes Ginger Ale.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "bebidas (soda water, ginger ale, tonic water)",
+    "palhinhas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado contendo packs de bebidas (Coles Soda Water, Dry Ginger Ale, Schweppes Tonic Water e Ginger Ale) e um expositor lateral de palhinhas coloridas. PASSO 2: Prateleira superior: lado esquerdo com palhinhas, centro com lacuna entre produtos, lado direito com packs de Ginger Ale. Prateleira inferior: lado esquerdo com Tonic Water, centro com lacuna, lado direito com Schweppes. PASSO 3: Identificadas duas zonas de 'empty_shelf' no centro de ambas as prateleiras, onde a falta de stock é evidente. Severidade média pois o produto não está totalmente esgotado, mas a organização está comprometida. PASSO 4: O fill rate é estimado em 0.75, considerando que cerca de 25% do espaço útil de exposição está vazio devido ao espaçamento entre os packs existentes."
+}

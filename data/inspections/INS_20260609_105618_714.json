@@ -1,0 +1,44 @@
+{
+  "inspection_id": "INS_20260609_105618_714",
+  "timestamp": "2026-06-09T10:56:18Z",
+  "image_path": "data\\images\\img_0725.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre as garrafas de sumo e o limite esquerdo da prateleira.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio considerável entre as embalagens de cartão e a garrafa de sumo isolada.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos desalinhados e com espaçamento irregular na frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "sumos de fruta",
+    "bebidas de café",
+    "iogurtes",
+    "bebidas de fruta em cartão"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com 4 níveis. Contém sumos em garrafa, bebidas de café, iogurtes em copo e sumos em cartão. PASSO 2: Prateleira superior: bem organizada, exceto por um espaço vazio à esquerda. Prateleira do meio: iogurtes bem organizados à direita, mas há um espaço vazio considerável à esquerda entre os sumos. Prateleira inferior: produtos presentes, mas com algum desalinhamento. PASSO 3: Identificadas duas zonas de 'empty_shelf' (superior esquerda e meio esquerda) e uma zona de 'misaligned' (inferior esquerda). A severidade é média devido ao espaço não aproveitado. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está bem preenchida, exceto pelas lacunas identificadas."
+}

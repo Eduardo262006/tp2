@@ -1,0 +1,44 @@
+{
+  "inspection_id": "INS_20260607_113354_510",
+  "timestamp": "2026-06-07T11:33:54Z",
+  "image_path": "data\\images\\img_0521.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos de pão e os crumpets.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro-esquerda",
+      "severity": "medium",
+      "description": "Lacuna visível na prateleira onde deveriam estar produtos de padaria.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio na prateleira inferior, indicando falta de stock.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "pão de forma",
+    "crumpets",
+    "muffins",
+    "pão de passas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de padaria com 4 níveis de prateleiras metálicas. Os produtos incluem pães embalados, crumpets e muffins. A organização é geralmente por filas, mas existem lacunas. PASSO 2: Prateleira superior: lacuna no centro. Prateleira 2 (contando de cima): lacuna no centro-esquerda. Prateleira 3: preenchimento razoável. Prateleira inferior: lacuna no centro. PASSO 3: Identifiquei 3 zonas de 'empty_shelf' com severidade média devido ao impacto na disponibilidade do produto. Confiança alta baseada na visibilidade da grelha metálica de fundo. PASSO 4: O fill rate global é estimado em 0.85, considerando que cerca de 15% do espaço total de exposição está vazio devido às lacunas identificadas."
+}

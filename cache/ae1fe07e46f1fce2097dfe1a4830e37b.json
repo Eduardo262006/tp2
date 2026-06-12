@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260606_165753_483",
+  "timestamp": "2026-06-06T16:57:53Z",
+  "image_path": "data\\images\\img_0494.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "damaged",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Uma garrafa de refrigerante laranja está deitada horizontalmente, ocupando espaço de forma desorganizada e potencialmente instável.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito (atrás da garrafa deitada)",
+      "severity": "low",
+      "description": "Espaço vazio visível atrás da garrafa caída, indicando falta de stock ou má organização.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "refrigerantes de laranja",
+    "refrigerantes de limão",
+    "sumos",
+    "caixas de latas de limonada"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras principais. A superior contém garrafas de 1.25L/1.5L de bebidas (limão e laranja). A prateleira do meio contém garrafas individuais de refrigerante de laranja e limão, com uma garrafa deitada. A prateleira inferior contém caixas de 24 e 10 latas de limonada. PASSO 2: Prateleira superior: bem organizada. Prateleira do meio: zona esquerda/centro bem organizada, zona direita apresenta uma garrafa deitada (anomalia). Prateleira inferior: organizada. PASSO 3: Identificada uma garrafa deitada (damaged/misaligned) na prateleira do meio, lado direito. Severidade média pois compromete a estética e o espaço. Confiança alta. PASSO 4: O fill rate é elevado, estimado em 0.85, considerando que a maioria das posições está preenchida, exceto pelo espaço ocupado pela garrafa deitada e o pequeno vazio atrás dela."
+}

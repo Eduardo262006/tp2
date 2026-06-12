@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260606_165517_431",
+  "timestamp": "2026-06-06T16:55:17Z",
+  "image_path": "data\\images\\img_0442.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas de refrigerante laranja estão desalinhadas e ligeiramente viradas para fora do alinhamento frontal.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "low",
+      "description": "Garrafas de refrigerante amarelo (Golden Pash) apresentam desalinhamento na profundidade e orientação.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "refrigerantes",
+    "bebidas gaseificadas",
+    "sumos"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um supermercado repletas de garrafas de refrigerante de 1.5L. A organização é por tipo/sabor. PASSO 2: Prateleira superior: bem abastecida, mas com ligeiro desalinhamento à esquerda. Prateleira do meio: bem abastecida, com alinhamento consistente, exceto por pequenas variações à direita. Prateleira inferior: visível apenas parcialmente, mas parece organizada. PASSO 3: Identifiquei desalinhamentos menores (misaligned) na prateleira superior e na prateleira do meio. Não há prateleiras vazias ou produtos claramente errados. A severidade é baixa pois não compromete a disponibilidade. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todos os espaços estão preenchidos com produtos."
+}

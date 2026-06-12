@@ -1,0 +1,26 @@
+{
+  "inspection_id": "INS_20260603_121612_099",
+  "timestamp": "2026-06-03T12:16:12Z",
+  "image_path": "data\\images\\img_0099.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro-direita",
+      "severity": "medium",
+      "description": "Espaço vazio significativo atrás das caixas de refrigerante, indicando falta de stock ou recuo excessivo dos produtos.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "garrafas de refrigerante 1.5L",
+    "caixas de 12 latas Pepsi Max",
+    "caixas de 24 latas Coles Cola",
+    "caixas de 24 latas Coles Diet Cola"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras. A superior contém garrafas de 1.5L (Cola, LA Ice, Pepsi). A inferior contém caixas de cartão de refrigerantes (Pepsi Light, Pepsi Max, Coles Cola, Coles Diet Cola). PASSO 2: Prateleira superior está bem preenchida. Prateleira inferior apresenta uma zona vazia visível no centro-direita, atrás das caixas de Coles Cola. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira inferior, centro-direita, com severidade média devido ao espaço não utilizado. Confiança alta. PASSO 4: O fill rate é estimado em 0.85, considerando que a prateleira superior está cheia e a inferior tem uma lacuna de stock visível."
+}

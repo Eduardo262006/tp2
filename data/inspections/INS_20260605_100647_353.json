@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260605_100647_353",
+  "timestamp": "2026-06-05T10:06:47Z",
+  "image_path": "data\\images\\img_0364.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio entre as garrafas de Coca-Cola, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "As caixas de Coca-Cola Zero estão ligeiramente desalinhadas em relação à frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Coca-Cola garrafas",
+    "Coca-Cola caixas 24 unidades",
+    "Coca-Cola Zero caixas 24 unidades"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho com produtos Coca-Cola. A prateleira superior contém garrafas individuais de Coca-Cola e Coca-Cola Zero. A prateleira inferior contém caixas de 24 unidades de Coca-Cola e Coca-Cola Zero. PASSO 2: Prateleira superior: lado esquerdo (cheio), centro (vazio visível entre garrafas), lado direito (cheio). Prateleira inferior: organização geral boa, mas com ligeiro desalinhamento nas caixas à direita. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior central (severidade média, confiança 0.95) e um 'misaligned' na prateleira inferior direita (severidade baixa, confiança 0.85). PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira superior e a ocupação densa das caixas na inferior."
+}

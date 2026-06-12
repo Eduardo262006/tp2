@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260605_100744_372",
+  "timestamp": "2026-06-05T10:07:44Z",
+  "image_path": "data\\images\\img_0383.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os molhos de soja e os óleos, indicando falta de stock ou desorganização.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Os produtos à esquerda estão desalinhados em relação à frente da prateleira, criando um aspeto desarrumado.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "molhos de soja",
+    "óleos de cozinha",
+    "molhos de chili",
+    "vinagre de arroz",
+    "sopas instantâneas (Wakame/Miso)",
+    "livros de culinária"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras. A superior contém garrafas de condimentos asiáticos (molhos, óleos, vinagres). A inferior contém embalagens de sopas instantâneas e livros de culinária. PASSO 2: Prateleira superior: lado esquerdo apresenta um espaço vazio e produtos desalinhados. Centro e direita estão bem preenchidos. Prateleira inferior: bem organizada e preenchida. PASSO 3: Identificada uma zona de 'empty_shelf' no lado esquerdo da prateleira superior (severidade média, confiança 0.9) e 'misaligned' na mesma zona (severidade baixa, confiança 0.85). PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira superior e a ocupação total da inferior."
+}

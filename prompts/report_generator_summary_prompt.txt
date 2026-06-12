@@ -1,0 +1,6 @@
+Escreve um sumário executivo (MÁXIMO 150 palavras), em português, direto e acionável,
+sobre o estado geral da loja nesta sessão de inspeção. Indica quantas zonas foram
+inspecionadas, quantos issues críticos e quantos warnings. Sem listas, só prosa.
+
+Dados da sessão (JSON):
+%s

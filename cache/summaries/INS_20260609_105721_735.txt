@@ -1,0 +1,1 @@
+Prateleira da zona Z_N1 com fill rate de 90%, apresentando falha de stock (empty_shelf) de severidade média no centro da prateleira do meio e desalinhamento (misaligned) de severidade baixa na prateleira inferior direita, registado a 9 de junho de 2026 às 10h57.

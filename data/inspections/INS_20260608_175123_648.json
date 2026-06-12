@@ -1,0 +1,14 @@
+{
+  "inspection_id": "INS_20260608_175123_648",
+  "timestamp": "2026-06-08T17:51:23Z",
+  "image_path": "data\\images\\img_0659.jpg",
+  "zone_id": "Z_S4",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.98,
+  "products_detected": [
+    "vinho tinto",
+    "espumante"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um expositor de bebidas. A prateleira superior contém garrafas de vinho tinto. A prateleira do meio contém garrafas de espumante com rótulo vermelho. A prateleira inferior contém garrafas de espumante com rótulo bege/dourado. Há etiquetas de preço e sinalética 'special' em todas as prateleiras. PASSO 2: Prateleira superior: totalmente preenchida. Prateleira do meio: totalmente preenchida, alinhada. Prateleira inferior: totalmente preenchida, alinhada. Não foram detetadas zonas vazias, produtos trocados ou danos visíveis. PASSO 3: Não existem anomalias a reportar. PASSO 4: O fill rate é muito elevado, próximo de 1, com apenas espaços mínimos entre garrafas e nas extremidades laterais, estimado em 0.98."
+}

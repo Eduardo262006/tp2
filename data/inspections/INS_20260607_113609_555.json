@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260607_113609_555",
+  "timestamp": "2026-06-07T11:36:09Z",
+  "image_path": "data\\images\\img_0566.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Produtos (lençóis) estão tombados e fora da organização vertical padrão, ocupando espaço de forma desordenada.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Espaço vazio visível na prateleira superior, indicando falta de stock ou organização ineficiente.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "almofadas",
+    "lençóis (fitted sheets)",
+    "conjuntos de cama (bed cover sets)",
+    "acessórios de casa"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com têxteis para o lar (almofadas, lençóis, conjuntos de cama). A organização é feita por divisórias de arame. PASSO 2: Prateleira superior: lado esquerdo com espaço vazio, centro e direita com produtos empilhados. Prateleira do meio: lado esquerdo organizado, centro com produtos tombados/desalinhados, direita organizada. Prateleira inferior: produtos organizados. PASSO 3: Identifiquei desalinhamento no centro da prateleira do meio (produtos tombados) e um espaço vazio na prateleira superior esquerda. A severidade é média para o desalinhamento pois dificulta a visualização e o acesso. PASSO 4: O fill rate é estimado em 0.75, considerando que, apesar de haver produtos, existem lacunas e desorganização que reduzem a eficiência do espaço."
+}

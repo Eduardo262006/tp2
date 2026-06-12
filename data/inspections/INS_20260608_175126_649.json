@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260608_175126_649",
+  "timestamp": "2026-06-08T17:51:26Z",
+  "image_path": "data\\images\\img_0660.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio visível entre os vinhos Chardonnay e o produto à direita, indicando falta de stock ou organização deficiente.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Produto Sunnyvale ligeiramente desalinhado em relação à frente da prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "vinhos em caixa (cask wine)",
+    "Coolabah",
+    "Stanley",
+    "Sunnyvale"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho com três níveis visíveis contendo vinhos em caixa (cask wine). Há um expositor vertical de ganchos (clip strip) com produtos não alimentares (presilhas/acessórios) pendurado no centro. PASSO 2: Prateleira superior: bem preenchida, exceto por um espaço vazio no centro. Prateleira do meio: preenchida uniformemente com vinhos Stanley. Prateleira inferior: preenchida, com ligeiro desalinhamento à esquerda. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira superior (severidade média, confiança 0.9) e um 'misaligned' na inferior (severidade baixa, confiança 0.8). PASSO 4: O fill rate é estimado em 0.85, considerando a ocupação quase total das prateleiras, descontando o espaço vazio na prateleira superior."
+}

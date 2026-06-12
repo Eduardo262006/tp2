@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260604_162849_157",
+  "timestamp": "2026-06-04T16:28:49Z",
+  "image_path": "data\\images\\img_0168.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "other",
+      "location": "centro da prateleira, sobrepondo várias prateleiras",
+      "severity": "medium",
+      "description": "Presença de peluches pendurados (estrangeiros ao sortido de produtos de bebé) que obstruem a visualização e o acesso aos produtos nas prateleiras centrais.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Espaço vazio visível na prateleira superior, indicando falta de stock ou desorganização.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "biberões",
+    "chupetas",
+    "copos de treino",
+    "acessórios de alimentação para bebé"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de retalho com produtos de puericultura (biberões, chupetas, copos). Existe uma anomalia central: uma corrente de peluches pendurados que atravessa verticalmente as prateleiras. PASSO 2: Superior/Centro/Inferior. Superior: stock maioritariamente completo, exceto uma falha à direita. Meio: obstruído pelos peluches. Inferior: stock organizado. PASSO 3: A principal anomalia é a obstrução por objetos não relacionados (peluches), classificada como 'other'. A falha de stock na prateleira superior é 'empty_shelf'. PASSO 4: O fill rate é elevado (aprox. 85%), pois a maioria dos espaços está preenchida, apesar da obstrução visual central."
+}

@@ -1,0 +1,16 @@
+{
+  "inspection_id": "INS_20260603_121636_107",
+  "timestamp": "2026-06-03T12:16:36Z",
+  "image_path": "data\\images\\img_0107.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Chicken Snacks",
+    "Cheese Rings",
+    "Cheese Snacks",
+    "Twisties Cheese"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho preenchidas com sacos de snacks (batatas fritas/snacks de milho). Na prateleira superior, veem-se sacos de 'Chicken Snacks' e 'Cheese Rings'. Na prateleira inferior, veem-se 'Cheese Snacks' e 'Twisties Cheese'. PASSO 2: Prateleira superior: preenchimento completo, sem espaços vazios. Prateleira inferior: preenchimento completo, alinhamento consistente. Não foram detetadas anomalias significativas. PASSO 3: Não existem anomalias a reportar. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que as prateleiras estão quase totalmente ocupadas com produto, com apenas espaços marginais entre embalagens."
+}

@@ -1,0 +1,17 @@
+{
+  "inspection_id": "INS_20260607_113551_549",
+  "timestamp": "2026-06-07T11:35:51Z",
+  "image_path": "data\\images\\img_0560.jpg",
+  "zone_id": "Z_S7",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Cheezels",
+    "Cheezels Minis",
+    "Doritos Salsa",
+    "Doritos Chips",
+    "Twisties"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado contendo snacks (Cheezels, Twisties, Doritos) e molhos (Doritos Salsa). Os produtos estão organizados em filas verticais e horizontais. PASSO 2: Prateleira superior: lado esquerdo com Cheezels, lado direito com frascos de molho Doritos. Prateleira inferior: lado esquerdo com Twisties e Cheezels Minis, lado direito com sacos de Doritos. Não há espaços vazios significativos ou produtos fora do lugar. PASSO 3: Não foram identificadas anomalias. A organização está correta, os rótulos estão visíveis e alinhados com os produtos. PASSO 4: O fill rate é elevado, estimado em 0.95, pois quase todo o espaço disponível está preenchido com stock, com apenas pequenas folgas naturais entre embalagens."
+}

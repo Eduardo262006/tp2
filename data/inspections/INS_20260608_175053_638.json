@@ -1,0 +1,43 @@
+{
+  "inspection_id": "INS_20260608_175053_638",
+  "timestamp": "2026-06-08T17:50:53Z",
+  "image_path": "data\\images\\img_0649.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Grande parte da prateleira superior está vazia, com apenas alguns produtos no lado direito.",
+      "confidence": 0.95,
+      "affected_area_pct": 60.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Espaço vazio significativo no lado esquerdo da prateleira do meio.",
+      "confidence": 0.9,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos de padaria/pão de forma estão desorganizados e desalinhados na prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.65,
+  "products_detected": [
+    "pães de forma",
+    "pães de hambúrguer",
+    "produtos de padaria embalados"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com 4 níveis visíveis contendo produtos de padaria (pães, pães de hambúrguer). A organização é por prateleiras metálicas com etiquetas de preço. PASSO 2: Prateleira superior: vazia à esquerda, produtos à direita. Prateleira do meio: vazia à esquerda, produtos à direita. Prateleira inferior: produtos presentes, mas com desalinhamento. PASSO 3: Identificadas lacunas (empty_shelf) nas prateleiras superior e do meio. Desalinhamento (misaligned) na prateleira inferior. Severidade média devido ao espaço vazio considerável na parte superior. PASSO 4: O fill rate global é estimado em 0.65, considerando que cerca de 35% da área total de exposição está vazia ou subutilizada."
+}

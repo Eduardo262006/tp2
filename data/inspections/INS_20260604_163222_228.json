@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260604_163222_228",
+  "timestamp": "2026-06-04T16:32:22Z",
+  "image_path": "data\\images\\img_0239.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Uma garrafa de 'More Pine Crush' está posicionada à frente das restantes, desalinhada com o bloco de produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio visível na prateleira inferior, entre as caixas de Kirks e Fanta/Sunkist.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "refrigerantes (Crush, Kirks, More, Fanta, Sunkist)",
+    "acessórios de pastelaria (Bake It)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado com bebidas gaseificadas e alguns itens de pastelaria pendurados. A organização é predominantemente por blocos de marca/sabor. PASSO 2: Prateleira superior: bem abastecida, sem falhas. Prateleira do meio: uma garrafa de 'More Pine Crush' está desalinhada (à frente). Prateleira inferior: presença de caixas de cartão e um espaço vazio no centro. PASSO 3: Identifiquei o desalinhamento na prateleira do meio (baixa severidade) e um espaço vazio na prateleira inferior (média severidade). PASSO 4: O fill rate é elevado, estimado em 0.85, considerando que a maioria das faces está preenchida, exceto pelo pequeno gap na base."
+}

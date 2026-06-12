@@ -1,0 +1,17 @@
+{
+  "inspection_id": "INS_20260612_234008_001",
+  "timestamp": "2026-06-12T22:40:08Z",
+  "image_path": "test_images\\img_0159.jpg",
+  "zone_id": "Z_S9",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Smith's Chips",
+    "Cheese Lovers Snacks",
+    "Twisties",
+    "Doritos",
+    "Variety Packs"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um expositor de snacks. A prateleira superior contém sacos grandes de Smith's (rosa), Cheese Lovers (amarelo) e outros snacks. A prateleira inferior contém sacos de Twisties e pacotes de variedade. Há uma estrutura metálica lateral à direita com ganchos. PASSO 2: Prateleira superior: bem organizada, produtos alinhados. Prateleira inferior: bem organizada, produtos alinhados. Não há espaços vazios significativos ou produtos fora do lugar. PASSO 3: Não foram identificadas anomalias. A organização está consistente com o plano de merchandising. PASSO 4: O fill rate é elevado, estimado em 0.95, pois as prateleiras estão quase totalmente preenchidas com os produtos de frente para o cliente."
+}

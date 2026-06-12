@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260603_121548_091",
+  "timestamp": "2026-06-03T12:15:48Z",
+  "image_path": "data\\images\\img_0091.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, onde deveriam estar produtos alinhados com as etiquetas de preço.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos de ramen estão desorganizados e empilhados de forma irregular, dificultando a visualização e o acesso.",
+      "confidence": 0.85,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.82,
+  "products_detected": [
+    "instant noodles",
+    "sauces",
+    "canned fruit",
+    "tea",
+    "aloe vera drink"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado. A superior contém pacotes de noodles e molhos. A do meio contém pacotes de noodles (ramen) de várias marcas. A inferior contém latas de fruta, caixas de chá e garrafas de chá verde/aloe vera. PASSO 2: Prateleira superior: lado esquerdo com espaço vazio. Prateleira do meio: zona central com produtos desorganizados/empilhados. Prateleira inferior: bem organizada. PASSO 3: Identifiquei um 'empty_shelf' na parte superior esquerda (severidade média) e 'misaligned' na prateleira do meio (severidade baixa). PASSO 4: O fill rate é alto, mas com lacunas pontuais e desorganização, estimado em 0.82."
+}

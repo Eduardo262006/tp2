@@ -1,0 +1,39 @@
+{
+  "inspection_id": "INS_20260607_113442_526",
+  "timestamp": "2026-06-07T11:34:42Z",
+  "image_path": "data\\images\\img_0537.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, entre os produtos de queijo e os produtos de carne/refeições.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio na prateleira do meio, adjacente aos produtos Veggie Delight.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "arroz",
+    "sopas",
+    "queijos",
+    "produtos de pastelaria",
+    "refeições congeladas",
+    "pão de alho",
+    "tofu",
+    "lasanha"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de refrigeração de supermercado com 5 níveis de prateleiras. Contém produtos como sopas, queijos, massas, pão de alho e tofu. A organização é geralmente em filas, mas há lacunas visíveis. PASSO 2: Prateleira superior: lado esquerdo cheio, lado direito com lacuna. Prateleira 2: cheia. Prateleira 3: lado esquerdo cheio, lado direito com lacuna. Prateleira 4: cheia. Prateleira inferior: cheia. PASSO 3: Identificadas duas zonas de 'empty_shelf' (prateleira superior direita e prateleira do meio direita). Severidade média pois não comprometem a totalidade da categoria, mas afetam a disponibilidade. Confiança alta baseada na visibilidade das prateleiras metálicas vazias. PASSO 4: Estimativa de fill rate de 0.85, considerando que a maioria das prateleiras está bem abastecida, exceto por dois espaços vazios notáveis."
+}

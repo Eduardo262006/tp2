@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260607_113521_539",
+  "timestamp": "2026-06-07T11:35:21Z",
+  "image_path": "data\\images\\img_0550.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível atrás da primeira fila de embalagens de ovos.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Embalagens de ovos ligeiramente desalinhadas em relação à frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Coles Cage Eggs",
+    "Coles Barn Laid Eggs",
+    "Coles Smart Buy Cage Eggs",
+    "Pace Farm Barn Laid Eggs"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado com várias marcas de ovos (Coles, Pace Farm). Os produtos estão organizados em duas prateleiras principais. PASSO 2: Prateleira superior: lado esquerdo com espaço vazio atrás dos produtos. Prateleira inferior: produtos bem organizados, mas com ligeiro desalinhamento na frente. PASSO 3: Identifiquei um 'empty_shelf' parcial na parte superior (severidade média) e um 'misaligned' na parte inferior (severidade baixa). PASSO 4: O fill rate é alto, estimado em 0.85, pois a maioria das posições está ocupada, apesar de pequenos espaços vazios e desalinhamentos."
+}

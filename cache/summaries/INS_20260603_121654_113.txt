@@ -1,0 +1,1 @@
+zona Z_N3; estado warning; fill rate 95%; misaligned (low) em prateleira do meio, centro: Uma caixa de Kleenex está colocada transversalmente sobre as outras, quebrando o alinhamento do bloco de produtos.; produtos: Sorbent Velvet, Sorbent Thick & Large, Kleenex; data 2026-06-03T12:16:54Z

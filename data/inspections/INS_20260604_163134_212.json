@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260604_163134_212",
+  "timestamp": "2026-06-04T16:31:34Z",
+  "image_path": "data\\images\\img_0223.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Caixa de BrunchBar Apricot & Almond posicionada de forma irregular sobre as outras caixas, obstruindo a visão e ocupando espaço de forma desorganizada.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Espaço vazio entre as caixas de cereais Be Natural, indicando falta de produto ou organização deficiente.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.9,
+  "products_detected": [
+    "Cadbury BrunchBar",
+    "Be Natural cereal bars",
+    "Nut Delight bars"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho com barras de cereais (Cadbury BrunchBar na superior, Be Natural/Nut Delight na inferior). Há uma caixa de BrunchBar solta e desalinhada na prateleira superior. PASSO 2: Prateleira superior: centro com desalinhamento. Prateleira inferior: centro com pequeno espaço vazio entre produtos. PASSO 3: Identifiquei o desalinhamento da caixa de BrunchBar (severidade média) e um pequeno espaço vazio na prateleira inferior (severidade baixa). PASSO 4: O preenchimento é alto, estimado em 90%, pois a maioria das faces está ocupada, apesar da desorganização pontual."
+}

@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260606_165359_405",
+  "timestamp": "2026-06-06T16:53:59Z",
+  "image_path": "data\\images\\img_0416.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos, sugerindo rutura de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "low",
+      "description": "Os produtos da marca Stanley estão ligeiramente desalinhados em relação à frente da prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "vinhos em caixa (casks)",
+    "lambrusco",
+    "cabernet merlot",
+    "shiraz cabernet",
+    "fruity lexia"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo vinhos em embalagens de cartão (casks). A organização é predominantemente por marca e tipo. PASSO 2: Prateleira superior: cheia. Prateleira do meio: cheia, com alinhamento aceitável. Prateleira inferior: lado esquerdo apresenta um espaço vazio considerável (falta de stock), enquanto o lado direito está preenchido. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira inferior esquerda (severidade média, confiança alta). Identificado um ligeiro desalinhamento na prateleira do meio (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando a área vazia na prateleira inferior e a ocupação total das restantes."
+}

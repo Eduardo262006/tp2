@@ -1,0 +1,17 @@
+{
+  "inspection_id": "INS_20260609_105703_729",
+  "timestamp": "2026-06-09T10:57:03Z",
+  "image_path": "data\\images\\img_0740.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "pratos descartáveis",
+    "talheres descartáveis",
+    "taças/bowls",
+    "bebidas gaseificadas (laranja)",
+    "bebidas gaseificadas (limão/citrinos)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleira dividida em duas colunas verticais. À esquerda, artigos de mesa (pratos, taças, talheres) organizados em caixas. À direita, bebidas em garrafas de plástico dispostas em duas prateleiras. PASSO 2: Divisão: Esquerda (artigos de mesa) e Direita (bebidas). Prateleiras superior, média e inferior. Não se observam zonas vazias significativas ou produtos desalinhados que comprometam a venda. PASSO 3: Não foram identificadas anomalias críticas. A organização está consistente com o layout de retalho. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todos os espaços de prateleira estão preenchidos com stock, com apenas pequenas variações naturais de profundidade."
+}

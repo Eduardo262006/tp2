@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260604_162952_178",
+  "timestamp": "2026-06-04T16:29:52Z",
+  "image_path": "data\\images\\img_0189.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos Patak's, sugerindo rutura de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Produtos desalinhados e desorganizados na zona central da prateleira inferior.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Patak's curry sauces",
+    "Sharwood's simmer sauces"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo molhos de caril (Patak's e Sharwood's). A organização é geralmente boa, mas existem lacunas. PASSO 2: Prateleira superior: bem preenchida. Prateleira do meio: apresenta um espaço vazio notável à esquerda. Prateleira inferior: apresenta desorganização e desalinhamento no centro. PASSO 3: Identifiquei um 'empty_shelf' na prateleira do meio (severidade média, pois interrompe a continuidade da marca) e 'misaligned' na prateleira inferior (severidade baixa, apenas estética). PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pelas lacunas identificadas."
+}

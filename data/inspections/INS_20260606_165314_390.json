@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260606_165314_390",
+  "timestamp": "2026-06-06T16:53:14Z",
+  "image_path": "data\\images\\img_0401.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Caixas de produto (Mother Earth) encontram-se tombadas e desorganizadas, obstruindo a visualização correta do stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro-direita",
+      "severity": "low",
+      "description": "Espaço vazio visível atrás das caixas tombadas na prateleira inferior.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.9,
+  "products_detected": [
+    "Uncle Tobys Delights",
+    "Uncle Tobys Fruit Twists",
+    "Mother Earth Fruit Crumble",
+    "Mother Earth Soft & Chewy Muesli Bars"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo barras de cereais e snacks. A prateleira superior contém Uncle Tobys Delights. A prateleira do meio contém Uncle Tobys Fruit Twists e Mother Earth Fruit Crumble. A prateleira inferior contém Mother Earth Soft & Chewy Muesli Bars. Há uma tira de autocolantes pendurada no lado esquerdo que não faz parte do stock. PASSO 2: Prateleira superior: bem organizada. Prateleira do meio: bem organizada. Prateleira inferior: desorganização significativa no lado direito com caixas tombadas. PASSO 3: Identificada anomalia de desalinhamento (misaligned) na prateleira inferior direita devido a caixas caídas, e um pequeno espaço vazio (empty_shelf) resultante dessa desorganização. Severidade média devido ao impacto na experiência do cliente. PASSO 4: O fill rate é elevado, estimado em 0.9, pois a maioria das prateleiras está cheia, apesar da desorganização pontual na base."
+}

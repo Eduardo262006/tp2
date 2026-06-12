@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260607_113748_588",
+  "timestamp": "2026-06-07T11:37:48Z",
+  "image_path": "data\\images\\img_0599.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro-direita",
+      "severity": "medium",
+      "description": "Pacotes de Doritos Cheese Supreme estão desorganizados e sobrepostos, ocupando o espaço de forma irregular.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Espaço vazio visível entre os frascos de molho Doritos.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "molhos salsa",
+    "batatas fritas Doritos"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras. Nível superior: frascos de molho (Doritos e Old El Paso). Nível médio: pacotes de Doritos (Cheese Supreme e Nacho Cheese). Nível inferior: pacotes de Doritos (Cheese Supreme e Nacho Cheese). PASSO 2: Prateleira superior: organização aceitável, mas com pequenos espaços vazios. Prateleira do meio: zona central apresenta desorganização e sobreposição de pacotes. Prateleira inferior: organização boa e alinhada. PASSO 3: Identificada uma anomalia de desalinhamento/desorganização na prateleira do meio (centro-direita) onde os pacotes não estão em fila única. Identificado um pequeno espaço vazio na prateleira superior esquerda. PASSO 4: O preenchimento é alto, estimado em 88%, considerando a densidade de produtos nas três prateleiras."
+}

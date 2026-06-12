@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260609_105539_701",
+  "timestamp": "2026-06-09T10:55:39Z",
+  "image_path": "data\\images\\img_0712.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo onde deveriam estar produtos, sugerindo rutura de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "low",
+      "description": "Produtos da marca Stayfree encontram-se desalinhados e tombados, prejudicando a apresentação.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "pensos higiénicos",
+    "produtos de higiene feminina",
+    "cuecas descartáveis"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho de produtos de higiene feminina (pensos, cuecas descartáveis). A organização é geralmente boa, com etiquetas de preço visíveis. PASSO 2: Dividindo a prateleira: Superior (cheia, organizada), Meio (presença de um espaço vazio à esquerda e produtos desalinhados no centro), Inferior (bem organizada). PASSO 3: Identifiquei um 'empty_shelf' na prateleira do meio, lado esquerdo, com severidade média. Identifiquei 'misaligned' na prateleira do meio, centro, onde os produtos estão tombados. PASSO 4: O fill rate é elevado, estimado em 0.85, dado que a maioria das prateleiras está bem abastecida, exceto pela lacuna identificada."
+}

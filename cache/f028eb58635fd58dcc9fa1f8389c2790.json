@@ -1,0 +1,26 @@
+{
+  "inspection_id": "INS_20260609_105654_726",
+  "timestamp": "2026-06-09T10:56:54Z",
+  "image_path": "data\\images\\img_0737.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos Mi Goreng à esquerda e Neoguri à direita.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Thai Gourmet Noodles",
+    "Snacks",
+    "Mi Goreng",
+    "Neoguri Ramen"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras com produtos alimentares asiáticos (noodles, snacks e bolachas). A prateleira superior está bem abastecida. A prateleira do meio contém noodles Thai Gourmet e snacks. A prateleira inferior contém pacotes de Mi Goreng à esquerda e Neoguri à direita, com um espaço vazio considerável no centro. PASSO 2: Prateleira superior: ok. Prateleira do meio: ok. Prateleira inferior: zona central apresenta falta de stock. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira inferior, centro, com severidade média, pois interrompe a continuidade do linear. Confiança alta (0.95). PASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na prateleira inferior."
+}

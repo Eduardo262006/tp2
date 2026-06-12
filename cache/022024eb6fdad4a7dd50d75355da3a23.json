@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260608_175050_637",
+  "timestamp": "2026-06-08T17:50:50Z",
+  "image_path": "data\\images\\img_0648.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível na prateleira inferior, possivelmente devido a uma falha de reposição ou produto removido.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas individuais na prateleira superior apresentam desalinhamento frontal, não seguindo o padrão de faceamento das restantes.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "garrafas de água mineral",
+    "packs de água H2O",
+    "bebidas de fruta"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras principais. A superior contém garrafas individuais de água (Aqua Pura) e alguns packs de 6 unidades. A inferior contém packs de 15 unidades de água H2O e packs de 6 unidades. Há uma área escura/vazia no canto inferior esquerdo. PASSO 2: Prateleira superior: bem organizada, exceto por um ligeiro desalinhamento nas garrafas da esquerda. Prateleira inferior: presença de um espaço vazio significativo no lado esquerdo (área preta/vazia). PASSO 3: Anomalia 1: empty_shelf na prateleira inferior esquerda, severidade média, confiança 0.9. Anomalia 2: misaligned na prateleira superior esquerda, severidade baixa, confiança 0.8. PASSO 4: O fill rate é alto na prateleira superior (~95%) e moderado na inferior (~75%), resultando numa média global estimada de 0.85."
+}

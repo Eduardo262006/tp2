@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260607_113545_547",
+  "timestamp": "2026-06-07T11:35:45Z",
+  "image_path": "data\\images\\img_0558.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro-esquerda",
+      "severity": "medium",
+      "description": "Espaço vazio visível entre os sumos Golden Circle e os expositores de revistas.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Os pacotes de sumo Golden Circle estão ligeiramente desalinhados em relação à frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "sumos de fruta (Popper, Golden Circle, Just Juice)",
+    "revistas de culinária/saúde"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado com sumos de fruta (Popper, Golden Circle, Just Juice) e expositores verticais de revistas de culinária. PASSO 2: Dividindo a prateleira: Superior (esquerda: Popper, centro: Golden Circle, direita: Just Juice), Inferior (esquerda: Popper, centro: Golden Circle, direita: Just Juice). Anomalias: Existe um pequeno espaço vazio na prateleira superior entre os produtos Golden Circle e o expositor de revistas. Na prateleira inferior, os produtos Golden Circle apresentam um ligeiro desalinhamento. PASSO 3: Anomalia 1 (empty_shelf, superior, centro, severidade média, confiança 0.95). Anomalia 2 (misaligned, inferior, centro, severidade baixa, confiança 0.85). PASSO 4: O fill rate é elevado, estimado em 0.92, dado que a maioria das faces está preenchida, com apenas pequenas lacunas."
+}

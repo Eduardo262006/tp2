@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260606_165511_429",
+  "timestamp": "2026-06-06T16:55:11Z",
+  "image_path": "data\\images\\img_0440.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, indicando falta de stock de produtos de café.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Algumas latas de café estão desalinhadas ou viradas para trás, dificultando a leitura do rótulo.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "café solúvel em frasco",
+    "café em lata",
+    "adoçante"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 4 níveis de prateleiras contendo café (frascos de vidro e latas) e adoçantes na lateral direita. PASSO 2: Prateleira superior: apresenta um vazio considerável à esquerda. Prateleira 2 (de cima para baixo): bem organizada. Prateleira 3: bem organizada. Prateleira inferior: apresenta algumas latas desalinhadas ou com rótulos não voltados para a frente. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior (severidade média, confiança alta) e 'misaligned' na prateleira inferior (severidade baixa, confiança alta). PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está bem preenchida, exceto pelo vazio na parte superior."
+}

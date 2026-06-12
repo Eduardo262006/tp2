@@ -1,0 +1,43 @@
+{
+  "inspection_id": "INS_20260609_105533_699",
+  "timestamp": "2026-06-09T10:55:33Z",
+  "image_path": "data\\images\\img_0710.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Vários pacotes de meias estão empilhados horizontalmente em vez de verticalmente, obstruindo a visualização e ocupando espaço de forma desorganizada.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Produtos caídos ou colocados horizontalmente sobre a prateleira, fora da disposição vertical padrão.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "damaged",
+      "location": "prateleira do meio, lado direito",
+      "severity": "low",
+      "description": "Embalagem de produto dobrada/aberta fora da sua posição original.",
+      "confidence": 0.85,
+      "affected_area_pct": 2.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "meias",
+    "collants",
+    "roupa interior"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com três níveis visíveis, contendo embalagens de meias, collants e roupa interior. A organização é predominantemente vertical, mas apresenta desordem em áreas específicas.\nPASSO 2: \n- Superior: Organizada, sem anomalias graves.\n- Meio: Lado direito apresenta produtos empilhados horizontalmente e uma embalagem dobrada/fora do lugar.\n- Inferior: Centro apresenta produtos caídos ou mal posicionados horizontalmente.\nPASSO 3: \n- Anomalia 1: Misaligned (meio, direita), severidade média, confiança 0.95.\n- Anomalia 2: Misaligned/Damaged (inferior, centro), severidade média, confiança 0.9.\nPASSO 4: O fill rate é alto, mas a desorganização reduz a eficiência do espaço. Estimo 0.85 devido à ocupação de espaço por produtos caídos/empilhados incorretamente."
+}

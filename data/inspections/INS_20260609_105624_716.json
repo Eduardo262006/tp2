@@ -1,0 +1,16 @@
+{
+  "inspection_id": "INS_20260609_105624_716",
+  "timestamp": "2026-06-09T10:56:24Z",
+  "image_path": "data\\images\\img_0727.jpg",
+  "zone_id": "Z_N4",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Arnott's Shapes",
+    "Arnott's In A Biskit",
+    "Arnott's Tiny Teddy",
+    "Arnott's Minis"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado bem abastecida com snacks da marca Arnott's (Shapes, In A Biskit, Tiny Teddy, Minis). Os produtos estão organizados em filas verticais e horizontais. Há etiquetas de preço visíveis abaixo de cada grupo de produtos. PASSO 2: A prateleira está dividida em 4 níveis principais. Nível superior: Shapes e outros snacks. Nível médio-superior: In A Biskit e Shapes. Nível médio-inferior: Tiny Teddy e Minis. Nível inferior: Variedades de Tiny Teddy e Shapes. Não há buracos significativos ou produtos fora do lugar. PASSO 3: Não foram identificadas anomalias críticas. O alinhamento é consistente com a natureza dos sacos de snacks, que naturalmente não formam linhas perfeitas como caixas rígidas. PASSO 4: O fill rate é elevado, estimado em 0.95, pois quase todo o espaço disponível está ocupado por stock, com apenas pequenos espaços vazios naturais entre embalagens flexíveis."
+}

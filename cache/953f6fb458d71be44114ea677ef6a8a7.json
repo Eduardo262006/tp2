@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260606_165320_392",
+  "timestamp": "2026-06-06T16:53:20Z",
+  "image_path": "data\\images\\img_0403.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos Veri Deli e Cruskits, indicando falta de stock ou organização deficiente.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Caixa de Cruskits posicionada de forma desalinhada em relação ao bloco principal de produtos.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Veri Deli crackers",
+    "Cruskits crackers",
+    "SAO crackers",
+    "Farmland crispbread"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de supermercado com várias marcas de bolachas/crackers (Veri Deli, Cruskits, SAO). A organização é geralmente boa, mas existem lacunas. PASSO 2: Prateleira superior: bem preenchida. Prateleira do meio: existe um vazio notável no centro entre os produtos Veri Deli e Cruskits. Prateleira inferior: preenchida, mas com uma caixa de Cruskits ligeiramente desalinhada. PASSO 3: Identifiquei um 'empty_shelf' no centro da prateleira do meio (severidade média, confiança alta) e um 'misaligned' na prateleira inferior (severidade baixa, confiança alta). PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna central e alguns espaços vazios menores."
+}

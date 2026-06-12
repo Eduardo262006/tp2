@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260609_105951_785",
+  "timestamp": "2026-06-09T10:59:51Z",
+  "image_path": "data\\images\\img_0796.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, onde deveriam estar produtos de sumo.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas de sumo desalinhadas, criando espaços irregulares entre os produtos.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "sumos de fruta em garrafa",
+    "sumos de maçã",
+    "sumos de laranja",
+    "sumos tropicais"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um supermercado repletas de garrafas de sumo de fruta (marcas como 'Just Juice', 'Brekky Juice', 'Squeeze'). A organização é predominantemente por tipo de produto. PASSO 2: Prateleira superior: lado esquerdo e centro cheios, lado direito com lacuna. Prateleira do meio: bem preenchida, mas com desalinhamentos. Prateleira inferior: bem preenchida. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior direita (severidade média) e 'misaligned' na prateleira do meio (severidade baixa). PASSO 4: O fill rate é elevado, estimado em 0.88, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na parte superior."
+}

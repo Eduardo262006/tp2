@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260609_105503_689",
+  "timestamp": "2026-06-09T10:55:03Z",
+  "image_path": "data\\images\\img_0700.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos de higiene.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos (caixas de sabonete) encontram-se desalinhados e com orientação irregular.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Soft Soap refill",
+    "Pure moisturizing soap",
+    "Palmolive soap",
+    "Sorbolene cream",
+    "Dove soap bars",
+    "Natural health soap bars"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de retalho contendo produtos de higiene pessoal (sabões líquidos, cremes e sabonetes em barra). A organização é geralmente boa, mas com falhas pontuais. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: apresenta um vazio central notável e desalinhamento de caixas à esquerda. Prateleira inferior: bem organizada e cheia. PASSO 3: Identificada uma zona de 'empty_shelf' no centro da prateleira do meio (severidade média, confiança alta). Identificado 'misaligned' na parte esquerda da prateleira do meio (severidade baixa, confiança alta). PASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna central na prateleira do meio."
+}

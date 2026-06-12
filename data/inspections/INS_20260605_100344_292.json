@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260605_100344_292",
+  "timestamp": "2026-06-05T10:03:44Z",
+  "image_path": "data\\images\\img_0303.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos de café, indicando rutura de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos (sacos de whitener) encontram-se desorganizados e tombados, prejudicando a apresentação visual.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "café solúvel",
+    "coffee whitener",
+    "latas de leite condensado/café",
+    "café em grão/moído"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado contendo produtos de café, cremes e latas de leite. A organização é geralmente boa, mas com falhas pontuais. PASSO 2: Prateleira superior: sacos de whitener desorganizados à esquerda. Prateleira do meio: bem preenchida com frascos de Nescafé e Robert Timms. Prateleira inferior: presença de um espaço vazio notável no centro, sugerindo falta de stock. PASSO 3: Anomalia 1 (empty_shelf): prateleira inferior, centro, severidade média, confiança 0.95. Anomalia 2 (misaligned): prateleira superior, esquerda, severidade baixa, confiança 0.85. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna central na parte inferior e alguma desorganização no topo."
+}

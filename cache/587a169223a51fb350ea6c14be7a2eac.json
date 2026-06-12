@@ -1,0 +1,14 @@
+{
+  "inspection_id": "INS_20260606_165623_453",
+  "timestamp": "2026-06-06T16:56:23Z",
+  "image_path": "data\\images\\img_0464.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "vinho tinto",
+    "vinho cabernet sauvignon"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um expositor de vinhos. As prateleiras estão bem abastecidas com garrafas de vinho tinto alinhadas. Há etiquetas de preço abaixo de cada grupo de produtos. PASSO 2: Prateleira superior: bem organizada, sem falhas. Prateleira do meio: bem organizada, sem falhas. Prateleira inferior: visível apenas parcialmente, mas sem sinais de rutura de stock. PASSO 3: Não foram identificadas anomalias significativas. O alinhamento é consistente e não há espaços vazios ou produtos fora do lugar. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todas as posições de faceamento estão ocupadas e o stock está denso."
+}

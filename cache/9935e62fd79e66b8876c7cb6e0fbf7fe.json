@@ -1,0 +1,42 @@
+{
+  "inspection_id": "INS_20260603_121824_143",
+  "timestamp": "2026-06-03T12:18:24Z",
+  "image_path": "data\\images\\img_0143.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Espaço vazio na extremidade esquerda da prateleira superior.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produto desalinhado em relação à frente da prateleira, recuado em comparação com os vizinhos.",
+      "confidence": 0.85,
+      "affected_area_pct": 2.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Produtos ligeiramente desalinhados e com espaçamento irregular entre as latas.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Cooper's beer kits",
+    "Cascade beer kits"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de retalho contendo kits de cerveja (latas cilíndricas) das marcas Cooper's e Cascade. A organização é predominantemente por filas. PASSO 2: Prateleira superior: quase cheia, exceto por um pequeno espaço à esquerda. Prateleira do meio: bem organizada, mas com uma lata recuada. Prateleira inferior: contém latas e uma caixa de produto, com algum desalinhamento no centro. PASSO 3: Identifiquei um espaço vazio na prateleira superior (empty_shelf, severidade baixa). Identifiquei desalinhamentos pontuais na prateleira do meio e inferior (misaligned, severidade baixa). Não há produtos danificados visíveis ou etiquetas em falta. PASSO 4: O fill rate é elevado, estimado em 0.92, dado que a maioria das prateleiras está preenchida, com apenas pequenas lacunas ou recuos."
+}

@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260609_105506_690",
+  "timestamp": "2026-06-09T10:55:06Z",
+  "image_path": "data\\images\\img_0701.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio entre as garrafas de Sprite e Pepsi, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, centro-direita",
+      "severity": "low",
+      "description": "Garrafas de Coca-Cola com rótulos desalinhados ou virados para trás.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Diet Coke",
+    "Coca-Cola",
+    "Pepsi",
+    "Sprite",
+    "Coca-Cola Zero"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado repletas de garrafas de refrigerante de 1.25L/2L. As marcas visíveis incluem Coca-Cola (várias variantes), Pepsi e Sprite. A organização é predominantemente por blocos de marca. PASSO 2: Prateleira superior: bem preenchida, mas com alguns rótulos de Coca-Cola desalinhados. Prateleira inferior: bem preenchida, exceto por um espaço vazio notável no centro, entre as garrafas de Sprite e Pepsi. PASSO 3: Anomalia 1: Espaço vazio (empty_shelf) na prateleira inferior, centro, severidade média, confiança alta. Anomalia 2: Desalinhamento (misaligned) na prateleira superior, centro-direita, severidade baixa, confiança alta. PASSO 4: O fill rate é elevado, estimado em 0.92, considerando que a maioria das faces está ocupada, com apenas uma pequena lacuna na prateleira inferior."
+}

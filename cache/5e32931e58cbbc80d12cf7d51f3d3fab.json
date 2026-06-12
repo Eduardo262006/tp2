@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260607_113721_579",
+  "timestamp": "2026-06-07T11:37:21Z",
+  "image_path": "data\\images\\img_0590.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Espaço vazio na extremidade direita da prateleira de molhos.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "O produto na extremidade esquerda da segunda fila está ligeiramente desalinhado em relação à face da prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 2.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Caesar Dressing",
+    "Leggo's Tomato Paste"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras. A superior contém garrafas de molho Caesar Dressing. As duas inferiores contêm latas de pasta de tomate Leggo's. Há etiquetas de preço visíveis. PASSO 2: Prateleira superior: preenchida, exceto por um pequeno espaço à direita. Prateleira do meio: bem organizada, mas com um item ligeiramente desalinhado à esquerda. Prateleira inferior: bem organizada e cheia. PASSO 3: Identifiquei um pequeno espaço vazio na prateleira superior (empty_shelf, severidade baixa) e um ligeiro desalinhamento na prateleira do meio (misaligned, severidade baixa). PASSO 4: O fill rate é elevado, estimado em 92%, dado que a maioria dos espaços está ocupada com apenas pequenas lacunas."
+}

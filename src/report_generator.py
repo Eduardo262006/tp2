@@ -1,16 +1,4 @@
-"""
-report_generator.py — Componente 4: Report Generator.
 
-Gera o Inspection Report em Markdown com as secções obrigatórias do enunciado
-(Secção 7): sumário executivo, problemas por zona, regras disparadas, contexto
-histórico (RAG), recomendações e (opcional) integração com trajetória.
-
-Este ficheiro é autossuficiente para o acesso ao LLM (camada embutida). Importa o
-RAGMemory e o RuleEngine apenas como componentes (não depende de llm.py).
-
-Uso CLI:
-    python report_generator.py --inspections-dir data/inspections --out report.md
-"""
 
 from __future__ import annotations
 
@@ -28,10 +16,7 @@ from shelf_inspector import load_metrics, zone_affluence_scores
 import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 
-# =========================================================================== #
-# Camada de acesso ao LLM (embutida) — Gemini 3.5 Flash (texto).
-# Usada para sumário executivo e recomendações; degradação graciosa.
-# =========================================================================== #
+
 try:
     from dotenv import load_dotenv
     load_dotenv()
@@ -175,22 +160,7 @@ except Exception:
     RuleEngine = None
 
 
-'''_SUMMARY_PROMPT = """Escreve um sumário executivo (MÁXIMO 150 palavras), em português, direto e acionável,
-sobre o estado geral da loja nesta sessão de inspeção. Indica quantas zonas foram
-inspecionadas, quantos issues críticos e quantos warnings. Sem listas, só prosa.
 
-Dados da sessão (JSON):
-%s
-"""
-
-_RECS_PROMPT = """Com base nesta sessão de inspeção, escreve NO MÁXIMO 5 recomendações concretas e
-acionáveis, ordenadas por urgência (a mais urgente primeiro). Cada recomendação deve ser
-específica o suficiente para ser executada sem interpretação adicional. Devolve uma
-recomendação por linha, prefixada por "1. ", "2. ", etc.
-
-Dados da sessão (JSON):
-%s
-"""'''
 
 
 class ReportGenerator:

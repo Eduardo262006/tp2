@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260605_100808_380",
+  "timestamp": "2026-06-05T10:08:08Z",
+  "image_path": "data\\images\\img_0391.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro-direita",
+      "severity": "medium",
+      "description": "Espaço vazio visível atrás da fila frontal de produtos, indicando falta de stock ou necessidade de 'facing'.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos desalinhados e parcialmente caídos na zona frontal da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Kettle Brand Potato Chips",
+    "Deli-Style Potato Chips"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo sacos de batatas fritas (Kettle Brand e Deli-Style). A organização é geralmente boa, mas há sinais de desarrumação e espaços vazios. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: apresenta um espaço vazio significativo atrás dos sacos de 'Sea Salt & Cracked Pepper' e 'Teriyaki Chicken'. Prateleira inferior: os produtos à esquerda estão desalinhados e parecem ter deslizado para fora da posição correta. PASSO 3: Identifiquei um 'empty_shelf' (gap de stock) na prateleira do meio com severidade média e um 'misaligned' na prateleira inferior com severidade baixa. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das faces está preenchida, mas há profundidade perdida e desalinhamentos."
+}

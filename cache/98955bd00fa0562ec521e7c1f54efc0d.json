@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260603_121509_078",
+  "timestamp": "2026-06-03T12:15:09Z",
+  "image_path": "data\\images\\img_0078.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo onde deveriam estar garrafas de bebidas, sugerindo rutura de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "low",
+      "description": "Garrafas de bebida isotónica/sumo estão desalinhadas e inclinadas, possivelmente devido a manipulação incorreta.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "refrigerantes",
+    "chá gelado",
+    "água mineral",
+    "bebidas isotónicas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de corredor de supermercado com várias prateleiras de bebidas (refrigerantes, chás, águas). A organização é predominantemente por blocos de marca/tipo. PASSO 2: Prateleira superior: apresenta uma falha de stock à esquerda. Prateleira do meio: bem organizada, exceto por um pequeno desalinhamento à direita. Prateleira inferior: bem organizada e cheia. PASSO 3: Identifiquei um 'empty_shelf' na parte superior esquerda (severidade média) e um 'misaligned' na parte central direita (severidade baixa). PASSO 4: O fill rate é elevado, estimado em 92%, dado que a grande maioria das prateleiras está totalmente preenchida, com apenas pequenas lacunas pontuais."
+}

@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260609_105839_761",
+  "timestamp": "2026-06-09T10:58:39Z",
+  "image_path": "data\\images\\img_0772.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na extremidade direita da prateleira inferior, indicando falta de stock ou produto deslocado.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Os produtos da marca 'Safe' apresentam um alinhamento irregular e sobreposição parcial.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Kleenex facial tissues",
+    "Safe facial tissues",
+    "Wet Ones wipes"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho contendo caixas de lenços de papel (Kleenex, Safe) e toalhetes (Wet Ones). A organização é geralmente em blocos, mas com algumas irregularidades. PASSO 2: Prateleira superior: lado esquerdo com produtos 'Safe' e 'Wet Ones' (alguma desorganização), centro e direita com Kleenex bem alinhados. Prateleira inferior: preenchida maioritariamente por Kleenex, com um espaço vazio notável no canto inferior direito. PASSO 3: Identifiquei um 'empty_shelf' na parte inferior direita (severidade média) e um 'misaligned' na parte superior esquerda (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria do espaço está ocupado, exceto pela lacuna na prateleira inferior."
+}

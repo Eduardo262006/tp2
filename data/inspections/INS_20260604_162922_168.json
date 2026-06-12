@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260604_162922_168",
+  "timestamp": "2026-06-04T16:29:22Z",
+  "image_path": "data\\images\\img_0179.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos, sugerindo rutura de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas desalinhadas e com orientação inconsistente na frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Powerade",
+    "Gatorade",
+    "Red Bull"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com bebidas isotónicas (Powerade, Gatorade) e bebidas energéticas (Red Bull). A organização é feita por prateleiras. PASSO 2: Prateleira superior: bem abastecida com packs de Powerade e Gatorade, e latas de Red Bull. Prateleira do meio: presença de um espaço vazio notável à esquerda (rutura de stock). Prateleira inferior: bem abastecida com garrafas individuais de Gatorade e latas de Red Bull, embora com algum desalinhamento. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira do meio (severidade média, confiança alta). Identificado 'misaligned' na prateleira inferior (severidade baixa, confiança alta). PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira do meio e a densidade geral dos produtos."
+}

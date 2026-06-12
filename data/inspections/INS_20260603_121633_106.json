@@ -1,0 +1,32 @@
+{
+  "inspection_id": "INS_20260603_121633_106",
+  "timestamp": "2026-06-03T12:16:33Z",
+  "image_path": "data\\images\\img_0106.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos alinhados com as etiquetas de preço.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "low",
+      "description": "Produtos empilhados de forma irregular ou desalinhada em relação ao padrão das outras colunas.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "ovos (embalagens de cartão)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo embalagens de ovos. A organização é feita por colunas. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: lado esquerdo e centro ocupados, mas com desalinhamento no centro; lado direito apresenta um espaço vazio considerável (falta de stock). Prateleira inferior: bem abastecida, com colunas organizadas. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira do meio (lado direito) e uma zona de 'misaligned' no centro da mesma prateleira. A severidade é média devido ao espaço vazio. PASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na prateleira do meio."
+}

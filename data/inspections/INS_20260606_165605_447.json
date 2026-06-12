@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260606_165605_447",
+  "timestamp": "2026-06-06T16:56:05Z",
+  "image_path": "data\\images\\img_0458.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "wrong_product",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Caixa de secador de cabelo (Coles 2000W Hair Dryer) colocada na prateleira de fraldas/produtos de bebé.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro-direita",
+      "severity": "low",
+      "description": "Espaço vazio entre os produtos Little Swimmers e Huggies, indicando falta de stock ou organização deficiente.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Huggies Nappy Pants",
+    "Little Swimmers",
+    "DryNites",
+    "Pull-Ups",
+    "Baby lotions/oils",
+    "Hair dryer (wrong product)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com três níveis. Nível superior: caixas de cartão (Huggies e um secador de cabelo). Nível médio: fraldas de natação (Little Swimmers), fraldas Huggies e produtos de higiene. Nível inferior: DryNites, Pull-Ups e outros produtos de bebé. PASSO 2: Superior: Presença de um secador de cabelo (anomalia). Meio: Espaço vazio visível entre Little Swimmers e Huggies. Inferior: Organização aceitável. PASSO 3: Anomalia 1: wrong_product (secador) na prateleira superior, severidade média. Anomalia 2: empty_shelf no meio, severidade baixa. PASSO 4: O fill rate é alto, mas com lacunas pontuais e um produto fora de categoria, estimado em 0.85."
+}

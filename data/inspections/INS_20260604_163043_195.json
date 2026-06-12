@@ -1,0 +1,38 @@
+{
+  "inspection_id": "INS_20260604_163043_195",
+  "timestamp": "2026-06-04T16:30:43Z",
+  "image_path": "data\\images\\img_0206.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos Johnnie Walker e Jim Beam na prateleira inferior.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "low",
+      "description": "Garrafa de Jim Beam e lata de Bulleit desalinhadas em relação ao bloco de produtos adjacente.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "Canadian Club",
+    "Jim Beam",
+    "Bulleit Bourbon",
+    "Jack Daniel's",
+    "Black Douglas",
+    "Johnnie Walker",
+    "Woodstock Bourbon"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras principais de bebidas alcoólicas (whisky/bourbon). A prateleira superior contém Canadian Club, Jim Beam, Bulleit e Jack Daniel's. A prateleira inferior contém Black Douglas, Johnnie Walker, Jim Beam e Jack Daniel's. Há uma terceira prateleira parcialmente visível na base com Woodstock. PASSO 2: Prateleira superior: organização geral boa, mas com desalinhamento central. Prateleira inferior: presença de um espaço vazio notável no centro, entre os packs de Johnnie Walker e os de Jim Beam. PASSO 3: Anomalia 1: empty_shelf na prateleira inferior, centro, severidade média, confiança 0.95. Anomalia 2: misaligned na prateleira superior, centro, severidade baixa, confiança 0.85. PASSO 4: O fill rate é alto, estimado em 0.88, considerando que a maioria dos espaços está preenchida, exceto pela lacuna central na prateleira inferior."
+}

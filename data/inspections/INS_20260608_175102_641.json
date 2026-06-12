@@ -1,0 +1,25 @@
+{
+  "inspection_id": "INS_20260608_175102_641",
+  "timestamp": "2026-06-08T17:51:02Z",
+  "image_path": "data\\images\\img_0652.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, onde deveriam estar produtos da marca ProtaDog.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.9,
+  "products_detected": [
+    "ProtaDog dog food",
+    "Platinum dog food",
+    "1st Choice dog food"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho com comida para cão em formato de rolo (salsichas). Existem três marcas principais: ProtaDog (laranja/verde), Platinum (roxo/prata) e 1st Choice (branco/vermelho). A organização é feita por filas horizontais. PASSO 2: Prateleira superior: lado esquerdo com ProtaDog, centro com um espaço vazio (buraco na prateleira), lado direito com Platinum. Prateleira inferior: lado esquerdo com ProtaDog, centro com 1st Choice, lado direito com Platinum. PASSO 3: Identifiquei uma anomalia de 'empty_shelf' na prateleira superior central. A severidade é média pois interrompe a continuidade do produto ProtaDog. Confiança alta devido à clareza do espaço vazio. PASSO 4: O fill rate é elevado, com apenas uma falha de stock visível, estimando-se em 0.9 (90% de ocupação)."
+}

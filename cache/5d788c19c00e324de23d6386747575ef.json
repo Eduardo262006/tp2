@@ -1,0 +1,17 @@
+{
+  "inspection_id": "INS_20260605_100526_326",
+  "timestamp": "2026-06-05T10:05:26Z",
+  "image_path": "data\\images\\img_0337.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "garrafas de vinho",
+    "garrafas de espumante",
+    "garrafas de sumo/bebidas gaseificadas",
+    "latas de bebida",
+    "embalagens de snacks/alimentos"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho bem abastecida com três níveis visíveis. O nível superior contém garrafas de vidro (sumos/bebidas). O nível intermédio contém vinhos e espumantes. O nível inferior contém latas, garrafas de vinho branco e embalagens de snacks. PASSO 2: Divisão: Superior (cheio, organizado), Intermédio (cheio, organizado), Inferior (cheio, organizado). Não foram detetadas falhas de stock significativas ou produtos fora do lugar. PASSO 3: Não existem anomalias críticas. A organização é consistente e o stock está alinhado. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todo o espaço disponível está ocupado por produtos, com apenas pequenos espaços vazios naturais entre garrafas."
+}

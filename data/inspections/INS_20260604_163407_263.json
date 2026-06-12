@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260604_163407_263",
+  "timestamp": "2026-06-04T16:34:07Z",
+  "image_path": "data\\images\\img_0274.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Pacote de palhinhas pendurado de forma desorganizada, obstruindo a visão e ocupando espaço de forma irregular.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "other",
+      "location": "prateleira superior, centro-esquerda",
+      "severity": "low",
+      "description": "Resíduo ou lixo pequeno sobre a prateleira entre as garrafas.",
+      "confidence": 0.85,
+      "affected_area_pct": 1.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "bebidas gaseificadas",
+    "sumos",
+    "palhinhas",
+    "caixas de bebidas (multipacks)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras. A superior contém garrafas de bebidas (Fanta, Crush, Diet Rite) e um pacote de palhinhas pendurado. A inferior contém caixas de cartão (multipacks) de Kirks, Lift e Solo. PASSO 2: Prateleira superior: zona central com palhinhas desorganizadas e um pequeno resíduo. Prateleira inferior: organização estável, sem falhas de stock aparentes. PASSO 3: Anomalia 1: Palhinhas (misaligned), severidade média, afeta a estética e acessibilidade. Anomalia 2: Resíduo (other), severidade baixa, impacto visual menor. PASSO 4: O fill rate é elevado, com quase todo o espaço ocupado por produto, exceto pelo pequeno resíduo e o espaço ocupado pelas palhinhas."
+}

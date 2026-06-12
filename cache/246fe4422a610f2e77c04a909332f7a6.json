@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260608_174856_599",
+  "timestamp": "2026-06-08T17:48:56Z",
+  "image_path": "data\\images\\img_0610.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar mais garrafas de vinho.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas de vinho ligeiramente desalinhadas em relação ao bloco principal.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "vinho branco",
+    "acessórios de vinho (seladores)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado contendo garrafas de vinho branco e acessórios de vedação (sealers) à direita. As prateleiras estão organizadas por marcas. PASSO 2: Prateleira superior: bem preenchida, com alinhamento quase perfeito. Prateleira inferior: bem preenchida à esquerda e centro, mas apresenta um espaço vazio considerável no lado direito. PASSO 3: Identifiquei um 'empty_shelf' na prateleira inferior direita (severidade média, pois há espaço para pelo menos 3-4 garrafas adicionais). Identifiquei um leve 'misaligned' na prateleira superior esquerda. PASSO 4: O fill rate é alto na parte superior e centro, mas cai na parte inferior direita, resultando numa estimativa global de 0.85."
+}

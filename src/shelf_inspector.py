@@ -1,31 +1,4 @@
-"""
-shelf_inspector.py — Componente 1: Análise Visual com LLM Multimodal.
 
-Recebe uma imagem de prateleira e produz uma análise estruturada em JSON segundo
-o schema obrigatório do enunciado (Secção 4.2), incluindo o campo `model_reasoning`
-com a cadeia de raciocínio explícita.
-
-Implementa as TRÊS estratégias de prompting obrigatórias (Secção 4.3):
-  A — Zero-shot direto
-  B — Chain-of-Thought visual (raciocínio guiado por etapas antes do JSON)
-  C — Few-shot com exemplos textuais de análises anteriores corretas
-
-E a gestão de limites de API (Secção 4.4): cache por hash MD5, rate limiting
-15 req/min com backoff, e fallback gracioso quando a quota esgota.
-
-Este ficheiro é autossuficiente: inclui a sua própria camada de acesso ao Gemini.
-
-Modo de sessão (novo): percorre data/images, atribui a zona de cada imagem em
-função do overall_status e da afluência da zona (metrics.json do Projeto 1) e grava
-UM único ficheiro JSON em data/inspections com o nome = data e hora da sessão.
-Ligação estado↔afluência: critical→zona de alta afluência, warning→média, ok→baixa.
-
-Uso CLI:
-    python shelf_inspector.py                       # modo sessão sobre data/images
-    python shelf_inspector.py --session --metrics data/metrics.json --strategy B
-    python shelf_inspector.py --image img.jpg --zone Z_S3 --strategy B   # modo manual
-    python shelf_inspector.py --images-dir ./fotos --zone Z_S3 --strategy B
-"""
 
 from __future__ import annotations
 
@@ -285,87 +258,6 @@ ISSUE_TYPES = {"empty_shelf", "wrong_product", "damaged", "misaligned", "label_m
 SEVERITIES = {"low", "medium", "high"}
 STATUSES = {"ok", "warning", "critical"}
 
-'''_SCHEMA_BLOCK = """{
-  "overall_status": "ok|warning|critical",
-  "issues": [
-    {
-      "type": "empty_shelf|wrong_product|damaged|misaligned|label_missing|other",
-      "location": "ex.: prateleira inferior, lado esquerdo",
-      "severity": "low|medium|high",
-      "description": "descrição em linguagem natural do problema",
-      "confidence": 0.0,
-      "affected_area_pct": 0.0
-    }
-  ],
-  "shelf_fill_rate": 0.0,
-  "products_detected": ["lista de categorias de produto visíveis"],
-  "model_reasoning": "cadeia de raciocínio explícita antes da classificação"
-}"""
-
-_PROMPT_A = f"""És um sistema de inspeção visual de prateleiras de retalho.
-Analisa a imagem e devolve EXCLUSIVAMENTE um objeto JSON válido com este schema,
-sem texto antes ou depois e sem cercas markdown:
-
-{_SCHEMA_BLOCK}
-
-Regras: shelf_fill_rate entre 0 e 1; confidence entre 0 e 1; affected_area_pct entre
-0 e 100. overall_status reflete o problema mais grave. Se não houver problemas, issues=[].
-"""
-
-_PROMPT_B = f"""És um sistema de inspeção visual de prateleiras de retalho.
-Vais raciocinar passo a passo ANTES de classificar (Chain-of-Thought visual):
-
-PASSO 1 — Descreve objetivamente o que vês na imagem (produtos, organização, zonas).
-PASSO 2 — Divide a prateleira em regiões (superior/meio/inferior, esquerda/centro/direita)
-          e identifica anomalias região a região.
-PASSO 3 — Para cada anomalia, classifica o tipo (empty_shelf, wrong_product, damaged,
-          misaligned, label_missing, other), a localização, a severidade e a confiança.
-PASSO 4 — Estima o fill rate global (fração de espaço ocupado por produto, 0 a 1).
-
-Coloca TODO o raciocínio dos passos 1 a 4 dentro do campo "model_reasoning".
-Só depois produz o JSON final, devolvendo EXCLUSIVAMENTE o objeto JSON (sem markdown):
-
-{_SCHEMA_BLOCK}
-
-Regras: shelf_fill_rate 0–1; confidence 0–1; affected_area_pct 0–100;
-overall_status reflete o problema mais grave; sem problemas → issues=[].
-"""
-
-_FEWSHOT_EXAMPLES = """EXEMPLO 1 (entrada: prateleira de bebidas bem reposta)
-Raciocínio: prateleiras cheias, alinhamento correto, etiquetas presentes, sem danos.
-JSON:
-{"overall_status":"ok","issues":[],"shelf_fill_rate":0.95,
-"products_detected":["bebidas","refrigerantes"],
-"model_reasoning":"Todas as posições preenchidas; produtos alinhados; sem anomalias."}
-
-EXEMPLO 2 (entrada: secção de laticínios com falha de reposição à direita)
-Raciocínio: lado direito da prateleira do meio vazio (~40% da área); resto ok.
-JSON:
-{"overall_status":"warning","issues":[{"type":"empty_shelf","location":"prateleira do meio, lado direito","severity":"medium","description":"Ausência de produto em cerca de 40% da prateleira do meio à direita.","confidence":0.88,"affected_area_pct":40.0}],
-"shelf_fill_rate":0.62,"products_detected":["laticínios","iogurtes"],
-"model_reasoning":"Lado direito sem produto; estimo 40% de área afetada; restantes posições ok."}
-
-EXEMPLO 3 (entrada: produto tombado e embalagem danificada)
-Raciocínio: uma embalagem caída na prateleira superior e outra rasgada ao centro.
-JSON:
-{"overall_status":"critical","issues":[{"type":"misaligned","location":"prateleira superior, centro","severity":"high","description":"Produto tombado bloqueia a fila.","confidence":0.9,"affected_area_pct":10.0},{"type":"damaged","location":"prateleira do meio, centro","severity":"medium","description":"Embalagem rasgada visível.","confidence":0.8,"affected_area_pct":5.0}],
-"shelf_fill_rate":0.8,"products_detected":["mercearia"],
-"model_reasoning":"Produto caído na superior e embalagem danificada ao centro; fill rate ainda elevado."}"""
-
-_PROMPT_C = f"""És um sistema de inspeção visual de prateleiras de retalho.
-Seguem-se exemplos de análises anteriores corretas (few-shot). Aprende o formato e o
-critério de classificação a partir deles, depois analisa a NOVA imagem da mesma forma.
-
-{_FEWSHOT_EXAMPLES}
-
-Agora analisa a imagem fornecida e devolve EXCLUSIVAMENTE o objeto JSON (sem markdown):
-
-{_SCHEMA_BLOCK}
-
-Regras: shelf_fill_rate 0–1; confidence 0–1; affected_area_pct 0–100;
-overall_status reflete o problema mais grave; sem problemas → issues=[].
-"""'''
-
 _STRATEGY_PROMPTS = {
     "A": ("shelf_inspector_zero_shot", ""),
     "B": ("shelf_inspector_chain_of_thought", ""),
@@ -502,13 +394,6 @@ def save_inspection(record: dict, out_dir: str = None) -> str:
     return str(path)
 
 
-# ===================== Afluência por zona (metrics.json) =================== #
-# Liga o overall_status de cada inspeção à afluência da zona, retirada do
-# metrics.json do Projeto 1. A afluência de uma zona é a fração de visitantes que
-# lá chega (funnel.funnel_by_zone[zona].pct_of_total). Os problemas mais graves
-# são atribuídos às zonas de maior afluência (maior impacto em vendas perdidas).
-
-# overall_status -> nível de afluência da zona atribuída
 STATUS_TO_TIER = {"critical": "high", "warning": "medium", "ok": "low"}
 
 _METRICS_CANDIDATES = ["data/metrics.json", "metrics.json", "data/Projeto1/metrics.json"]
@@ -566,11 +451,7 @@ def build_affluence_tiers(metrics: dict) -> dict:
 
 
 class ZoneAssigner:
-    """
-    Atribui uma zona a cada imagem em função do overall_status e da afluência.
-    Dentro do nível correspondente, percorre as zonas em round-robin (começando
-    pelas de maior afluência) para distribuir as imagens por várias zonas.
-    """
+
 
     def __init__(self, metrics: Optional[dict]) -> None:
         self.tiers = build_affluence_tiers(metrics) if metrics else {"high": [], "medium": [], "low": []}
@@ -607,14 +488,7 @@ def run_inspection_session(images_dir: Optional[str] = None,
                            out_dir: Optional[str] = None,
                            use_cache: bool = True,
                            also_individual: bool = False) -> Optional[str]:
-    """
-    Percorre TODAS as imagens de `images_dir` (default data/images), analisa cada
-    uma, atribui a zona em função do overall_status + afluência (metrics.json) e
-    grava UM único ficheiro JSON em `out_dir` (default data/inspections) cujo nome
-    é a data e a hora da sessão (ex.: 2025-06-06_14-30-22.json).
 
-    Devolve o caminho do ficheiro gerado, ou None se não houver imagens.
-    """
     images_dir = images_dir or str(_ROOT / "data" / "images")
     out_dir = out_dir or str(_ROOT / "data" / "inspections")
     Path(out_dir).mkdir(parents=True, exist_ok=True)

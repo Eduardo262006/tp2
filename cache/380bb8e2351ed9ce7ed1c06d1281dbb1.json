@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260607_113636_564",
+  "timestamp": "2026-06-07T11:36:36Z",
+  "image_path": "data\\images\\img_0575.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos da marca Smart Juice ou similares.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafa de sumo Berri virada de costas, sem visibilidade do rótulo frontal.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Berri Family Pack",
+    "Ribena Light",
+    "Smart Juice",
+    "Berri Breakfast Time"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo sumos de fruta (Berri, Ribena, Smart Juice). A organização é predominantemente por marca e tipo. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: lado esquerdo com produtos alinhados, mas uma garrafa está virada de costas (misaligned). Lado direito apresenta um espaço vazio considerável (empty_shelf). Prateleira inferior: bem abastecida. PASSO 3: Anomalia 1: Garrafa virada (misaligned), severidade baixa, confiança 0.9. Anomalia 2: Espaço vazio (empty_shelf), severidade média, confiança 0.95. PASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na prateleira do meio."
+}

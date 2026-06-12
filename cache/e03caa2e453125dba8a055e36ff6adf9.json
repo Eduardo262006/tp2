@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260603_121606_097",
+  "timestamp": "2026-06-03T12:16:06Z",
+  "image_path": "data\\images\\img_0097.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo à direita dos produtos Old El Paso, sugerindo falta de stock ou desorganização.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Espaço vazio à esquerda do produto Coles Soft Taco, indicando falta de stock.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Coles Taco Dinner Kit",
+    "Old El Paso Jumbo Taco Kit",
+    "Kan Tong Sauce",
+    "Coles Soft Taco Dinner Kit",
+    "Rositas Easy Fill Taco Dinner Kit",
+    "Old El Paso Tortillas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras principais de um supermercado com produtos de comida mexicana (kits de tacos, molhos e tortilhas). A prateleira superior contém kits Old El Paso e um molho Kan Tong. A prateleira inferior contém kits Coles e Rositas. Há espaços vazios visíveis em ambas as prateleiras. PASSO 2: Prateleira superior: lado esquerdo ocupado, lado direito com espaço vazio após o molho. Prateleira inferior: lado esquerdo com espaço vazio, centro e direita ocupados por kits Rositas. PASSO 3: Identifiquei duas zonas de 'empty_shelf'. A da prateleira superior é mais notável devido à descontinuidade do alinhamento. A da prateleira inferior é menor. Severidade média para a superior e baixa para a inferior. PASSO 4: Ocupação visual estimada em cerca de 85% da área total disponível para exposição de produtos."
+}

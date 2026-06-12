@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260609_105930_778",
+  "timestamp": "2026-06-09T10:59:30Z",
+  "image_path": "data\\images\\img_0789.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Caixas de produto vermelho (Uncle Tobys) estão viradas de lado ou de costas, dificultando a identificação da marca e organização.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, entre os produtos de pipoca",
+      "severity": "low",
+      "description": "Espaço vazio ou lacuna entre as caixas de pipoca na prateleira do meio.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "Poppin Microwave Popcorn",
+    "Uncle Tobys products"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo caixas de pipoca de micro-ondas (Poppin) e caixas vermelhas (Uncle Tobys). PASSO 2: Prateleira superior: bem organizada, cheia. Prateleira do meio: contém pipocas alinhadas à esquerda, mas há caixas vermelhas viradas de lado/costas à direita e um pequeno espaço vazio. Prateleira inferior: produtos visíveis, mas parcialmente obscurecidos. PASSO 3: Identifiquei desalinhamento nas caixas vermelhas (misaligned) e um pequeno espaço vazio (empty_shelf) na prateleira do meio. A severidade é média devido à má apresentação visual das caixas viradas. PASSO 4: O fill rate é alto, estimado em 0.88, pois a maioria do espaço está ocupado, apesar da desorganização pontual."
+}

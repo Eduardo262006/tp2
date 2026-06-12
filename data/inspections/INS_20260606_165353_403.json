@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260606_165353_403",
+  "timestamp": "2026-06-06T16:53:53Z",
+  "image_path": "data\\images\\img_0414.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, onde deveriam estar produtos alinhados com as etiquetas de preço.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "low",
+      "description": "Embalagens de Cadbury BrunchBar Minis estão ligeiramente desorganizadas e empurradas para trás.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Tasty Thins snacks",
+    "Cadbury BrunchBar Minis",
+    "Sanitarium Fruity Bix Bars",
+    "Be Natural bars",
+    "Tasty Jacks snacks"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado com snacks e barras de cereais. A prateleira superior contém 'Tasty Thins' à esquerda e 'Cadbury BrunchBar' ao centro/direita. A prateleira inferior contém 'Tasty Jacks', 'Fruity Bix' e 'Be Natural'. PASSO 2: Prateleira superior: Esquerda (ok), Centro (ligeiramente desorganizado), Direita (vazio parcial). Prateleira inferior: Esquerda, Centro e Direita parecem bem abastecidos e organizados. PASSO 3: Identifiquei um 'empty_shelf' na parte superior direita (severidade média, pois há espaço para mais produtos) e um 'misaligned' no centro da prateleira superior. PASSO 4: O fill rate é alto, mas com uma lacuna visível na prateleira superior, estimo em 0.85."
+}

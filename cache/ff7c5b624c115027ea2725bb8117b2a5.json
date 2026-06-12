@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260602_153809_020",
+  "timestamp": "2026-06-02T15:38:09Z",
+  "image_path": "data\\images\\img_0020.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "wrong_product",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Uma embalagem de Ribena está colocada na secção destinada a sumos Just Juice/Berri, interrompendo o alinhamento da categoria.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "As embalagens individuais de Ribena estão ligeiramente desorganizadas e inclinadas.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Ribena multipacks",
+    "Ribena individual cartons",
+    "Just Juice cartons",
+    "Berri juice cartons",
+    "Popper juice boxes"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo sumos. Nível superior: Ribena (multipacks e individuais). Nível médio: Just Juice e Berri. Nível inferior: Popper e mais sumos. PASSO 2: Prateleira superior: organizada, exceto por uma leve inclinação à direita. Prateleira média: organizada, mas com uma intrusão de Ribena no meio. Prateleira inferior: organizada. PASSO 3: Identificada uma anomalia de 'wrong_product' no centro da prateleira média (Ribena entre sumos de laranja) e 'misaligned' na superior direita. PASSO 4: O preenchimento é alto, com poucas lacunas visíveis, estimado em 92%."
+}

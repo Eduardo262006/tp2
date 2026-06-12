@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260607_113427_521",
+  "timestamp": "2026-06-07T11:34:27Z",
+  "image_path": "data\\images\\img_0532.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre as barras Carman's e a caixa de Nana's Diver, sugerindo falta de stock ou produto deslocado.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Caixas de 'Organic Oat Slice' estão desalinhadas e algumas unidades individuais estão fora das caixas expositoras.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Carman's Tropical Muesli Bars",
+    "Nana's Diver Mini Meal",
+    "Amore Fruity Nut Bars",
+    "Tasti XanaBar",
+    "Organic Oat Slice"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado com barras de cereais e snacks. A prateleira superior contém caixas de Carman's e Nana's Diver. A prateleira inferior contém Amore, Tasti XanaBar e Organic Oat Slice. PASSO 2: Prateleira superior: esquerda/centro ocupados, direita com espaço vazio. Prateleira inferior: esquerda/centro organizados, direita com produtos desalinhados. PASSO 3: Identificada uma lacuna na prateleira superior (empty_shelf) e desorganização/desalinhamento na prateleira inferior (misaligned). PASSO 4: O preenchimento é bom, mas com lacunas pontuais, estimado em 85%."
+}

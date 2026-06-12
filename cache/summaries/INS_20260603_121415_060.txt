@@ -1,0 +1,1 @@
+zona Z_N8; estado warning; fill rate 88%; empty_shelf (medium) em prateleira superior, lado direito: Espaço vazio significativo na extremidade direita da prateleira superior.; misaligned (low) em prateleira superior, lado esquerdo: Tampa de frasco solta ou mal posicionada sobre um dos produtos.; produtos: compotas, geleias, frascos de conservas de fruta; data 2026-06-03T12:14:15Z

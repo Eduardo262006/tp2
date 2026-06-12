@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260602_153800_017",
+  "timestamp": "2026-06-02T15:38:00Z",
+  "image_path": "data\\images\\img_0017.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, onde deveriam estar produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas de Golden Circle desalinhadas em relação ao padrão de faceamento.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "Just Juice",
+    "Golden Circle",
+    "P&N"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de metal contendo garrafas de sumo de fruta (marcas Just Juice, Golden Circle e P&N). PASSO 2: Prateleira superior: espaço vazio à esquerda. Prateleira do meio: produtos bem organizados, exceto por um ligeiro desalinhamento nas garrafas Golden Circle à esquerda. Prateleira inferior: preenchimento consistente. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira superior (severidade média) e 'misaligned' na prateleira do meio (severidade baixa). PASSO 4: O fill rate é estimado em 0.88, considerando o espaço vazio na prateleira superior e a densidade geral das outras prateleiras."
+}

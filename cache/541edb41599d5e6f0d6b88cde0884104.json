@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260612_234010_001",
+  "timestamp": "2026-06-12T22:40:10Z",
+  "image_path": "test_images\\img_0160.jpg",
+  "zone_id": "Z_S10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar mais produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 30.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Garrafas de Solo e Mountain Dew estão desalinhadas e com falta de profundidade no stock.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "Mountain Dew",
+    "Kirks Lemonade",
+    "Pub Squash",
+    "Solo"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado com bebidas gaseificadas em garrafas de plástico. A prateleira superior está bem abastecida com várias marcas (Mountain Dew, Kirks, Pub Squash). A prateleira inferior apresenta uma variedade de produtos (Mountain Dew, Solo, bebidas genéricas), mas com lacunas visíveis. PASSO 2: Prateleira superior: bem organizada, sem anomalias graves. Prateleira inferior: lado esquerdo preenchido, centro com desalinhamento de garrafas, lado direito com espaço vazio considerável. PASSO 3: Identifiquei um 'empty_shelf' na zona inferior direita (severidade média) e 'misaligned' no centro da prateleira inferior (severidade baixa). PASSO 4: O fill rate global é estimado em 0.75, considerando que a prateleira superior está quase cheia (0.95) e a inferior tem cerca de 0.55 de ocupação."
+}

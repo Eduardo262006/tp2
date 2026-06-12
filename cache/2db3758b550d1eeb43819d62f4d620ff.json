@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260608_175220_667",
+  "timestamp": "2026-06-08T17:52:20Z",
+  "image_path": "data\\images\\img_0678.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio entre os frascos de molho, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro-esquerda",
+      "severity": "low",
+      "description": "Produto (Pasta di Casa) ligeiramente desalinhado em relação à frente da prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 2.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "molhos de massa em frasco",
+    "massas frescas embaladas (tortellini/ravioli)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo molhos de massa (topo) e massas frescas embaladas (meio e baixo). A organização é geralmente boa, com etiquetas de preço alinhadas. PASSO 2: Prateleira superior: existe uma lacuna visível no centro entre os frascos. Prateleira do meio: bem preenchida. Prateleira inferior: produtos presentes, mas com um ligeiro desalinhamento no centro-esquerda. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira superior (severidade média, pois interrompe o facing) e um 'misaligned' na inferior (severidade baixa). PASSO 4: O fill rate é elevado, estimado em 0.92, dado que a maioria do espaço está ocupado, com apenas pequenas lacunas."
+}

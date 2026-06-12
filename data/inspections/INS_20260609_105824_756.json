@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260609_105824_756",
+  "timestamp": "2026-06-09T10:58:24Z",
+  "image_path": "data\\images\\img_0767.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo e centro",
+      "severity": "medium",
+      "description": "Espaço significativo vazio na prateleira superior, indicando falta de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 30.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio entre os produtos de laticínios e os produtos Vegie Delights.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.65,
+  "products_detected": [
+    "sopas",
+    "iogurtes",
+    "cremes",
+    "sumos",
+    "laticínios",
+    "produtos vegetarianos (Vegie Delights)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com 5 níveis. Contém produtos alimentares como sopas, iogurtes, cremes, sumos e produtos vegetarianos embalados. Há várias zonas com falta de stock. PASSO 2: Prateleira superior: vazia à esquerda e centro. Prateleira 2 (de cima): laticínios à esquerda, Vegie Delights à direita, espaço vazio no centro. Prateleira 3: Vegie Delights, com espaço vazio à esquerda. Prateleira 4: Vegie Delights, com espaço vazio à esquerda. Prateleira inferior: produtos diversos, parcialmente preenchida. PASSO 3: Identificadas duas zonas principais de 'empty_shelf' (superior e meio-esquerda). Severidade média pois afeta a disponibilidade de produto. Confiança alta devido à visibilidade clara das prateleiras vazias. PASSO 4: O fill rate global é estimado em 0.65, considerando que cerca de 35% do espaço total visível nas prateleiras está desocupado."
+}

@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260604_163110_204",
+  "timestamp": "2026-06-04T16:31:10Z",
+  "image_path": "data\\images\\img_0215.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na secção esquerda da prateleira do meio, onde deveriam estar produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "low",
+      "description": "Produtos de massa de arroz estão desorganizados e inclinados, não seguindo o alinhamento frontal padrão.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "noodles",
+    "vermicelli",
+    "rice sticks",
+    "asian sauces",
+    "dried ingredients"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um corredor de supermercado com produtos asiáticos (noodles, massas, molhos). A organização é feita por divisórias metálicas. PASSO 2: Prateleira superior: cheia, mas com alguma desorganização no centro. Prateleira do meio: lado esquerdo vazio, centro e direita preenchidos. Prateleira inferior: preenchida com diversos pacotes de ingredientes secos e molhos. PASSO 3: Identifiquei um 'empty_shelf' na prateleira do meio (lado esquerdo) com severidade média. Identifiquei 'misaligned' na prateleira superior (centro) devido à inclinação dos pacotes. PASSO 4: O fill rate global é estimado em 0.85, considerando o espaço vazio na prateleira do meio e a ocupação densa nas restantes."
+}

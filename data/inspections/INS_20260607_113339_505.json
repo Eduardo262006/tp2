@@ -1,0 +1,40 @@
+{
+  "inspection_id": "INS_20260607_113339_505",
+  "timestamp": "2026-06-07T11:33:39Z",
+  "image_path": "data\\images\\img_0516.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio entre o molho de caril e os produtos de sushi, sugerindo falta de stock ou organização deficiente.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "low",
+      "description": "Produtos de embalagem rosa estão desalinhados e caídos dentro da divisória.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "curry sauce",
+    "sushi kit",
+    "miso paste",
+    "wasabi",
+    "sushi nori",
+    "sushi rice",
+    "udon noodles",
+    "soba noodles",
+    "hot sauce"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com produtos asiáticos (molhos, kits de sushi, arroz, massas). A organização é feita por divisórias metálicas. PASSO 2: Prateleira superior: contém molhos e kits de sushi, com um espaço vazio à esquerda. Prateleira do meio: contém pastas de miso, wasabi e produtos diversos; nota-se desalinhamento no centro. Prateleira inferior: contém arroz, nori e massas, bem organizados. PASSO 3: Identifiquei um espaço vazio na prateleira superior (empty_shelf) e produtos desalinhados na prateleira do meio (misaligned). A severidade é baixa a média, pois a maioria dos produtos está disponível e organizada. PASSO 4: O fill rate é elevado, estimado em 0.85, dado que a maioria das divisórias está preenchida, exceto por pequenas lacunas."
+}

@@ -1,0 +1,25 @@
+{
+  "inspection_id": "INS_20260607_113433_523",
+  "timestamp": "2026-06-07T11:34:33Z",
+  "image_path": "data\\images\\img_0534.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Existe um espaço vazio significativo entre as caixas de barras de cereais K-time, onde se vê o fundo da prateleira e uma etiqueta de preço sem produto correspondente.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Movietime Popcorn",
+    "Kellogg's K-time Cereal Bars",
+    "Snack packs (Top 20)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho. A superior contém sacos de pipocas Movietime à esquerda e várias caixas de barras de cereais K-time à direita. A prateleira inferior contém sacos de snacks 'Top 20' à esquerda e caixas de barras de cereais K-time (Fruit'n Crunch) à direita. PASSO 2: Prateleira superior: bem organizada. Prateleira inferior: lado esquerdo preenchido, lado direito com caixas de cereais, mas com um espaço vazio notável no centro da secção de cereais. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira inferior, centro, onde falta produto, revelando o fundo da prateleira. Severidade média, pois interrompe a continuidade do stock. Confiança alta. PASSO 4: O fill rate é estimado em 0.85, considerando a ocupação total das prateleiras visíveis menos o espaço vazio central."
+}

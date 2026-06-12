@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260603_121657_114",
+  "timestamp": "2026-06-03T12:16:57Z",
+  "image_path": "data\\images\\img_0114.jpg",
+  "zone_id": "Z_C3",
+  "overall_status": "critical",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "high",
+      "description": "Várias garrafas de leite 'BIG M' estão deitadas horizontalmente em vez de estarem verticais, bloqueando a visão e ocupando espaço de forma desorganizada.",
+      "confidence": 0.98,
+      "affected_area_pct": 30.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Embalagens de iogurte Yoplait estão tombadas ou fora da sua posição vertical padrão, com algumas viradas de lado.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "BIG M flavored milk",
+    "Yoplait yogurt cups",
+    "Orange juice"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras principais. A superior contém garrafas de leite 'BIG M' (algumas verticais, outras deitadas). A prateleira inferior contém iogurtes Yoplait organizados em colunas, com uma garrafa de sumo de laranja à esquerda. PASSO 2: Prateleira superior: desorganização severa no centro devido a garrafas deitadas. Prateleira inferior: organização geral boa, exceto por alguns iogurtes tombados à direita. PASSO 3: Identificadas duas anomalias de desalinhamento (misaligned). A da prateleira superior é crítica pois impede o acesso e visibilidade. A da inferior é de severidade média. PASSO 4: O fill rate é alto (cerca de 85%), pois as prateleiras estão quase cheias, mas a desorganização reduz a eficiência do espaço."
+}

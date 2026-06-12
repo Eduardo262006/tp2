@@ -1,0 +1,15 @@
+{
+  "inspection_id": "INS_20260606_165744_480",
+  "timestamp": "2026-06-06T16:57:44Z",
+  "image_path": "data\\images\\img_0491.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.98,
+  "products_detected": [
+    "Just Juice",
+    "P&N Brekky Juice",
+    "Berri Juice"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um supermercado repletas de garrafas de sumo de várias marcas (Just Juice, P&N, Berri). A organização é consistente, com produtos alinhados frontalmente. PASSO 2: Prateleira superior: cheia, sem falhas. Prateleira do meio: cheia, sem falhas. Prateleira inferior: cheia, sem falhas. Não foram detetadas zonas vazias, produtos fora do lugar ou etiquetas em falta. PASSO 3: Não existem anomalias a reportar. PASSO 4: O fill rate é muito elevado, com quase todas as posições ocupadas e alinhadas, estimado em 0.98."
+}

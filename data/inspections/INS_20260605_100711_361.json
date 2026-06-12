@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260605_100711_361",
+  "timestamp": "2026-06-05T10:07:11Z",
+  "image_path": "data\\images\\img_0372.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, onde deveriam estar produtos alinhados com as etiquetas de preço.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Produtos (Roti Wraps e pães) estão desorganizados e sobrepostos, dificultando a visualização e acesso.",
+      "confidence": 0.85,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "especiarias (Maharaja's Choice)",
+    "pães indianos (Naan, Roti Wraps)",
+    "refeições prontas (Tasty Bites)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A superior contém especiarias em sacos (folhas de louro, açafrão, sementes de coentro) e refeições prontas. A inferior contém pães embalados (Naan, Roti Wraps). PASSO 2: Prateleira superior: lado esquerdo e centro preenchidos, lado direito com espaço vazio. Prateleira inferior: lado esquerdo organizado, lado direito com produtos empilhados de forma desordenada. PASSO 3: Anomalia 1: Espaço vazio na prateleira superior (empty_shelf), severidade média, confiança alta. Anomalia 2: Desorganização/sobreposição de produtos na prateleira inferior (misaligned), severidade baixa, confiança alta. PASSO 4: Ocupação visual estimada em 85%, considerando o espaço vazio na prateleira superior e a densidade de produtos na inferior."
+}

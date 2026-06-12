@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260609_105515_693",
+  "timestamp": "2026-06-09T10:55:15Z",
+  "image_path": "data\\images\\img_0704.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Espaço vazio no final da prateleira superior, sugerindo falta de stock ou produto deslocado.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos da marca Latina estão ligeiramente desalinhados e sobrepostos, dificultando a leitura das etiquetas.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Latina pasta",
+    "Latina sauces",
+    "Ubaldi pasta"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 4 níveis. Nível superior contém molhos em potes. Níveis médio e inferior contêm massas frescas (Latina e Ubaldi). PASSO 2: Prateleira superior: quase cheia, exceto uma pequena lacuna à direita. Prateleira média: bem organizada, mas com ligeira desordem nos produtos à esquerda. Prateleira inferior: bem organizada. PASSO 3: Identifiquei um pequeno espaço vazio na prateleira superior (empty_shelf) e um ligeiro desalinhamento na prateleira média (misaligned). A severidade é baixa pois a maioria dos produtos está disponível e visível. PASSO 4: O fill rate é elevado, estimado em 92%, dado que a maioria das faces está preenchida e apenas pequenos espaços estão vazios."
+}

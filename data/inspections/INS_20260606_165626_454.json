@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260606_165626_454",
+  "timestamp": "2026-06-06T16:56:26Z",
+  "image_path": "data\\images\\img_0465.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "low",
+      "description": "Uma embalagem de Huggies está posicionada de lado (horizontalmente) em vez de alinhada com as restantes.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível entre os produtos na prateleira do meio.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Huggies Junior",
+    "Huggies Ultra Dry",
+    "Huggies Walker"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho organizada com várias embalagens de fraldas Huggies de diferentes tamanhos e tipos. A estrutura é composta por três níveis principais. PASSO 2: Prateleira superior: bem preenchida. Prateleira do meio: apresenta um espaço vazio à esquerda e uma embalagem deitada (misaligned) no centro. Prateleira inferior: bem preenchida. PASSO 3: Identifiquei uma embalagem deitada (misaligned) na prateleira do meio, severidade baixa, confiança alta. Identifiquei um espaço vazio (empty_shelf) na prateleira do meio, severidade média, confiança alta. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na prateleira do meio."
+}

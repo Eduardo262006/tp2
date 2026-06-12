@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260604_163228_230",
+  "timestamp": "2026-06-04T16:32:28Z",
+  "image_path": "data\\images\\img_0241.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio visível à direita dos produtos Berri Estates, sugerindo falta de stock ou produto deslocado.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "O expositor vertical de produtos 'celebrate' está pendurado sobre a prateleira, obstruindo parcialmente a visão dos produtos De Bortoli.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "vinho em caixa (cask wine)",
+    "acessórios de festa/bebidas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo vinhos em caixa (casks). Há uma mistura de marcas (Morris, Berri Estates, De Bortoli). Um expositor vertical de plástico verde com miniaturas está pendurado no centro. PASSO 2: Prateleira superior: produtos Morris e Berri Estates, com um espaço vazio à direita. Prateleira do meio: produtos De Bortoli e Berri Estates, com obstrução visual pelo expositor verde. Prateleira inferior: produtos De Bortoli e Berri Estates. PASSO 3: Anomalia 1: Espaço vazio na prateleira superior direita (empty_shelf, severidade média). Anomalia 2: Expositor verde mal posicionado/obstrutivo (misaligned/other, severidade baixa). PASSO 4: O preenchimento é alto, mas com lacunas pontuais. Estimo um fill rate de 0.85."
+}

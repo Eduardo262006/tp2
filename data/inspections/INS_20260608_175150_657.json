@@ -1,0 +1,46 @@
+{
+  "inspection_id": "INS_20260608_175150_657",
+  "timestamp": "2026-06-08T17:51:50Z",
+  "image_path": "data\\images\\img_0668.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Espaço vazio entre os frascos de café Moccona.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Frascos de café Moccona desalinhados e com orientação irregular.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Lacuna significativa na prateleira inferior onde faltam produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "Moccona Coffee",
+    "Nescafé Alta Rica",
+    "Nescafé Gold",
+    "Nescafé Decaf",
+    "Nescafé Blend 43",
+    "Nescafé Espresso"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 4 níveis de prateleiras contendo frascos de café solúvel (Moccona e Nescafé). A organização é geralmente boa, mas com algumas irregularidades. PASSO 2: Prateleira superior: quase cheia, pequena lacuna à esquerda. Prateleira 2: desorganização no lado esquerdo. Prateleira 3: bem organizada. Prateleira inferior: lacuna visível no centro. PASSO 3: Identificadas 3 anomalias: 1) Espaço vazio na prateleira superior (low severity), 2) Desalinhamento na prateleira 2 (low severity), 3) Espaço vazio na prateleira inferior (medium severity). PASSO 4: O fill rate é alto, estimado em 0.88, considerando que a maioria dos espaços está preenchida, exceto pelas lacunas pontuais mencionadas."
+}

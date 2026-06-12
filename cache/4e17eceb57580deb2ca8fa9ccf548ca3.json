@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260605_100720_364",
+  "timestamp": "2026-06-05T10:07:20Z",
+  "image_path": "data\\images\\img_0375.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, sugerindo falta de stock ou necessidade de reposição.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos (caixas de leite) ligeiramente desalinhados ou com espaçamento irregular.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "leite em caixa",
+    "leite em garrafa plástica"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra um expositor de refrigeração de supermercado com várias prateleiras contendo leite em embalagens de cartão (topo) e garrafas plásticas (restantes). PASSO 2: Prateleira superior: bem preenchida, mas com ligeiro desalinhamento à esquerda. Prateleira 2 (contando de cima): preenchida, mas com uma zona vazia à direita. Prateleira 3: preenchida. Prateleira 4: preenchida. Prateleira inferior: preenchida. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira do meio (lado direito) com severidade média. Identificado 'misaligned' na prateleira superior com severidade baixa. PASSO 4: O fill rate é elevado, estimado em 0.85, dado que a maioria das prateleiras está cheia, exceto pela lacuna na prateleira do meio."
+}

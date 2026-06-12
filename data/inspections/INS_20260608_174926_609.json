@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260608_174926_609",
+  "timestamp": "2026-06-08T17:49:26Z",
+  "image_path": "data\\images\\img_0620.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio visível entre os pacotes de macarrão de arroz, indicando falta de produto ou organização deficiente.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos empilhados de forma desordenada e inclinada, dificultando a visualização e acesso.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "instant noodles",
+    "rice vermicelli",
+    "rice sticks"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo diversos tipos de macarrão (instantâneo e de arroz). A organização é geral, mas apresenta falhas de preenchimento e alinhamento. PASSO 2: Prateleira superior: bem preenchida. Prateleira do meio: apresenta um espaço vazio no centro onde os produtos parecem ter sido retirados ou não repostos. Prateleira inferior: produtos presentes, mas com desalinhamento visível no lado esquerdo. PASSO 3: Identifiquei um 'empty_shelf' no centro da prateleira do meio (severidade média, confiança 0.9) e 'misaligned' na prateleira inferior esquerda (severidade baixa, confiança 0.85). PASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das prateleiras está cheia, mas com lacunas pontuais e desorganização na base."
+}

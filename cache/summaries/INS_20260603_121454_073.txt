@@ -1,0 +1,1 @@
+zona Z_N1; estado warning; fill rate 92%; empty_shelf (medium) em prateleira do meio, centro: Espaço vazio visível na prateleira do meio, onde deveria estar um produto da marca Twinings.; produtos: chocolates em pó, adoçantes (Equal), chás (Twinings), chás (Madura); data 2026-06-03T12:14:54Z

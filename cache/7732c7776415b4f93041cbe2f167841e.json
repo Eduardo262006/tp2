@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260605_100829_387",
+  "timestamp": "2026-06-05T10:08:29Z",
+  "image_path": "data\\images\\img_0398.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "As embalagens de sumo em bolsa (pouches) estão ligeiramente desalinhadas e inclinadas para a direita.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Embalagem individual de Ribena virada de costas, expondo o código de barras em vez da face do produto.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Ribena carton",
+    "Ribena Light carton",
+    "Fruit juice pouches",
+    "Ribena multipack",
+    "Dole juice"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho com sumos. A prateleira superior contém embalagens de cartão Ribena e sumos em bolsa. A prateleira inferior contém multipacks de Ribena e embalagens individuais. PASSO 2: Prateleira superior: esquerda/centro organizados, direita com pouches ligeiramente desalinhados. Prateleira inferior: esquerda/centro com multipacks, centro com uma unidade individual virada de costas, direita com Dole. PASSO 3: Anomalia 1: Desalinhamento na prateleira superior (pouches). Anomalia 2: Produto virado (misaligned) na prateleira inferior. Severidade baixa a média. PASSO 4: Ocupação visual elevada, com poucas falhas de stock, estimando um fill rate de 0.92."
+}

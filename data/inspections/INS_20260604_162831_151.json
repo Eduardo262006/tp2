@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260604_162831_151",
+  "timestamp": "2026-06-04T16:28:31Z",
+  "image_path": "data\\images\\img_0162.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível na prateleira superior, indicando falta de stock de um produto específico.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Latas de leite de coco ligeiramente desalinhadas em relação à frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "leite de coco",
+    "creme de coco",
+    "noodles instantâneos"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado contendo latas de leite/creme de coco e embalagens de noodles. A organização é feita por filas verticais. PASSO 2: Prateleira superior: lado esquerdo apresenta um espaço vazio (falta de produto). Centro e direita estão bem preenchidos. Prateleira inferior: bem preenchida, com algumas latas ligeiramente desalinhadas à direita. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira superior esquerda (severidade média, confiança alta). Identificado 'misaligned' na prateleira inferior direita (severidade baixa, confiança alta). PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das filas está completa, exceto pela lacuna na prateleira superior."
+}

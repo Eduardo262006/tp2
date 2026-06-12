@@ -1,0 +1,26 @@
+{
+  "inspection_id": "INS_20260606_165350_402",
+  "timestamp": "2026-06-06T16:53:50Z",
+  "image_path": "data\\images\\img_0413.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos Doritos Tapas (esquerda) e Doritos Sweet Chilli (direita) na prateleira inferior.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Doritos Tapas Poppy Seed & Sun-dried Tomato",
+    "Doritos Dippas Original",
+    "Doritos Tapas Poppy Seed & Vintage Cheddar",
+    "Doritos Sweet Chilli & Sour Cream"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho com sacos de batatas fritas Doritos. A prateleira superior está bem preenchida com Doritos Tapas e Dippas. A prateleira inferior contém Doritos Tapas à esquerda e Doritos Sweet Chilli à direita, com um espaço vazio visível no centro. PASSO 2: Prateleira superior: preenchimento completo. Prateleira inferior: esquerda (Tapas), centro (vazio), direita (Sweet Chilli). PASSO 3: Identificada uma anomalia de 'empty_shelf' na zona central da prateleira inferior. Severidade média, pois interrompe a continuidade do stock. Confiança alta devido à visibilidade da grelha metálica de fundo. PASSO 4: O fill rate global é estimado em 0.85, considerando que a prateleira superior está cheia e a inferior tem uma lacuna de aproximadamente 25% do seu espaço útil."
+}

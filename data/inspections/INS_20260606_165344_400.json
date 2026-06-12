@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260606_165344_400",
+  "timestamp": "2026-06-06T16:53:44Z",
+  "image_path": "data\\images\\img_0411.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Garrafões de água de 15L estão tombados e fora da organização vertical padrão, obstruindo o espaço de prateleira.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro-esquerda",
+      "severity": "low",
+      "description": "Espaço vazio entre as garrafas individuais e os garrafões de 15L, indicando falta de stock ou má organização.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "água mineral",
+    "garrafões de água 15L",
+    "packs de água 600ml"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado contendo águas minerais em diferentes formatos (garrafas individuais, packs de 600ml e garrafões de 15L). PASSO 2: Prateleira superior: bem organizada, com packs de água P&N e Fiji. Prateleira inferior: lado esquerdo com garrafas individuais, centro com garrafões de 15L tombados e desorganizados, lado direito com garrafões empilhados. PASSO 3: Identifiquei uma anomalia de desalinhamento grave no centro da prateleira inferior, onde os garrafões estão tombados (misaligned). Há também um espaço vazio entre os produtos no centro (empty_shelf). A severidade é média devido ao risco de queda e má apresentação. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria do espaço está ocupado, apesar da desorganização central."
+}

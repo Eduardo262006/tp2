@@ -1,0 +1,1 @@
+zona Z_N8; estado warning; fill rate 85%; empty_shelf (medium) em prateleira superior, lado esquerdo: Espaço vazio significativo na prateleira superior, à esquerda, onde deveriam estar produtos.; produtos: VB Bitter, Tooheys New, Cold Filtered Beer, Boonanza Beer; data 2026-06-03T12:15:54Z

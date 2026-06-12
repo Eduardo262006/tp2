@@ -1,0 +1,42 @@
+{
+  "inspection_id": "INS_20260606_165556_444",
+  "timestamp": "2026-06-06T16:55:56Z",
+  "image_path": "data\\images\\img_0455.jpg",
+  "zone_id": "Z_C2",
+  "overall_status": "critical",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "high",
+      "description": "Espaço vazio significativo onde deveriam estar produtos de massa fresca.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "high",
+      "description": "Espaço vazio na secção de pão de alho/produtos refrigerados.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "high",
+      "description": "Espaço vazio entre os produtos de pão de alho.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "massa fresca (tortellini/ravioli)",
+    "pão de alho"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de refrigeração com 4 níveis. Nível superior e segundo nível estão bem abastecidos com massas frescas (marcas Ubaldi, San Remo, Dorato). Terceiro nível tem falhas de stock. Nível inferior tem pão de alho com espaços vazios. PASSO 2: Nível 1 e 2: OK. Nível 3: Zona central/direita vazia. Nível 4: Zona esquerda e centro vazias. PASSO 3: Identificadas 3 zonas de 'empty_shelf' com severidade alta devido ao impacto visual e perda de oportunidade de venda. Confiança elevada pela clareza das prateleiras vazias. PASSO 4: Estimativa de ocupação visual: Nível 1 (95%), Nível 2 (95%), Nível 3 (70%), Nível 4 (40%). Média global estimada em 0.75."
+}

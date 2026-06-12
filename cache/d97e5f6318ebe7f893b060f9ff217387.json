@@ -1,0 +1,44 @@
+{
+  "inspection_id": "INS_20260604_163422_268",
+  "timestamp": "2026-06-04T16:34:22Z",
+  "image_path": "data\\images\\img_0279.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "As embalagens de Wild Turkey estão ligeiramente desalinhadas em relação à frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "As embalagens de Wild Turkey & Cola apresentam desalinhamento frontal.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "As embalagens de Real McCoy Cola estão desalinhadas, com algumas recuadas em relação à borda.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Wild Turkey",
+    "Vinhos brancos",
+    "Wild Turkey & Cola",
+    "Real McCoy Cola"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado contendo bebidas alcoólicas (vinhos e bebidas mistas em lata/caixa). A organização é predominantemente por blocos de marca. PASSO 2: Prateleira superior: vinhos e Wild Turkey. Prateleira do meio: Wild Turkey & Cola e vinhos. Prateleira inferior: Real McCoy Cola e vinhos. Anomalias: Pequenos desalinhamentos frontais em produtos embalados (caixas de cartão) em todos os níveis. Não há prateleiras vazias ou produtos fora de lugar óbvios. PASSO 3: Identificados desalinhamentos (misaligned) em três zonas. Severidade baixa, pois o produto está presente e visível, apenas a estética de 'facing' está comprometida. Confiança alta devido à clareza da imagem. PASSO 4: O fill rate é elevado, com quase todos os espaços ocupados, estimado em 0.95."
+}

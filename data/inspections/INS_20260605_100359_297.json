@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260605_100359_297",
+  "timestamp": "2026-06-05T10:03:59Z",
+  "image_path": "data\\images\\img_0308.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos Soft Soap e Pure, indicando falta de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio entre os produtos de sabonete em barra, indicando falta de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "sabonete líquido",
+    "recargas de sabonete líquido",
+    "sabonete em barra"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de retalho contendo produtos de higiene pessoal (sabonetes líquidos e em barra). A organização é feita por marcas e tipos. PASSO 2: Dividindo a prateleira: Superior (cheia, organizada), Meio (presença de um espaço vazio central entre as marcas Soft Soap e Pure), Inferior (presença de um espaço vazio central entre os sabonetes em barra). PASSO 3: Identificação de anomalias: 1) Prateleira do meio, centro: empty_shelf, severidade média, confiança 0.95. 2) Prateleira inferior, centro: empty_shelf, severidade média, confiança 0.95. PASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das prateleiras está bem abastecida, exceto pelas duas lacunas identificadas."
+}

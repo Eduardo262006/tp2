@@ -1,0 +1,26 @@
+{
+  "inspection_id": "INS_20260604_162837_153",
+  "timestamp": "2026-06-04T16:28:37Z",
+  "image_path": "data\\images\\img_0164.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "other",
+      "location": "prateleira superior, centro-direita",
+      "severity": "medium",
+      "description": "Presença de um pacote de luvas pendurado na frente dos produtos, obstruindo a visibilidade e o acesso aos itens da prateleira.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Sprite",
+    "Pepsi",
+    "Diet Coke",
+    "Pepsi Light"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A prateleira superior contém garrafas de 2L de refrigerantes (Sprite, Pepsi, Pepsi Light). A prateleira inferior contém caixas de 15 unidades de Diet Coke e Pepsi. Há um objeto estranho (luvas) pendurado verticalmente na prateleira superior. PASSO 2: Prateleira superior: organizada, mas com obstrução. Prateleira inferior: organizada, sem anomalias. PASSO 3: A anomalia principal é a presença de luvas penduradas (tipo 'other'), que bloqueiam a visão de parte da prateleira superior. Severidade média, pois impede o acesso e a leitura de preços/produtos. Confiança alta. PASSO 4: O fill rate é alto, com quase todos os espaços preenchidos, estimado em 0.92."
+}

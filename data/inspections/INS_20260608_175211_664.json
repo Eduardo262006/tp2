@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260608_175211_664",
+  "timestamp": "2026-06-08T17:52:11Z",
+  "image_path": "data\\images\\img_0675.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, adjacente às caixas de água Pureau.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Embalagens de 'Handy Pack' estão ligeiramente desalinhadas e empilhadas de forma irregular.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "garrafas de água H2O",
+    "caixas de água Pureau",
+    "acessórios de óculos (estojos)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho com duas secções principais. A prateleira superior contém packs de água H2O (vários tamanhos) e à esquerda estojos de óculos. A prateleira inferior contém caixas de água Pureau e packs de água H2O Kids. PASSO 2: Prateleira superior: organizada, mas com desalinhamento nos packs à esquerda. Prateleira inferior: lado esquerdo apresenta um espaço vazio considerável (falta de stock). PASSO 3: Identificada uma zona de 'empty_shelf' na parte inferior esquerda (severidade média) e 'misaligned' na parte superior esquerda (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira inferior e a ocupação densa do restante espaço."
+}

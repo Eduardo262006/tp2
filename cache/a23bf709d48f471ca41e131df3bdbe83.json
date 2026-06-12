@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260605_100638_350",
+  "timestamp": "2026-06-05T10:06:38Z",
+  "image_path": "data\\images\\img_0361.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio visível entre os produtos Pantene, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio visível na secção de produtos Pantene, indicando falta de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "John Frieda Frizz Ease",
+    "Pantene Shampoo",
+    "Pantene Conditioner"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra prateleiras de retalho com produtos de cuidado capilar (John Frieda e Pantene). A organização é feita por marcas e tipos de produto, com etiquetas de preço correspondentes. PASSO 2: Dividindo a prateleira: Superior (John Frieda), Meio (Pantene), Inferior (Pantene). Anomalias: Na prateleira do meio, há um espaço vazio notável entre os frascos de Pantene. Na prateleira inferior, há também um espaço vazio na zona dos produtos Pantene. PASSO 3: Identifiquei dois casos de 'empty_shelf' (falta de stock ou desorganização) nas prateleiras do meio e inferior, ambos com severidade média, pois afetam a estética e a disponibilidade. Confiança alta devido à clareza dos espaços vazios. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria dos espaços está preenchida, mas existem lacunas significativas em duas prateleiras."
+}

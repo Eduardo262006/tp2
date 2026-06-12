@@ -1,0 +1,20 @@
+{
+  "inspection_id": "INS_20260606_165602_446",
+  "timestamp": "2026-06-06T16:56:02Z",
+  "image_path": "data\\images\\img_0457.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Crown Lager",
+    "Coopers",
+    "Cascade",
+    "XXXX Gold",
+    "Carlton Dry",
+    "Hahn Premium",
+    "Tooheys Extra Dry",
+    "Pure Blonde"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um expositor de bebidas alcoólicas (cervejas). A prateleira superior contém packs de Crown Lager, Coopers e Cascade. A prateleira do meio contém packs de XXXX Gold, Carlton Dry e Hahn Premium. A prateleira inferior contém caixas de XXXX Gold, Tooheys Extra Dry, Pure Blonde e Crown Lager. PASSO 2: Prateleira superior: bem organizada, sem falhas. Prateleira do meio: bem organizada, alinhada. Prateleira inferior: bem organizada, com ocupação total do espaço disponível. Não foram detetadas anomalias como espaços vazios, produtos trocados ou etiquetas em falta. PASSO 3: Não existem anomalias a reportar. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todo o espaço de prateleira está preenchido com stock, com apenas espaços marginais irrelevantes entre produtos."
+}

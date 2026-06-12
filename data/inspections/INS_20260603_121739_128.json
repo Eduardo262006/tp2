@@ -1,0 +1,18 @@
+{
+  "inspection_id": "INS_20260603_121739_128",
+  "timestamp": "2026-06-03T12:17:39Z",
+  "image_path": "data\\images\\img_0128.jpg",
+  "zone_id": "Z_S2",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Cruiser Black",
+    "Smirnoff Ice",
+    "Bundaberg Rum",
+    "Vodka Cruiser",
+    "Bacardi Breezer",
+    "Smirnoff Twist"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de bebidas alcoólicas (RTDs - Ready to Drink). A prateleira superior contém packs de Smirnoff Ice e Bundaberg Rum, além de garrafas individuais de Cruiser Black e Smirnoff Ice. A prateleira inferior contém packs de Vodka Cruiser, Bacardi Breezer e Smirnoff Twist. PASSO 2: Prateleira superior: bem organizada, sem espaços vazios significativos. Prateleira inferior: bem organizada, com alinhamento frontal consistente. Não foram detetadas anomalias críticas como produtos danificados ou prateleiras vazias. PASSO 3: Não existem anomalias a reportar. O alinhamento está correto e todas as etiquetas de preço parecem corresponder aos produtos. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todo o espaço disponível está ocupado por stock, com apenas pequenos espaços entre embalagens que são normais para a exposição de produtos."
+}

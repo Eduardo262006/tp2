@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260602_153927_046",
+  "timestamp": "2026-06-02T15:39:27Z",
+  "image_path": "data\\images\\img_0046.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível entre as caixas de Kellogg's Special K e K-Time Twists.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Produtos desalinhados e ligeiramente desorganizados na extremidade direita da prateleira inferior.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Kellogg's Special K bars",
+    "Uncle Tobys K-Time Twists",
+    "Uncle Tobys Muffin Bars",
+    "Savings Muesli Bars"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo barras de cereais e snacks (Kellogg's, Uncle Tobys). A organização é predominantemente por blocos de marca/sabor. PASSO 2: Prateleira superior: existe um gap entre os produtos à esquerda e à direita. Prateleira média: bem preenchida. Prateleira inferior: produtos alinhados, exceto por uma ligeira desordem na extremidade direita. PASSO 3: Identificada uma falha de stock (empty_shelf) na prateleira superior (gap entre Special K e K-Time) e um desalinhamento (misaligned) na prateleira inferior. Severidade baixa a média. PASSO 4: O fill rate é elevado, estimado em 92%, dado que a maioria das faces está preenchida, com apenas pequenas lacunas."
+}

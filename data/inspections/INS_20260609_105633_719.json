@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260609_105633_719",
+  "timestamp": "2026-06-09T10:56:33Z",
+  "image_path": "data\\images\\img_0730.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os pacotes de Nobby's Cashews e a lateral da prateleira.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Produtos da marca Bhuja estão ligeiramente desorganizados e desalinhados na frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Nobby's Peanuts",
+    "Nobby's Mixed Nuts",
+    "Nobby's Beer Nuts",
+    "Nobby's Cashews",
+    "Bhuja snacks",
+    "Kids'r Cool stationery"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com 4 níveis visíveis. Os produtos são predominantemente snacks (Nobby's e Bhuja). Há etiquetas de preço abaixo de cada secção. PASSO 2: Prateleira superior: bem abastecida. Prateleira média: lado esquerdo e centro cheios, lado direito apresenta um espaço vazio considerável. Prateleira inferior: produtos Bhuja presentes, mas com algum desalinhamento. PASSO 3: Identifiquei um 'empty_shelf' na prateleira do meio (lado direito) onde faltam produtos para preencher o espaço até à divisória. Identifiquei 'misaligned' na prateleira inferior devido à disposição irregular dos pacotes Bhuja. PASSO 4: O fill rate é alto, mas com lacunas pontuais, estimado em 0.85."
+}

@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260604_163113_205",
+  "timestamp": "2026-06-04T16:31:13Z",
+  "image_path": "data\\images\\img_0216.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos alinhados com as etiquetas de preço.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Latas de conservas desalinhadas e com empilhamento irregular.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "conservas de fruta",
+    "latas de cerejas",
+    "marshmallows",
+    "fruta em calda"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 4 níveis visíveis. Contém conservas (latas e frascos), fruta em calda e sacos de marshmallows pendurados. PASSO 2: Prateleira superior: bem abastecida com latas. Prateleira do meio: apresenta uma lacuna visível à esquerda (empty_shelf). Prateleira inferior: bem abastecida com caixas de fruta. PASSO 3: Identifiquei um espaço vazio na prateleira do meio (empty_shelf, severidade média, confiança 0.95). Identifiquei um ligeiro desalinhamento nas latas da prateleira superior (misaligned, severidade baixa, confiança 0.85). PASSO 4: O fill rate é elevado, estimado em 0.88, dado que a maioria das prateleiras está cheia, com apenas uma lacuna pontual."
+}

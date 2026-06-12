@@ -1,0 +1,14 @@
+{
+  "inspection_id": "INS_20260612_233839_001",
+  "timestamp": "2026-06-12T22:38:39Z",
+  "image_path": "test_images\\img_0152.jpg",
+  "zone_id": "Z_S2",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "comida húmida para gato",
+    "rolos de comida para cão"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado dedicada a comida para animais (gatos e cães). A prateleira superior contém embalagens planas de comida para gato. As prateleiras inferiores contêm rolos de comida para cão de várias marcas e sabores. PASSO 2: A prateleira está bem organizada. Não existem espaços vazios significativos (empty_shelf), os produtos estão alinhados e não parecem danificados. A disposição é densa e organizada por tipo de produto. PASSO 3: Não foram identificadas anomalias. Todos os produtos estão devidamente colocados nas suas zonas, com etiquetas de preço visíveis e sem sinais de rutura de stock ou desorganização grave. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase toda a área de exposição está preenchida com produto, com apenas espaços mínimos entre unidades."
+}

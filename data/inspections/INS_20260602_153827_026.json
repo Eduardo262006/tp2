@@ -1,0 +1,53 @@
+{
+  "inspection_id": "INS_20260602_153827_026",
+  "timestamp": "2026-06-02T15:38:27Z",
+  "image_path": "data\\images\\img_0026.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro-direita",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos de noodles.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "segunda prateleira a contar do topo, centro",
+      "severity": "high",
+      "description": "Vários espaços vazios onde deveriam estar produtos de massa/gnocchi.",
+      "confidence": 0.98,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "empty_shelf",
+      "location": "terceira prateleira a contar do topo, centro-direita",
+      "severity": "high",
+      "description": "Grande lacuna de stock na secção de massas.",
+      "confidence": 0.98,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_004",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio entre os pacotes de pão de alho.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "massas frescas",
+    "noodles",
+    "gnocchi",
+    "pão de alho"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 4 níveis de prateleiras contendo massas frescas, noodles, gnocchi e pão de alho. Há uma organização geral por categorias, mas com falhas de stock visíveis em todos os níveis. PASSO 2: Prateleira superior: stock maioritariamente completo, exceto uma pequena falha central. Segunda prateleira: falhas significativas no centro. Terceira prateleira: falha grande no centro-direita. Prateleira inferior: falha no centro entre os produtos de pão. PASSO 3: Identificadas 4 zonas de 'empty_shelf' com severidade variando entre média e alta devido à extensão das lacunas. Confiança elevada baseada na visibilidade clara das grelhas metálicas de fundo. PASSO 4: O fill rate global é estimado em 0.75, considerando que cerca de 25% da área total de exposição está vazia."
+}

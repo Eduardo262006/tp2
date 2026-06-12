@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260603_121700_115",
+  "timestamp": "2026-06-03T12:17:00Z",
+  "image_path": "data\\images\\img_0115.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível entre as embalagens de leite sem lactose e os produtos WheyLite.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Produtos So Good desalinhados e ligeiramente desorganizados na extremidade direita.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "leite sem lactose",
+    "bebidas vegetais So Good",
+    "bebidas proteicas WheyLite",
+    "bebidas de chocolate",
+    "leite Parmalat"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra quatro níveis de prateleiras de supermercado contendo leites, bebidas vegetais (So Good) e suplementos/bebidas proteicas. A organização é predominantemente em blocos por marca e tipo. PASSO 2: Prateleira superior: contém leites e WheyLite, com uma pequena lacuna à esquerda. Prateleira 2: So Good e Parmalat, bem organizadas. Prateleira 3: So Good Bliss e Essential, bem preenchidas. Prateleira inferior: So Good, com ligeira desorganização à direita. PASSO 3: Identificada uma lacuna (empty_shelf) na prateleira superior (severidade média) e um desalinhamento (misaligned) na prateleira inferior (severidade baixa). PASSO 4: O preenchimento é elevado, estimado em 92%, com poucas áreas de rutura de stock."
+}

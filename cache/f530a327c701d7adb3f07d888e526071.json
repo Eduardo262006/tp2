@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260605_100432_308",
+  "timestamp": "2026-06-05T10:04:32Z",
+  "image_path": "data\\images\\img_0319.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na extremidade esquerda da prateleira superior.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas de leite/bebida vegetal desalinhadas e com espaçamento irregular.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "leite",
+    "bebida de soja",
+    "bebida de amêndoa",
+    "bebida de arroz"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado contendo laticínios e alternativas vegetais (leite de soja, amêndoa, etc.). A organização é predominantemente por blocos de marca. PASSO 2: Prateleira superior: bem abastecida à direita, mas com um vazio à esquerda. Prateleira do meio: produtos alinhados, mas com algumas garrafas de plástico desalinhadas à esquerda. Prateleira inferior: bem organizada com embalagens cartonadas. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior esquerda (severidade média) e 'misaligned' na prateleira do meio (severidade baixa). PASSO 4: O fill rate é alto, estimado em 0.85, dado que a maioria das frentes está preenchida, exceto pelo pequeno vazio superior."
+}

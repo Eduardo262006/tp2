@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260607_113639_565",
+  "timestamp": "2026-06-07T11:36:39Z",
+  "image_path": "data\\images\\img_0576.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "other",
+      "location": "prateleira superior e média, lado esquerdo",
+      "severity": "medium",
+      "description": "Presença de esponjas amarelas penduradas obstruindo a visão e o acesso aos produtos (batatas fritas).",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Espaço vazio ou desorganizado no canto inferior direito da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "batatas fritas (Smiths Thinly Cut)",
+    "esponjas de limpeza"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo pacotes de batatas fritas da marca Smiths. Há um objeto estranho (esponjas amarelas) pendurado na parte frontal esquerda, obstruindo a visualização. PASSO 2: Prateleira superior: bem abastecida, mas com obstrução parcial à esquerda. Prateleira média: bem abastecida, com obstrução à esquerda. Prateleira inferior: bem abastecida no centro/esquerda, mas com desorganização/vazio no lado direito. PASSO 3: Anomalia 1: Obstrução por objetos estranhos (esponjas) na zona esquerda (severidade média). Anomalia 2: Espaço vazio/desorganizado na prateleira inferior direita (severidade baixa). PASSO 4: O fill rate é alto, estimado em 0.85, considerando que a maioria dos espaços está preenchida, apesar da obstrução e da pequena falha no canto inferior."
+}

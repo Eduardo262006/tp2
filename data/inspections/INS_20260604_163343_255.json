@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260604_163343_255",
+  "timestamp": "2026-06-04T16:33:43Z",
+  "image_path": "data\\images\\img_0266.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, onde faltam produtos de iogurte/sobremesa.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos de iogurte/sobremesa estão desalinhados e com orientação irregular na prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "iogurtes",
+    "sobremesas lácteas",
+    "mousse",
+    "natas/cremes",
+    "custard"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de refrigeração de supermercado com várias prateleiras contendo iogurtes, mousses, natas e sobremesas (custard). Existe um separador vertical azul central. PASSO 2: Dividindo a prateleira: Superior (esquerda com falhas de stock), Meio (produtos variados, alguns desalinhados), Inferior (produtos de custard bem organizados). PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior esquerda (falta de produto) e 'misaligned' na prateleira do meio (produtos desorganizados). A severidade é média para o vazio e baixa para o desalinhamento. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está bem abastecida, exceto por pequenas lacunas na parte superior."
+}

@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260603_121803_136",
+  "timestamp": "2026-06-03T12:18:03Z",
+  "image_path": "data\\images\\img_0136.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Embalagens de produtos (Bellamy's) estão tombadas e desorganizadas, obstruindo a visualização de outros itens.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "other",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Estoque de reserva (Farex) empilhado de forma desordenada sobre a prateleira, fora do alinhamento padrão.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "cereais infantis",
+    "papinhas de bebé",
+    "snacks orgânicos infantis"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de comida para bebé. A prateleira superior contém caixas de cereais Farex e Heinz alinhadas, com stock extra empilhado à direita. A prateleira do meio contém caixas e sacos de snacks orgânicos (Bellamy's) e caixas Heinz. A prateleira inferior contém frascos de papinhas. PASSO 2: Superior: organização aceitável, mas com stock extra desarrumado. Meio: zona central apresenta desorganização severa com produtos tombados. Inferior: organização correta. PASSO 3: Identificada desorganização (misaligned) na prateleira do meio (severidade média) e stock extra desarrumado na superior (severidade baixa). PASSO 4: O preenchimento é alto, com poucas falhas de stock, estimado em 85%."
+}

@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260604_163137_213",
+  "timestamp": "2026-06-04T16:31:37Z",
+  "image_path": "data\\images\\img_0224.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos de snack.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Espaço vazio parcial na secção de latas/produtos cilíndricos.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.82,
+  "products_detected": [
+    "beef jerky",
+    "snack chips",
+    "mixed nuts",
+    "canned food/tuff snacks"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com 3 níveis principais. Nível superior: snacks em sacos. Nível médio: snacks variados e frutos secos. Nível inferior: frutos secos e latas. PASSO 2: Divisão em 3 níveis. Nível superior está bem abastecido. Nível médio apresenta uma falha de stock (vazio) no lado esquerdo. Nível inferior apresenta uma falha parcial no lado direito. PASSO 3: Identificadas duas zonas de 'empty_shelf'. A falha no nível médio é mais severa pois ocupa cerca de 1/4 da prateleira. A falha no nível inferior é menor. PASSO 4: Estimativa de fill rate global considerando a ocupação visual total das prateleiras, resultando em aproximadamente 82% de ocupação."
+}

@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260608_175259_680",
+  "timestamp": "2026-06-08T17:52:59Z",
+  "image_path": "data\\images\\img_0691.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na extremidade esquerda da prateleira superior, onde deveriam estar produtos da marca Extra Soft.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos desorganizados e desalinhados na parte frontal esquerda da prateleira inferior.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "manteiga",
+    "margarina",
+    "cremes vegetais",
+    "produtos lácteos"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de refrigeração de supermercado com 4 níveis de prateleiras. Os produtos são maioritariamente embalagens de manteiga/margarina. A organização é geralmente boa, com empilhamento vertical. PASSO 2: Prateleira superior: falta de stock na extremidade esquerda. Prateleira 2: bem organizada. Prateleira 3: bem organizada. Prateleira inferior: desorganização visível no lado esquerdo. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior (severidade média, pois há espaço para mais unidades) e 'misaligned' na prateleira inferior (severidade baixa, apenas estética). PASSO 4: O fill rate é elevado, estimado em 88%, dado que a maioria das colunas está completa, com apenas pequenas lacunas na parte superior e desordem na inferior."
+}

@@ -1,0 +1,17 @@
+{
+  "inspection_id": "INS_20260606_165620_452",
+  "timestamp": "2026-06-06T16:56:20Z",
+  "image_path": "data\\images\\img_0463.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Jack Daniel's Cola",
+    "Tooheys New",
+    "VB Beer",
+    "Jim Beam Cola",
+    "Bundaberg Cola"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho de bebidas alcoólicas (cervejas e misturas de bebidas). Os produtos estão organizados em caixas e packs. A prateleira está bem abastecida, com alinhamento frontal consistente. PASSO 2: Dividindo a prateleira: Superior (Jack Daniel's, Tooheys, VB), Meio (Jim Beam, Tooheys, VB), Inferior (Bundaberg, Tooheys, VB). Não se observam espaços vazios significativos, produtos danificados ou etiquetas em falta. PASSO 3: Não foram identificadas anomalias. A organização é coerente com o plano de merchandising. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase toda a área visível está preenchida com stock, com apenas pequenos espaços marginais típicos de prateleiras de metal."
+}

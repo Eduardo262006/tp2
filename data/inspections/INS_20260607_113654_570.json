@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260607_113654_570",
+  "timestamp": "2026-06-07T11:36:54Z",
+  "image_path": "data\\images\\img_0581.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, onde apenas garrafas parciais são visíveis ao fundo, sem produto de frente.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro-direita",
+      "severity": "low",
+      "description": "Os sacos de chips de abacate (Guacamole) estão ligeiramente desorganizados e inclinados para a frente.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "Coles Smart Buy Corn Chips",
+    "Doritos Nacho Cheese",
+    "Rositas Guacamole Corn Chips"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A superior contém sacos de 'Coles Smart Buy Corn Chips' à direita e um espaço vazio à esquerda com algumas garrafas ao fundo. A inferior contém sacos de 'Doritos' à esquerda e 'Rositas Guacamole' à direita. PASSO 2: Prateleira superior: Esquerda (vazia/garrafas), Direita (cheia). Prateleira inferior: Esquerda (Doritos, bem alinhados), Direita (Guacamole, ligeiramente desarrumados). PASSO 3: Anomalia 1: Espaço vazio na prateleira superior esquerda (empty_shelf, severidade média). Anomalia 2: Desalinhamento dos sacos de Guacamole na prateleira inferior (misaligned, severidade baixa). PASSO 4: O fill rate é estimado em 0.75, considerando o espaço vazio na prateleira superior e a ocupação total na inferior."
+}

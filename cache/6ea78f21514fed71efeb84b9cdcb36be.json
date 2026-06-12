@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260604_163019_187",
+  "timestamp": "2026-06-04T16:30:19Z",
+  "image_path": "data\\images\\img_0198.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos, sugerindo rutura de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos desalinhados e com organização irregular na zona esquerda da prateleira do meio.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "iogurtes",
+    "iogurtes gregos",
+    "iogurtes de fruta",
+    "iogurtes naturais"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo diversos tipos de iogurtes em copos e embalagens. A iluminação é artificial e a organização é predominantemente por marca e tipo. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: zona esquerda com produtos desalinhados e desorganizados. Prateleira inferior: zona esquerda apresenta um espaço vazio considerável (empty_shelf), enquanto a zona direita está bem organizada. PASSO 3: Identifiquei uma rutura de stock (empty_shelf) na prateleira inferior esquerda (severidade média, confiança 0.95) e desalinhamento (misaligned) na prateleira do meio esquerda (severidade baixa, confiança 0.85). PASSO 4: O fill rate global é estimado em 0.75, considerando que cerca de 25% da área total visível está vazia ou mal aproveitada."
+}

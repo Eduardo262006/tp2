@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260603_121745_130",
+  "timestamp": "2026-06-03T12:17:45Z",
+  "image_path": "data\\images\\img_0130.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Produtos em embalagens flexíveis (Pappadams) estão desorganizados e empilhados de forma instável, ocupando o espaço de forma desordenada.",
+      "confidence": 0.9,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "low",
+      "description": "Espaço vazio entre as caixas de Pappadam, sugerindo falta de stock ou produto deslocado.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Pappadams",
+    "Dipping Breads",
+    "Patak's Pappadums",
+    "Sharwood's Puppodums"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de metal com produtos alimentares (Pappadams e pães para molhos). A prateleira superior contém caixas de cartão alinhadas. A prateleira inferior contém uma mistura de embalagens flexíveis empilhadas de forma desordenada à esquerda e caixas de cartão à direita. PASSO 2: Prateleira superior: organização aceitável, mas com um pequeno espaço vazio no centro. Prateleira inferior: zona esquerda apresenta desorganização severa com produtos empilhados sem alinhamento. PASSO 3: Identifiquei uma anomalia de desalinhamento/desorganização na prateleira inferior esquerda (severidade média) e um pequeno espaço vazio na prateleira superior (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria do espaço está preenchido, apesar da desorganização na parte inferior esquerda."
+}

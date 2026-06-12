@@ -1,0 +1,14 @@
+{
+  "inspection_id": "INS_20260608_174847_596",
+  "timestamp": "2026-06-08T17:48:47Z",
+  "image_path": "data\\images\\img_0607.jpg",
+  "zone_id": "Z_N2",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.98,
+  "products_detected": [
+    "vinho branco",
+    "espumante"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um expositor de vinhos. A prateleira superior contém vinhos brancos e espumantes (Wolf Blass). A prateleira do meio contém vinhos brancos e espumantes (Great Western). A prateleira inferior contém vinhos tintos/rosés. Os produtos estão alinhados e organizados.\nPASSO 2: \n- Prateleira superior: Totalmente preenchida, sem falhas.\n- Prateleira do meio: Totalmente preenchida, sem falhas.\n- Prateleira inferior: Totalmente preenchida, sem falhas.\nPASSO 3: Não foram detetadas anomalias. Todos os produtos estão alinhados, com etiquetas de preço visíveis e sem espaços vazios significativos.\nPASSO 4: O fill rate é muito elevado, estimado em 0.98, considerando a ocupação quase total do espaço disponível nas prateleiras."
+}

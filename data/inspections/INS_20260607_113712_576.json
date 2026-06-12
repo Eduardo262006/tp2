@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260607_113712_576",
+  "timestamp": "2026-06-07T11:37:12Z",
+  "image_path": "data\\images\\img_0587.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, centro-direita",
+      "severity": "low",
+      "description": "Garrafas individuais de Melbourne Bitter estão ligeiramente desalinhadas e com espaçamento irregular entre si.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio entre os packs de Victoria Bitter e Tooheys New, sugerindo falta de stock ou produto removido.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Carlton Draught",
+    "Melbourne Bitter",
+    "Victoria Bitter (VB)",
+    "Tooheys New"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado com bebidas alcoólicas (cervejas). A prateleira superior contém packs de 6 de Carlton Draught e garrafas individuais de Melbourne Bitter. A prateleira inferior contém packs de 6 de Victoria Bitter e Tooheys New. PASSO 2: Prateleira superior: esquerda (Carlton Draught, ok), centro/direita (Melbourne Bitter, desalinhamento menor). Prateleira inferior: esquerda (VB, ok), centro (espaço vazio entre marcas), direita (Tooheys New, ok). PASSO 3: Identifiquei um desalinhamento na prateleira superior (baixa severidade) e um espaço vazio na prateleira inferior (severidade média, pois interrompe a continuidade do planoograma). PASSO 4: O fill rate é alto, estimado em 0.85, considerando que a maioria dos espaços está preenchida, exceto pela lacuna central na prateleira inferior."
+}

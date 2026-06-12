@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260612_233856_001",
+  "timestamp": "2026-06-12T22:38:56Z",
+  "image_path": "test_images\\img_0157.jpg",
+  "zone_id": "Z_S7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os sacos de batatas fritas na prateleira superior.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Sacos de Doritos desalinhados e sobrepostos, dificultando a visualização organizada.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "batatas fritas (chips)",
+    "molhos (salsa/dip)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras. Nível superior: sacos de batatas fritas (Tapas, Doritos). Nível médio: frascos de molhos (Doritos, Old El Paso). Nível inferior: sacos de Doritos. PASSO 2: Prateleira superior: há um vazio central. Prateleira média: bem organizada, sem anomalias. Prateleira inferior: os sacos de Doritos estão um pouco desarrumados/sobrepostos no centro. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior (severidade média, pois há espaço para mais produto) e 'misaligned' na inferior (severidade baixa, apenas estética). PASSO 4: O fill rate é alto, estimado em 0.85, considerando que a maioria dos espaços está preenchida, exceto pela lacuna superior e alguma desorganização inferior."
+}

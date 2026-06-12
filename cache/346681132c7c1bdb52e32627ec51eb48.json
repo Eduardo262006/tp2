@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260606_165702_466",
+  "timestamp": "2026-06-06T16:57:02Z",
+  "image_path": "data\\images\\img_0477.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio na prateleira superior onde deveriam estar caixas de ovos, sugerindo rutura de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Caixa de ovos Pace Farm ligeiramente desalinhada em relação à fila principal.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Coles free range eggs",
+    "Pace Farm free range eggs",
+    "BodyEgg free range eggs",
+    "Nature's Intentions eggs"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado com várias marcas de ovos em embalagens de cartão. Existem duas prateleiras visíveis. A prateleira superior contém ovos Coles e Pace Farm. A prateleira inferior contém ovos Pace Farm, BodyEgg e Nature's Intentions. PASSO 2: Dividindo a prateleira: Superior Esquerda (vazia parcialmente), Superior Direita (cheia), Inferior Esquerda (cheia, com um item ligeiramente desalinhado), Inferior Direita (cheia). PASSO 3: Identifiquei uma zona vazia na prateleira superior esquerda (empty_shelf, severidade média) e um ligeiro desalinhamento na prateleira inferior esquerda (misaligned, severidade baixa). PASSO 4: O fill rate é elevado, estimado em 0.85, dado que a maioria dos espaços está ocupada, exceto pela lacuna na prateleira superior."
+}

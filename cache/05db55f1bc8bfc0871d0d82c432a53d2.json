@@ -1,0 +1,32 @@
+{
+  "inspection_id": "INS_20260609_105603_709",
+  "timestamp": "2026-06-09T10:56:03Z",
+  "image_path": "data\\images\\img_0720.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "As caixas de lenços estão empilhadas de forma irregular e desalinhada em relação ao resto da prateleira.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Algumas caixas estão ligeiramente deslocadas da frente da prateleira, criando uma linha de faceamento irregular.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Kleenex facial tissues"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho totalmente preenchidas com caixas de lenços da marca Kleenex, com diversos designs e temas. PASSO 2: Prateleira superior: organizada, mas com um pequeno desalinhamento no canto superior esquerdo. Prateleira inferior: bem preenchida, mas com algumas caixas ligeiramente recuadas ou desalinhadas no centro. PASSO 3: Identifiquei dois casos de 'misaligned'. A severidade é baixa pois não há falta de stock nem produtos danificados visíveis, apenas uma questão de organização estética. Confiança elevada devido à clareza da imagem. PASSO 4: O fill rate é muito alto, estimado em 0.95, pois quase não há espaços vazios na prateleira."
+}

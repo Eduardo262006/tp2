@@ -1,21 +1,4 @@
-"""
-rag_memory.py — Componente 3: RAG Memory.
 
-Indexa cada inspeção concluída numa vector store (ChromaDB) e permite recuperação
-semântica para contextualizar análises futuras (Secção 6).
-
-Embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (local, PT).
-Vector store: ChromaDB persistente em disco.
-Chunking: "full", "per_issue" e "hybrid" (default), para comparar Recall@3.
-
-Este ficheiro é autossuficiente: inclui a sua própria camada de acesso ao Gemini.
-Degrada graciosamente: sem chromadb/sentence-transformers cai para índice em
-memória com similaridade por bag-of-words.
-
-Uso CLI:
-    python rag_memory.py index --inspections-dir data/inspections
-    python rag_memory.py query "última vez que Z_S1 teve prateleira vazia"
-"""
 
 from __future__ import annotations
 
@@ -33,10 +16,7 @@ from typing import Any, Optional
 import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 
-# =========================================================================== #
-# Camada de acesso ao LLM (embutida) — Gemini 3.5 Flash (texto).
-# Usada para gerar summaries e sintetizar respostas. Degradação graciosa.
-# =========================================================================== #
+
 try:
     from dotenv import load_dotenv
     load_dotenv()
@@ -221,32 +201,6 @@ except ImportError as e:
         "Instala com: pip install sentence-transformers"
     ) from e
 
-
-'''_SUMMARY_PROMPT = """Gera um resumo de UMA frase, rico em termos semanticamente relevantes para
-recuperação futura, a partir deste registo de inspeção de prateleira. Inclui: zona,
-fill rate, tipos de problema, localização, severidade e o dia/hora se disponível.
-
-Mau exemplo: "prateleira com problemas."
-Bom exemplo: "prateleira inferior da zona Z_S3 com fill rate de 72%, detergente líquido
-fora de posição na secção central, embalagem danificada à direita, terça-feira 15h."
-
-Registo (JSON):
-%s
-
-Devolve APENAS a frase de resumo, sem aspas nem prefixos.
-"""
-
-_ANSWER_PROMPT = """És o sistema de memória de inspeções de uma loja. Responde à pergunta do gestor
-usando EXCLUSIVAMENTE o contexto recuperado abaixo. Sê conciso e refere explicitamente
-as inspeções usadas pelo seu inspection_id e data. Se o contexto não chegar para
-responder, di-lo claramente.
-
-PERGUNTA: %s
-
-CONTEXTO RECUPERADO:
-%s
-
-Resposta:"""'''
 
 
 def _embed_text_summary_fallback(record: dict) -> str:

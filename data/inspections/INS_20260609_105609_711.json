@@ -1,0 +1,43 @@
+{
+  "inspection_id": "INS_20260609_105609_711",
+  "timestamp": "2026-06-09T10:56:09Z",
+  "image_path": "data\\images\\img_0722.jpg",
+  "zone_id": "Z_C1",
+  "overall_status": "critical",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "damaged",
+      "location": "prateleira superior, centro e direita",
+      "severity": "high",
+      "description": "Produtos deitados, embalagens abertas e desalinhamento severo de garrafas.",
+      "confidence": 0.95,
+      "affected_area_pct": 40.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro e direita",
+      "severity": "high",
+      "description": "Garrafas de sumo tombadas sobre os iogurtes, embalagens de iogurte abertas e desorganização geral.",
+      "confidence": 0.98,
+      "affected_area_pct": 50.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "damaged",
+      "location": "prateleira inferior, centro",
+      "severity": "high",
+      "description": "Produtos espalhados, embalagens abertas e resíduos de produto derramado na prateleira.",
+      "confidence": 0.95,
+      "affected_area_pct": 30.0
+    }
+  ],
+  "shelf_fill_rate": 0.65,
+  "products_detected": [
+    "garrafas de bebida",
+    "iogurtes",
+    "sumos em garrafa"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras refrigeradas contendo garrafas de bebidas e iogurtes. O estado geral é de caos, com muitos produtos tombados, embalagens abertas e etiquetas de preço penduradas de forma desordenada. PASSO 2: Prateleira superior: garrafas tombadas e desorganizadas. Prateleira do meio: iogurtes empilhados com garrafas de sumo tombadas por cima, causando instabilidade. Prateleira inferior: produtos espalhados, embalagens abertas e sujidade visível. PASSO 3: Identifiquei danos severos em todos os níveis. A severidade é alta devido ao risco de contaminação e perda de stock. A confiança é elevada dado o estado óbvio de desordem. PASSO 4: O fill rate é estimado em 0.65, pois embora existam muitos produtos, a desorganização e o espaço ocupado por embalagens danificadas/vazias reduzem a eficiência do espaço útil."
+}

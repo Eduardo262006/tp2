@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260607_113542_546",
+  "timestamp": "2026-06-07T11:35:42Z",
+  "image_path": "data\\images\\img_0557.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos alinhados com o restante da categoria.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Produto (caixa de barras de cereais) posicionado de forma irregular/desalinhada em relação ao plano frontal da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "Uncle Tobys Le Snak",
+    "Uncle Tobys Chewy bars",
+    "Uncle Tobys Roll-ups",
+    "Snack Pack crackers"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo produtos da marca Uncle Tobys (Le Snak, barras de cereais, Roll-ups). A organização é predominantemente em blocos. PASSO 2: Prateleira superior: bem preenchida. Prateleira do meio: bem preenchida. Prateleira inferior: apresenta um espaço vazio considerável à esquerda e um desalinhamento de uma caixa de barras de cereais no centro. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira inferior esquerda (severidade média, confiança alta) e um 'misaligned' na mesma prateleira (severidade baixa, confiança alta). PASSO 4: O fill rate é alto, estimado em 0.88, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na parte inferior."
+}

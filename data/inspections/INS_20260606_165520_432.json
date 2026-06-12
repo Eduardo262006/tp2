@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260606_165520_432",
+  "timestamp": "2026-06-06T16:55:20Z",
+  "image_path": "data\\images\\img_0443.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos pendurados na parte superior esquerda.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos Disney desalinhados e pendurados de forma desorganizada.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "copos de treino",
+    "biberões",
+    "acessórios de alimentação infantil",
+    "dispensadores de leite em pó"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de retalho com produtos de puericultura (copos, biberões, talheres). A estrutura é dividida por um separador vertical central. PASSO 2: Analisando por zonas: Superior esquerda apresenta lacunas entre ganchos. Superior direita está bem preenchida. Meio esquerda apresenta produtos Disney desalinhados. Meio direita está organizada. Inferior esquerda e direita apresentam boa densidade de stock. PASSO 3: Identifiquei um 'empty_shelf' na zona superior esquerda devido a ganchos vazios e 'misaligned' na zona média esquerda. A severidade é baixa a média. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria dos ganchos e prateleiras estão ocupados, com apenas pequenas áreas de rutura ou desorganização."
+}

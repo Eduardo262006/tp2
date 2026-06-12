@@ -1,0 +1,25 @@
+{
+  "inspection_id": "INS_20260612_233853_001",
+  "timestamp": "2026-06-12T22:38:53Z",
+  "image_path": "test_images\\img_0156.jpg",
+  "zone_id": "Z_S6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos de meias pretas e as meias coloridas, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "meias femininas",
+    "meias desportivas",
+    "meias casuais"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de retalho de meias organizadas em ganchos. Existem três níveis visíveis. Os produtos são embalagens de meias de várias cores e estilos. PASSO 2: Dividindo a prateleira: Superior (meias dobradas), Meio (meias em ganchos, zona central com falha), Inferior (meias em ganchos). A anomalia principal está na prateleira do meio, onde há um espaço vazio notável entre os produtos. PASSO 3: Identificada uma zona de 'empty_shelf' no centro da prateleira do meio. Severidade média, pois interrompe a continuidade da exposição. Confiança alta. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria dos ganchos está ocupada, exceto pela lacuna central e alguns espaços menores nas extremidades."
+}

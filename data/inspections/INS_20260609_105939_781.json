@@ -1,0 +1,42 @@
+{
+  "inspection_id": "INS_20260609_105939_781",
+  "timestamp": "2026-06-09T10:59:39Z",
+  "image_path": "data\\images\\img_0792.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, onde faltam várias unidades de produto.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Produtos empilhados de forma desorganizada e instável no topo da prateleira superior.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "empty_shelf",
+      "location": "segunda prateleira a contar de cima, lado esquerdo",
+      "severity": "medium",
+      "description": "Lacuna visível na disposição dos frascos, indicando falta de stock ou desorganização.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.82,
+  "products_detected": [
+    "baby food jars",
+    "Heinz organic products"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com 4 níveis visíveis, contendo principalmente frascos de comida para bebé (Heinz). A organização é geralmente boa, mas com falhas de stock e desorganização pontual. PASSO 2: Prateleira superior: apresenta um vazio considerável à esquerda e produtos desalinhados/empilhados de forma instável à direita. Segunda prateleira: apresenta um vazio no centro-esquerda. Terceira e quarta prateleiras: apresentam boa ocupação e alinhamento. PASSO 3: Identificadas duas zonas de 'empty_shelf' (superior esquerda e segunda prateleira esquerda) e uma zona de 'misaligned' (superior direita). Severidade média para os vazios e baixa para o desalinhamento. PASSO 4: O fill rate global é estimado em 0.82, considerando a ocupação total das prateleiras visíveis, descontando os espaços vazios identificados."
+}

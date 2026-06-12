@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260609_105739_741",
+  "timestamp": "2026-06-09T10:57:39Z",
+  "image_path": "data\\images\\img_0752.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos, possivelmente devido a rutura de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Alguns produtos Smirnoff Twist estão ligeiramente desalinhados em relação à frente da prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Smirnoff Twist",
+    "Jack Daniel's Cola",
+    "Red Bear Vodka",
+    "Strongbow Cider"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado com bebidas alcoólicas. A prateleira superior contém garrafas de Smirnoff Twist e packs de Jack Daniel's Cola. A prateleira inferior contém packs de Red Bear Vodka e garrafas de Strongbow Cider. PASSO 2: Prateleira superior: bem organizada, com etiquetas de preço presentes. Prateleira inferior: organizada à esquerda e centro, mas apresenta um espaço vazio notável no lado direito. PASSO 3: Identifiquei uma zona de 'empty_shelf' na prateleira inferior direita (severidade média, confiança alta). Identifiquei um ligeiro desalinhamento na prateleira superior (severidade baixa). PASSO 4: O fill rate é alto na maior parte da prateleira, mas a falha na parte inferior reduz a média global para cerca de 0.85."
+}

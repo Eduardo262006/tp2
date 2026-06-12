@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260604_162913_165",
+  "timestamp": "2026-06-04T16:29:13Z",
+  "image_path": "data\\images\\img_0176.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde produtos foram removidos ou não foram repostos.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "low",
+      "description": "Produtos (pacotes de massa/grãos) estão desorganizados e empilhados de forma irregular.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "molhos",
+    "tahini",
+    "conservas de tomate",
+    "azeitonas",
+    "vinagre/azeite",
+    "massas/grãos"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com três níveis visíveis. Contém produtos de mercearia como molhos, conservas, azeitonas e embalagens de grãos. Há etiquetas azuis de 'Discontinued line' em várias prateleiras. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: lado esquerdo vazio, centro com latas de tomate, lado direito com produtos desorganizados. Prateleira inferior: bem abastecida com azeitonas e garrafas. PASSO 3: Identifiquei um 'empty_shelf' na prateleira do meio (lado esquerdo) devido à falta de stock, severidade média. Identifiquei 'misaligned' na prateleira do meio (lado direito) devido à desorganização dos pacotes, severidade baixa. PASSO 4: O fill rate global é estimado em 0.75, considerando o espaço vazio na prateleira do meio e a densidade das outras prateleiras."
+}

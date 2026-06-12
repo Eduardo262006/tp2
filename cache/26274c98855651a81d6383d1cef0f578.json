@@ -1,0 +1,27 @@
+{
+  "inspection_id": "INS_20260608_175138_653",
+  "timestamp": "2026-06-08T17:51:38Z",
+  "image_path": "data\\images\\img_0664.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Uma garrafa promocional da Coca-Cola está pendurada de forma desorganizada, obstruindo a visão e o acesso aos produtos atrás dela.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.9,
+  "products_detected": [
+    "Pepsi Max",
+    "Pepsi Light",
+    "Pepsi Regular",
+    "Coca-Cola",
+    "La Maxi Ice"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A superior contém garrafas individuais de refrigerantes (Pepsi, Coca-Cola, La Maxi Ice). A inferior contém caixas de cartão de 12/24 unidades de Pepsi Max, Pepsi Light e Pepsi. Há uma divisória vertical no centro. PASSO 2: Prateleira superior: organizada, exceto por um item promocional pendurado. Prateleira inferior: organizada, com produtos bem alinhados. Anomalia identificada: objeto promocional (garrafa plástica vazia/branca) pendurado no centro, bloqueando a prateleira superior. PASSO 3: A anomalia é classificada como 'misaligned' (ou 'other' devido à natureza promocional, mas 'misaligned' reflete melhor o impacto visual). Severidade média, pois impede o acesso e causa desordem visual. Confiança alta. PASSO 4: O fill rate é elevado, estimado em 0.9, pois as prateleiras estão quase totalmente preenchidas com stock, com apenas uma pequena obstrução."
+}

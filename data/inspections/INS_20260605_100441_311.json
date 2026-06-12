@@ -1,0 +1,15 @@
+{
+  "inspection_id": "INS_20260605_100441_311",
+  "timestamp": "2026-06-05T10:04:41Z",
+  "image_path": "data\\images\\img_0322.jpg",
+  "zone_id": "Z_N2",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Coolabah wine casks",
+    "Stanley wine casks",
+    "Sunnyvale wine casks"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado contendo caixas de vinho (casks). Na prateleira superior, vemos produtos da marca Coolabah e Stanley. Na prateleira inferior, vemos produtos da marca Sunnyvale e Stanley. Há uma tira de etiquetas promocionais pendurada verticalmente no lado direito. PASSO 2: Prateleira superior: alinhamento consistente, sem espaços vazios. Prateleira inferior: alinhamento consistente, sem espaços vazios. A organização está correta e os produtos estão bem posicionados. PASSO 3: Não foram identificadas anomalias significativas. O alinhamento está correto, não há produtos danificados visíveis, nem prateleiras vazias. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que as prateleiras estão quase totalmente preenchidas com os produtos dispostos lado a lado sem lacunas significativas."
+}

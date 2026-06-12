@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260603_121403_056",
+  "timestamp": "2026-06-03T12:14:03Z",
+  "image_path": "data\\images\\img_0056.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio na extremidade direita da prateleira superior, onde deveriam estar produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Produto ligeiramente desalinhado em relação ao plano frontal da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 2.0
+    }
+  ],
+  "shelf_fill_rate": 0.93,
+  "products_detected": [
+    "L'Oreal Excellence",
+    "L'Oreal Preference",
+    "L'Oreal Couleur Experte",
+    "L'Oreal RevitalColor"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra quatro prateleiras de retalho contendo tintas para cabelo da marca L'Oreal. Os produtos estão organizados em filas verticais. PASSO 2: Prateleira superior: quase cheia, exceto por um pequeno espaço vazio à direita. Prateleira 2 e 3: bem organizadas e cheias. Prateleira inferior: cheia, com um pequeno desalinhamento no canto esquerdo. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior (severidade média, pois interrompe a continuidade) e um 'misaligned' na inferior (severidade baixa). PASSO 4: O fill rate é elevado, estimado em 0.93, considerando que a grande maioria das faces está ocupada e alinhada."
+}

@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260604_163207_223",
+  "timestamp": "2026-06-04T16:32:07Z",
+  "image_path": "data\\images\\img_0234.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Garrafão de água de grande formato encontra-se tombado e fora da sua posição de alinhamento vertical.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "low",
+      "description": "Espaço vazio entre os packs de água P&N e a caixa de água Frantelle.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "água engarrafada",
+    "packs de água",
+    "garrafões de água"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho com água engarrafada. Na prateleira superior, há packs de água P&N, garrafas Fiji, packs de água Pump e caixas de água Frantelle. Na prateleira inferior, há garrafões de água de grande formato (P&N e Pureau). PASSO 2: Prateleira superior: organizada, exceto por um pequeno espaço vazio no centro. Prateleira inferior: lado esquerdo apresenta um garrafão tombado (anomalia de alinhamento). PASSO 3: Anomalia 1: Garrafão tombado (misaligned), prateleira inferior esquerda, severidade média, confiança alta. Anomalia 2: Espaço vazio (empty_shelf), prateleira superior centro, severidade baixa, confiança alta. PASSO 4: O preenchimento é elevado, com apenas pequenas lacunas e um item tombado, estimando um fill rate de 0.85."
+}

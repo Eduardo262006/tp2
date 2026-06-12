@@ -1,0 +1,1 @@
+zona Z_N10; estado warning; fill rate 92%; empty_shelf (medium) em prateleira superior, centro: Espaço vazio significativo entre as garrafas de Rosemount Estate e Henschke, indicando falta de stock ou produto deslocado.; produtos: vinho branco, vinho verde; data 2026-06-03T12:17:57Z

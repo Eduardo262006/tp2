@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260604_163149_217",
+  "timestamp": "2026-06-04T16:31:49Z",
+  "image_path": "data\\images\\img_0228.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo onde deveriam estar produtos, interrompendo a continuidade do alinhamento.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Produtos desalinhados e com orientação irregular em relação à frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "pastas de caril",
+    "molhos tailandeses",
+    "latas de vegetais/bambu",
+    "cogumelos em conserva"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado contendo produtos alimentares asiáticos (pastas, molhos, conservas). A organização é predominantemente em grelha, com etiquetas de preço abaixo de cada item. PASSO 2: Prateleira superior: bem organizada. Prateleira do meio: apresenta uma lacuna clara no lado esquerdo (empty_shelf). Prateleira inferior: apresenta alguns produtos desalinhados no lado direito. PASSO 3: Identifiquei uma falha de stock (empty_shelf) na prateleira do meio com severidade média, pois cria um buraco visual. Identifiquei desalinhamento na prateleira inferior, considerado de baixa severidade. PASSO 4: O fill rate é elevado, estimado em 0.88, dado que a maioria das prateleiras está cheia, com apenas pequenas lacunas pontuais."
+}

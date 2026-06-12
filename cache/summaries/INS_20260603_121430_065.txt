@@ -1,0 +1,1 @@
+zona Z_N1; estado warning; fill rate 80%; empty_shelf (medium) em prateleira do meio, lado esquerdo: Espaço vazio significativo à esquerda das embalagens de Hollandia, sugerindo falta de stock ou organização inadequada.; produtos: König Pilsener, Corona Extra, Hollandia Beer, Bavaria Beer, Crown Lager; data 2026-06-03T12:14:30Z

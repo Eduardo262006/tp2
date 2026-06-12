@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260609_105936_780",
+  "timestamp": "2026-06-09T10:59:36Z",
+  "image_path": "data\\images\\img_0791.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira central, onde deveriam estar produtos alinhados com as etiquetas de preço.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafa de bebida deitada em vez de estar em pé, desalinhada com o resto do stock.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "bebidas gaseificadas",
+    "água tónica",
+    "bebidas isotónicas",
+    "palhinhas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de supermercado com bebidas (refrigerantes, águas tónicas, isotónicos) e um expositor vertical de palhinhas à direita. PASSO 2: Dividindo a prateleira: Superior (cheia), Meio (presença de um vazio central notável), Inferior (maioritariamente cheia, mas com uma garrafa deitada). PASSO 3: Anomalia 1: Vazio central na prateleira do meio (empty_shelf), severidade média, confiança alta. Anomalia 2: Garrafa deitada na prateleira inferior esquerda (misaligned), severidade baixa, confiança alta. PASSO 4: O fill rate é estimado em 0.75, considerando que a maioria das prateleiras está preenchida, exceto pela lacuna central e o espaço ocupado pelo expositor de palhinhas."
+}

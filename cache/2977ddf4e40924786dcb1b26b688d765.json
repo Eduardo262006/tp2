@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260609_105921_775",
+  "timestamp": "2026-06-09T10:59:21Z",
+  "image_path": "data\\images\\img_0786.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos alinhados com as etiquetas de preço.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas ligeiramente desalinhadas na frente da prateleira superior.",
+      "confidence": 0.8,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Brekky Juice",
+    "Just Juice",
+    "Veggie Juice",
+    "Apple Juice"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado contendo garrafas de sumos (Brekky Juice, Just Juice, Veggie Juice e Apple Juice). A organização é feita por filas. PASSO 2: Prateleira superior: bem preenchida, com alinhamento aceitável. Prateleira inferior: lado esquerdo preenchido, centro com um vazio notável (falta de stock), lado direito preenchido. PASSO 3: Identifiquei um 'empty_shelf' na prateleira inferior central (severidade média, pois interrompe a continuidade do produto) e um ligeiro desalinhamento na prateleira superior. PASSO 4: O fill rate global é estimado em 0.85, considerando que a prateleira superior está quase cheia e a inferior tem uma lacuna central."
+}

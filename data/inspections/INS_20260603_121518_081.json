@@ -1,0 +1,44 @@
+{
+  "inspection_id": "INS_20260603_121518_081",
+  "timestamp": "2026-06-03T12:15:18Z",
+  "image_path": "data\\images\\img_0081.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio visível entre os produtos Carefree.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro-direita",
+      "severity": "low",
+      "description": "Produtos deitados e desorganizados na prateleira inferior.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro-direita",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, adjacente aos produtos desorganizados.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Poise",
+    "Carefree",
+    "U by Kotex",
+    "Higiene feminina"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de retalho com produtos de higiene feminina (Poise, Carefree, U by Kotex). A organização é geralmente boa, mas existem falhas de stock e desorganização pontual. PASSO 2: Prateleira superior: um espaço vazio no centro. Prateleira do meio: bem organizada. Prateleira inferior: desorganização de produtos no centro-direita e um espaço vazio adjacente. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior (severidade média), 'misaligned' na inferior (severidade baixa) e 'empty_shelf' na inferior (severidade média). PASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pelas lacunas identificadas."
+}

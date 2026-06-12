@@ -1,0 +1,38 @@
+{
+  "inspection_id": "INS_20260607_113621_559",
+  "timestamp": "2026-06-07T11:36:21Z",
+  "image_path": "data\\images\\img_0570.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Latas de Cougar Bourbon estão desalinhadas e projetadas para fora da fila principal, obstruindo parcialmente o espaço frontal.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro-esquerda",
+      "severity": "medium",
+      "description": "Espaço vazio entre as garrafas de Strongbow e as latas de Cougar, indicando falta de produto ou má organização.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Smirnoff Twist",
+    "Jack Daniel's Cola",
+    "Woodstock Bourbon Cola",
+    "Jim Beam Cola",
+    "Strongbow Cider",
+    "Cougar Bourbon Cola",
+    "Johnnie Walker Red"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de bebidas alcoólicas (RTD - Ready to Drink). A prateleira superior contém latas e packs variados. A prateleira do meio está bem organizada com packs de Smirnoff, Jack Daniel's, Woodstock e Jim Beam. A prateleira inferior contém garrafas de Strongbow, latas de Cougar e caixas de Johnnie Walker. PASSO 2: Prateleira superior: organizada. Prateleira do meio: organizada, sem anomalias visíveis. Prateleira inferior: apresenta um espaço vazio entre as garrafas de Strongbow e as latas de Cougar, além de latas de Cougar desalinhadas na frente. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira inferior (centro-esquerda) e 'misaligned' nas latas de Cougar. Severidade baixa a média. PASSO 4: O fill rate é alto, estimado em 0.85, considerando que a maioria dos espaços está preenchida, exceto pela lacuna na prateleira inferior."
+}

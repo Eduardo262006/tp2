@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260604_162825_149",
+  "timestamp": "2026-06-04T16:28:25Z",
+  "image_path": "data\\images\\img_0149.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo onde deveriam estar produtos, sugerindo rutura de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Espaço vazio entre os produtos Mighty Soft e Sunblest.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "pão de forma",
+    "pão de sanduíche"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com 5 níveis de prateleiras contendo pão de forma de várias marcas (Mighty Soft, Sunblest, Country Split). A organização é geralmente boa, mas existem lacunas visíveis. PASSO 2: Analisando por regiões: Superior (bem preenchida), Segunda (bem preenchida), Terceira (vazio notável à esquerda), Quarta (vazio no centro), Inferior (bem preenchida). PASSO 3: Identifiquei duas zonas de 'empty_shelf'. A da terceira prateleira é a mais crítica pois interrompe a continuidade do produto. A da quarta prateleira é menor. PASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pelas lacunas identificadas."
+}

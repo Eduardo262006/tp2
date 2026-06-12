@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260609_105909_771",
+  "timestamp": "2026-06-09T10:59:09Z",
+  "image_path": "data\\images\\img_0782.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, à direita dos produtos Healthy Handfuls.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Produtos Heinz Little Kids empilhados de forma desorganizada e desalinhada em relação ao plano frontal.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Farex baby cereal",
+    "Healthy Handfuls snacks",
+    "Heinz Little Kids fruit bars",
+    "Baby food jars"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras principais de um supermercado. A superior contém caixas de cereais Farex e snacks Healthy Handfuls. A inferior contém barras de fruta Heinz Little Kids e frascos de comida para bebé. PASSO 2: Prateleira superior: lado esquerdo/centro preenchido, lado direito com espaço vazio. Prateleira inferior: lado esquerdo organizado, centro com produtos desalinhados/empilhados irregularmente. PASSO 3: Identifiquei um 'empty_shelf' na parte superior direita (severidade média) e 'misaligned' na parte inferior central (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira superior e a densidade de ocupação na inferior."
+}

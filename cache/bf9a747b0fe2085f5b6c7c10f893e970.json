@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260602_153921_044",
+  "timestamp": "2026-06-02T15:39:21Z",
+  "image_path": "data\\images\\img_0044.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar sumos.",
+      "confidence": 0.95,
+      "affected_area_pct": 30.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Os iogurtes apresentam um alinhamento irregular em escada, não preenchendo a prateleira de forma uniforme.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "iogurtes",
+    "sumos de fruta"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras. A superior contém iogurtes Yoplait bem organizados. A do meio contém iogurtes em formato de escada (menos produtos à esquerda, mais à direita). A inferior contém sumos de fruta, com uma secção vazia à direita. PASSO 2: Prateleira superior: ok. Prateleira do meio: desalinhamento/falta de stock à esquerda. Prateleira inferior: empty_shelf à direita. PASSO 3: Identificada anomalia de empty_shelf na prateleira inferior (severidade média, pois é uma área grande) e misaligned na do meio (severidade baixa, apenas estética). PASSO 4: O fill rate é estimado em 0.85, considerando que a prateleira inferior tem um vazio considerável e a do meio não está totalmente preenchida."
+}

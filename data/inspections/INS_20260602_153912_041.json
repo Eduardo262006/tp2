@@ -1,0 +1,16 @@
+{
+  "inspection_id": "INS_20260602_153912_041",
+  "timestamp": "2026-06-02T15:39:12Z",
+  "image_path": "data\\images\\img_0041.jpg",
+  "zone_id": "Z_S3",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Coles Cheese Rings",
+    "Cheezels Mega Stars Cream Cheese & Chives",
+    "Twisties Cheese",
+    "Cheezels Original"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado com snacks. A prateleira superior contém sacos de 'Cheese Rings' à esquerda e caixas de 'Cheezels Mega Stars' à direita. A prateleira inferior contém sacos de 'Twisties Cheese' à esquerda e caixas de 'Cheezels Original' à direita. PASSO 2: Dividindo em regiões: Superior Esquerda (Cheese Rings), Superior Direita (Cheezels Mega Stars), Inferior Esquerda (Twisties), Inferior Direita (Cheezels Original). Não há prateleiras vazias, produtos danificados visíveis ou etiquetas em falta. O alinhamento está consistente com a organização de retalho padrão. PASSO 3: Não foram identificadas anomalias significativas. O stock está bem organizado e preenchido. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todo o espaço disponível na frente da prateleira está ocupado por produtos, com apenas espaços marginais entre embalagens."
+}

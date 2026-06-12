@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260604_163143_215",
+  "timestamp": "2026-06-04T16:31:43Z",
+  "image_path": "data\\images\\img_0226.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "low",
+      "description": "Uma caixa de '6 Blueberry' está virada de lado/invertida em relação às restantes.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "low",
+      "description": "Caixas de 'Uncle Tobys Fruit-full' estão ligeiramente desalinhadas e com orientações inconsistentes.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Coles Farmland bars",
+    "Nestle Ski D'lite bars",
+    "Uncle Tobys Fruit-full bars",
+    "Kellogg's Special K bars",
+    "Kellogg's K-time Twists"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo caixas de barras de cereais/snacks. Os produtos estão maioritariamente organizados em filas. PASSO 2: Prateleira superior: contém barras Coles Farmland. Há uma caixa de 'Blueberry' virada de lado. Prateleira do meio: contém Ski D'lite e Uncle Tobys. Algumas caixas da Uncle Tobys estão desalinhadas. Prateleira inferior: contém Kellogg's Special K e K-time Twists, bem organizadas. PASSO 3: Identifiquei desalinhamentos na prateleira superior (caixa invertida) e na prateleira do meio (orientação irregular das caixas Uncle Tobys). Severidade baixa pois o produto é identificável e acessível. PASSO 4: O preenchimento é elevado, com poucas lacunas, estimado em 92%."
+}

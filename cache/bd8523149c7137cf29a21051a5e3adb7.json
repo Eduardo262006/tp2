@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260605_100814_382",
+  "timestamp": "2026-06-05T10:08:14Z",
+  "image_path": "data\\images\\img_0393.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos de massa, indicando falta de stock ou organização inadequada.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produto 'Pasta di Casa' está isolado com um grande espaço vazio à sua direita antes dos outros produtos.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "massas frescas",
+    "tortellini",
+    "gnocchi",
+    "noodles",
+    "lasanha"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 4 níveis de prateleiras contendo massas frescas e noodles. A organização é geralmente boa, mas existem lacunas visíveis. PASSO 2: Prateleira superior: bem preenchida. Prateleira do meio: lacuna à esquerda e distribuição irregular. Prateleira inferior: lacuna central notável. PASSO 3: Identifiquei um 'empty_shelf' na prateleira inferior (centro) e um 'misaligned' na prateleira do meio (lado esquerdo), onde o produto está deslocado. A severidade é média devido ao impacto na experiência de compra. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das faces está ocupada, mas com espaços vazios pontuais que reduzem a eficiência do espaço."
+}

@@ -1,0 +1,45 @@
+{
+  "inspection_id": "INS_20260605_100735_369",
+  "timestamp": "2026-06-05T10:07:35Z",
+  "image_path": "data\\images\\img_0380.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo onde deveriam estar produtos, indicando rutura de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio na prateleira inferior, sugerindo falta de reposição.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "low",
+      "description": "Produtos (caixas de sabonete) desalinhados e com empilhamento irregular.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "sabão líquido (refill)",
+    "sabonetes em barra (Palmolive)",
+    "sabonetes em barra (Sorbolene)",
+    "sabonetes em barra (Country Life)",
+    "sabonetes em barra (Natural)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de retalho contendo produtos de higiene pessoal (sabão líquido e sabonetes em barra). A organização é geralmente por blocos de marca/tipo. PASSO 2: Prateleira superior: bem organizada, sem falhas. Prateleira do meio: lado esquerdo e centro ocupados, mas com desalinhamento; lado direito apresenta um espaço vazio considerável. Prateleira inferior: lado esquerdo e direito ocupados, centro com espaço vazio. PASSO 3: Identificadas duas zonas de 'empty_shelf' (meio-direita e inferior-centro) e uma zona de 'misaligned' (meio-centro). Severidade média para os vazios, baixa para o desalinhamento. PASSO 4: Estimativa de fill rate baseada na ocupação visual: cerca de 85% da área total está preenchida, com 15% de espaços vazios ou desorganizados."
+}

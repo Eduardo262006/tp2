@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260605_100826_386",
+  "timestamp": "2026-06-05T10:08:26Z",
+  "image_path": "data\\images\\img_0397.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio visível na prateleira inferior entre os produtos Pace Farm e Coles Smart Buy.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Caixa de ovos Coles Cage Eggs ligeiramente desalinhada em relação à coluna principal.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "Coles Cage Eggs",
+    "Coles Barn Laid Eggs",
+    "Pace Farm Eggs",
+    "Coles Smart Buy Eggs"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado com várias marcas de ovos (Coles, Pace Farm). A organização é feita em colunas. PASSO 2: Dividindo a prateleira: Superior (cheia), Meio (cheia, com um ligeiro desalinhamento à esquerda), Inferior (presença de um espaço vazio no centro). PASSO 3: Identifiquei um espaço vazio na prateleira inferior (empty_shelf, severidade média) e um ligeiro desalinhamento na prateleira do meio (misaligned, severidade baixa). PASSO 4: O fill rate é elevado, estimado em 0.88, dado que a maioria dos espaços está ocupada, exceto pela lacuna na prateleira inferior."
+}

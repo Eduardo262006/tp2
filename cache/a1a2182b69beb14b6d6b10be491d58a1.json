@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260606_165450_422",
+  "timestamp": "2026-06-06T16:54:50Z",
+  "image_path": "data\\images\\img_0433.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível na prateleira inferior, à esquerda das caixas de Berri Estates, indicando falta de stock ou produto deslocado.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "As caixas de Stanley estão ligeiramente desalinhadas em relação à grelha de produtos adjacentes.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "vinho espumante",
+    "vinho em caixa (cask wine)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A superior contém garrafas de vinho espumante (Pleasant Valley, Verdi, Cora, Riccadonna). A inferior contém vinhos em caixa (Berri Estates, Stanley, Sunnyvale, Coolabah, Kaiser Stuhl). PASSO 2: Prateleira superior: bem organizada, sem anomalias. Prateleira inferior: zona esquerda apresenta um espaço vazio significativo (falta de produto); zona central apresenta um ligeiro desalinhamento nas caixas de Stanley. PASSO 3: Anomalia 1 (empty_shelf): prateleira inferior esquerda, severidade média, confiança 0.95. Anomalia 2 (misaligned): prateleira inferior centro, severidade baixa, confiança 0.85. PASSO 4: O fill rate é elevado, estimado em 0.92, considerando que a maioria das posições está preenchida, exceto pelo espaço vazio à esquerda na prateleira inferior."
+}

@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260607_113412_516",
+  "timestamp": "2026-06-07T11:34:12Z",
+  "image_path": "data\\images\\img_0527.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Sacos de aveia (Organic Rolled Oats) estão posicionados de forma irregular, ocupando espaço de forma desorganizada e invadindo a área adjacente.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Espaço vazio visível na extremidade esquerda da prateleira superior.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "filtros de água Brita",
+    "aveia orgânica (Organic Rolled Oats)",
+    "aveia instantânea (Instant Oats)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de retalho. A maioria dos produtos são caixas de filtros de água Brita, organizadas em filas. No lado direito da prateleira do meio, há dois sacos grandes de aveia orgânica. Na prateleira superior, há caixas de aveia instantânea. PASSO 2: Prateleira superior: bem preenchida, exceto por um pequeno espaço à esquerda. Prateleira do meio: Brita à esquerda, aveia à direita. A aveia está desalinhada e ocupa o espaço de forma desordenada. Prateleira inferior: bem preenchida com caixas Brita. PASSO 3: Identificada anomalia de desalinhamento nos sacos de aveia (severidade média) e um pequeno espaço vazio na prateleira superior (severidade baixa). PASSO 4: O fill rate é alto, estimado em 0.85, dado que a maioria das prateleiras está cheia, com apenas pequenas lacunas e desorganização pontual."
+}

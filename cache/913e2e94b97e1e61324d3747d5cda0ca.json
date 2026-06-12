@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260605_100356_296",
+  "timestamp": "2026-06-05T10:03:56Z",
+  "image_path": "data\\images\\img_0307.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos de cerâmica/chá.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Canecas penduradas de forma irregular, algumas inclinadas ou sobrepostas.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "canecas de cerâmica",
+    "chávenas",
+    "bules",
+    "cafeteiras",
+    "moedor de café",
+    "café em grão"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com 4 níveis. Nível superior: canecas penduradas. Nível 2: canecas penduradas e uma caixa de moedor de café à direita. Nível 3: conjunto de chá/cerâmica branca e um espaço vazio à direita. Nível 4: caixas de cafeteiras e café em grão. PASSO 2: Prateleira superior: organização aceitável, mas algumas canecas desalinhadas. Prateleira do meio: zona central com cerâmica, zona direita com um espaço vazio notável (falta de stock). Prateleira inferior: bem organizada. PASSO 3: Anomalia 1: empty_shelf na prateleira do meio, lado direito, severidade média, confiança 0.95. Anomalia 2: misaligned na prateleira superior, severidade baixa, confiança 0.85. PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira do meio e a densidade de produtos nas restantes."
+}

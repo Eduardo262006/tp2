@@ -1,0 +1,16 @@
+{
+  "inspection_id": "INS_20260609_105530_698",
+  "timestamp": "2026-06-09T10:55:30Z",
+  "image_path": "data\\images\\img_0709.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Diet Coke bottles",
+    "Coke Zero bottles",
+    "Coca-Cola 15-pack cases",
+    "Coke Zero 15-pack cases"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A prateleira superior contém garrafas de 1.5L de Diet Coke e Coke Zero. A prateleira inferior contém caixas de 15 unidades de Coca-Cola e Coke Zero. Há também embalagens plásticas penduradas à esquerda. PASSO 2: Prateleira superior: bem organizada, produtos alinhados. Prateleira inferior: produtos empilhados de forma estável, sem espaços vazios significativos. Não há produtos danificados ou etiquetas em falta visíveis. PASSO 3: Não foram identificadas anomalias críticas ou significativas. A organização está dentro dos padrões esperados para retalho. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todo o espaço disponível está preenchido com stock, com apenas pequenos espaços vazios naturais entre as garrafas e caixas."
+}

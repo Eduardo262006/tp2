@@ -1,0 +1,32 @@
+{
+  "inspection_id": "INS_20260604_163025_189",
+  "timestamp": "2026-06-04T16:30:25Z",
+  "image_path": "data\\images\\img_0200.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, indicando falta de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Caixas de lenços posicionadas de forma irregular, desalinhadas em relação ao padrão de faceamento.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Kleenex facial tissues"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com três níveis visíveis contendo caixas de lenços da marca Kleenex. Os produtos estão organizados em blocos por cor/tipo. PASSO 2: Prateleira superior: apresenta um espaço vazio à direita. Prateleira do meio: bem preenchida, organização consistente. Prateleira inferior: preenchida, mas com desalinhamento no centro. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior (severidade média, pois há espaço para mais produtos) e um 'misaligned' na prateleira inferior (severidade baixa, apenas estética). PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na parte superior e pequenos espaços vazios entre produtos."
+}

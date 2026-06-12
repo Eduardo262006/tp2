@@ -1,0 +1,14 @@
+{
+  "inspection_id": "INS_20260607_113351_509",
+  "timestamp": "2026-06-07T11:33:51Z",
+  "image_path": "data\\images\\img_0520.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "molhos de caril Sharwood's",
+    "pastas de caril Patak's"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um supermercado contendo frascos de molhos de caril (marca Sharwood's) e pastas de caril (marca Patak's). Os produtos estão organizados em filas, com etiquetas de preço visíveis abaixo de cada grupo. PASSO 2: Prateleira superior: bem abastecida, sem falhas. Prateleira do meio: bem abastecida, com alinhamento consistente. Prateleira inferior: bem abastecida, com produtos Patak's organizados em caixas de exposição. Não foram detetadas zonas vazias, produtos fora do lugar ou etiquetas em falta. PASSO 3: Não foram identificadas anomalias. A organização é excelente e o stock está completo. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todo o espaço disponível na prateleira está ocupado por produtos, com apenas espaços mínimos entre frascos ou nas extremidades."
+}

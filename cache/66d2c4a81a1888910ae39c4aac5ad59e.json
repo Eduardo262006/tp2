@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260604_163243_235",
+  "timestamp": "2026-06-04T16:32:43Z",
+  "image_path": "data\\images\\img_0246.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio visível na prateleira superior, entre os chás Lipton e a embalagem de Schweppes.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas de Lipton Ice Tea desalinhadas em relação à frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Lipton Ice Tea (Lemon, Peach, Green)",
+    "Tetley Ice Tea",
+    "Schweppes"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de metal com bebidas. Na prateleira superior, vemos garrafas de Lipton Ice Tea (sabores Lemon, Peach, Green) e uma caixa de Schweppes. Na prateleira inferior, vemos Lipton Ice Tea e garrafas de Tetley Ice Tea. PASSO 2: Prateleira superior: lado esquerdo e centro preenchidos, lado direito apresenta um espaço vazio antes da caixa de Schweppes. Prateleira inferior: lado esquerdo com garrafas de Lipton ligeiramente desalinhadas, lado direito com garrafas de Tetley bem organizadas. PASSO 3: Anomalia 1: empty_shelf na prateleira superior direita (severidade média, confiança 0.9). Anomalia 2: misaligned na prateleira inferior esquerda (severidade baixa, confiança 0.85). PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira superior e a densidade geral de produtos."
+}

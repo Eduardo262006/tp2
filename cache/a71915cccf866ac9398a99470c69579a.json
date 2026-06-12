@@ -1,0 +1,24 @@
+{
+  "inspection_id": "INS_20260608_174941_614",
+  "timestamp": "2026-06-08T17:49:41Z",
+  "image_path": "data\\images\\img_0625.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "wrong_product",
+      "location": "lado esquerdo da prateleira",
+      "severity": "medium",
+      "description": "Três garrafas de 'Love Magazine' estão misturadas na secção de águas H2O, ocupando o espaço destinado ao produto principal.",
+      "confidence": 0.95,
+      "affected_area_pct": 50.0
+    }
+  ],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "água mineral H2O",
+    "garrafas promocionais Love Magazine"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho com garrafas de água da marca H2O. No entanto, no lado esquerdo, há três garrafas de uma marca diferente ('Love Magazine') misturadas com as águas. PASSO 2: A prateleira é uma única linha horizontal. A zona esquerda contém produtos estranhos (Love Magazine), enquanto a zona central e direita contém o produto correto (H2O). PASSO 3: Identificada a anomalia de 'wrong_product' na parte esquerda. A severidade é média porque, embora o produto esteja presente, está a ocupar o espaço de outra categoria (água). Confiança elevada devido à clareza dos rótulos. PASSO 4: A prateleira está quase totalmente preenchida, com um fill rate estimado de 0.95, mas a organização está comprometida pela mistura de produtos."
+}

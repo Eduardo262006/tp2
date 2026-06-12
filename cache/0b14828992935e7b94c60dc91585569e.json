@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260605_100714_362",
+  "timestamp": "2026-06-05T10:07:14Z",
+  "image_path": "data\\images\\img_0373.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "O pacote de batatas 'Thins' está virado de lado e desalinhado em relação à face frontal dos outros produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro-esquerda",
+      "severity": "low",
+      "description": "Espaço vazio atrás da primeira fila de produtos, sugerindo falta de profundidade no stock.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Smiths Original",
+    "Coles Crinkle Cut Salt & Vinegar",
+    "Tasty Jacks",
+    "Smiths Thinly Cut Sour Cream & Onion",
+    "Thins Sour Cream & Chives"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado com sacos de batatas fritas. A prateleira superior contém Smiths Original, Coles Crinkle Cut e Tasty Jacks. A prateleira inferior contém Smiths Thinly Cut, Thins e Tasty Jacks. PASSO 2: Prateleira superior: bem organizada, mas com algum espaço vazio atrás dos sacos. Prateleira inferior: organização geral boa, exceto por um pacote de 'Thins' no centro que está virado de lado (desalinhado). PASSO 3: Anomalia 1: Misaligned (pacote Thins virado), localização centro da prateleira inferior, severidade média, confiança 0.95. Anomalia 2: Empty_shelf (espaço vazio atrás dos produtos na prateleira superior), severidade baixa, confiança 0.85. PASSO 4: O fill rate é elevado, estimado em 0.92, pois a maioria dos espaços frontais está preenchida, apesar de alguma desorganização interna e profundidade reduzida."
+}

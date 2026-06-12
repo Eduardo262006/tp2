@@ -1,0 +1,20 @@
+{
+  "inspection_id": "INS_20260608_174935_612",
+  "timestamp": "2026-06-08T17:49:35Z",
+  "image_path": "data\\images\\img_0623.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Effen Vodka",
+    "Baileys Irish Cream (Original, Mint Chocolate, Caramel)",
+    "Smirnoff Ice",
+    "Cowgirl Cream Liqueur",
+    "QF (Quick Fix) products",
+    "Cinzano",
+    "Campari",
+    "Stones Ginger Wine"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de uma secção de bebidas alcoólicas. A prateleira superior contém garrafas de Effen Vodka e várias variantes de Baileys. A prateleira do meio contém garrafas de Smirnoff Ice, Cowgirl e embalagens de QF. A prateleira inferior contém Cinzano, Campari e Stones Ginger Wine. PASSO 2: Divisão: Superior (cheia, organização consistente), Meio (cheia, organização consistente), Inferior (cheia, organização consistente). Não foram detetadas zonas vazias significativas ou produtos fora de lugar. PASSO 3: Não foram identificadas anomalias. Todos os produtos estão alinhados, com etiquetas de preço visíveis e sem danos aparentes. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todo o espaço disponível na prateleira está ocupado por stock, com apenas pequenos espaços entre garrafas típicos da disposição de retalho."
+}

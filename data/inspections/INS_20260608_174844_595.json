@@ -1,0 +1,44 @@
+{
+  "inspection_id": "INS_20260608_174844_595",
+  "timestamp": "2026-06-08T17:48:44Z",
+  "image_path": "data\\images\\img_0606.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, onde deveriam estar produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "wrong_product",
+      "location": "prateleira superior, extremo direito",
+      "severity": "low",
+      "description": "Presença de um produto diferente (garrafa amarela) no alinhamento de Pepsi.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Produtos desalinhados e presença de um objeto estranho (rolo branco) na prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Pepsi",
+    "Pepsi Max",
+    "Pepsi Light",
+    "Outros (bebidas)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado preenchidas maioritariamente por garrafas de 1.5L de Pepsi e variantes. A organização é geralmente boa, mas com falhas de stock e alinhamento.\nPASSO 2: \n- Superior: Lado esquerdo e centro bem preenchidos. Lado direito apresenta um vazio considerável e um produto de marca diferente (amarelo) no final.\n- Meio: Bem preenchido, mas com mistura de variantes (Pepsi, Pepsi Max, Pepsi Light).\n- Inferior: Bem preenchido, mas com desalinhamento no lado direito e um objeto estranho (rolo branco) ocupando espaço de produto.\nPASSO 3: \n- Anomalia 1: Empty_shelf na prateleira superior direita (severidade média, confiança 0.95).\n- Anomalia 2: Wrong_product na prateleira superior direita (severidade baixa, confiança 0.9).\n- Anomalia 3: Misaligned/Other na prateleira inferior direita (severidade baixa, confiança 0.85).\nPASSO 4: O fill rate global é estimado em 0.85, considerando o espaço vazio na prateleira superior e o objeto estranho na inferior."
+}

@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260604_163104_202",
+  "timestamp": "2026-06-04T16:31:04Z",
+  "image_path": "data\\images\\img_0213.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro-direita",
+      "severity": "medium",
+      "description": "Espaço vazio entre os produtos Tasty Bite Madras Lentils e Chicken Korma, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Embalagens de Chicken Korma & Basmati Rice estão desalinhadas e inclinadas dentro da caixa expositora.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Tasty Bite Bombay Potatoes",
+    "Tasty Bite Madras Lentils",
+    "Tasty Bite Chicken Korma & Basmati Rice",
+    "Maharaja's Choice Bay Leaves",
+    "Maharaja's Choice Turmeric Powder",
+    "Maharaja's Choice Coriander Seeds"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho. A superior contém refeições prontas 'Tasty Bite' em caixas. A inferior contém especiarias em sacos 'Maharaja's Choice'. PASSO 2: Prateleira superior: Esquerda (Bombay Potatoes), Centro (Madras Lentils), Direita (Chicken Korma). Prateleira inferior: Esquerda (Bay Leaves), Centro (Turmeric/Coriander), Direita (outras especiarias). Anomalias: Espaço vazio notável na prateleira superior entre os produtos centrais e da direita. Desalinhamento na prateleira superior direita. PASSO 3: Anomalia 1: empty_shelf, prateleira superior centro-direita, severidade média, confiança 0.95. Anomalia 2: misaligned, prateleira superior direita, severidade baixa, confiança 0.9. PASSO 4: O fill rate é alto, mas com uma lacuna clara na prateleira superior. Estimativa de 0.85."
+}

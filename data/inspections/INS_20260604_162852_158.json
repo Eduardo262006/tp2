@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260604_162852_158",
+  "timestamp": "2026-06-04T16:28:52Z",
+  "image_path": "data\\images\\img_0169.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos Huggies verdes e os pacotes azuis, indicando falta de stock ou má organização.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "low",
+      "description": "Um pacote de Huggies verde está virado de lado, interrompendo o alinhamento frontal dos restantes produtos.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Huggies baby wipes",
+    "Coles brand baby wipes"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de retalho contendo toalhetes de bebé (Huggies e marca própria). A organização é geralmente boa, mas há lacunas visíveis. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: apresenta um espaço vazio no centro e um produto desalinhado (virado de lado). Prateleira inferior: bem abastecida. PASSO 3: Identifiquei um 'empty_shelf' no centro da prateleira do meio (severidade média, pois interrompe a continuidade) e um 'misaligned' logo ao lado (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna central na prateleira do meio."
+}

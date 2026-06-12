@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260604_163322_248",
+  "timestamp": "2026-06-04T16:33:22Z",
+  "image_path": "data\\images\\img_0259.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio visível atrás das caixas de Vodka, indicando falta de profundidade ou stock insuficiente.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "A caixa de cerveja Fürstenberg está ligeiramente desalinhada em relação às restantes caixas da prateleira.",
+      "confidence": 0.7,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Vinho",
+    "Vodka 10-pack",
+    "Cerveja (Fürstenberg, Cascade)",
+    "Whisky & Cola (Black Douglas)",
+    "Bourbon & Cola (Cougar)",
+    "Vodka Cruiser"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de bebidas alcoólicas. Nível superior: vinhos à esquerda, packs de vodka ao centro/direita. Nível médio: cerveja à esquerda, whisky e bourbon ao centro/direita. Nível inferior: cerveja e Vodka Cruiser. PASSO 2: Superior: zona direita tem um vazio atrás dos packs. Médio: desalinhamento na caixa de cerveja à esquerda. Inferior: bem organizado. PASSO 3: Anomalia 1 (empty_shelf): prateleira superior direita, severidade média, confiança 0.85. Anomalia 2 (misaligned): prateleira média esquerda, severidade baixa, confiança 0.7. PASSO 4: O fill rate é elevado, estimado em 0.85, considerando a ocupação frontal quase total, apesar do vazio parcial na prateleira superior."
+}

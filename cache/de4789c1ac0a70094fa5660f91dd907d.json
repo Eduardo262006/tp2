@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260607_113715_577",
+  "timestamp": "2026-06-07T11:37:15Z",
+  "image_path": "data\\images\\img_0588.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, onde deveriam estar mais embalagens de temperos.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Frascos de molho desalinhados em relação à frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Taco Seasoning Mix",
+    "Burrito Seasoning Mix",
+    "Old El Paso Salsa",
+    "Old El Paso Taco Shells",
+    "Old El Paso Corn Chips"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado com produtos da marca Old El Paso (temperos, molhos, tacos e chips). PASSO 2: Prateleira superior: contém pacotes de temperos, com uma lacuna visível à direita. Prateleira do meio: contém frascos de molho, organizados mas com ligeiro desalinhamento. Prateleira inferior: contém caixas de taco shells e sacos de chips, bem preenchida. PASSO 3: Identifiquei um 'empty_shelf' na parte superior direita (severidade média) e um 'misaligned' na prateleira do meio (severidade baixa). PASSO 4: O preenchimento é alto, estimado em 85%, considerando a lacuna na prateleira superior e o bom preenchimento das prateleiras inferior e central."
+}

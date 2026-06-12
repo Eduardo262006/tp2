@@ -1,0 +1,46 @@
+{
+  "inspection_id": "INS_20260604_162840_154",
+  "timestamp": "2026-06-04T16:28:40Z",
+  "image_path": "data\\images\\img_0165.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, sugerindo falta de stock ou desorganização.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos (garrafas de natas) desalinhados e com espaçamento irregular.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Espaço vazio dentro da caixa de exposição de produtos.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "natas (cream)",
+    "natas espessas (thickened cream)",
+    "natas para bater (whipping cream)",
+    "natas de baixo teor de gordura (trim cream)",
+    "natas de baunilha (vanilla custard)",
+    "natas de chocolate (chocolate custard)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de refrigeração de supermercado com várias prateleiras contendo natas, natas espessas e natas de baunilha/chocolate. A organização é predominantemente por categorias e marcas. PASSO 2: Prateleira superior: apresenta um vazio à direita. Prateleira do meio: produtos bem alinhados, exceto por um pequeno desalinhamento à esquerda. Prateleira inferior: produtos em caixas de cartão, com um espaço vazio visível na caixa da esquerda. PASSO 3: Identifiquei um vazio na prateleira superior (empty_shelf, severidade média), desalinhamento na prateleira do meio (misaligned, severidade baixa) e um vazio parcial na prateleira inferior (empty_shelf, severidade baixa). PASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das prateleiras está bem abastecida, apesar dos pequenos vazios pontuais."
+}

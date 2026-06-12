@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260605_100508_320",
+  "timestamp": "2026-06-05T10:05:08Z",
+  "image_path": "data\\images\\img_0331.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos de padaria empilhados de forma desordenada e desalinhada.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "pão de forma",
+    "pão sem glúten",
+    "pão de centeio",
+    "produtos de padaria embalados"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com 4 níveis contendo diversos tipos de pão embalado. A organização é variável, com algumas zonas bem preenchidas e outras com espaços vazios. PASSO 2: Superior: bem preenchida. Meio: produtos desalinhados à esquerda. Inferior: presença de um espaço vazio considerável no centro. PASSO 3: Identifiquei um 'empty_shelf' na prateleira inferior (centro) com severidade média e um 'misaligned' na prateleira do meio (esquerda) com severidade baixa. PASSO 4: O fill rate global é estimado em 0.75, considerando a ocupação total das prateleiras visíveis."
+}

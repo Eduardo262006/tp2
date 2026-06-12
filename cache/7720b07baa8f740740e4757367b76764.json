@@ -1,0 +1,16 @@
+{
+  "inspection_id": "INS_20260604_163046_196",
+  "timestamp": "2026-06-04T16:30:46Z",
+  "image_path": "data\\images\\img_0207.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Sumos V8",
+    "Sumos Prima",
+    "Sumos Spring Vibe",
+    "Sumos Sunsweet"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um supermercado preenchidas com sumos. Na esquerda, há embalagens de cartão (Prima). No centro e direita, garrafas de vidro de sumos V8, Sunsweet e Spring Vibe. PASSO 2: Prateleira superior: bem preenchida com V8 e Sunsweet. Prateleira do meio: bem preenchida com Prima e V8. Prateleira inferior: bem preenchida com Prima, V8 e latas de V8. Não foram detetadas zonas vazias significativas ou produtos danificados. PASSO 3: Não existem anomalias críticas. O alinhamento está correto e os produtos estão bem organizados. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todo o espaço disponível está ocupado por stock, com apenas pequenos espaços vazios naturais entre garrafas."
+}

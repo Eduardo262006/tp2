@@ -1,0 +1,15 @@
+{
+  "inspection_id": "INS_20260604_162958_180",
+  "timestamp": "2026-06-04T16:29:58Z",
+  "image_path": "data\\images\\img_0191.jpg",
+  "zone_id": "Z_S3",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "sumos e bebidas de fruta Coltee's",
+    "sumos Golden Circle",
+    "produtos de limpeza/higiene em blister"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado com três níveis visíveis. O nível superior contém garrafas de sumo (laranja e outros). O nível do meio contém garrafas de sumo Coltee's (laranja, framboesa, maçã/framboesa) e uma garrafa de sumo verde. O nível inferior contém garrafas de sumo Golden Circle e Coltee's (framboesa, limão). Há uma tira vertical de produtos de limpeza/higiene à direita. PASSO 2: A organização é consistente. Não há espaços vazios significativos. As garrafas estão alinhadas frontalmente. Não se observam produtos danificados ou etiquetas em falta. PASSO 3: Não foram identificadas anomalias. A disposição está organizada e o stock está completo. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todo o espaço de prateleira está preenchido com produtos, com apenas pequenos espaços entre garrafas."
+}

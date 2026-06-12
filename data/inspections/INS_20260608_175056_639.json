@@ -1,0 +1,16 @@
+{
+  "inspection_id": "INS_20260608_175056_639",
+  "timestamp": "2026-06-08T17:50:56Z",
+  "image_path": "data\\images\\img_0650.jpg",
+  "zone_id": "Z_S1",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Old El Paso Burrito Kit",
+    "Old El Paso Nachos Kit",
+    "Old El Paso Stand 'n Stuff Kit",
+    "Old El Paso Enchilada Kit"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado com produtos da marca Old El Paso. Na prateleira superior, vejo kits de Burrito e Nachos. Na prateleira inferior, vejo kits Stand 'n Stuff e Enchilada. Os produtos estão alinhados e organizados. PASSO 2: Prateleira superior: esquerda (Burrito Kit), centro/direita (Nachos Kit). Prateleira inferior: esquerda/centro (Stand 'n Stuff Kit), direita (Enchilada Kit). Não há espaços vazios significativos ou produtos fora do lugar. PASSO 3: Não foram identificadas anomalias. A organização está correta e os produtos estão bem apresentados. PASSO 4: O fill rate é elevado, estimado em 0.95, pois as prateleiras estão quase totalmente preenchidas com os produtos correspondentes, havendo apenas pequenos espaços laterais ou de profundidade normais em exposição de retalho."
+}

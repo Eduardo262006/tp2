@@ -1,0 +1,14 @@
+{
+  "inspection_id": "INS_20260607_113333_503",
+  "timestamp": "2026-06-07T11:33:33Z",
+  "image_path": "data\\images\\img_0514.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "sumos concentrados Coltee's",
+    "sumos Golden Circle"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado repletas de garrafas de sumo concentrado da marca Coltee's e Golden Circle. Os produtos estão organizados em filas, com etiquetas de preço visíveis abaixo de cada grupo. PASSO 2: Prateleira superior: contém sumos de framboesa, limão e outros sabores escuros. Prateleira inferior: contém sumos de laranja, maçã e maçã-kiwi. Não se observam espaços vazios significativos, produtos danificados ou etiquetas em falta. A organização é consistente. PASSO 3: Não foram identificadas anomalias. A disposição está alinhada e os produtos estão bem posicionados. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todo o espaço disponível está preenchido com stock, com apenas pequenos espaços entre garrafas que são normais para a exposição."
+}

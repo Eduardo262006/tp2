@@ -1,0 +1,16 @@
+{
+  "inspection_id": "INS_20260608_175241_674",
+  "timestamp": "2026-06-08T17:52:41Z",
+  "image_path": "data\\images\\img_0685.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "margarina",
+    "manteiga",
+    "produtos lácteos",
+    "pão de alho"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um supermercado contendo produtos refrigerados. A prateleira superior contém embalagens de margarina (Flora, Eta, Tablelands). A prateleira do meio contém margarina Gold'n Canola e produtos Canola. A prateleira inferior contém margarina Gold'n Canola, embalagens de creme/spread e pão de alho. PASSO 2: Prateleira superior: bem organizada, sem falhas. Prateleira do meio: bem organizada, produtos alinhados. Prateleira inferior: bem organizada, com ocupação quase total do espaço disponível. PASSO 3: Não foram identificadas anomalias significativas como prateleiras vazias, produtos danificados ou etiquetas em falta. O alinhamento é consistente com a natureza dos produtos. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todo o espaço de prateleira está preenchido com stock, com apenas espaços marginais entre embalagens."
+}

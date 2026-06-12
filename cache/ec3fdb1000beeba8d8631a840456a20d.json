@@ -1,0 +1,17 @@
+{
+  "inspection_id": "INS_20260605_100523_325",
+  "timestamp": "2026-06-05T10:05:23Z",
+  "image_path": "data\\images\\img_0336.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.98,
+  "products_detected": [
+    "vinhos Jacob's Creek",
+    "espumantes Seaview",
+    "espumantes Wolf Blass",
+    "espumantes Yellow",
+    "espumantes variados"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um expositor de bebidas alcoólicas (vinhos e espumantes). A prateleira superior contém vinhos Jacob's Creek e uma secção de espumantes Yellow. A prateleira do meio contém espumantes Seaview e Wolf Blass. A prateleira inferior contém espumantes de várias marcas. Os produtos estão alinhados e organizados. PASSO 2: Prateleira superior: bem abastecida, sem falhas. Prateleira do meio: bem abastecida, alinhamento consistente. Prateleira inferior: bem abastecida, sem espaços vazios significativos. Não foram detetadas anomalias como produtos danificados, etiquetas em falta ou prateleiras vazias. PASSO 3: Não existem anomalias a reportar. PASSO 4: O fill rate é elevado, com quase todas as posições ocupadas, estimado em 0.98."
+}

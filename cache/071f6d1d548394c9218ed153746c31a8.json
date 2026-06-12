@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260612_233835_001",
+  "timestamp": "2026-06-12T22:38:35Z",
+  "image_path": "test_images\\img_0151.jpg",
+  "zone_id": "Z_S1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas de Coca-Cola estão ligeiramente desalinhadas em relação ao padrão de faceamento frontal.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "wrong_product",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Presença de garrafas de Pepsi misturadas na secção de Coca-Cola.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Coca-Cola",
+    "Coca-Cola Zero",
+    "Diet Coke",
+    "Pepsi"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado. A superior contém packs de 15 unidades de Coca-Cola e Coca-Cola Zero, com algumas garrafas de Pepsi no extremo direito. A inferior contém garrafas individuais de 2L de Coca-Cola, Diet Coke e Pepsi. PASSO 2: Prateleira superior: zona esquerda/centro ocupada por packs de Coca-Cola; zona direita apresenta intrusão de Pepsi. Prateleira inferior: zona esquerda com Coca-Cola, centro com Diet Coke, direita com Pepsi. Anomalias: desalinhamento menor na prateleira inferior e mistura de marcas na superior. PASSO 3: A mistura de Pepsi na secção de Coca-Cola (superior direita) é uma anomalia de 'wrong_product'. O desalinhamento na prateleira inferior é classificado como 'misaligned'. PASSO 4: O preenchimento é elevado, com poucas falhas de stock, estimado em 0.92."
+}

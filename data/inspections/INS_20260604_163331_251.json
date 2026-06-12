@@ -1,0 +1,15 @@
+{
+  "inspection_id": "INS_20260604_163331_251",
+  "timestamp": "2026-06-04T16:33:31Z",
+  "image_path": "data\\images\\img_0262.jpg",
+  "zone_id": "Z_N2",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "sumos de fruta",
+    "sumo de tomate",
+    "sumo de pera"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado com sumos de fruta em garrafas (prateleira superior) e sumos em latas (prateleira inferior). Os produtos estão alinhados e organizados. PASSO 2: Prateleira superior: preenchida com garrafas de Spring Valley e Ocean Spray. Prateleira inferior: preenchida com latas de Berri, Coles Farmland e Goulburn. Não existem espaços vazios significativos ou produtos fora do lugar. PASSO 3: Não foram detetadas anomalias. Todos os produtos estão alinhados, com etiquetas de preço visíveis e sem danos aparentes. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que as prateleiras estão quase totalmente preenchidas com apenas pequenos espaços entre as unidades."
+}

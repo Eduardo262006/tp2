@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260607_113451_529",
+  "timestamp": "2026-06-07T11:34:51Z",
+  "image_path": "data\\images\\img_0540.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior entre os produtos Bega e os produtos à esquerda.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "low",
+      "description": "Um pote de iogurte está tombado/fora de alinhamento no meio da prateleira.",
+      "confidence": 0.9,
+      "affected_area_pct": 2.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "queijo Bega",
+    "iogurtes Nestlé All Natural",
+    "iogurtes MeadowLea"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de laticínios com três níveis de prateleiras. A superior contém blocos de queijo Bega e alguns produtos embalados à esquerda. A prateleira do meio contém iogurtes Nestlé All Natural. A prateleira inferior contém iogurtes MeadowLea. PASSO 2: Prateleira superior: zona central vazia. Prateleira do meio: alinhamento geral bom, exceto um pote tombado. Prateleira inferior: bem preenchida. PASSO 3: Identificada uma falha de stock (empty_shelf) na prateleira superior (severidade média) e um produto desalinhado (misaligned) na prateleira do meio (severidade baixa). PASSO 4: O fill rate é elevado, estimado em 0.85, dado que a maioria das prateleiras está bem abastecida, com apenas uma lacuna notável na parte superior."
+}

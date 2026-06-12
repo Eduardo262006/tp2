@@ -1,0 +1,45 @@
+{
+  "inspection_id": "INS_20260603_121751_132",
+  "timestamp": "2026-06-03T12:17:51Z",
+  "image_path": "data\\images\\img_0132.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Espaço vazio visível entre os produtos de algas e os itens centrais.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "O pacote de nori está ligeiramente inclinado e desalinhado com a frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na secção de massas/noodles à direita.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.82,
+  "products_detected": [
+    "algas nori",
+    "arroz japonês",
+    "mistura para tempura",
+    "noodles (somen, udon, soba)",
+    "molhos"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado com produtos asiáticos. A prateleira superior contém molhos e embalagens pequenas. A prateleira do meio contém nori, arroz e misturas para tempura. A prateleira inferior contém vários tipos de noodles embalados. PASSO 2: Prateleira superior: organização aceitável, mas com lacunas. Prateleira do meio: produtos bem agrupados, mas com desalinhamento no nori. Prateleira inferior: zona central bem preenchida, mas com um vazio considerável à direita. PASSO 3: Identificadas anomalias de preenchimento (empty_shelf) e alinhamento (misaligned). A severidade é baixa a média, pois não há rutura total de stock, apenas desorganização e espaços vazios. PASSO 4: O fill rate é estimado em 0.82, considerando que a maioria das secções está preenchida, mas com espaços vazios notáveis na prateleira inferior e superior."
+}

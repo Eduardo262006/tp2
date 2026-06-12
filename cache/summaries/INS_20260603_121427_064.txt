@@ -1,0 +1,1 @@
+zona Z_N3; estado warning; fill rate 85%; empty_shelf (low) em prateleira superior, lado esquerdo: Espaço vazio visível à esquerda das garrafas de Coca-Cola Zero.; empty_shelf (medium) em prateleira inferior, lado esquerdo: Espaço vazio significativo entre as garrafas de Coca-Cola e a lateral esquerda.; produtos: Coca-Cola Zero, Coca-Cola Original; data 2026-06-03T12:14:27Z

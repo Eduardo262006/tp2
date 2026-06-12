@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260604_162931_171",
+  "timestamp": "2026-06-04T16:29:31Z",
+  "image_path": "data\\images\\img_0182.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "wrong_product",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Uma caixa de 'Crown Pie' está colocada na prateleira de kits de tacos, interrompendo o alinhamento dos produtos Old El Paso.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro-esquerda",
+      "severity": "low",
+      "description": "Espaço vazio visível atrás da fileira frontal de produtos, sugerindo falta de profundidade no stock.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.9,
+  "products_detected": [
+    "Taco Kits",
+    "Burrito Kits",
+    "Tortillas",
+    "Crown Pie (anomalia)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras com produtos de culinária mexicana (kits de tacos, burritos e tortilhas). A organização é geralmente boa, mas há uma intrusão de um produto diferente. PASSO 2: Prateleira superior: organizada. Prateleira do meio: alinhamento interrompido por um produto estranho no centro. Prateleira inferior: produtos de tortilha bem empilhados. PASSO 3: Identificada uma caixa de 'Crown Pie' no meio dos kits de tacos (wrong_product, severidade média). Identificado um pequeno espaço vazio atrás dos produtos no centro da prateleira do meio (empty_shelf, severidade baixa). PASSO 4: O fill rate é elevado, estimado em 0.9, dado que a maioria do espaço está preenchido, apesar da desorganização pontual."
+}

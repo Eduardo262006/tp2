@@ -1,0 +1,26 @@
+{
+  "inspection_id": "INS_20260608_175144_655",
+  "timestamp": "2026-06-08T17:51:44Z",
+  "image_path": "data\\images\\img_0666.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "A área da prateleira inferior esquerda apresenta uma desorganização significativa com produtos empilhados de forma irregular, deixando espaços vazios e falta de alinhamento frontal.",
+      "confidence": 0.9,
+      "affected_area_pct": 30.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "roupa de bebé",
+    "meias de bebé",
+    "acessórios de segurança para bebé",
+    "chuchas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de retalho com artigos de bebé. A prateleira superior contém embalagens de roupa (bodysuits) à esquerda e meias/acessórios à direita. A prateleira inferior contém roupa dobrada à esquerda e acessórios de segurança/chuchas à direita. PASSO 2: Dividindo a prateleira: Superior (esquerda/direita) está bem abastecida. Inferior (esquerda) apresenta produtos empilhados de forma desordenada e com falta de alinhamento, sugerindo uma gestão de stock deficiente. Inferior (direita) está organizada. PASSO 3: Identificada uma anomalia de 'empty_shelf' ou 'misaligned' na zona inferior esquerda, onde a desorganização cria lacunas visuais e má apresentação. Severidade média devido à má experiência do cliente. PASSO 4: O fill rate é estimado em 0.75, considerando que, embora existam produtos, a ocupação do espaço frontal e a organização estão comprometidas na secção inferior esquerda."
+}

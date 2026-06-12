@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260609_105521_695",
+  "timestamp": "2026-06-09T10:55:21Z",
+  "image_path": "data\\images\\img_0706.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível na prateleira superior esquerda, onde deveriam estar produtos da marca Smash.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito (atrás das garrafas)",
+      "severity": "low",
+      "description": "Espaço vazio na prateleira de bebidas, sugerindo falta de stock ou desorganização no alinhamento.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "pratos",
+    "taças",
+    "travessas",
+    "bebidas gaseificadas",
+    "água mineral aromatizada"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas secções de prateleiras. À esquerda, artigos de mesa (pratos, taças, travessas) da marca Smash. À direita, bebidas (garrafas de plástico de laranja e água aromatizada). PASSO 2: Dividindo a prateleira: Esquerda superior (vazio parcial), Esquerda meio (taças), Esquerda inferior (travessas). Direita superior (bebidas laranja), Direita meio (água, com um espaço vazio atrás), Direita inferior (água). PASSO 3: Identifiquei um vazio na prateleira superior esquerda (tipo empty_shelf, severidade média) e um vazio parcial na prateleira do meio à direita (tipo empty_shelf, severidade baixa). PASSO 4: O fill rate é elevado, estimado em 0.85, dado que a maioria das prateleiras está bem preenchida, exceto pelos espaços identificados."
+}

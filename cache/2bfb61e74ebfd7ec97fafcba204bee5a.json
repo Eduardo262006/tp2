@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260603_121433_066",
+  "timestamp": "2026-06-03T12:14:33Z",
+  "image_path": "data\\images\\img_0066.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar mais latas de leite de coco.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "As latas de leite de coco estão desalinhadas e com espaçamento irregular entre elas.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Indomie Mi Goreng instant noodles",
+    "Coconut milk cans"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras. A superior contém pacotes de 5 unidades de Indomie Mi Goreng. A inferior contém latas de leite de coco. PASSO 2: Prateleira superior: bem abastecida, sem anomalias visíveis. Prateleira inferior: as latas estão presentes, mas há um espaço vazio considerável no lado direito e o alinhamento das latas no centro é irregular. PASSO 3: Identifiquei um 'empty_shelf' na parte inferior direita (severidade média, confiança 0.95) e 'misaligned' no centro da prateleira inferior (severidade baixa, confiança 0.85). PASSO 4: O fill rate é alto na prateleira superior (quase 1.0) e moderado na inferior (~0.7), resultando numa média global estimada de 0.85."
+}

@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260606_165441_419",
+  "timestamp": "2026-06-06T16:54:41Z",
+  "image_path": "data\\images\\img_0430.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio na prateleira inferior onde deveriam estar latas de feijão, indicando rutura de stock parcial.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro-direita",
+      "severity": "low",
+      "description": "Latas de Heinz Baked Beans desalinhadas e com orientação irregular, dificultando a leitura dos rótulos.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Heinz Baked Beans Barbecue Sauce",
+    "Heinz Salt Reduced Baked Beans"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho com duas secções principais. A prateleira superior está totalmente preenchida com latas de 'Heinz Baked Beans Barbecue Sauce'. A prateleira inferior contém uma mistura de 'Heinz Salt Reduced Baked Beans' e algumas latas de 'Barbecue Sauce', com desorganização visível. PASSO 2: Prateleira superior: totalmente preenchida e organizada. Prateleira inferior: lado esquerdo preenchido, centro e direita apresentam desorganização e um espaço vazio significativo no canto inferior direito. PASSO 3: Identifiquei uma zona de 'empty_shelf' no canto inferior direito (severidade média) e 'misaligned' no centro da prateleira inferior (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando que a prateleira superior está a 100% e a inferior apresenta cerca de 70% de ocupação devido ao espaço vazio e à disposição irregular."
+}

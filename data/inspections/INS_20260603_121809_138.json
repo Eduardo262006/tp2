@@ -1,0 +1,14 @@
+{
+  "inspection_id": "INS_20260603_121809_138",
+  "timestamp": "2026-06-03T12:18:09Z",
+  "image_path": "data\\images\\img_0138.jpg",
+  "zone_id": "Z_S5",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.98,
+  "products_detected": [
+    "vinho tinto",
+    "vinho branco"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um supermercado dedicadas a vinhos. As garrafas estão organizadas em filas, com etiquetas de preço correspondentes acima de cada grupo de produtos. PASSO 2: Prateleira superior: bem abastecida, sem falhas. Prateleira do meio: bem abastecida, alinhamento consistente. Prateleira inferior: bem abastecida, sem espaços vazios significativos. PASSO 3: Não foram identificadas anomalias como produtos fora do lugar, prateleiras vazias ou etiquetas em falta. O alinhamento está correto e não há danos visíveis nas embalagens. PASSO 4: O fill rate é muito elevado, com quase todas as posições ocupadas, estimado em 0.98."
+}

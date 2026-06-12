@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260604_162916_166",
+  "timestamp": "2026-06-04T16:29:16Z",
+  "image_path": "data\\images\\img_0177.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio visível na prateleira superior, à direita das caixas de barras de alperce.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "As caixas de Ski D'lite apresentam um ligeiro desalinhamento no alinhamento frontal.",
+      "confidence": 0.8,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "barras de cereais",
+    "barras de fruta",
+    "iogurtes/barras Ski D'lite"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado. A superior contém barras de cereais (Fruit'n Crunch) e barras de alperce (Coles Farmland). A inferior contém caixas de produtos Ski D'lite. PASSO 2: Prateleira superior: esquerda e centro ocupados, direita com espaço vazio. Prateleira inferior: preenchida, mas com ligeiro desalinhamento nas caixas centrais. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira superior direita (severidade média) e 'misaligned' na prateleira inferior (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira superior e a ocupação quase total da inferior."
+}

@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260606_165659_465",
+  "timestamp": "2026-06-06T16:56:59Z",
+  "image_path": "data\\images\\img_0476.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "low",
+      "description": "Duas latas de metal estão tombadas/deitadas em vez de estarem verticais.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro-direita",
+      "severity": "medium",
+      "description": "Espaço vazio visível entre as latas de cerveja, indicando falta de stock ou má organização.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "cerveja em lata",
+    "sidra",
+    "ginger beer",
+    "packs de cerveja"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado com bebidas alcoólicas (cervejas, sidras, ginger beer). A organização é predominantemente vertical. PASSO 2: Prateleira superior: contém packs e latas individuais, com duas latas tombadas no centro. Prateleira do meio: bem preenchida com latas de Coopers. Prateleira inferior: latas de Coopers e Tooheys, com um espaço vazio notável no centro-direita. PASSO 3: Identifiquei duas latas tombadas na prateleira superior (misaligned, severidade baixa) e um espaço vazio na prateleira inferior (empty_shelf, severidade média). PASSO 4: O preenchimento é elevado, estimado em 85%, considerando que a maioria das frentes está ocupada, apesar das pequenas falhas."
+}

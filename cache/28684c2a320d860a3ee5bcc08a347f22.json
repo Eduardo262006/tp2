@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260605_100635_349",
+  "timestamp": "2026-06-05T10:06:35Z",
+  "image_path": "data\\images\\img_0360.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos de leite magro.",
+      "confidence": 0.95,
+      "affected_area_pct": 30.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "low",
+      "description": "Os pacotes de leite achocolatado Breaka estão desalinhados e com empilhamento irregular.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "leite achocolatado",
+    "leite de morango",
+    "leite sem lactose",
+    "leite magro",
+    "leite infantil Thomas & Friends"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado. A superior contém leites achocolatados (Breaka), morango (Breaka), sem lactose e infantis (Thomas & Friends). A inferior contém caixas de leite magro, mas com uma secção vazia à direita. PASSO 2: Prateleira superior: bem abastecida, mas com desalinhamento nos produtos Breaka. Prateleira inferior: zona esquerda com produto, zona direita vazia. PASSO 3: Identifiquei um 'empty_shelf' na prateleira inferior (severidade média, pois há falta de stock visível) e 'misaligned' na superior (severidade baixa, apenas estética). PASSO 4: O fill rate é estimado em 0.75, considerando que cerca de 25% da área total visível da prateleira inferior está vazia."
+}

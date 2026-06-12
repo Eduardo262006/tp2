@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260606_165408_408",
+  "timestamp": "2026-06-06T16:54:08Z",
+  "image_path": "data\\images\\img_0419.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na extremidade direita da prateleira inferior, onde deveriam estar produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos ligeiramente desalinhados na fila frontal da prateleira superior.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.9,
+  "products_detected": [
+    "VIP dog rolls",
+    "Coles premium dog rolls",
+    "Mega Bite dog rolls"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado contendo rolos de comida para cão (marcas VIP, Coles e Mega Bite). A organização é em filas horizontais. PASSO 2: Prateleira superior: preenchida quase totalmente, com ligeiro desalinhamento à esquerda. Prateleira inferior: preenchida à esquerda e centro, mas com um espaço vazio notável no canto inferior direito. PASSO 3: Identificada uma zona de 'empty_shelf' no canto inferior direito (severidade média, confiança alta). Identificado um ligeiro 'misaligned' na prateleira superior (severidade baixa). PASSO 4: O fill rate é estimado em 0.9, considerando que a maioria do espaço está ocupado, exceto pela lacuna no canto inferior direito."
+}

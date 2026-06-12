@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260608_175305_682",
+  "timestamp": "2026-06-08T17:53:05Z",
+  "image_path": "data\\images\\img_0693.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio na prateleira inferior esquerda onde deveriam estar caixas de ovos, indicando rutura de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "As caixas de ovos na extremidade direita da prateleira superior estão desalinhadas em relação ao bloco principal.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "ovos (cage eggs)",
+    "ovos (barn laid eggs)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado com ovos em embalagens de cartão. Existem duas prateleiras principais visíveis. A prateleira superior contém ovos 'x-large cage eggs' e 'barn laid eggs'. A prateleira inferior contém '12 cage eggs' e '12 barn laid eggs'. PASSO 2: Prateleira superior: bem organizada, exceto por um ligeiro desalinhamento à direita. Prateleira inferior: lado esquerdo apresenta um espaço vazio significativo (falta de produto). PASSO 3: Anomalia 1: empty_shelf na prateleira inferior esquerda, severidade média, confiança alta. Anomalia 2: misaligned na prateleira superior direita, severidade baixa, confiança alta. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das posições está preenchida, exceto pela lacuna na parte inferior esquerda e pequenos espaços vazios nas extremidades."
+}

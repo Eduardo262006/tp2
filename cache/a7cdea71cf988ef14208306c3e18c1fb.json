@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260603_121536_087",
+  "timestamp": "2026-06-03T12:15:36Z",
+  "image_path": "data\\images\\img_0087.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, extremo direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo no final da prateleira superior.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Produtos da marca 'Petit Miam' estão desalinhados e com embalagens sobrepostas de forma desorganizada.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "iogurtes",
+    "sobremesas lácteas",
+    "pudins",
+    "mousses"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de refrigeração de supermercado com 4 níveis de prateleiras contendo iogurtes, sobremesas e pudins. A organização é geralmente boa, com produtos alinhados em filas.\nPASSO 2: \n- Superior: Bem preenchida, exceto no extremo direito onde há um espaço vazio.\n- Meio-superior: Totalmente preenchida, organização consistente.\n- Meio-inferior: Produtos em copos individuais, bem organizados.\n- Inferior: Produtos em embalagens múltiplas, com algum desalinhamento no centro.\nPASSO 3: \n- Anomalia 1: Espaço vazio (empty_shelf) na prateleira superior direita. Severidade média, pois afeta a disponibilidade.\n- Anomalia 2: Desalinhamento (misaligned) na prateleira inferior central, onde as embalagens de 'Petit Miam' estão misturadas/desorganizadas. Severidade baixa.\nPASSO 4: O fill rate é elevado, estimado em 0.92, dado que a grande maioria do espaço está ocupada, com apenas pequenas lacunas."
+}

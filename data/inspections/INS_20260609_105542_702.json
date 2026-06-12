@@ -1,0 +1,23 @@
+{
+  "inspection_id": "INS_20260609_105542_702",
+  "timestamp": "2026-06-09T10:55:42Z",
+  "image_path": "data\\images\\img_0713.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "high",
+      "description": "Grande lacuna na prateleira do meio, indicando falta de stock de produtos.",
+      "confidence": 1.0,
+      "affected_area_pct": 35.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "sumos de fruta em garrafas de plástico"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um supermercado preenchidas com garrafas de sumo de fruta. A organização é em filas, com etiquetas de preço abaixo de cada grupo de produtos. PASSO 2: Prateleira superior: totalmente preenchida. Prateleira do meio: preenchida nas extremidades, mas com um grande vazio no centro. Prateleira inferior: totalmente preenchida. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira do meio, zona central, ocupando cerca de 35% do espaço daquela prateleira específica. Severidade alta devido à visibilidade do vazio. Confiança 1.0. PASSO 4: Considerando as 3 prateleiras, a superior e inferior estão cheias (100%), a do meio está aproximadamente 65% cheia. O fill rate global estimado é de (1.0 + 0.65 + 1.0) / 3 = 0.88."
+}

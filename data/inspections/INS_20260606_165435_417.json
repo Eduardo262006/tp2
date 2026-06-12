@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260606_165435_417",
+  "timestamp": "2026-06-06T16:54:35Z",
+  "image_path": "data\\images\\img_0428.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Um conjunto de peluches pendurados está a obstruir a visualização e o acesso aos produtos embalados atrás deles.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Espaço vazio na extremidade direita da prateleira superior.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "roupa de bebé",
+    "peluches",
+    "meias de bebé"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho de artigos para bebé, organizada em três níveis principais. Contém roupa embalada em plástico, peluches pendurados e meias. PASSO 2: Prateleira superior: contém roupa e um espaço vazio à direita; há uma obstrução por peluches pendurados à esquerda. Prateleira do meio: bem organizada com roupa e meias. Prateleira inferior: bem organizada com roupa e meias. PASSO 3: Identifiquei uma anomalia de 'misaligned' (obstrução) causada pelos peluches que bloqueiam a visão dos produtos na prateleira superior esquerda. Identifiquei 'empty_shelf' na extremidade superior direita. A severidade é média para a obstrução e baixa para o espaço vazio. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria dos espaços está preenchida, exceto pela pequena lacuna na prateleira superior."
+}

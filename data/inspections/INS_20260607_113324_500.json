@@ -1,0 +1,26 @@
+{
+  "inspection_id": "INS_20260607_113324_500",
+  "timestamp": "2026-06-07T11:33:24Z",
+  "image_path": "data\\images\\img_0511.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "wrong_product",
+      "location": "prateleira superior, centro-esquerda",
+      "severity": "medium",
+      "description": "Um pacote de snacks para animais (tender strips) está pendurado na zona de exposição de copos e garrafas, obstruindo a visualização e ocupando espaço de prateleira indevido.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "copos de plástico",
+    "água mineral",
+    "bebidas com sabor a frutos",
+    "snacks para animais"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de retalho com dois níveis principais. O lado esquerdo contém copos de plástico transparentes e uma caixa de canecas. O lado direito contém garrafas de água mineral (nível superior) e garrafas de bebida de frutos (nível inferior). PASSO 2: Dividindo a prateleira: Superior Esquerda (copos), Superior Direita (água), Inferior Esquerda (copos/canecas), Inferior Direita (bebidas). Anomalia identificada: um pacote de snacks para animais está pendurado no centro, invadindo a área dos copos/água. PASSO 3: O pacote de snacks é um 'wrong_product' nesta secção de utilidades/bebidas. Severidade média, pois desorganiza o plano de loja. Confiança alta. PASSO 4: O fill rate é elevado, com a maioria dos produtos alinhados corretamente, exceto pela intrusão do produto fora de categoria."
+}

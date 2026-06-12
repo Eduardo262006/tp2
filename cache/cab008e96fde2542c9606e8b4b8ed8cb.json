@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260603_121621_102",
+  "timestamp": "2026-06-03T12:16:21Z",
+  "image_path": "data\\images\\img_0102.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos, sugerindo rutura de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "low",
+      "description": "As embalagens de ovos 'natural grain' estão empilhadas de forma ligeiramente irregular, com desalinhamento vertical.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "ovos free range",
+    "ovos natural grain",
+    "ovos cage eggs"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo embalagens de ovos. A prateleira superior está cheia. A prateleira do meio contém produtos à esquerda e centro, mas apresenta um espaço vazio considerável à direita. A prateleira inferior está bem preenchida com embalagens de ovos 'cage eggs'. PASSO 2: Superior: cheia e organizada. Meio: esquerda (cheia), centro (empilhamento irregular/desalinhado), direita (vazia). Inferior: cheia e organizada. PASSO 3: Anomalia 1: empty_shelf na prateleira do meio, lado direito (severidade média, confiança 0.95). Anomalia 2: misaligned na prateleira do meio, centro (severidade baixa, confiança 0.85). PASSO 4: O fill rate é estimado em 0.85, considerando a área vazia na prateleira do meio e a ocupação total das outras prateleiras."
+}

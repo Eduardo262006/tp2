@@ -1,0 +1,40 @@
+{
+  "inspection_id": "INS_20260605_100411_301",
+  "timestamp": "2026-06-05T10:04:11Z",
+  "image_path": "data\\images\\img_0312.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde faltam várias unidades de produto.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos 'Soy Life' estão desalinhados e ligeiramente desorganizados na prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "So Good soy milk",
+    "Smooth White soy milk",
+    "Soy Milky",
+    "Lush soy milk",
+    "Vitasoy",
+    "Vitalife",
+    "Goat Milk",
+    "Rice Milk",
+    "Soy Life"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 4 níveis de prateleiras contendo diversas marcas de leites vegetais e especiais (So Good, Vitasoy, etc.). A organização é geralmente boa, mas há lacunas visíveis. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: há um buraco vazio notável no centro. Prateleira inferior: produtos presentes, mas com algum desalinhamento à esquerda. PASSO 3: Identifiquei um 'empty_shelf' no centro da prateleira do meio (severidade média, pois interrompe a continuidade do produto) e um 'misaligned' na prateleira inferior esquerda (severidade baixa, apenas estética). PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna central e pequenos espaços vazios nas extremidades."
+}

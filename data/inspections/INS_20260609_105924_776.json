@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260609_105924_776",
+  "timestamp": "2026-06-09T10:59:24Z",
+  "image_path": "data\\images\\img_0787.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Espaço vazio entre os recipientes de plástico e os brinquedos suspensos.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos de louça/copos estão ligeiramente desorganizados na prateleira inferior.",
+      "confidence": 0.75,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "recipientes de plástico",
+    "brinquedos de plástico em rede",
+    "latas de leite em pó S26",
+    "latas de leite em pó Infagrow",
+    "louça e copos"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho com três níveis. Nível superior: recipientes de plástico coloridos e brinquedos em rede. Nível médio: latas de leite em pó (S26). Nível inferior: louça, copos e latas de leite (Infagrow). PASSO 2: Superior esquerda: recipientes organizados, mas com espaço vazio. Superior direita: brinquedos suspensos. Médio: latas de leite bem alinhadas. Inferior: mistura de produtos, com alguma desorganização nos copos. PASSO 3: Identifiquei um pequeno espaço vazio na prateleira superior (empty_shelf) e uma ligeira desorganização na prateleira inferior (misaligned). A severidade é baixa pois a maioria dos produtos está bem exposta. PASSO 4: O fill rate é elevado, estimado em 0.85, dado que a maioria das prateleiras está bem preenchida, exceto por pequenas lacunas."
+}

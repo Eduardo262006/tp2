@@ -1,0 +1,40 @@
+{
+  "inspection_id": "INS_20260606_165608_448",
+  "timestamp": "2026-06-06T16:56:08Z",
+  "image_path": "data\\images\\img_0459.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos da gama Smooth White ou similar.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Produto 'Organic Milk' ligeiramente desalinhado em relação à face da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "So Good Soy Milk",
+    "Lactose Free Milk",
+    "So Good Essential",
+    "So Good Bliss",
+    "Smooth White Soy Milk",
+    "Soy Milky",
+    "Lush Soy Milk",
+    "Vitasoy Natural",
+    "Vitasoy Vitalife"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de supermercado com leites vegetais e sem lactose. A organização é predominantemente por marcas (So Good, Vitasoy, etc.). PASSO 2: Dividindo a prateleira: Superior (cheia, com pequeno desalinhamento à esquerda), Meio-Superior (cheia), Meio-Inferior (cheia), Inferior (presença de um espaço vazio notável à esquerda). PASSO 3: Identifiquei um 'empty_shelf' na prateleira inferior (lado esquerdo) com severidade média, pois interrompe a continuidade do stock. Identifiquei um 'misaligned' na prateleira superior (Organic Milk). PASSO 4: O fill rate é elevado, estimado em 0.88, considerando que a maioria das prateleiras está bem preenchida, exceto pela lacuna na parte inferior."
+}

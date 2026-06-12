@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260605_100353_295",
+  "timestamp": "2026-06-05T10:03:53Z",
+  "image_path": "data\\images\\img_0306.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "As embalagens de barras de cereais estão empilhadas de forma desorganizada e projetadas para fora da prateleira, não seguindo o alinhamento frontal padrão.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Espaço vazio parcial dentro da caixa de exposição de 'Honey Oat & Sultanas', indicando falta de stock ou má organização.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Nana Divers Mini Meal",
+    "Coles Savings Muesli Bars"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado. A superior contém embalagens de barras de cereais (Nana Divers) e caixas de cartão. A inferior contém caixas de 'Coles Savings Muesli Bars' de vários sabores. PASSO 2: Prateleira superior: lado esquerdo tem uma caixa com espaço vazio; centro tem produtos empilhados de forma irregular. Prateleira inferior: organização estável e alinhada. PASSO 3: Anomalia 1: Desalinhamento na prateleira superior (centro) devido a empilhamento instável. Anomalia 2: Espaço vazio na caixa de 'Honey Oat' (superior esquerda). PASSO 4: O fill rate é alto, mas prejudicado pela desorganização no centro superior. Estimativa de 85%."
+}

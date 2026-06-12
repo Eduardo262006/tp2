@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260605_100708_360",
+  "timestamp": "2026-06-05T10:07:08Z",
+  "image_path": "data\\images\\img_0371.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Caixa de lenços posicionada de forma irregular/inclinada sobre a pilha, quebrando o alinhamento do bloco de produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira superior, extremo esquerdo",
+      "severity": "low",
+      "description": "Espaço vazio visível atrás da primeira coluna de produtos Sorbent White.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.9,
+  "products_detected": [
+    "Sorbent Blue facial tissues",
+    "Sorbent White facial tissues",
+    "Generic facial tissues",
+    "Personal care bottles"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras principais. A superior contém caixas de lenços 'Sorbent Blue' (3x3) e 'Sorbent White' (parcialmente visível à esquerda). A inferior contém pilhas de caixas de lenços genéricos e produtos de higiene pessoal à direita. PASSO 2: Prateleira superior: alinhamento bom, exceto por um pequeno espaço vazio à esquerda. Prateleira inferior: bloco central de lenços apresenta uma caixa desalinhada no topo direito. PASSO 3: Identificada uma caixa desalinhada (misaligned) na prateleira inferior, severidade média, confiança alta. Identificado espaço vazio (empty_shelf) na prateleira superior esquerda, severidade baixa. PASSO 4: O preenchimento é alto, estimado em 90%, considerando a ocupação quase total das faces das prateleiras."
+}

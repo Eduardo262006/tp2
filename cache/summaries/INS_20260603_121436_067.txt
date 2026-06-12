@@ -1,0 +1,1 @@
+zona Z_N10; estado warning; fill rate 85%; wrong_product (medium) em prateleira inferior, lado esquerdo: Presença de brinquedos (Kids'r Cool) pendurados na frente da prateleira de snacks, obstruindo a visualização e ocupando espaço de produto.; produtos: Doritos Dippas, Doritos Cheese Supreme, Doritos Sweet Chili, Brinquedos Kids'r Cool; data 2026-06-03T12:14:36Z

@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260604_162907_163",
+  "timestamp": "2026-06-04T16:29:07Z",
+  "image_path": "data\\images\\img_0174.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior esquerda, onde deveriam estar empilhadas mais embalagens de ovos.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "As pilhas de ovos na prateleira inferior apresentam desalinhamento vertical e irregularidades na organização das embalagens.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "ovos (The Free Range)",
+    "ovos (Coles Smart Buy)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado contendo embalagens de ovos. A prateleira superior está totalmente preenchida com ovos 'The Free Range'. A prateleira inferior contém ovos 'Coles Smart Buy' organizados em pilhas, mas com uma lacuna visível à esquerda e algumas pilhas desalinhadas no centro. PASSO 2: Prateleira superior: preenchida uniformemente. Prateleira inferior: lado esquerdo apresenta falta de produto (empty_shelf); centro apresenta pilhas irregulares (misaligned). PASSO 3: Identifiquei uma zona vazia na parte inferior esquerda (empty_shelf, severidade média) e desalinhamento nas pilhas centrais da prateleira inferior (misaligned, severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando que a prateleira superior está cheia (1.0) e a inferior tem uma lacuna de aproximadamente 30% do seu espaço total."
+}

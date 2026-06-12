@@ -1,0 +1,17 @@
+{
+  "inspection_id": "INS_20260605_100520_324",
+  "timestamp": "2026-06-05T10:05:20Z",
+  "image_path": "data\\images\\img_0335.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Vinhos em caixa (cask wine)",
+    "Lachlan Ridge",
+    "Coolabah",
+    "Hardys Reserve",
+    "De Bortoli"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um expositor de retalho contendo vinhos em caixa (cask wine). As prateleiras estão bem abastecidas com produtos alinhados frontalmente. PASSO 2: Prateleira superior: contém vinhos Lachlan Ridge e Hardys. Prateleira intermédia: contém vinhos Coolabah. Prateleira inferior: contém vinhos De Bortoli e Coolabah. Não se observam espaços vazios significativos ou produtos danificados. PASSO 3: Não foram identificadas anomalias. O alinhamento é consistente e as etiquetas de preço estão presentes sob os produtos. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase toda a frente da prateleira está ocupada por stock, com apenas espaços marginais entre unidades."
+}

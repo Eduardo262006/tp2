@@ -1,0 +1,25 @@
+{
+  "inspection_id": "INS_20260608_175311_684",
+  "timestamp": "2026-06-08T17:53:11Z",
+  "image_path": "data\\images\\img_0695.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos alinhados com as etiquetas de preço.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Deep Spring mineral water",
+    "Schweppes mineral water",
+    "Diet Waterford mineral water"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado com bebidas gaseificadas em garrafas de plástico. A prateleira superior está quase totalmente preenchida com produtos Deep Spring e Schweppes. A prateleira inferior contém garrafas de Diet Waterford e Schweppes, mas apresenta um espaço vazio considerável à direita. PASSO 2: Prateleira superior: preenchimento completo, sem anomalias. Prateleira inferior: lado esquerdo e centro preenchidos, lado direito apresenta uma zona vazia (falta de stock). PASSO 3: Anomalia identificada na prateleira inferior direita: empty_shelf, severidade média, confiança alta (0.95), área afetada estimada em 25%. PASSO 4: O fill rate global é estimado em 0.85, considerando que a prateleira superior está cheia e a inferior tem uma lacuna de cerca de 1/4 do seu espaço total."
+}

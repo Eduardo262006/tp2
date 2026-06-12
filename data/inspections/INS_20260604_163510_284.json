@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260604_163510_284",
+  "timestamp": "2026-06-04T16:35:10Z",
+  "image_path": "data\\images\\img_0295.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "A caixa de copos está inclinada e fora do alinhamento padrão da prateleira.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "low",
+      "description": "Espaço vazio entre as caixas de copos na prateleira superior.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Wiltshire Fresco short drink box",
+    "Wiltshire Fresco champagne flute box",
+    "Wiltshire Fresco white wine box",
+    "Bushells tea"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras contendo caixas de copos da marca Wiltshire (modelos Fresco) e uma caixa de chá Bushells no canto inferior esquerdo. PASSO 2: Prateleira superior: contém caixas de copos, com uma caixa à direita desalinhada e um espaço vazio no centro. Prateleira do meio: bem organizada com caixas de champagne flutes. Prateleira inferior: bem organizada com caixas de white wine e chá. PASSO 3: Identifiquei um desalinhamento na prateleira superior (severidade média) e um pequeno espaço vazio (severidade baixa). PASSO 4: O fill rate é alto, estimado em 0.85, pois a maioria das prateleiras está bem preenchida, exceto pelo pequeno gap na parte superior."
+}

@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260603_121618_101",
+  "timestamp": "2026-06-03T12:16:18Z",
+  "image_path": "data\\images\\img_0101.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde faltam produtos em comparação com o resto da secção.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Algumas latas estão ligeiramente desalinhadas ou com rótulos virados para fora da orientação frontal ideal.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "latas de fruta em calda",
+    "caixas de fruta em conserva",
+    "copos de fruta",
+    "frascos de fruta"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 5 níveis. Nível 1 (topo): latas de fruta (bagas, misturas). Nível 2: latas pequenas e caixas de fruta. Nível 3: caixas de fruta (pêssego, salada de fruta). Nível 4: copos de fruta. Nível 5 (base): frascos de fruta. PASSO 2: A prateleira está bem organizada no geral. Identifiquei uma zona vazia na prateleira inferior (lado esquerdo) e pequenos desalinhamentos nas latas do topo. PASSO 3: Anomalia 1: empty_shelf na prateleira inferior, severidade média, confiança alta. Anomalia 2: misaligned na prateleira superior, severidade baixa, confiança moderada. PASSO 4: O fill rate é elevado, estimado em 0.85, considerando a ocupação quase total da maioria das prateleiras, exceto pela falha pontual na base."
+}

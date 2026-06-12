@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260604_162819_147",
+  "timestamp": "2026-06-04T16:28:19Z",
+  "image_path": "data\\images\\img_0147.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, à direita dos produtos Huggies.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Os pacotes de fraldas estão empilhados de forma irregular e desalinhada em relação à frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "fraldas Huggies",
+    "fraldas Snugglers",
+    "brinquedos de peluche (pendurados)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de retalho com fraldas (Huggies e Snugglers). Há brinquedos de peluche pendurados na parte frontal esquerda. PASSO 2: Prateleira superior: bem preenchida à esquerda e centro, mas com um espaço vazio à direita. Prateleira inferior: preenchida, mas com desalinhamento nas pilhas centrais. PASSO 3: Identifiquei um espaço vazio (empty_shelf) na prateleira superior direita (severidade média) e desalinhamento (misaligned) na prateleira inferior central (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira superior e a densidade geral dos produtos."
+}

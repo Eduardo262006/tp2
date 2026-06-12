@@ -1,0 +1,13 @@
+{
+  "inspection_id": "INS_20260607_113706_574",
+  "timestamp": "2026-06-07T11:37:06Z",
+  "image_path": "data\\images\\img_0585.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.98,
+  "products_detected": [
+    "sumos de fruta (P&N, Berri, Just Juice)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um supermercado repletas de garrafas de sumo de fruta de várias marcas (P&N, Berri, Just Juice). A organização é consistente, com os produtos alinhados frontalmente. PASSO 2: Prateleira superior: cheia, sem falhas. Prateleira do meio: cheia, sem falhas. Prateleira inferior: cheia, sem falhas. Não foram detetadas zonas vazias, produtos trocados ou etiquetas em falta. PASSO 3: Não existem anomalias significativas. O alinhamento é bom e a ocupação é quase total. PASSO 4: O fill rate é estimado em 0.98, dado que quase todo o espaço disponível está preenchido com produtos, com apenas espaços marginais entre garrafas."
+}

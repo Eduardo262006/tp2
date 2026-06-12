@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260609_105724_736",
+  "timestamp": "2026-06-09T10:57:24Z",
+  "image_path": "data\\images\\img_0747.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Espaço vazio na extremidade direita da prateleira superior.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "As embalagens de Cougar Bourbon estão desalinhadas e ligeiramente rotacionadas em relação à frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Jim Beam Bourbon & Cola",
+    "Woodstock Bourbon & Cola",
+    "Cougar Bourbon & Cola",
+    "Johnnie Walker Red Label & Cola",
+    "Bundaberg Rum & Cola"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de bebidas alcoólicas pré-misturadas (RTD). A prateleira superior contém Jim Beam e Woodstock. A prateleira inferior contém Cougar, Johnnie Walker, Bundaberg e Jim Beam. PASSO 2: Prateleira superior: bem organizada, exceto por um pequeno espaço vazio à direita. Prateleira inferior: organizada, mas as embalagens de Cougar à esquerda estão desalinhadas. PASSO 3: Identifiquei um pequeno 'empty_shelf' na parte superior direita (severidade baixa) e um 'misaligned' na parte inferior esquerda (severidade baixa). PASSO 4: O fill rate é alto, estimado em 0.92, pois a maioria dos espaços está preenchida com produtos, com apenas pequenas lacunas."
+}

@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260608_175238_673",
+  "timestamp": "2026-06-08T17:52:38Z",
+  "image_path": "data\\images\\img_0684.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "wrong_product",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Garrafas de água 'Coles Spring Water' estão misturadas na zona dedicada à marca Galvanina.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos (garrafas de água e latas) apresentam desalinhamento e desorganização na frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.9,
+  "products_detected": [
+    "Galvanina Still Natural Mineral Water",
+    "Coles Spring Water",
+    "Perrier",
+    "Coca-Cola",
+    "Galvanina Sparkling Natural Mineral Water"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A superior contém garrafas de vidro de água mineral Galvanina e, à direita, garrafas de plástico de água Coles. A inferior contém uma mistura de garrafas de água, latas de refrigerante (Coca-Cola, Perrier) e embalagens de Galvanina Sparkling. PASSO 2: Prateleira superior: esquerda/centro ocupados por Galvanina, direita ocupada por Coles (anomalia de produto). Prateleira inferior: esquerda com garrafas desalinhadas, centro/direita com mistura de latas e embalagens. PASSO 3: Identificada a presença de 'Coles Spring Water' na prateleira superior, que parece ser um espaço dedicado à marca Galvanina (wrong_product). Na prateleira inferior, há desorganização visual (misaligned). PASSO 4: O preenchimento é alto, estimado em 90%, com poucas lacunas visíveis."
+}

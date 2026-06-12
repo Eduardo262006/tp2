@@ -1,0 +1,25 @@
+{
+  "inspection_id": "INS_20260605_100632_348",
+  "timestamp": "2026-06-05T10:06:32Z",
+  "image_path": "data\\images\\img_0359.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos da gama Lindt.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Lindt Fioretto",
+    "Lindt Lindor (caixas vermelhas e douradas)",
+    "Lindt Hazelnut Collection"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras com chocolates Lindt. O nível superior contém caixas de Lindt Fioretto. O nível intermédio contém caixas de Lindt Lindor. O nível inferior contém caixas de Lindt Hazelnut Collection e um espaço vazio à direita. PASSO 2: Prateleira superior: cheia. Prateleira intermédia: cheia. Prateleira inferior: lado esquerdo e centro ocupados, lado direito vazio. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira inferior, lado direito. Severidade média, pois interrompe a continuidade da exposição. Confiança alta. PASSO 4: Estimativa de fill rate: considerando a ocupação total das prateleiras, cerca de 85% do espaço disponível está preenchido, com uma falha clara no canto inferior direito."
+}

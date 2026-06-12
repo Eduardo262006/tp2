@@ -1,0 +1,39 @@
+{
+  "inspection_id": "INS_20260606_165420_412",
+  "timestamp": "2026-06-06T16:54:20Z",
+  "image_path": "data\\images\\img_0423.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "low",
+      "description": "A embalagem de Nanna's Apple Pies está ligeiramente desalinhada e inclinada em relação às outras.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "A embalagem de Nanna's Blackberry & Apple Pies está posicionada de forma irregular, ocupando parcialmente o espaço adjacente.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Sara Lee Pound Cake",
+    "Sara Lee Blueberry Danish",
+    "Sara Lee New York Baked Cheesecake",
+    "Sara Lee Custard Tarts",
+    "Nanna's Apple Pies",
+    "Sara Lee Chocolate Brownie Tart",
+    "Nanna's Blackberry & Apple Pies",
+    "Nanna's Lite Apple Pies"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra um expositor refrigerado com três prateleiras visíveis contendo sobremesas congeladas (Sara Lee e Nanna's). Os produtos estão maioritariamente bem organizados e alinhados. PASSO 2: Prateleira superior: bem organizada. Prateleira do meio: alinhamento geral bom, mas a embalagem de Nanna's Apple Pies à direita está ligeiramente inclinada. Prateleira inferior: a maioria está alinhada, mas a embalagem de Nanna's Blackberry & Apple Pies no centro está desalinhada. PASSO 3: Identificadas duas anomalias de desalinhamento (misaligned) com severidade baixa, pois não impedem a compra nem escondem produtos. Confiança alta devido à clareza visual. PASSO 4: O fill rate é elevado, com quase todos os espaços preenchidos, estimado em 0.95."
+}

@@ -1,0 +1,28 @@
+{
+  "inspection_id": "INS_20260608_175023_628",
+  "timestamp": "2026-06-08T17:50:23Z",
+  "image_path": "data\\images\\img_0639.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro-esquerda",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos, sugerindo falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Mountain Dew",
+    "Solo",
+    "Coles Lemonade",
+    "Lift",
+    "Coles Orange",
+    "Brinquedos/Letras magnéticas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A prateleira superior contém garrafas de refrigerante (Mountain Dew, Solo) e uma garrafa de bebida energética. A prateleira inferior contém refrigerantes de marca própria (Coles) e Lift. À esquerda, há uma coluna vertical de embalagens de letras magnéticas. PASSO 2: Prateleira superior: bem organizada, sem falhas. Prateleira inferior: organizada à direita e esquerda, mas com um espaço vazio notável no centro-esquerda. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira inferior, centro-esquerda, com severidade média (afeta a continuidade do produto). Confiança alta devido à visibilidade clara da prateleira vazia. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna identificada na parte inferior."
+}

@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260606_165356_404",
+  "timestamp": "2026-06-06T16:53:56Z",
+  "image_path": "data\\images\\img_0415.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos da marca Uncle Tobys.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "low",
+      "description": "Caixas de produto posicionadas de forma irregular ou tombadas, interrompendo o alinhamento frontal.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Uncle Tobys Delights",
+    "Uncle Tobys Yoghurt Muesli Bars"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo barras de cereais da marca Uncle Tobys. Os produtos estão organizados em filas, mas há irregularidades visíveis. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: apresenta uma lacuna (vazio) no lado direito e algumas caixas desalinhadas/tombadas no centro. Prateleira inferior: visível, mas com menos foco, parecendo organizada. PASSO 3: Identifiquei um 'empty_shelf' na prateleira do meio (lado direito) com severidade média, pois afeta a disponibilidade de compra. Identifiquei 'misaligned' no centro da mesma prateleira devido a caixas tombadas. Confiança alta baseada na clareza visual. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na prateleira do meio."
+}

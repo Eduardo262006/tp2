@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260607_113415_517",
+  "timestamp": "2026-06-07T11:34:15Z",
+  "image_path": "data\\images\\img_0528.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, à direita da zona de pilhas.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Algumas embalagens de leite 'So Good' estão desalinhadas ou ligeiramente tombadas.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "leite vegetal",
+    "leite de vaca",
+    "pilhas",
+    "bebidas de soja"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de supermercado com produtos lácteos e alternativas vegetais (leite de soja, amêndoa, etc.) e uma coluna vertical de pilhas (Duracell/Eveready) suspensa. PASSO 2: Dividindo a prateleira: Superior (contém leites e espaço vazio à direita), Meio (leites 'So Good' e leites de marca própria), Inferior (bebidas 'Lush', 'Natural' e leites). Anomalias: Espaço vazio na prateleira superior direita (atrás das pilhas e ao lado). Desalinhamento menor na prateleira do meio. PASSO 3: Identificação de 'empty_shelf' na prateleira superior (severidade média, confiança alta) e 'misaligned' na prateleira do meio (severidade baixa, confiança alta). PASSO 4: O fill rate é elevado, com a maioria das prateleiras cheias, exceto pela lacuna na parte superior direita, resultando numa estimativa de 0.88."
+}

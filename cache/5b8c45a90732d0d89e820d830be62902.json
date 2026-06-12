@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260604_163152_218",
+  "timestamp": "2026-06-04T16:31:52Z",
+  "image_path": "data\\images\\img_0229.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "other",
+      "location": "centro da prateleira, vertical",
+      "severity": "medium",
+      "description": "Um expositor vertical de palhinhas coloridas está a obstruir a visão e o acesso a vários produtos nas prateleiras superior, média e inferior.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Espaço vazio na extremidade esquerda da prateleira superior.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "vinhos",
+    "licores",
+    "porto",
+    "palhinhas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de bebidas alcoólicas (vinhos, licores, porto). Há uma obstrução vertical significativa no centro causada por um expositor de palhinhas. PASSO 2: Prateleira superior: bem abastecida, exceto por um pequeno espaço vazio à esquerda. Prateleira média: bem abastecida, mas parcialmente bloqueada pelas palhinhas. Prateleira inferior: bem abastecida, também bloqueada pelas palhinhas. PASSO 3: A principal anomalia é o expositor de palhinhas (tipo 'other') que bloqueia o acesso e visibilidade, classificado como severidade média. O espaço vazio na prateleira superior é uma anomalia menor (empty_shelf). PASSO 4: O fill rate é elevado, estimado em 0.85, considerando que a maioria dos espaços está preenchida, apesar da obstrução física."
+}

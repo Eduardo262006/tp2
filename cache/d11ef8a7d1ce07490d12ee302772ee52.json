@@ -1,0 +1,27 @@
+{
+  "inspection_id": "INS_20260605_100559_337",
+  "timestamp": "2026-06-05T10:05:59Z",
+  "image_path": "data\\images\\img_0348.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio visível atrás da fila de garrafas de vinho, indicando falta de profundidade ou stock insuficiente.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "vinho",
+    "vodka",
+    "cerveja",
+    "whisky",
+    "bebidas mistas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho de bebidas alcoólicas. Vê-se vinho na prateleira superior, caixas de vodka à direita, caixas de cerveja (Fürstenberg e Cascade) nas prateleiras do meio e inferior, e whisky (Black Douglas) à direita. Há um expositor vertical de brindes/decoração à esquerda. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: as caixas de Fürstenberg estão alinhadas, mas há um espaço vazio visível atrás da fila de vinhos da prateleira superior que se projeta para a zona central. Prateleira inferior: bem abastecida com caixas de Cascade e Vodka Cruiser. PASSO 3: Identificada uma anomalia de 'empty_shelf' na zona central da prateleira do meio, onde a profundidade de stock é insuficiente, criando um vazio visual. Severidade média pois o produto principal está presente, mas a apresentação é subótima. Confiança 0.85. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das posições está ocupada, mas com lacunas de profundidade e o espaço ocupado pelo expositor lateral."
+}

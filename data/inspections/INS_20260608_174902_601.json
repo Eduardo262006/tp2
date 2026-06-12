@@ -1,0 +1,27 @@
+{
+  "inspection_id": "INS_20260608_174902_601",
+  "timestamp": "2026-06-08T17:49:02Z",
+  "image_path": "data\\images\\img_0612.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos da marca Uncle Tobys.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Le Snak",
+    "Uncle Tobys Chewy",
+    "Farmland Snack Pack",
+    "Uncle Tobys Roll Ups",
+    "Strings"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com quatro níveis visíveis. Os produtos incluem caixas de snacks (Le Snak, Uncle Tobys, Farmland) e embalagens de 'Strings'. Há uma coluna lateral esquerda com brinquedos/acessórios. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: apresenta uma falha de stock (vazio) no lado esquerdo. Prateleira inferior: bem abastecida. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira do meio, lado esquerdo, com severidade média, pois interrompe a continuidade do produto. Confiança alta devido à visibilidade da grelha metálica. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna identificada na prateleira do meio."
+}

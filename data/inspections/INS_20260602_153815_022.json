@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260602_153815_022",
+  "timestamp": "2026-06-02T15:38:15Z",
+  "image_path": "data\\images\\img_0022.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, onde deveriam estar produtos alinhados com o resto da secção.",
+      "confidence": 0.95,
+      "affected_area_pct": 30.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio entre as garrafas de água e as embalagens de cartão, indicando falta de stock ou má organização.",
+      "confidence": 0.9,
+      "affected_area_pct": 25.0
+    }
+  ],
+  "shelf_fill_rate": 0.65,
+  "products_detected": [
+    "garrafas de água Neverfail",
+    "garrafas de água Ardoona",
+    "garrafas de água Peaks Ridge Springs",
+    "embalagens de cartão de água"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho contendo garrafas de água de diferentes marcas (Neverfail, Ardoona, Peaks Ridge Springs) e embalagens de cartão. Há áreas com grelhas metálicas visíveis onde o produto está em falta. PASSO 2: Prateleira superior: lado esquerdo ocupado, centro vazio. Prateleira inferior: lado esquerdo e direito ocupados, centro com um espaço vazio notável entre as garrafas e as caixas. PASSO 3: Identificadas duas zonas de 'empty_shelf'. A severidade é média pois, embora haja stock, a organização está incompleta e há espaços vazios que afetam a apresentação. Confiança alta devido à clareza das áreas vazias. PASSO 4: O fill rate global é estimado em 0.65, considerando que cerca de 35% da área de exposição visível está desocupada ou com lacunas de stock."
+}

@@ -1,0 +1,1 @@
+zona Z_N1; estado warning; fill rate 92%; empty_shelf (medium) em prateleira superior, centro: Espaço vazio visível entre as garrafas de Diet Coke Vanilla e Diet Coke, indicando falta de stock ou organização inadequada.; produtos: Diet Coke Vanilla, Coca-Cola, Diet Coke (caixas de 24); data 2026-06-06T16:53:26Z

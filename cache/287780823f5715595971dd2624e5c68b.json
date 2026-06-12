@@ -1,0 +1,45 @@
+{
+  "inspection_id": "INS_20260602_153854_035",
+  "timestamp": "2026-06-02T15:38:54Z",
+  "image_path": "data\\images\\img_0035.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior direita.",
+      "confidence": 0.95,
+      "affected_area_pct": 30.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira média, lado direito",
+      "severity": "high",
+      "description": "Prateleira média quase totalmente vazia no lado direito.",
+      "confidence": 0.98,
+      "affected_area_pct": 50.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Espaço vazio parcial na extremidade direita da prateleira inferior.",
+      "confidence": 0.9,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.65,
+  "products_detected": [
+    "pão de forma",
+    "pão sem glúten",
+    "pão de centeio",
+    "pão de frutas",
+    "pão de espelta"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 4 níveis de prateleiras contendo diversos tipos de pães embalados. Há uma distribuição desigual de produtos. PASSO 2: Dividindo a prateleira: Superior (esquerda ocupada, direita vazia), Média (esquerda ocupada, direita quase vazia), Inferior (esquerda ocupada, direita parcialmente vazia). PASSO 3: Identificação de anomalias: 1. Prateleira superior direita (empty_shelf, severidade média, confiança 0.95). 2. Prateleira média direita (empty_shelf, severidade alta, confiança 0.98). 3. Prateleira inferior direita (empty_shelf, severidade baixa, confiança 0.9). PASSO 4: Estimativa de fill rate: Considerando a ocupação visual total, cerca de 65% da área disponível está preenchida com produtos, com lacunas recorrentes no lado direito de todos os níveis."
+}

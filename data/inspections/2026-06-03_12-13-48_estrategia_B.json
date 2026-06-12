@@ -1,0 +1,3077 @@
+[
+  {
+    "inspection_id": "INS_20260603_121348_051",
+    "timestamp": "2026-06-03T12:13:48Z",
+    "image_path": "data\\images\\img_0051.jpg",
+    "zone_id": "Z_N2",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.98,
+    "products_detected": [
+      "refrigerantes",
+      "sumos",
+      "bebidas gaseosas"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado repletas de garrafas de bebidas (refrigerantes e sumos). A organização é densa, com produtos alinhados frontalmente. Há etiquetas de preço visíveis abaixo de cada grupo de produtos. Existem separadores verticais e materiais promocionais (cartões 'win') pendurados.\nPASSO 2: \n- Prateleira superior: Totalmente preenchida, sem espaços vazios. Produtos alinhados corretamente.\n- Prateleira inferior: Totalmente preenchida, sem espaços vazios. Produtos alinhados corretamente.\nPASSO 3: Não foram identificadas anomalias significativas. O preenchimento é consistente e não há produtos danificados ou etiquetas em falta que comprometam a visibilidade do preço.\nPASSO 4: O fill rate é muito elevado, estimado em 0.98, dado que quase não há espaços vazios entre as garrafas e a prateleira está totalmente ocupada."
+  },
+  {
+    "inspection_id": "INS_20260603_121351_052",
+    "timestamp": "2026-06-03T12:13:51Z",
+    "image_path": "data\\images\\img_0052.jpg",
+    "zone_id": "Z_N10",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado direito",
+        "severity": "medium",
+        "description": "Espaço vazio significativo na prateleira superior, marcado com sinalização de 'Discontinued line'.",
+        "confidence": 0.95,
+        "affected_area_pct": 20.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "empty_shelf",
+        "location": "prateleira inferior, lado central",
+        "severity": "low",
+        "description": "Espaço vazio entre os sacos de nachos e os frascos de azeitonas.",
+        "confidence": 0.9,
+        "affected_area_pct": 10.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "Old El Paso seasoning packets",
+      "Old El Paso salsa jars",
+      "Canned tomatoes/sauce",
+      "Nachos/Corn chips",
+      "Olives"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado. Nível superior: pacotes de temperos Old El Paso à esquerda e uma área vazia à direita com sinalização de 'Discontinued line'. Nível médio: frascos de salsa Old El Paso alinhados e latas à direita. Nível inferior: sacos de nachos e frascos de azeitonas. PASSO 2: Superior esquerda (cheia), Superior direita (vazia/descontinuada). Médio (bem organizado). Inferior (alguns espaços vazios entre categorias). PASSO 3: Identificada anomalia de 'empty_shelf' na prateleira superior direita (área descontinuada) e um pequeno espaço vazio na prateleira inferior. A severidade é média devido à descontinuação do produto. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das faces está preenchida, exceto pelas áreas marcadas como descontinuadas e pequenos vãos."
+  },
+  {
+    "inspection_id": "INS_20260603_121354_053",
+    "timestamp": "2026-06-03T12:13:54Z",
+    "image_path": "data\\images\\img_0053.jpg",
+    "zone_id": "Z_N8",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira do meio, lado esquerdo",
+        "severity": "medium",
+        "description": "Espaço vazio significativo entre os kits de sushi e os molhos verdes, indicando falta de stock ou desorganização.",
+        "confidence": 0.95,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira inferior, centro",
+        "severity": "low",
+        "description": "Produtos (pacotes de ingredientes para sushi) encontram-se desalinhados e ligeiramente caídos para a frente.",
+        "confidence": 0.85,
+        "affected_area_pct": 10.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "sushi kits",
+      "maionese Kewpie",
+      "molhos Lee Kum Kee",
+      "molhos Ayam",
+      "arroz para sushi",
+      "molhos de peixe"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado com produtos asiáticos (kits de sushi, molhos, arroz). A organização é geralmente boa, mas com falhas pontuais. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: lado esquerdo apresenta um espaço vazio considerável entre os produtos. Prateleira inferior: produtos de arroz e molhos presentes, com alguns pacotes de ingredientes desalinhados no centro. PASSO 3: Identifiquei um 'empty_shelf' na prateleira do meio (lado esquerdo) com severidade média, pois interrompe a continuidade da prateleira. Identifiquei 'misaligned' na prateleira inferior (centro) devido à disposição irregular dos pacotes. PASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das faces está preenchida, exceto pela lacuna na prateleira do meio."
+  },
+  {
+    "inspection_id": "INS_20260603_121357_054",
+    "timestamp": "2026-06-03T12:13:57Z",
+    "image_path": "data\\images\\img_0054.jpg",
+    "zone_id": "Z_N9",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "misaligned",
+        "location": "prateleira do meio, lado esquerdo",
+        "severity": "medium",
+        "description": "Caixa de Anticol ICE tombada e fora de alinhamento com as restantes unidades.",
+        "confidence": 0.95,
+        "affected_area_pct": 10.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "empty_shelf",
+        "location": "prateleira inferior, lado esquerdo",
+        "severity": "low",
+        "description": "Espaço vazio visível entre as embalagens de Strepsils.",
+        "confidence": 0.85,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.88,
+    "products_detected": [
+      "Lemsip",
+      "Nurofen",
+      "Strepsils",
+      "Anticol",
+      "Herron",
+      "Heel Balm",
+      "Tinasolve",
+      "Nyal"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de farmácia com medicamentos (pastilhas, analgésicos, cremes). A organização é geralmente por blocos de marca. PASSO 2: Prateleira superior: bem organizada. Prateleira do meio: lado esquerdo apresenta uma caixa de Anticol tombada (misaligned). Prateleira inferior: lado esquerdo apresenta um pequeno espaço vazio entre produtos (empty_shelf). PASSO 3: A caixa tombada é uma anomalia de alinhamento de severidade média. O espaço vazio é uma anomalia de stock de severidade baixa. PASSO 4: O fill rate é elevado, estimado em 88%, dado que a maioria das prateleiras está cheia, com apenas pequenas lacunas ou desorganização pontual."
+  },
+  {
+    "inspection_id": "INS_20260603_121400_055",
+    "timestamp": "2026-06-03T12:14:00Z",
+    "image_path": "data\\images\\img_0055.jpg",
+    "zone_id": "Z_N6",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "wrong_product",
+        "location": "prateleira inferior, lado esquerdo",
+        "severity": "medium",
+        "description": "Presença de um pacote de snacks (Chee-tos) numa prateleira dedicada a bebidas Coca-Cola.",
+        "confidence": 0.95,
+        "affected_area_pct": 5.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira superior, lado esquerdo",
+        "severity": "low",
+        "description": "Algumas garrafas de Diet Coke estão ligeiramente desalinhadas em relação à frente da prateleira.",
+        "confidence": 0.8,
+        "affected_area_pct": 10.0
+      }
+    ],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+      "Diet Coke",
+      "Coca-Cola",
+      "Coca-Cola Zero",
+      "Snacks (Chee-tos)"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho bem abastecidas com garrafas de 1.5L de Coca-Cola (várias variantes). Há um expositor vertical de plástico à esquerda. PASSO 2: Prateleira superior: maioritariamente Diet Coke, bem organizada. Prateleira inferior: mistura de Coca-Cola, Diet Coke e Coca-Cola Zero. Anomalia identificada: um pacote de snacks no meio das bebidas. PASSO 3: O pacote de snacks é um 'wrong_product' (severidade média, pois quebra a planograma). O desalinhamento na prateleira superior é menor. PASSO 4: O fill rate é elevado, estimado em 92%, dado que quase todo o espaço está ocupado por produto, com apenas pequenas lacunas ou desorganização."
+  },
+  {
+    "inspection_id": "INS_20260603_121403_056",
+    "timestamp": "2026-06-03T12:14:03Z",
+    "image_path": "data\\images\\img_0056.jpg",
+    "zone_id": "Z_N3",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado direito",
+        "severity": "medium",
+        "description": "Espaço vazio na extremidade direita da prateleira superior, onde deveriam estar produtos.",
+        "confidence": 0.95,
+        "affected_area_pct": 5.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira inferior, lado esquerdo",
+        "severity": "low",
+        "description": "Produto ligeiramente desalinhado em relação ao plano frontal da prateleira.",
+        "confidence": 0.85,
+        "affected_area_pct": 2.0
+      }
+    ],
+    "shelf_fill_rate": 0.93,
+    "products_detected": [
+      "L'Oreal Excellence",
+      "L'Oreal Preference",
+      "L'Oreal Couleur Experte",
+      "L'Oreal RevitalColor"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra quatro prateleiras de retalho contendo tintas para cabelo da marca L'Oreal. Os produtos estão organizados em filas verticais. PASSO 2: Prateleira superior: quase cheia, exceto por um pequeno espaço vazio à direita. Prateleira 2 e 3: bem organizadas e cheias. Prateleira inferior: cheia, com um pequeno desalinhamento no canto esquerdo. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior (severidade média, pois interrompe a continuidade) e um 'misaligned' na inferior (severidade baixa). PASSO 4: O fill rate é elevado, estimado em 0.93, considerando que a grande maioria das faces está ocupada e alinhada."
+  },
+  {
+    "inspection_id": "INS_20260603_121406_057",
+    "timestamp": "2026-06-03T12:14:06Z",
+    "image_path": "data\\images\\img_0057.jpg",
+    "zone_id": "Z_N1",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "misaligned",
+        "location": "prateleira do meio, lado direito",
+        "severity": "low",
+        "description": "Produtos da marca Dove e Impulse estão desalinhados e alguns inclinados, prejudicando a organização visual.",
+        "confidence": 0.9,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "empty_shelf",
+        "location": "prateleira inferior, lado esquerdo",
+        "severity": "medium",
+        "description": "Espaço vazio visível entre os produtos de cuidado pessoal, indicando falta de stock ou má organização.",
+        "confidence": 0.85,
+        "affected_area_pct": 10.0
+      }
+    ],
+    "shelf_fill_rate": 0.88,
+    "products_detected": [
+      "desodorizantes em spray",
+      "loções corporais",
+      "produtos de higiene pessoal"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de retalho contendo desodorizantes em spray e loções corporais. A organização é geralmente boa, mas há sinais de desarrumação. PASSO 2: Prateleira superior: bem organizada. Prateleira do meio: lado esquerdo organizado, lado direito (Dove/Impulse) apresenta desalinhamento. Prateleira inferior: lado esquerdo apresenta lacunas/espaços vazios. PASSO 3: Identifiquei desalinhamento na prateleira do meio (severidade baixa) e espaços vazios na prateleira inferior (severidade média). PASSO 4: O preenchimento é elevado, estimado em 88%, com pequenas áreas de rutura ou desorganização."
+  },
+  {
+    "inspection_id": "INS_20260603_121409_058",
+    "timestamp": "2026-06-03T12:14:09Z",
+    "image_path": "data\\images\\img_0058.jpg",
+    "zone_id": "Z_N7",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "misaligned",
+        "location": "prateleira superior, lado direito",
+        "severity": "low",
+        "description": "Uma embalagem de 'Cat Mince' está posicionada de forma irregular, sobressaindo ligeiramente da fila alinhada.",
+        "confidence": 0.9,
+        "affected_area_pct": 5.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "empty_shelf",
+        "location": "prateleira inferior, lado esquerdo",
+        "severity": "medium",
+        "description": "Espaço vazio visível na extremidade esquerda da prateleira inferior, onde deveriam estar produtos da marca V.I.P.",
+        "confidence": 0.95,
+        "affected_area_pct": 10.0
+      }
+    ],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+      "Cat Mince",
+      "V.I.P. Gourmet Cat",
+      "Fussy Cat"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado com comida para gato. A prateleira superior contém embalagens de 'Cat Mince'. A prateleira inferior contém embalagens de 'V.I.P. Gourmet Cat' e 'Fussy Cat'. PASSO 2: Prateleira superior: bem organizada, exceto por uma unidade desalinhada à direita. Prateleira inferior: organizada, mas com um espaço vazio (gap) no canto esquerdo. PASSO 3: Anomalia 1: Misaligned na prateleira superior, severidade baixa, confiança alta. Anomalia 2: Empty_shelf na prateleira inferior esquerda, severidade média, confiança alta. PASSO 4: O fill rate é elevado, estimado em 92%, considerando apenas uma pequena falha de stock na parte inferior e um ligeiro desalinhamento na superior."
+  },
+  {
+    "inspection_id": "INS_20260603_121412_059",
+    "timestamp": "2026-06-03T12:14:12Z",
+    "image_path": "data\\images\\img_0059.jpg",
+    "zone_id": "Z_N10",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "misaligned",
+        "location": "prateleira do meio, lado esquerdo",
+        "severity": "low",
+        "description": "Embalagens de Paracetamol da marca própria (Coles) estão desalinhadas e algumas viradas de lado.",
+        "confidence": 0.9,
+        "affected_area_pct": 10.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "empty_shelf",
+        "location": "prateleira inferior, centro",
+        "severity": "medium",
+        "description": "Espaço vazio visível na prateleira inferior, entre os produtos Advil e Panadol.",
+        "confidence": 0.95,
+        "affected_area_pct": 5.0
+      },
+      {
+        "issue_id": "ISS_003",
+        "type": "misaligned",
+        "location": "prateleira do meio, centro",
+        "severity": "low",
+        "description": "Caixas de Panadol empilhadas de forma irregular ou tombadas.",
+        "confidence": 0.85,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+      "Nurofen",
+      "Panadol",
+      "Coles Paracetamol",
+      "Advil",
+      "Aspro Clear",
+      "Herron"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de farmácia/supermercado com analgésicos. Existem 4 níveis visíveis. Produtos identificados: Nurofen, Panadol, Paracetamol marca própria (Coles), Advil, Aspro Clear. PASSO 2: Prateleira superior: organizada. Prateleira 2 (de cima): desorganização no lado esquerdo (produtos Coles virados/desalinhados) e centro (Panadol desalinhado). Prateleira 3: organizada, mas com algumas caixas de Panadol ligeiramente fora de esquadro. Prateleira inferior: espaço vazio notável no centro entre Advil e Panadol. PASSO 3: Identificadas anomalias de desalinhamento (nível 2) e um espaço vazio (nível 4). Severidade baixa a média. Confiança alta devido à clareza da imagem. PASSO 4: O preenchimento é elevado, com apenas pequenas lacunas e desorganização pontual, estimado em 92%."
+  },
+  {
+    "inspection_id": "INS_20260603_121415_060",
+    "timestamp": "2026-06-03T12:14:15Z",
+    "image_path": "data\\images\\img_0060.jpg",
+    "zone_id": "Z_N8",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado direito",
+        "severity": "medium",
+        "description": "Espaço vazio significativo na extremidade direita da prateleira superior.",
+        "confidence": 0.95,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira superior, lado esquerdo",
+        "severity": "low",
+        "description": "Tampa de frasco solta ou mal posicionada sobre um dos produtos.",
+        "confidence": 0.85,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.88,
+    "products_detected": [
+      "compotas",
+      "geleias",
+      "frascos de conservas de fruta"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com várias prateleiras contendo frascos de compotas/geleias de marcas como Rose's, Exotic e St. Dalfour. A organização é geralmente boa, com produtos alinhados por marca e tipo. PASSO 2: Prateleira superior: bem preenchida à esquerda, mas com um espaço vazio à direita. Há um objeto (tampa) fora de lugar no topo de um frasco à esquerda. Prateleira do meio: preenchimento consistente. Prateleira inferior: preenchimento consistente. PASSO 3: Anomalia 1: Espaço vazio (empty_shelf) na prateleira superior direita, severidade média. Anomalia 2: Objeto estranho/tampa (misaligned/other) na prateleira superior esquerda, severidade baixa. PASSO 4: O fill rate é alto, estimado em 0.88, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na parte superior direita."
+  },
+  {
+    "inspection_id": "INS_20260603_121418_061",
+    "timestamp": "2026-06-03T12:14:18Z",
+    "image_path": "data\\images\\img_0061.jpg",
+    "zone_id": "Z_S5",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+      "Champagne Pommery",
+      "Moët & Chandon",
+      "Veuve Clicquot",
+      "Deutz",
+      "Terra Burn",
+      "Grandin",
+      "Sparkling Wine"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um expositor de vinhos espumantes e champanhes. Os produtos estão organizados em filas, com etiquetas de preço visíveis abaixo de cada grupo. Há dispositivos de segurança (tags) nos gargalos das garrafas da prateleira superior. PASSO 2: Prateleira superior: cheia, organizada. Prateleira do meio: cheia, organizada, com uma pequena caixa de 'Pink' à direita. Prateleira inferior: cheia, organizada. Não foram detetadas falhas de stock significativas ou produtos fora do lugar. PASSO 3: Não existem anomalias detetadas. A organização é consistente e o stock está completo. PASSO 4: O fill rate é elevado, estimado em 0.95, considerando que quase todos os espaços de prateleira estão ocupados por garrafas, com apenas espaços marginais vazios ou ocupados por sinalética de segurança."
+  },
+  {
+    "inspection_id": "INS_20260603_121421_062",
+    "timestamp": "2026-06-03T12:14:21Z",
+    "image_path": "data\\images\\img_0062.jpg",
+    "zone_id": "Z_N9",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado direito",
+        "severity": "medium",
+        "description": "Espaço vazio significativo após a última garrafa de sumo de framboesa, antes da zona de peluches.",
+        "confidence": 0.9,
+        "affected_area_pct": 10.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira inferior, lado esquerdo",
+        "severity": "low",
+        "description": "Garrafas de sumo Extra Juicy desalinhadas e ligeiramente rodadas, não seguindo o padrão de faceamento frontal.",
+        "confidence": 0.85,
+        "affected_area_pct": 15.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "sumo de fruta (cordial)",
+      "peluches"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado contendo garrafas de 2L de sumo (marcas Extra Juicy e Farmland). Há também uma secção de peluches pendurados na extremidade direita. PASSO 2: Prateleira superior: bem preenchida à esquerda e centro, mas com um espaço vazio à direita antes dos peluches. Prateleira inferior: preenchida, mas com desorganização no alinhamento das garrafas à esquerda. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior (lado direito) devido ao espaço não utilizado e 'misaligned' na prateleira inferior (lado esquerdo) devido à orientação irregular das garrafas. A severidade é média para o espaço vazio e baixa para o desalinhamento. PASSO 4: O fill rate é estimado em 0.85, considerando o espaço ocupado pelas garrafas em relação à largura total disponível das prateleiras."
+  },
+  {
+    "inspection_id": "INS_20260603_121424_063",
+    "timestamp": "2026-06-03T12:14:24Z",
+    "image_path": "data\\images\\img_0063.jpg",
+    "zone_id": "Z_N6",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado esquerdo",
+        "severity": "medium",
+        "description": "Espaço vazio visível entre os produtos Moccona e Nescafé Noir.",
+        "confidence": 0.9,
+        "affected_area_pct": 5.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira inferior, centro",
+        "severity": "low",
+        "description": "Produtos Nescafé Espresso desalinhados e ligeiramente virados para fora da frente da prateleira.",
+        "confidence": 0.8,
+        "affected_area_pct": 10.0
+      }
+    ],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+      "Moccona Coffee",
+      "Nescafé Noir",
+      "Nescafé Gold",
+      "Nescafé Decaf",
+      "Nescafé Blend 43",
+      "Nescafé Espresso",
+      "Nescafé Mild Roast"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de café solúvel. Os produtos estão maioritariamente organizados por marca (Moccona, Nescafé Gold, Noir, Decaf, Blend 43, Espresso). PASSO 2: Prateleira superior: apresenta um pequeno espaço vazio entre Moccona e Noir. Prateleira do meio: bem organizada, preenchida. Prateleira inferior: produtos Nescafé Espresso estão ligeiramente desalinhados. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior (severidade média, confiança 0.9) e 'misaligned' na inferior (severidade baixa, confiança 0.8). PASSO 4: O fill rate é elevado, estimado em 0.92, dado que a maioria das prateleiras está cheia, com apenas pequenas lacunas."
+  },
+  {
+    "inspection_id": "INS_20260603_121427_064",
+    "timestamp": "2026-06-03T12:14:27Z",
+    "image_path": "data\\images\\img_0064.jpg",
+    "zone_id": "Z_N3",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado esquerdo",
+        "severity": "low",
+        "description": "Espaço vazio visível à esquerda das garrafas de Coca-Cola Zero.",
+        "confidence": 0.95,
+        "affected_area_pct": 10.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "empty_shelf",
+        "location": "prateleira inferior, lado esquerdo",
+        "severity": "medium",
+        "description": "Espaço vazio significativo entre as garrafas de Coca-Cola e a lateral esquerda.",
+        "confidence": 0.98,
+        "affected_area_pct": 25.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "Coca-Cola Zero",
+      "Coca-Cola Original"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado contendo garrafas de 1.5L de Coca-Cola (Original e Zero). Há etiquetas de preço de $1.99. À direita, há embalagens plásticas penduradas. PASSO 2: Prateleira superior: contém Coca-Cola Zero, com um espaço vazio à esquerda. Prateleira inferior: contém Coca-Cola Original, com um espaço vazio considerável à esquerda. PASSO 3: Identifiquei duas zonas de 'empty_shelf'. A da prateleira inferior é mais severa (maior área afetada). Confiança alta devido à clareza da imagem. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das posições está preenchida, mas há lacunas notáveis nas extremidades esquerdas de ambas as prateleiras."
+  },
+  {
+    "inspection_id": "INS_20260603_121430_065",
+    "timestamp": "2026-06-03T12:14:30Z",
+    "image_path": "data\\images\\img_0065.jpg",
+    "zone_id": "Z_N1",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira do meio, lado esquerdo",
+        "severity": "medium",
+        "description": "Espaço vazio significativo à esquerda das embalagens de Hollandia, sugerindo falta de stock ou organização inadequada.",
+        "confidence": 0.9,
+        "affected_area_pct": 20.0
+      }
+    ],
+    "shelf_fill_rate": 0.8,
+    "products_detected": [
+      "König Pilsener",
+      "Corona Extra",
+      "Hollandia Beer",
+      "Bavaria Beer",
+      "Crown Lager"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado com várias marcas de cerveja (König Pilsener, Corona, Hollandia, Bavaria, Crown Lager). Há embalagens de cartão e packs de garrafas. PASSO 2: Dividindo a prateleira: Superior (König, Corona), Meio (Hollandia à esquerda, Bavaria à direita), Inferior (Crown Lager). Anomalia identificada: Na prateleira do meio, lado esquerdo, existe um espaço vazio considerável ao lado das caixas de Hollandia, indicando uma falha de preenchimento ou desorganização. PASSO 3: Classificação da anomalia: empty_shelf, localização prateleira do meio lado esquerdo, severidade média, confiança 0.9, área afetada estimada em 20%. PASSO 4: O fill rate global é estimado em 0.8, considerando que a maioria das posições está ocupada, exceto pelo espaço vazio identificado na prateleira do meio."
+  },
+  {
+    "inspection_id": "INS_20260603_121433_066",
+    "timestamp": "2026-06-03T12:14:33Z",
+    "image_path": "data\\images\\img_0066.jpg",
+    "zone_id": "Z_N7",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira inferior, lado direito",
+        "severity": "medium",
+        "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar mais latas de leite de coco.",
+        "confidence": 0.95,
+        "affected_area_pct": 25.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira inferior, centro",
+        "severity": "low",
+        "description": "As latas de leite de coco estão desalinhadas e com espaçamento irregular entre elas.",
+        "confidence": 0.85,
+        "affected_area_pct": 15.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "Indomie Mi Goreng instant noodles",
+      "Coconut milk cans"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras. A superior contém pacotes de 5 unidades de Indomie Mi Goreng. A inferior contém latas de leite de coco. PASSO 2: Prateleira superior: bem abastecida, sem anomalias visíveis. Prateleira inferior: as latas estão presentes, mas há um espaço vazio considerável no lado direito e o alinhamento das latas no centro é irregular. PASSO 3: Identifiquei um 'empty_shelf' na parte inferior direita (severidade média, confiança 0.95) e 'misaligned' no centro da prateleira inferior (severidade baixa, confiança 0.85). PASSO 4: O fill rate é alto na prateleira superior (quase 1.0) e moderado na inferior (~0.7), resultando numa média global estimada de 0.85."
+  },
+  {
+    "inspection_id": "INS_20260603_121436_067",
+    "timestamp": "2026-06-03T12:14:36Z",
+    "image_path": "data\\images\\img_0067.jpg",
+    "zone_id": "Z_N10",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "wrong_product",
+        "location": "prateleira inferior, lado esquerdo",
+        "severity": "medium",
+        "description": "Presença de brinquedos (Kids'r Cool) pendurados na frente da prateleira de snacks, obstruindo a visualização e ocupando espaço de produto.",
+        "confidence": 0.95,
+        "affected_area_pct": 15.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "Doritos Dippas",
+      "Doritos Cheese Supreme",
+      "Doritos Sweet Chili",
+      "Brinquedos Kids'r Cool"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho contendo sacos de Doritos (vários sabores e tamanhos) e uma tira de brinquedos pendurada. PASSO 2: Prateleira superior: bem organizada com Doritos Dippas e Cheese Supreme. Prateleira inferior: contém Doritos Sweet Chili e Cheese Supreme, mas há uma tira de brinquedos 'Kids'r Cool' pendurada verticalmente sobre a prateleira, bloqueando parte dos produtos. PASSO 3: Identificada a anomalia de 'wrong_product' (ou 'other' - obstrução) devido aos brinquedos estarem na zona de snacks. Severidade média, pois não é um produto de prateleira, mas sim um item de cross-merchandising que ocupa espaço de faceamento. Confiança alta. PASSO 4: O fill rate é alto (cerca de 85%), pois as prateleiras estão quase cheias, com apenas uma pequena obstrução visual causada pelos brinquedos."
+  },
+  {
+    "inspection_id": "INS_20260603_121439_068",
+    "timestamp": "2026-06-03T12:14:39Z",
+    "image_path": "data\\images\\img_0068.jpg",
+    "zone_id": "Z_N8",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, centro-direita",
+        "severity": "medium",
+        "description": "Espaço vazio entre os produtos Palmolive e a secção de sabonetes Simple.",
+        "confidence": 0.95,
+        "affected_area_pct": 5.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "empty_shelf",
+        "location": "prateleira do meio, centro",
+        "severity": "medium",
+        "description": "Espaço vazio na prateleira onde deveriam estar produtos, entre os sabonetes verdes e os sabonetes Simple.",
+        "confidence": 0.95,
+        "affected_area_pct": 8.0
+      }
+    ],
+    "shelf_fill_rate": 0.88,
+    "products_detected": [
+      "gel de banho",
+      "sabonetes em barra",
+      "produtos de higiene pessoal"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com 4 níveis visíveis contendo produtos de higiene pessoal (gel de banho, sabonetes em barra). A organização é feita por categorias e marcas. PASSO 2: Prateleira superior: contém géis de banho Palmolive, com uma lacuna visível à direita. Prateleira do meio: contém sabonetes em barra (Simple, marcas próprias), com uma lacuna central. Prateleira inferior: contém sabonetes em barra (Gold, Palmolive, Pure). Prateleira base: contém sabonetes em barra (Country Life, Oatmeal). PASSO 3: Identifiquei duas zonas de 'empty_shelf' significativas. A primeira na prateleira superior (centro-direita) e a segunda na prateleira do meio (centro). Ambas são lacunas de stock que interrompem o alinhamento dos produtos. A severidade é média pois não compromete a totalidade da prateleira, mas afeta a disponibilidade. PASSO 4: O fill rate é estimado em 0.88, considerando que a maioria das prateleiras está bem abastecida, exceto pelas duas lacunas identificadas."
+  },
+  {
+    "inspection_id": "INS_20260603_121442_069",
+    "timestamp": "2026-06-03T12:14:42Z",
+    "image_path": "data\\images\\img_0069.jpg",
+    "zone_id": "Z_N9",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira do meio, lado direito",
+        "severity": "medium",
+        "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos Huggies, sugerindo rutura de stock.",
+        "confidence": 0.95,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira superior, lado direito",
+        "severity": "low",
+        "description": "Produtos Huggies ligeiramente desalinhados e com embalagens sobrepostas de forma desorganizada.",
+        "confidence": 0.85,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "chupetas",
+      "toalhitas Huggies",
+      "fraldas Huggies",
+      "acessórios de bebé"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma secção de corredor de bebé com prateleiras metálicas. À esquerda, temos acessórios pequenos (chupetas, mordedores) pendurados. À direita, temos embalagens de toalhitas e fraldas Huggies de vários tamanhos. Há uma sinalética vertical 'BABY ON BOARD' no centro.\nPASSO 2: \n- Superior: Bem abastecida, mas com alguma desorganização no lado direito.\n- Meio: Lado esquerdo com produtos, lado direito apresenta um espaço vazio considerável (falta de stock).\n- Inferior: Bem abastecida com embalagens de toalhitas e caixas de produtos.\nPASSO 3: \n- Anomalia 1: Espaço vazio na prateleira do meio (lado direito). Tipo: empty_shelf. Severidade: medium. Confiança: 0.95.\n- Anomalia 2: Desalinhamento na prateleira superior. Tipo: misaligned. Severidade: low. Confiança: 0.85.\nPASSO 4: O fill rate é elevado na maioria das secções, mas o vazio na prateleira do meio reduz a média global para cerca de 0.85."
+  },
+  {
+    "inspection_id": "INS_20260603_121445_070",
+    "timestamp": "2026-06-03T12:14:45Z",
+    "image_path": "data\\images\\img_0070.jpg",
+    "zone_id": "Z_N4",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+      "Red Rock Deli Potato Chips",
+      "Kettle Potato Chips"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de metal carregadas com sacos de batatas fritas (marcas Red Rock Deli e Kettle). Os produtos estão organizados em filas verticais, alinhados frontalmente. PASSO 2: Prateleira superior: contém Red Rock Deli (Lime & Black Pepper, Honey Soy Chicken) e Kettle (Crispy Bacon & Sour Cream). Prateleira inferior: contém Red Rock Deli (Sweet Chilli & Sour Cream, Sea Salt) e Kettle (Honey Baked Ham). Não há espaços vazios significativos ou produtos fora do lugar. PASSO 3: Não foram detetadas anomalias. Todos os produtos estão alinhados, com etiquetas de preço visíveis e integridade das embalagens aparente. PASSO 4: O fill rate é elevado, estimado em 0.95, pois quase todo o espaço disponível está preenchido com stock, com apenas pequenas folgas laterais naturais da disposição dos sacos."
+  },
+  {
+    "inspection_id": "INS_20260603_121448_071",
+    "timestamp": "2026-06-03T12:14:48Z",
+    "image_path": "data\\images\\img_0071.jpg",
+    "zone_id": "Z_N6",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira do meio, lado direito",
+        "severity": "medium",
+        "description": "Espaço vazio significativo na prateleira do meio, sugerindo falta de stock ou produto deslocado.",
+        "confidence": 0.9,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira inferior, centro",
+        "severity": "low",
+        "description": "Garrafas desalinhadas e com orientação inconsistente na prateleira inferior.",
+        "confidence": 0.85,
+        "affected_area_pct": 10.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "sumos Berri",
+      "bolas de ténis"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo garrafas de sumo da marca Berri. À esquerda, há uma rede de bolas de ténis pendurada. PASSO 2: Prateleira superior: bem abastecida, sem anomalias. Prateleira do meio: bem abastecida à esquerda e centro, mas com um espaço vazio notável à direita. Prateleira inferior: produtos presentes, mas com desorganização e desalinhamento no centro. PASSO 3: Identifiquei um 'empty_shelf' na prateleira do meio (lado direito) com severidade média e um 'misaligned' na prateleira inferior (centro) com severidade baixa. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na prateleira do meio."
+  },
+  {
+    "inspection_id": "INS_20260603_121451_072",
+    "timestamp": "2026-06-03T12:14:51Z",
+    "image_path": "data\\images\\img_0072.jpg",
+    "zone_id": "Z_N3",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado direito",
+        "severity": "medium",
+        "description": "Espaço vazio significativo na prateleira superior onde deveriam estar produtos.",
+        "confidence": 0.95,
+        "affected_area_pct": 30.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "empty_shelf",
+        "location": "prateleira inferior, centro",
+        "severity": "low",
+        "description": "Espaço vazio entre os produtos Ardoona e Peats Ridge.",
+        "confidence": 0.9,
+        "affected_area_pct": 15.0
+      }
+    ],
+    "shelf_fill_rate": 0.75,
+    "products_detected": [
+      "garrafas de água Neverfail",
+      "garrafas de água Ardoona",
+      "garrafas de água Peats Ridge",
+      "caixas de produtos diversos"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado contendo garrafas de água de diferentes marcas (Neverfail, Ardoona, Peats Ridge) e algumas caixas. PASSO 2: Prateleira superior: lado esquerdo ocupado por garrafas Neverfail, lado direito vazio. Prateleira inferior: lado esquerdo com garrafas Ardoona, centro com espaço vazio, lado direito com garrafas Peats Ridge e caixas. PASSO 3: Identificadas duas zonas de 'empty_shelf'. A da prateleira superior é mais notável (severidade média). A da prateleira inferior é menor (severidade baixa). PASSO 4: Estimativa de ocupação visual: cerca de 75% da área total das prateleiras está preenchida com produtos, considerando os espaços vazios identificados."
+  },
+  {
+    "inspection_id": "INS_20260603_121454_073",
+    "timestamp": "2026-06-03T12:14:54Z",
+    "image_path": "data\\images\\img_0073.jpg",
+    "zone_id": "Z_N1",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira do meio, centro",
+        "severity": "medium",
+        "description": "Espaço vazio visível na prateleira do meio, onde deveria estar um produto da marca Twinings.",
+        "confidence": 0.95,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+      "chocolates em pó",
+      "adoçantes (Equal)",
+      "chás (Twinings)",
+      "chás (Madura)"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado com três níveis visíveis. Contém produtos de chocolate em pó (esquerda), adoçantes em tiras verticais (centro-esquerda) e uma variedade de chás (Twinings e Madura) ocupando o restante do espaço. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: apresenta uma lacuna clara no centro, onde uma caixa de chá Twinings deveria estar. Prateleira inferior: bem abastecida. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira do meio, centro, com severidade média (afeta a continuidade do layout da marca). Confiança alta devido à visibilidade do fundo da prateleira. PASSO 4: O fill rate é elevado, com apenas uma pequena lacuna identificada, resultando numa estimativa de 0.92."
+  },
+  {
+    "inspection_id": "INS_20260603_121457_074",
+    "timestamp": "2026-06-03T12:14:57Z",
+    "image_path": "data\\images\\img_0074.jpg",
+    "zone_id": "Z_S3",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+      "Thai sauces",
+      "Lime juice",
+      "Vietnamese dipping sauces",
+      "Trident curry paste",
+      "Sesame oil",
+      "Mae Ploy curry paste"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado contendo molhos asiáticos, óleos e pastas de caril. A organização é linear, com produtos alinhados frontalmente. PASSO 2: Prateleira superior: contém molhos em garrafa e embalagens de pasta de caril Trident. Prateleira inferior: contém óleos de sésamo e embalagens de pasta de caril Mae Ploy. Não se observam espaços vazios significativos, produtos danificados ou etiquetas em falta. PASSO 3: Não foram identificadas anomalias. Todos os produtos estão alinhados e com as etiquetas de preço correspondentes visíveis abaixo de cada item. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase toda a extensão da prateleira está preenchida com stock, com apenas espaços mínimos entre unidades."
+  },
+  {
+    "inspection_id": "INS_20260603_121500_075",
+    "timestamp": "2026-06-03T12:15:00Z",
+    "image_path": "data\\images\\img_0075.jpg",
+    "zone_id": "Z_N7",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado esquerdo",
+        "severity": "medium",
+        "description": "Espaço vazio significativo na extremidade esquerda da prateleira superior, onde deveriam estar produtos.",
+        "confidence": 0.95,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira superior, centro",
+        "severity": "low",
+        "description": "As pilhas de caixas de ovos Pace Farm apresentam um desalinhamento ligeiro na vertical, sugerindo uma reposição apressada.",
+        "confidence": 0.8,
+        "affected_area_pct": 10.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "Pace Farm free range eggs",
+      "Coles free range eggs",
+      "The Fresh egg brand"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado contendo caixas de ovos de cartão. Na prateleira superior, vemos pilhas de 'Pace Farm free range eggs'. Na prateleira inferior, vemos 'Coles free range eggs' e outras marcas. PASSO 2: Prateleira superior: lado esquerdo vazio, centro e direita ocupados. Prateleira inferior: ocupação densa. Anomalias: vazio à esquerda na prateleira superior e desalinhamento nas pilhas centrais. PASSO 3: O vazio é classificado como 'empty_shelf' (severidade média, confiança alta). O desalinhamento é 'misaligned' (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio à esquerda e a ocupação total da prateleira inferior."
+  },
+  {
+    "inspection_id": "INS_20260603_121503_076",
+    "timestamp": "2026-06-03T12:15:03Z",
+    "image_path": "data\\images\\img_0076.jpg",
+    "zone_id": "Z_N10",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "other",
+        "location": "prateleira superior, centro",
+        "severity": "medium",
+        "description": "Cesto de compras vermelho colocado sobre a pilha de produtos, obstruindo o acesso e a visibilidade.",
+        "confidence": 0.95,
+        "affected_area_pct": 15.0
+      }
+    ],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+      "Coca-Cola",
+      "Sprite Zero",
+      "Lift Lemon"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma pilha de caixas de bebidas (packs de 24 latas) dispostas em formato de ilha ou prateleira de exposição. Os produtos identificados são Coca-Cola, Sprite Zero e Lift Lemon. Há um cesto de compras vermelho vazio colocado no topo da pilha central. PASSO 2: A estrutura é composta por 4 níveis de altura. A zona superior central está ocupada por um cesto de compras. As laterais e níveis inferiores estão bem preenchidos com produtos. PASSO 3: A anomalia principal é o cesto de compras (tipo 'other') que ocupa espaço de exposição e dificulta o acesso. A severidade é média pois não é um produto danificado, mas é um objeto estranho na área de venda. Confiança alta. PASSO 4: O fill rate é elevado, estimado em 0.92, considerando que a maioria do espaço está ocupado por packs de bebidas, com apenas uma pequena obstrução pelo cesto."
+  },
+  {
+    "inspection_id": "INS_20260603_121506_077",
+    "timestamp": "2026-06-03T12:15:06Z",
+    "image_path": "data\\images\\img_0077.jpg",
+    "zone_id": "Z_N8",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado direito",
+        "severity": "medium",
+        "description": "Espaço vazio significativo na prateleira superior, à direita das garrafas de espumante.",
+        "confidence": 0.95,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira do meio, lado esquerdo",
+        "severity": "low",
+        "description": "Produtos (sacos de ingredientes de cerveja) estão ligeiramente desorganizados e inclinados.",
+        "confidence": 0.85,
+        "affected_area_pct": 10.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "vinho rosé",
+      "espumante",
+      "ingredientes para cerveja (sacos)",
+      "latas de ginger beer",
+      "packs de cerveja",
+      "latas de cerveja"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com três níveis visíveis. Nível superior: vinhos rosé e espumantes. Nível médio: sacos de ingredientes, latas de ginger beer e packs de cerveja. Nível inferior: latas de cerveja. PASSO 2: Nível superior: lado esquerdo cheio, lado direito com espaço vazio. Nível médio: lado esquerdo com sacos desalinhados, centro e direita organizados. Nível inferior: bem preenchido. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira superior direita (severidade média, confiança alta) e 'misaligned' nos sacos da prateleira do meio (severidade baixa, confiança alta). PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira superior e a densidade geral dos outros níveis."
+  },
+  {
+    "inspection_id": "INS_20260603_121509_078",
+    "timestamp": "2026-06-03T12:15:09Z",
+    "image_path": "data\\images\\img_0078.jpg",
+    "zone_id": "Z_N9",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado esquerdo",
+        "severity": "medium",
+        "description": "Espaço vazio significativo onde deveriam estar garrafas de bebidas, sugerindo rutura de stock.",
+        "confidence": 0.95,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira do meio, lado direito",
+        "severity": "low",
+        "description": "Garrafas de bebida isotónica/sumo estão desalinhadas e inclinadas, possivelmente devido a manipulação incorreta.",
+        "confidence": 0.85,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+      "refrigerantes",
+      "chá gelado",
+      "água mineral",
+      "bebidas isotónicas"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma secção de corredor de supermercado com várias prateleiras de bebidas (refrigerantes, chás, águas). A organização é predominantemente por blocos de marca/tipo. PASSO 2: Prateleira superior: apresenta uma falha de stock à esquerda. Prateleira do meio: bem organizada, exceto por um pequeno desalinhamento à direita. Prateleira inferior: bem organizada e cheia. PASSO 3: Identifiquei um 'empty_shelf' na parte superior esquerda (severidade média) e um 'misaligned' na parte central direita (severidade baixa). PASSO 4: O fill rate é elevado, estimado em 92%, dado que a grande maioria das prateleiras está totalmente preenchida, com apenas pequenas lacunas pontuais."
+  },
+  {
+    "inspection_id": "INS_20260603_121512_079",
+    "timestamp": "2026-06-03T12:15:12Z",
+    "image_path": "data\\images\\img_0079.jpg",
+    "zone_id": "Z_N6",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "misaligned",
+        "location": "prateleira do meio, lado direito",
+        "severity": "low",
+        "description": "Uma garrafa de Coca-Cola está posicionada à frente das restantes, quebrando o alinhamento da fila.",
+        "confidence": 0.95,
+        "affected_area_pct": 5.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "empty_shelf",
+        "location": "prateleira do meio, lado direito",
+        "severity": "medium",
+        "description": "Espaço vazio visível na prateleira do meio, sugerindo falta de stock ou produto deslocado.",
+        "confidence": 0.85,
+        "affected_area_pct": 10.0
+      }
+    ],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+      "Diet Coke",
+      "Coca-Cola",
+      "Coca-Cola Zero"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado preenchidas com garrafas de 1.5L/2L de refrigerantes (Coca-Cola, Diet Coke, Coke Zero). Há também expositores verticais suspensos à esquerda. PASSO 2: Prateleira superior: bem organizada. Prateleira do meio: alinhamento geral bom, mas com uma garrafa de Coca-Cola avançada e um pequeno espaço vazio à direita. Prateleira inferior: bem organizada. PASSO 3: Identifiquei uma garrafa desalinhada na prateleira do meio (severidade baixa) e um pequeno espaço vazio (severidade média). PASSO 4: O preenchimento é elevado, estimado em 90% da área total visível das prateleiras."
+  },
+  {
+    "inspection_id": "INS_20260603_121515_080",
+    "timestamp": "2026-06-03T12:15:15Z",
+    "image_path": "data\\images\\img_0080.jpg",
+    "zone_id": "Z_N3",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado direito",
+        "severity": "medium",
+        "description": "Espaço vazio significativo na prateleira superior, onde se esperaria a continuação do stock de toalhetes.",
+        "confidence": 0.95,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira do meio, lado esquerdo",
+        "severity": "low",
+        "description": "Os produtos Huggies estão ligeiramente desorganizados e desalinhados em relação à frente da prateleira.",
+        "confidence": 0.85,
+        "affected_area_pct": 10.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "toalhetes húmidos",
+      "chupetas",
+      "acessórios para bebé",
+      "placas de sinalização baby on board"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de retalho com produtos de bebé (toalhetes Huggies, chupetas e acessórios). Existe uma sinalética vertical 'BABY ON BOARD' que divide a secção. PASSO 2: Dividindo a prateleira: Superior (contém toalhetes e espaço vazio à direita), Meio (contém toalhetes Huggies e embalagens de viagem), Inferior (contém toalhetes Huggies e stock adicional). Anomalias: Espaço vazio na prateleira superior direita (empty_shelf) e desalinhamento de produtos na prateleira do meio. PASSO 3: Classificação das anomalias: 1. Empty_shelf na prateleira superior direita, severidade média, confiança 0.95. 2. Misaligned na prateleira do meio, severidade baixa, confiança 0.85. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está bem abastecida, exceto pela lacuna na parte superior direita."
+  },
+  {
+    "inspection_id": "INS_20260603_121518_081",
+    "timestamp": "2026-06-03T12:15:18Z",
+    "image_path": "data\\images\\img_0081.jpg",
+    "zone_id": "Z_N1",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, centro",
+        "severity": "medium",
+        "description": "Espaço vazio visível entre os produtos Carefree.",
+        "confidence": 0.95,
+        "affected_area_pct": 5.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira inferior, centro-direita",
+        "severity": "low",
+        "description": "Produtos deitados e desorganizados na prateleira inferior.",
+        "confidence": 0.9,
+        "affected_area_pct": 10.0
+      },
+      {
+        "issue_id": "ISS_003",
+        "type": "empty_shelf",
+        "location": "prateleira inferior, centro-direita",
+        "severity": "medium",
+        "description": "Espaço vazio significativo na prateleira inferior, adjacente aos produtos desorganizados.",
+        "confidence": 0.9,
+        "affected_area_pct": 15.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "Poise",
+      "Carefree",
+      "U by Kotex",
+      "Higiene feminina"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de retalho com produtos de higiene feminina (Poise, Carefree, U by Kotex). A organização é geralmente boa, mas existem falhas de stock e desorganização pontual. PASSO 2: Prateleira superior: um espaço vazio no centro. Prateleira do meio: bem organizada. Prateleira inferior: desorganização de produtos no centro-direita e um espaço vazio adjacente. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior (severidade média), 'misaligned' na inferior (severidade baixa) e 'empty_shelf' na inferior (severidade média). PASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pelas lacunas identificadas."
+  },
+  {
+    "inspection_id": "INS_20260603_121521_082",
+    "timestamp": "2026-06-03T12:15:21Z",
+    "image_path": "data\\images\\img_0082.jpg",
+    "zone_id": "Z_N7",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "damaged",
+        "location": "prateleira do meio, lado esquerdo",
+        "severity": "medium",
+        "description": "Garrafa de bebida deitada/tombada sobre as outras, ocupando espaço de forma irregular.",
+        "confidence": 0.95,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "bebidas gaseificadas",
+      "sumos",
+      "água mineral"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de metal contendo garrafas de plástico de bebidas (sumos, refrigerantes e águas). A organização é geralmente por filas, mas há uma anomalia clara. PASSO 2: Prateleira superior: organizada. Prateleira do meio: existe uma garrafa deitada horizontalmente sobre as outras no lado esquerdo, interrompendo o alinhamento. Prateleira inferior: organizada. PASSO 3: Identificada uma garrafa tombada (damaged/misaligned) na prateleira do meio, lado esquerdo. Severidade média pois impede o acesso correto e compromete a estética. Confiança alta. PASSO 4: O fill rate é elevado, com a maioria das prateleiras cheias, exceto pelo espaço ocupado pela garrafa tombada e pequenos vãos, estimado em 0.85."
+  },
+  {
+    "inspection_id": "INS_20260603_121524_083",
+    "timestamp": "2026-06-03T12:15:24Z",
+    "image_path": "data\\images\\img_0083.jpg",
+    "zone_id": "Z_S1",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+      "sumos",
+      "cerveja de gengibre",
+      "bebidas gaseificadas Kirks (Pasito e Creaming Soda)",
+      "bebidas Fuze Tea"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado organizada com várias bebidas. Na prateleira superior, vemos garrafas de sumo e embalagens de Bundaberg. Na prateleira inferior, há caixas de 10 latas da marca Kirks (sabores Pasito e Creaming Soda) empilhadas de forma organizada, além de packs de Fuze Tea à direita. PASSO 2: A prateleira está bem preenchida. Não há espaços vazios significativos, os produtos estão alinhados e as etiquetas de preço parecem corresponder aos produtos. PASSO 3: Não foram detetadas anomalias. A organização é consistente, os produtos estão virados para a frente (facing) e não há sinais de danos ou falta de etiquetas. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todo o espaço disponível está ocupado por stock, com apenas pequenas folgas naturais entre embalagens."
+  },
+  {
+    "inspection_id": "INS_20260603_121527_084",
+    "timestamp": "2026-06-03T12:15:27Z",
+    "image_path": "data\\images\\img_0084.jpg",
+    "zone_id": "Z_N10",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira do meio, lado esquerdo",
+        "severity": "medium",
+        "description": "Espaço vazio visível entre as caixas de chá Tetley e Bushells, indicando falta de stock ou desorganização.",
+        "confidence": 0.9,
+        "affected_area_pct": 10.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira do meio, centro",
+        "severity": "low",
+        "description": "Caixa de chá Bushells posicionada à frente das outras, desalinhada com o plano frontal.",
+        "confidence": 0.85,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "chá (Lan-Choo, Tetley, Bushells, Nerada)",
+      "copos de vidro"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de supermercado com várias marcas de chá (Lan-Choo, Tetley, Bushells, Nerada) e uma secção de copos de vidro à direita. PASSO 2: Dividindo a prateleira: Superior (Lan-Choo), Meio (Tetley, Bushells), Inferior (Nerada, Bushells, copos). Anomalias: Na prateleira do meio, há um espaço vazio entre os produtos de chá e uma caixa de Bushells está desalinhada (projetada para fora). PASSO 3: Identifiquei um 'empty_shelf' (vazio parcial) na prateleira do meio com severidade média e um 'misaligned' (desalinhamento) na mesma prateleira com severidade baixa. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está bem abastecida, exceto pelos pequenos espaços vazios e desalinhamentos observados."
+  },
+  {
+    "inspection_id": "INS_20260603_121530_085",
+    "timestamp": "2026-06-03T12:15:30Z",
+    "image_path": "data\\images\\img_0085.jpg",
+    "zone_id": "Z_N8",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira inferior, lado esquerdo",
+        "severity": "medium",
+        "description": "Espaço vazio significativo na prateleira inferior esquerda, onde deveriam estar produtos similares aos brinquedos de bebé adjacentes.",
+        "confidence": 0.95,
+        "affected_area_pct": 20.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "brinquedos de bebé",
+      "lancheiras",
+      "garrafas de água",
+      "recipientes de plástico",
+      "copos de plástico"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de retalho com brinquedos de bebé (lado esquerdo) e artigos de cozinha/lanche (lado direito). PASSO 2: Dividindo a prateleira: Superior (lancheiras), Meio (brinquedos de bebé, garrafas), Inferior (brinquedos de bebé, recipientes). Identifico um vazio notável na prateleira inferior esquerda. PASSO 3: Anomalia: empty_shelf na prateleira inferior esquerda. Severidade média, pois interrompe a continuidade da exposição. Confiança alta. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está bem abastecida, exceto pela lacuna mencionada."
+  },
+  {
+    "inspection_id": "INS_20260603_121533_086",
+    "timestamp": "2026-06-03T12:15:33Z",
+    "image_path": "data\\images\\img_0086.jpg",
+    "zone_id": "Z_N9",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado esquerdo",
+        "severity": "medium",
+        "description": "Espaço vazio significativo à esquerda dos produtos Nyal/Infacol, indicando falta de stock ou organização deficiente.",
+        "confidence": 0.9,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira superior, centro",
+        "severity": "low",
+        "description": "Produtos (Bonjela/Bepanthen) ligeiramente desalinhados em relação à frente da prateleira.",
+        "confidence": 0.8,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "medicamentos infantis",
+      "cremes e pomadas",
+      "toalhitas e produtos de higiene",
+      "Huggies change mats"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de retalho (baby toiletries). Estão presentes produtos de saúde infantil (Nyal, Infacol, Bonjela, Bepanthen), toalhitas (Curash, Johnson's) e tapetes de muda (Huggies). PASSO 2: Prateleira superior: zona esquerda com espaço vazio, centro com produtos alinhados mas com alguma desordem. Prateleira média: bem preenchida com toalhitas e Huggies. Prateleira inferior: bem preenchida com toalhitas. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior esquerda (falta de produto ou recuo excessivo) e um ligeiro 'misaligned' no centro da prateleira superior. A severidade é baixa/média pois a maioria da prateleira está organizada. PASSO 4: O fill rate é elevado, estimado em 0.85, dado que a maioria das prateleiras está cheia, com apenas pequenas lacunas na parte superior esquerda."
+  },
+  {
+    "inspection_id": "INS_20260603_121536_087",
+    "timestamp": "2026-06-03T12:15:36Z",
+    "image_path": "data\\images\\img_0087.jpg",
+    "zone_id": "Z_N6",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, extremo direito",
+        "severity": "medium",
+        "description": "Espaço vazio significativo no final da prateleira superior.",
+        "confidence": 0.95,
+        "affected_area_pct": 10.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira inferior, centro",
+        "severity": "low",
+        "description": "Produtos da marca 'Petit Miam' estão desalinhados e com embalagens sobrepostas de forma desorganizada.",
+        "confidence": 0.85,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+      "iogurtes",
+      "sobremesas lácteas",
+      "pudins",
+      "mousses"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma secção de refrigeração de supermercado com 4 níveis de prateleiras contendo iogurtes, sobremesas e pudins. A organização é geralmente boa, com produtos alinhados em filas.\nPASSO 2: \n- Superior: Bem preenchida, exceto no extremo direito onde há um espaço vazio.\n- Meio-superior: Totalmente preenchida, organização consistente.\n- Meio-inferior: Produtos em copos individuais, bem organizados.\n- Inferior: Produtos em embalagens múltiplas, com algum desalinhamento no centro.\nPASSO 3: \n- Anomalia 1: Espaço vazio (empty_shelf) na prateleira superior direita. Severidade média, pois afeta a disponibilidade.\n- Anomalia 2: Desalinhamento (misaligned) na prateleira inferior central, onde as embalagens de 'Petit Miam' estão misturadas/desorganizadas. Severidade baixa.\nPASSO 4: O fill rate é elevado, estimado em 0.92, dado que a grande maioria do espaço está ocupada, com apenas pequenas lacunas."
+  },
+  {
+    "inspection_id": "INS_20260603_121539_088",
+    "timestamp": "2026-06-03T12:15:39Z",
+    "image_path": "data\\images\\img_0088.jpg",
+    "zone_id": "Z_N3",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "misaligned",
+        "location": "prateleira central, centro",
+        "severity": "low",
+        "description": "As garrafas de água mineral de ananás e manga estão desalinhadas, com algumas viradas para direções diferentes, dificultando a leitura dos rótulos.",
+        "confidence": 0.85,
+        "affected_area_pct": 20.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "wrong_product",
+        "location": "prateleira central, lado direito",
+        "severity": "medium",
+        "description": "Presença de garrafas de 'Deep Spring' (laranja e manga) misturadas na secção de águas minerais da marca própria (Coles), possivelmente fora do seu local de etiqueta correto.",
+        "confidence": 0.9,
+        "affected_area_pct": 15.0
+      }
+    ],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+      "Coles Pineapple Mango Mineral Water",
+      "Deep Spring Orange & Mango Mineral Water"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado com garrafas de 1.25L de água mineral. A maioria são da marca Coles (sabor ananás/manga), com algumas garrafas da marca Deep Spring (laranja/manga) à direita. PASSO 2: A prateleira está bem cheia. Região central: garrafas de Coles desalinhadas. Região direita: mistura de produtos (Deep Spring no espaço da Coles). PASSO 3: Identifiquei desalinhamento (misaligned) no centro e mistura de produtos (wrong_product) à direita. A severidade é baixa/média pois o stock está presente, mas a organização é subótima. PASSO 4: O fill rate é elevado, estimado em 0.95, pois quase não há espaços vazios visíveis."
+  },
+  {
+    "inspection_id": "INS_20260603_121542_089",
+    "timestamp": "2026-06-03T12:15:42Z",
+    "image_path": "data\\images\\img_0089.jpg",
+    "zone_id": "Z_S4",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+      "Kettle Sweet Chilli & Sour Cream",
+      "Kettle Original Salted",
+      "Kettle Teriyaki Chicken"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado contendo sacos de batatas fritas da marca Kettle. A prateleira superior contém sabores 'Sweet Chilli & Sour Cream' e 'Original Salted'. A prateleira inferior contém sabores 'Teriyaki Chicken' e 'Original Salted'. Os produtos estão alinhados e organizados dentro de cestos metálicos. PASSO 2: Prateleira superior: preenchida uniformemente. Prateleira inferior: preenchida uniformemente. Não há espaços vazios significativos, produtos trocados ou etiquetas em falta. PASSO 3: Não foram identificadas anomalias. Todos os produtos estão bem posicionados e as etiquetas de preço correspondem aos produtos visíveis. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que os cestos estão quase totalmente preenchidos com os produtos, havendo apenas um espaço residual mínimo nas extremidades."
+  },
+  {
+    "inspection_id": "INS_20260603_121545_090",
+    "timestamp": "2026-06-03T12:15:45Z",
+    "image_path": "data\\images\\img_0090.jpg",
+    "zone_id": "Z_N1",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, centro-direita",
+        "severity": "medium",
+        "description": "Vários ganchos de exposição estão vazios, indicando falta de stock de produtos específicos.",
+        "confidence": 0.95,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "empty_shelf",
+        "location": "prateleira inferior, centro",
+        "severity": "low",
+        "description": "Espaço vazio entre os produtos de pó compacto, sugerindo falta de uma unidade.",
+        "confidence": 0.85,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "base líquida",
+      "pó compacto",
+      "corretor",
+      "maquilhagem facial"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho de cosméticos (Maybelline) organizada em 3 níveis principais. Os produtos estão pendurados em ganchos (pegboard). Observam-se bases, pós e corretores. PASSO 2: Dividindo a prateleira: Superior (vários ganchos vazios no centro), Meio (bem preenchida, organização consistente), Inferior (maioritariamente preenchida, com uma falha pontual no centro). PASSO 3: Identifiquei anomalias de 'empty_shelf' na prateleira superior (vários ganchos sem produto) e uma pequena falha na prateleira inferior. Não há produtos danificados ou desalinhados significativos. A severidade é média devido à quantidade de ganchos vazios na parte superior. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria dos ganchos está ocupada, mas há lacunas visíveis na secção superior e uma pequena falha na inferior."
+  },
+  {
+    "inspection_id": "INS_20260603_121548_091",
+    "timestamp": "2026-06-03T12:15:48Z",
+    "image_path": "data\\images\\img_0091.jpg",
+    "zone_id": "Z_N7",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado esquerdo",
+        "severity": "medium",
+        "description": "Espaço vazio significativo na prateleira superior, onde deveriam estar produtos alinhados com as etiquetas de preço.",
+        "confidence": 0.95,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira do meio, lado esquerdo",
+        "severity": "low",
+        "description": "Produtos de ramen estão desorganizados e empilhados de forma irregular, dificultando a visualização e o acesso.",
+        "confidence": 0.85,
+        "affected_area_pct": 20.0
+      }
+    ],
+    "shelf_fill_rate": 0.82,
+    "products_detected": [
+      "instant noodles",
+      "sauces",
+      "canned fruit",
+      "tea",
+      "aloe vera drink"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado. A superior contém pacotes de noodles e molhos. A do meio contém pacotes de noodles (ramen) de várias marcas. A inferior contém latas de fruta, caixas de chá e garrafas de chá verde/aloe vera. PASSO 2: Prateleira superior: lado esquerdo com espaço vazio. Prateleira do meio: zona central com produtos desorganizados/empilhados. Prateleira inferior: bem organizada. PASSO 3: Identifiquei um 'empty_shelf' na parte superior esquerda (severidade média) e 'misaligned' na prateleira do meio (severidade baixa). PASSO 4: O fill rate é alto, mas com lacunas pontuais e desorganização, estimado em 0.82."
+  },
+  {
+    "inspection_id": "INS_20260603_121551_092",
+    "timestamp": "2026-06-03T12:15:51Z",
+    "image_path": "data\\images\\img_0092.jpg",
+    "zone_id": "Z_N10",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado esquerdo",
+        "severity": "low",
+        "description": "Espaço vazio significativo à esquerda dos livros, indicando falta de stock ou má organização.",
+        "confidence": 0.95,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "empty_shelf",
+        "location": "prateleira do meio, lado direito",
+        "severity": "medium",
+        "description": "Espaço vazio considerável no lado direito da prateleira do meio, onde deveriam estar mais livros.",
+        "confidence": 0.98,
+        "affected_area_pct": 20.0
+      }
+    ],
+    "shelf_fill_rate": 0.75,
+    "products_detected": [
+      "livros infantis",
+      "livros de capa dura",
+      "livros de atividades"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de uma estante de livraria infantil. A prateleira superior contém livros de capa fina e livros de cartão (board books). A prateleira do meio contém livros de capa dura. Há espaços vazios em ambas as prateleiras. PASSO 2: Prateleira superior: lado esquerdo vazio, centro/direita ocupados. Prateleira do meio: lado esquerdo/centro ocupados, lado direito vazio. PASSO 3: Identifiquei duas zonas de 'empty_shelf'. A da prateleira do meio é mais notável pois interrompe a continuidade da exposição. A severidade é classificada como média para o vazio da prateleira do meio e baixa para a superior. PASSO 4: Estimo que cerca de 75% da área total disponível nas prateleiras visíveis está ocupada por produtos, considerando os espaços vazios laterais."
+  },
+  {
+    "inspection_id": "INS_20260603_121554_093",
+    "timestamp": "2026-06-03T12:15:54Z",
+    "image_path": "data\\images\\img_0093.jpg",
+    "zone_id": "Z_N8",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado esquerdo",
+        "severity": "medium",
+        "description": "Espaço vazio significativo na prateleira superior, à esquerda, onde deveriam estar produtos.",
+        "confidence": 0.95,
+        "affected_area_pct": 15.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "VB Bitter",
+      "Tooheys New",
+      "Cold Filtered Beer",
+      "Boonanza Beer"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado com bebidas alcoólicas (cervejas). Na prateleira superior, vemos packs de VB Bitter e Tooheys New. Na prateleira inferior, vemos packs de Cold Filtered Beer e Boonanza Beer. PASSO 2: Dividindo a prateleira: Superior Esquerda (vazia/espaço não preenchido), Superior Direita (preenchida), Inferior Esquerda (preenchida com Boonanza), Inferior Direita (preenchida com Cold Filtered). Anomalia identificada: espaço vazio na prateleira superior esquerda. PASSO 3: A anomalia é um 'empty_shelf' na prateleira superior esquerda, severidade média, confiança alta (0.95), afetando cerca de 15% da área visível da prateleira superior. PASSO 4: O fill rate global é estimado em 0.85, considerando o espaço vazio na parte superior esquerda e a ocupação densa do restante da prateleira."
+  },
+  {
+    "inspection_id": "INS_20260603_121557_094",
+    "timestamp": "2026-06-03T12:15:57Z",
+    "image_path": "data\\images\\img_0094.jpg",
+    "zone_id": "Z_N9",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado direito",
+        "severity": "medium",
+        "description": "Espaço vazio significativo entre os produtos de banho e a secção de Palmolive à direita.",
+        "confidence": 0.95,
+        "affected_area_pct": 10.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira superior, centro",
+        "severity": "low",
+        "description": "Produtos Lynx e outros estão desalinhados, com alguns inclinados ou fora da fila frontal.",
+        "confidence": 0.85,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+      "gel de banho",
+      "champô",
+      "produtos de higiene corporal"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de retalho contendo produtos de higiene corporal (gel de banho/champô). As marcas visíveis incluem Palmolive, Lynx e outras. A organização é geralmente boa, mas há lacunas. PASSO 2: Prateleira superior: bem abastecida, exceto por um espaço vazio à direita. Prateleira do meio: bem abastecida, produtos alinhados. Prateleira inferior: bem abastecida. Anomalias: espaço vazio na prateleira superior e ligeiro desalinhamento de produtos na mesma prateleira. PASSO 3: Anomalia 1: empty_shelf, prateleira superior direita, severidade média, confiança 0.95, área afetada 10%. Anomalia 2: misaligned, prateleira superior, severidade baixa, confiança 0.85, área afetada 5%. PASSO 4: O fill rate é elevado, estimado em 0.92, dado que a maioria das prateleiras está cheia, com apenas uma pequena secção vazia na parte superior."
+  },
+  {
+    "inspection_id": "INS_20260603_121600_095",
+    "timestamp": "2026-06-03T12:16:00Z",
+    "image_path": "data\\images\\img_0095.jpg",
+    "zone_id": "Z_C1",
+    "overall_status": "critical",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "misaligned",
+        "location": "prateleira do meio, centro",
+        "severity": "high",
+        "description": "Uma garrafa de sumo está deitada horizontalmente, bloqueando o espaço e obstruindo a visibilidade dos produtos atrás.",
+        "confidence": 0.98,
+        "affected_area_pct": 15.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "sumos de fruta em garrafa",
+      "sumos de fruta em pacote"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado com sumos de fruta. A prateleira superior contém garrafas alinhadas. A prateleira do meio contém garrafas de 'Just Juice' e uma embalagem de 'Sun-Juice'. PASSO 2: Prateleira superior: organizada. Prateleira do meio: lado esquerdo ok, centro apresenta uma garrafa deitada (anomalia), lado direito ok. PASSO 3: Identificada uma garrafa deitada no centro da prateleira do meio. Classificação: misaligned. Severidade: high, pois impede o acesso e a correta exposição. Confiança: 0.98. PASSO 4: O fill rate é alto, mas a desorganização no centro reduz a eficiência do espaço. Estimativa de 0.85."
+  },
+  {
+    "inspection_id": "INS_20260603_121603_096",
+    "timestamp": "2026-06-03T12:16:03Z",
+    "image_path": "data\\images\\img_0096.jpg",
+    "zone_id": "Z_N6",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "misaligned",
+        "location": "prateleira superior, lado esquerdo",
+        "severity": "low",
+        "description": "Uma garrafa de Pepsi está deitada horizontalmente em vez de estar na vertical.",
+        "confidence": 0.95,
+        "affected_area_pct": 5.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "other",
+        "location": "centro da imagem, sobrepondo prateleiras",
+        "severity": "medium",
+        "description": "Produtos promocionais (garrafas de Coca-Cola com bolas de críquete) estão pendurados em frente às prateleiras, obstruindo a visão e o acesso aos produtos de fundo.",
+        "confidence": 0.98,
+        "affected_area_pct": 20.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "Pepsi",
+      "Coca-Cola",
+      "La Ice Cola",
+      "La Maxi Ice Cola"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra prateleiras de supermercado com refrigerantes (Pepsi, Coca-Cola, La Ice). Há uma obstrução central causada por produtos promocionais pendurados. PASSO 2: Prateleira superior: garrafa de Pepsi deitada (anomalia). Prateleira inferior: organização geral boa, mas com obstrução visual severa no centro. PASSO 3: A garrafa deitada é classificada como 'misaligned'. Os produtos pendurados são classificados como 'other' pois impedem o acesso e a visibilidade correta. A severidade é média devido à obstrução do fluxo de compras. PASSO 4: O fill rate é alto (cerca de 85%), pois as prateleiras estão bem abastecidas, apesar da desorganização pontual e obstrução."
+  },
+  {
+    "inspection_id": "INS_20260603_121606_097",
+    "timestamp": "2026-06-03T12:16:06Z",
+    "image_path": "data\\images\\img_0097.jpg",
+    "zone_id": "Z_N3",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado direito",
+        "severity": "medium",
+        "description": "Espaço vazio significativo à direita dos produtos Old El Paso, sugerindo falta de stock ou desorganização.",
+        "confidence": 0.9,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "empty_shelf",
+        "location": "prateleira inferior, lado esquerdo",
+        "severity": "low",
+        "description": "Espaço vazio à esquerda do produto Coles Soft Taco, indicando falta de stock.",
+        "confidence": 0.85,
+        "affected_area_pct": 10.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "Coles Taco Dinner Kit",
+      "Old El Paso Jumbo Taco Kit",
+      "Kan Tong Sauce",
+      "Coles Soft Taco Dinner Kit",
+      "Rositas Easy Fill Taco Dinner Kit",
+      "Old El Paso Tortillas"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras principais de um supermercado com produtos de comida mexicana (kits de tacos, molhos e tortilhas). A prateleira superior contém kits Old El Paso e um molho Kan Tong. A prateleira inferior contém kits Coles e Rositas. Há espaços vazios visíveis em ambas as prateleiras. PASSO 2: Prateleira superior: lado esquerdo ocupado, lado direito com espaço vazio após o molho. Prateleira inferior: lado esquerdo com espaço vazio, centro e direita ocupados por kits Rositas. PASSO 3: Identifiquei duas zonas de 'empty_shelf'. A da prateleira superior é mais notável devido à descontinuidade do alinhamento. A da prateleira inferior é menor. Severidade média para a superior e baixa para a inferior. PASSO 4: Ocupação visual estimada em cerca de 85% da área total disponível para exposição de produtos."
+  },
+  {
+    "inspection_id": "INS_20260603_121609_098",
+    "timestamp": "2026-06-03T12:16:09Z",
+    "image_path": "data\\images\\img_0098.jpg",
+    "zone_id": "Z_N1",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "misaligned",
+        "location": "prateleira superior, lado esquerdo",
+        "severity": "low",
+        "description": "Decoração de Natal (tiras brilhantes) está pendurada sobre a prateleira, obstruindo parcialmente a visão dos produtos.",
+        "confidence": 0.95,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira do meio, lado esquerdo",
+        "severity": "low",
+        "description": "Decoração de Natal (tiras brilhantes) continua pendurada sobre a prateleira, obstruindo parcialmente a visão dos produtos.",
+        "confidence": 0.95,
+        "affected_area_pct": 15.0
+      }
+    ],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+      "Cascade Premium Lager",
+      "Vodka Cruiser",
+      "James Boag's Premium",
+      "Cruiser Ice",
+      "Kronenbourg 1664",
+      "Strongbow Cider"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma estante de bebidas com três níveis visíveis. Os produtos estão organizados em caixas (packs). Há decorações de Natal (tiras vermelhas e prateadas) penduradas verticalmente no lado esquerdo, cobrindo parte das prateleiras superior e média. PASSO 2: Prateleira superior: Cascade Lager e Vodka Cruiser. Prateleira média: James Boag's e Cruiser Ice. Prateleira inferior: Kronenbourg 1664 e Strongbow. Anomalias: As decorações penduradas no lado esquerdo obstruem a visualização dos produtos. Não há prateleiras vazias ou produtos danificados visíveis. PASSO 3: As decorações são classificadas como 'misaligned' (ou obstrução externa), pois impedem o acesso/visualização total. Severidade baixa, pois os produtos estão presentes e organizados. Confiança alta. PASSO 4: O fill rate é elevado, com quase todos os espaços ocupados por caixas de produtos, estimado em 0.95."
+  },
+  {
+    "inspection_id": "INS_20260603_121612_099",
+    "timestamp": "2026-06-03T12:16:12Z",
+    "image_path": "data\\images\\img_0099.jpg",
+    "zone_id": "Z_N7",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira inferior, centro-direita",
+        "severity": "medium",
+        "description": "Espaço vazio significativo atrás das caixas de refrigerante, indicando falta de stock ou recuo excessivo dos produtos.",
+        "confidence": 0.9,
+        "affected_area_pct": 15.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "garrafas de refrigerante 1.5L",
+      "caixas de 12 latas Pepsi Max",
+      "caixas de 24 latas Coles Cola",
+      "caixas de 24 latas Coles Diet Cola"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras. A superior contém garrafas de 1.5L (Cola, LA Ice, Pepsi). A inferior contém caixas de cartão de refrigerantes (Pepsi Light, Pepsi Max, Coles Cola, Coles Diet Cola). PASSO 2: Prateleira superior está bem preenchida. Prateleira inferior apresenta uma zona vazia visível no centro-direita, atrás das caixas de Coles Cola. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira inferior, centro-direita, com severidade média devido ao espaço não utilizado. Confiança alta. PASSO 4: O fill rate é estimado em 0.85, considerando que a prateleira superior está cheia e a inferior tem uma lacuna de stock visível."
+  },
+  {
+    "inspection_id": "INS_20260603_121615_100",
+    "timestamp": "2026-06-03T12:16:15Z",
+    "image_path": "data\\images\\img_0100.jpg",
+    "zone_id": "Z_N10",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado esquerdo",
+        "severity": "low",
+        "description": "Espaço vazio entre os produtos Maybelline e Covergirl.",
+        "confidence": 0.9,
+        "affected_area_pct": 5.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira inferior, lado esquerdo",
+        "severity": "low",
+        "description": "Produtos desalinhados e inclinados na zona de cosméticos.",
+        "confidence": 0.85,
+        "affected_area_pct": 10.0
+      }
+    ],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+      "máscaras de pestanas",
+      "batons",
+      "gloss",
+      "sombras/pós compactos",
+      "delineadores"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho de cosméticos (maquilhagem) com 4 níveis. Os produtos são maioritariamente da marca Covergirl, com alguns Maybelline. Estão organizados em ganchos (pegboard). PASSO 2: Prateleira superior: quase cheia, exceto um pequeno espaço à esquerda. Prateleira 2: cheia e organizada. Prateleira 3: cheia, produtos bem alinhados. Prateleira inferior: produtos visíveis, mas com algum desalinhamento à esquerda. PASSO 3: Identifiquei um pequeno espaço vazio na prateleira superior (empty_shelf, severidade baixa) e um desalinhamento na prateleira inferior (misaligned, severidade baixa). PASSO 4: O fill rate é elevado, estimado em 92%, dado que a maioria dos ganchos está ocupada e a densidade de produto é alta."
+  },
+  {
+    "inspection_id": "INS_20260603_121618_101",
+    "timestamp": "2026-06-03T12:16:18Z",
+    "image_path": "data\\images\\img_0101.jpg",
+    "zone_id": "Z_N8",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira inferior, lado esquerdo",
+        "severity": "medium",
+        "description": "Espaço vazio significativo na prateleira inferior, onde faltam produtos em comparação com o resto da secção.",
+        "confidence": 0.95,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira superior, lado esquerdo",
+        "severity": "low",
+        "description": "Algumas latas estão ligeiramente desalinhadas ou com rótulos virados para fora da orientação frontal ideal.",
+        "confidence": 0.8,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "latas de fruta em calda",
+      "caixas de fruta em conserva",
+      "copos de fruta",
+      "frascos de fruta"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 5 níveis. Nível 1 (topo): latas de fruta (bagas, misturas). Nível 2: latas pequenas e caixas de fruta. Nível 3: caixas de fruta (pêssego, salada de fruta). Nível 4: copos de fruta. Nível 5 (base): frascos de fruta. PASSO 2: A prateleira está bem organizada no geral. Identifiquei uma zona vazia na prateleira inferior (lado esquerdo) e pequenos desalinhamentos nas latas do topo. PASSO 3: Anomalia 1: empty_shelf na prateleira inferior, severidade média, confiança alta. Anomalia 2: misaligned na prateleira superior, severidade baixa, confiança moderada. PASSO 4: O fill rate é elevado, estimado em 0.85, considerando a ocupação quase total da maioria das prateleiras, exceto pela falha pontual na base."
+  },
+  {
+    "inspection_id": "INS_20260603_121621_102",
+    "timestamp": "2026-06-03T12:16:21Z",
+    "image_path": "data\\images\\img_0102.jpg",
+    "zone_id": "Z_N9",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira do meio, lado direito",
+        "severity": "medium",
+        "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos, sugerindo rutura de stock.",
+        "confidence": 0.95,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira do meio, centro",
+        "severity": "low",
+        "description": "As embalagens de ovos 'natural grain' estão empilhadas de forma ligeiramente irregular, com desalinhamento vertical.",
+        "confidence": 0.85,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "ovos free range",
+      "ovos natural grain",
+      "ovos cage eggs"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo embalagens de ovos. A prateleira superior está cheia. A prateleira do meio contém produtos à esquerda e centro, mas apresenta um espaço vazio considerável à direita. A prateleira inferior está bem preenchida com embalagens de ovos 'cage eggs'. PASSO 2: Superior: cheia e organizada. Meio: esquerda (cheia), centro (empilhamento irregular/desalinhado), direita (vazia). Inferior: cheia e organizada. PASSO 3: Anomalia 1: empty_shelf na prateleira do meio, lado direito (severidade média, confiança 0.95). Anomalia 2: misaligned na prateleira do meio, centro (severidade baixa, confiança 0.85). PASSO 4: O fill rate é estimado em 0.85, considerando a área vazia na prateleira do meio e a ocupação total das outras prateleiras."
+  },
+  {
+    "inspection_id": "INS_20260603_121624_103",
+    "timestamp": "2026-06-03T12:16:24Z",
+    "image_path": "data\\images\\img_0103.jpg",
+    "zone_id": "Z_C2",
+    "overall_status": "critical",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "misaligned",
+        "location": "prateleira superior, lado direito",
+        "severity": "high",
+        "description": "Caixas de ovos empilhadas de forma instável e desalinhada, ocupando espaço de forma desorganizada.",
+        "confidence": 0.95,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "empty_shelf",
+        "location": "prateleira inferior, lado esquerdo",
+        "severity": "medium",
+        "description": "Espaço vazio significativo na prateleira inferior onde deveriam estar produtos.",
+        "confidence": 0.9,
+        "affected_area_pct": 20.0
+      },
+      {
+        "issue_id": "ISS_003",
+        "type": "empty_shelf",
+        "location": "prateleira inferior, lado direito",
+        "severity": "medium",
+        "description": "Espaço vazio na prateleira inferior, indicando falta de stock.",
+        "confidence": 0.9,
+        "affected_area_pct": 15.0
+      }
+    ],
+    "shelf_fill_rate": 0.65,
+    "products_detected": [
+      "ovos (caixas de 12 unidades)"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado com ovos em embalagens de cartão. Existem duas prateleiras visíveis. A superior contém ovos 'Pace Farm' à esquerda e caixas desalinhadas à direita. A inferior contém caixas 'Coles Smart Buy' com espaços vazios. PASSO 2: Prateleira superior: esquerda (organizada), direita (desalinhada/instável). Prateleira inferior: esquerda (vazia), centro (organizada), direita (vazia). PASSO 3: Identifiquei desalinhamento crítico na prateleira superior direita (risco de queda) e falta de stock (empty_shelf) em ambos os lados da prateleira inferior. PASSO 4: O fill rate é estimado em 0.65, considerando as áreas vazias e a ocupação irregular."
+  },
+  {
+    "inspection_id": "INS_20260603_121627_104",
+    "timestamp": "2026-06-03T12:16:27Z",
+    "image_path": "data\\images\\img_0104.jpg",
+    "zone_id": "Z_N6",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, centro",
+        "severity": "medium",
+        "description": "Espaço vazio significativo entre os sacos de batatas fritas na prateleira superior.",
+        "confidence": 0.95,
+        "affected_area_pct": 25.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira inferior, centro",
+        "severity": "low",
+        "description": "Sacos de Doritos encontram-se desorganizados e sobrepostos no centro da prateleira.",
+        "confidence": 0.85,
+        "affected_area_pct": 15.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "batatas fritas (chips)",
+      "molhos (salsa/dip)"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras. Superior: sacos de batatas fritas. Meio: frascos de molhos (Doritos e Old El Paso). Inferior: sacos de Doritos. PASSO 2: Prateleira superior: lacuna visível no centro. Prateleira do meio: bem organizada, sem anomalias graves. Prateleira inferior: sacos de Doritos desarrumados no centro. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira superior (severidade média) e 'misaligned' na inferior (severidade baixa). PASSO 4: O fill rate é alto, mas com lacunas pontuais, estimado em 0.85."
+  },
+  {
+    "inspection_id": "INS_20260603_121630_105",
+    "timestamp": "2026-06-03T12:16:30Z",
+    "image_path": "data\\images\\img_0105.jpg",
+    "zone_id": "Z_N3",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "misaligned",
+        "location": "prateleira superior, centro",
+        "severity": "medium",
+        "description": "Uma caixa de lenços está colocada de lado sobre as outras caixas, obstruindo a organização linear e o alinhamento do produto.",
+        "confidence": 0.95,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+      "Kleenex Aloe Vera",
+      "Kleenex Eucalyptus",
+      "Coles Persona Facial Tissues"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho. A prateleira superior contém caixas de lenços Kleenex (Aloe Vera e Eucalyptus). A prateleira inferior contém caixas de lenços da marca própria Coles Persona. PASSO 2: Prateleira superior: organizada, exceto por uma caixa mal posicionada no centro. Prateleira inferior: bem organizada, preenchida uniformemente. PASSO 3: Identificada uma anomalia de 'misaligned' na prateleira superior, onde uma caixa está deitada sobre as outras, quebrando o padrão de empilhamento. Severidade média por afetar a estética e a acessibilidade. Confiança alta. PASSO 4: O fill rate é elevado, com apenas um pequeno espaço vazio na prateleira superior esquerda e a desorganização central, resultando numa estimativa de 0.92."
+  },
+  {
+    "inspection_id": "INS_20260603_121633_106",
+    "timestamp": "2026-06-03T12:16:33Z",
+    "image_path": "data\\images\\img_0106.jpg",
+    "zone_id": "Z_N1",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira do meio, lado direito",
+        "severity": "medium",
+        "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos alinhados com as etiquetas de preço.",
+        "confidence": 0.95,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira do meio, centro",
+        "severity": "low",
+        "description": "Produtos empilhados de forma irregular ou desalinhada em relação ao padrão das outras colunas.",
+        "confidence": 0.85,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "ovos (embalagens de cartão)"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo embalagens de ovos. A organização é feita por colunas. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: lado esquerdo e centro ocupados, mas com desalinhamento no centro; lado direito apresenta um espaço vazio considerável (falta de stock). Prateleira inferior: bem abastecida, com colunas organizadas. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira do meio (lado direito) e uma zona de 'misaligned' no centro da mesma prateleira. A severidade é média devido ao espaço vazio. PASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na prateleira do meio."
+  },
+  {
+    "inspection_id": "INS_20260603_121636_107",
+    "timestamp": "2026-06-03T12:16:36Z",
+    "image_path": "data\\images\\img_0107.jpg",
+    "zone_id": "Z_S6",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+      "Chicken Snacks",
+      "Cheese Rings",
+      "Cheese Snacks",
+      "Twisties Cheese"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho preenchidas com sacos de snacks (batatas fritas/snacks de milho). Na prateleira superior, veem-se sacos de 'Chicken Snacks' e 'Cheese Rings'. Na prateleira inferior, veem-se 'Cheese Snacks' e 'Twisties Cheese'. PASSO 2: Prateleira superior: preenchimento completo, sem espaços vazios. Prateleira inferior: preenchimento completo, alinhamento consistente. Não foram detetadas anomalias significativas. PASSO 3: Não existem anomalias a reportar. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que as prateleiras estão quase totalmente ocupadas com produto, com apenas espaços marginais entre embalagens."
+  },
+  {
+    "inspection_id": "INS_20260603_121639_108",
+    "timestamp": "2026-06-03T12:16:39Z",
+    "image_path": "data\\images\\img_0108.jpg",
+    "zone_id": "Z_N7",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira inferior, lado direito",
+        "severity": "medium",
+        "description": "Espaço vazio na prateleira inferior, indicando falta de stock ou produto removido.",
+        "confidence": 0.95,
+        "affected_area_pct": 5.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira do meio, lado direito",
+        "severity": "low",
+        "description": "Etiqueta de preço desalinhada/pendurada de forma irregular.",
+        "confidence": 0.9,
+        "affected_area_pct": 2.0
+      }
+    ],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+      "margarina",
+      "manteiga",
+      "produtos de culinária",
+      "óleos vegetais"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado organizada com vários tipos de margarinas, manteigas e produtos de culinária (Fairy, Copha, Flora, Meadowlea). A organização é predominantemente em colunas verticais. PASSO 2: Dividindo a prateleira: Superior (cheia, organizada), Meio (cheia, com uma etiqueta de preço ligeiramente desalinhada), Inferior (maioritariamente cheia, mas com um espaço vazio visível no canto inferior direito). PASSO 3: Identificação de anomalias: 1) Espaço vazio na prateleira inferior direita (empty_shelf, severidade média, confiança alta). 2) Etiqueta de preço desalinhada na prateleira do meio (misaligned, severidade baixa, confiança alta). PASSO 4: O fill rate é elevado, estimado em 0.92, dado que a grande maioria das prateleiras está totalmente preenchida, com apenas uma pequena lacuna na parte inferior."
+  },
+  {
+    "inspection_id": "INS_20260603_121642_109",
+    "timestamp": "2026-06-03T12:16:42Z",
+    "image_path": "data\\images\\img_0109.jpg",
+    "zone_id": "Z_N10",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira inferior, centro",
+        "severity": "medium",
+        "description": "Espaço vazio visível na prateleira inferior, sugerindo falta de stock ou produto deslocado.",
+        "confidence": 0.9,
+        "affected_area_pct": 5.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira inferior, lado direito",
+        "severity": "low",
+        "description": "Produtos da marca Sharwood's apresentam desalinhamento e desorganização no alinhamento frontal.",
+        "confidence": 0.85,
+        "affected_area_pct": 8.0
+      }
+    ],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+      "Patak's curry sauces",
+      "Sharwood's stir-fry sauces"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo frascos de molhos de caril (Patak's e Sharwood's). A organização é predominantemente em filas alinhadas. PASSO 2: Prateleira superior: bem abastecida, sem anomalias. Prateleira do meio: bem abastecida, alinhamento correto. Prateleira inferior: apresenta um espaço vazio no centro e alguma desorganização/desalinhamento nos produtos à direita. PASSO 3: Identificada uma lacuna (empty_shelf) no centro da prateleira inferior (severidade média, confiança 0.9) e desalinhamento (misaligned) nos produtos da marca Sharwood's à direita (severidade baixa, confiança 0.85). PASSO 4: O fill rate é elevado, estimado em 0.92, dado que a grande maioria dos espaços está preenchida, com apenas pequenas lacunas na prateleira inferior."
+  },
+  {
+    "inspection_id": "INS_20260603_121645_110",
+    "timestamp": "2026-06-03T12:16:45Z",
+    "image_path": "data\\images\\img_0110.jpg",
+    "zone_id": "Z_N8",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado esquerdo",
+        "severity": "medium",
+        "description": "Espaço vazio significativo na prateleira superior, onde deveriam estar produtos de sumo.",
+        "confidence": 0.95,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira do meio, lado esquerdo",
+        "severity": "low",
+        "description": "Garrafas de Golden Circle Lime desalinhadas em relação ao padrão de faceamento.",
+        "confidence": 0.85,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.88,
+    "products_detected": [
+      "sumos",
+      "cordiais",
+      "bebidas de fruta"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras com garrafas de sumos e cordiais (marcas Golden Circle e Sunnyboy). A prateleira superior contém garrafas de Crush. A prateleira do meio contém Golden Circle Lime e Sunnyboy Loopy Lime. A prateleira inferior contém Golden Circle Pine Orange, Orange Mango e Sunnyboy Razz. PASSO 2: Prateleira superior: apresenta um espaço vazio à esquerda. Prateleira do meio: organização geral boa, mas com ligeiro desalinhamento nas garrafas de Lime. Prateleira inferior: bem preenchida. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira superior (severidade média) e 'misaligned' na prateleira do meio (severidade baixa). PASSO 4: O fill rate é estimado em 0.88, considerando o espaço vazio na prateleira superior e o preenchimento denso nas restantes."
+  },
+  {
+    "inspection_id": "INS_20260603_121648_111",
+    "timestamp": "2026-06-03T12:16:48Z",
+    "image_path": "data\\images\\img_0111.jpg",
+    "zone_id": "Z_N9",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, centro-esquerda",
+        "severity": "medium",
+        "description": "Espaço vazio entre os sumos de laranja e os sumos Golden Circle, indicando falta de stock ou desorganização.",
+        "confidence": 0.95,
+        "affected_area_pct": 10.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira inferior, lado direito",
+        "severity": "low",
+        "description": "Os pacotes de 'Just Juice' estão ligeiramente desalinhados e desorganizados na frente da prateleira.",
+        "confidence": 0.85,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.88,
+    "products_detected": [
+      "sumos de fruta",
+      "bebidas de fruta",
+      "Golden Circle",
+      "Just Juice",
+      "Berri"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de supermercado com sumos de fruta em embalagens de cartão. Estão organizados em duas prateleiras principais visíveis. Há uma variedade de marcas como Golden Circle, Just Juice e Berri. PASSO 2: Prateleira superior: bem preenchida, exceto por um pequeno espaço vazio no centro. Prateleira inferior: bem preenchida, com ligeira desorganização nos pacotes de Just Juice à direita. PASSO 3: Identifiquei um 'empty_shelf' (gap) na prateleira superior (severidade média, confiança alta) e um 'misaligned' na prateleira inferior (severidade baixa, confiança alta). PASSO 4: O fill rate é elevado, estimado em 0.88, dado que a maioria das faces da prateleira estão ocupadas, com apenas pequenas lacunas."
+  },
+  {
+    "inspection_id": "INS_20260603_121651_112",
+    "timestamp": "2026-06-03T12:16:51Z",
+    "image_path": "data\\images\\img_0112.jpg",
+    "zone_id": "Z_N6",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira do meio, lado direito",
+        "severity": "medium",
+        "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos alinhados com as etiquetas de preço.",
+        "confidence": 0.9,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira superior, lado direito",
+        "severity": "low",
+        "description": "Produto posicionado de forma irregular/inclinada na extremidade direita da prateleira superior.",
+        "confidence": 0.85,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "Roll-Ups",
+      "IXL Alphabet Bites",
+      "Fruit Bar Sours",
+      "Sunbeam Sultanas",
+      "Coles Fruit Bars",
+      "IXL Fruit Bars",
+      "Raspberry Jelly"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo snacks de fruta (Roll-Ups, IXL, Fruit Bars). A organização é geralmente boa, mas com algumas falhas de preenchimento. PASSO 2: Prateleira superior: bem preenchida, exceto por um item ligeiramente desalinhado à direita. Prateleira do meio: apresenta uma lacuna visível no lado direito, onde faltam produtos. Prateleira inferior: bem preenchida com produtos IXL e Coles. PASSO 3: Identifiquei um 'empty_shelf' na prateleira do meio (lado direito) com severidade média, pois interrompe a continuidade do stock. Identifiquei um 'misaligned' na prateleira superior (lado direito) com severidade baixa. PASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das prateleiras está cheia, com exceção da lacuna na prateleira do meio."
+  },
+  {
+    "inspection_id": "INS_20260603_121654_113",
+    "timestamp": "2026-06-03T12:16:54Z",
+    "image_path": "data\\images\\img_0113.jpg",
+    "zone_id": "Z_N3",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "misaligned",
+        "location": "prateleira do meio, centro",
+        "severity": "low",
+        "description": "Uma caixa de Kleenex está colocada transversalmente sobre as outras, quebrando o alinhamento do bloco de produtos.",
+        "confidence": 0.95,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+      "Sorbent Velvet",
+      "Sorbent Thick & Large",
+      "Kleenex"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de retalho contendo caixas de lenços de papel (Sorbent e Kleenex). A organização é geralmente em blocos, com produtos alinhados frontalmente. PASSO 2: Prateleira superior: bem organizada, sem anomalias. Prateleira do meio: apresenta um bloco de Kleenex, mas uma unidade está desalinhada, colocada de lado sobre as outras. Prateleira inferior: visível apenas parcialmente, parece organizada. PASSO 3: Identificada uma anomalia de desalinhamento na prateleira do meio (centro). Severidade baixa, pois o produto está presente e não danificado, apenas mal posicionado. Confiança alta. PASSO 4: O fill rate é elevado, com quase todos os espaços ocupados, estimado em 0.95."
+  },
+  {
+    "inspection_id": "INS_20260603_121657_114",
+    "timestamp": "2026-06-03T12:16:57Z",
+    "image_path": "data\\images\\img_0114.jpg",
+    "zone_id": "Z_C3",
+    "overall_status": "critical",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "misaligned",
+        "location": "prateleira superior, centro",
+        "severity": "high",
+        "description": "Várias garrafas de leite 'BIG M' estão deitadas horizontalmente em vez de estarem verticais, bloqueando a visão e ocupando espaço de forma desorganizada.",
+        "confidence": 0.98,
+        "affected_area_pct": 30.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira do meio, lado direito",
+        "severity": "medium",
+        "description": "Embalagens de iogurte Yoplait estão tombadas ou fora da sua posição vertical padrão, com algumas viradas de lado.",
+        "confidence": 0.95,
+        "affected_area_pct": 15.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "BIG M flavored milk",
+      "Yoplait yogurt cups",
+      "Orange juice"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras principais. A superior contém garrafas de leite 'BIG M' (algumas verticais, outras deitadas). A prateleira inferior contém iogurtes Yoplait organizados em colunas, com uma garrafa de sumo de laranja à esquerda. PASSO 2: Prateleira superior: desorganização severa no centro devido a garrafas deitadas. Prateleira inferior: organização geral boa, exceto por alguns iogurtes tombados à direita. PASSO 3: Identificadas duas anomalias de desalinhamento (misaligned). A da prateleira superior é crítica pois impede o acesso e visibilidade. A da inferior é de severidade média. PASSO 4: O fill rate é alto (cerca de 85%), pois as prateleiras estão quase cheias, mas a desorganização reduz a eficiência do espaço."
+  },
+  {
+    "inspection_id": "INS_20260603_121700_115",
+    "timestamp": "2026-06-03T12:17:00Z",
+    "image_path": "data\\images\\img_0115.jpg",
+    "zone_id": "Z_N1",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado esquerdo",
+        "severity": "medium",
+        "description": "Espaço vazio visível entre as embalagens de leite sem lactose e os produtos WheyLite.",
+        "confidence": 0.9,
+        "affected_area_pct": 5.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira inferior, lado direito",
+        "severity": "low",
+        "description": "Produtos So Good desalinhados e ligeiramente desorganizados na extremidade direita.",
+        "confidence": 0.85,
+        "affected_area_pct": 10.0
+      }
+    ],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+      "leite sem lactose",
+      "bebidas vegetais So Good",
+      "bebidas proteicas WheyLite",
+      "bebidas de chocolate",
+      "leite Parmalat"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra quatro níveis de prateleiras de supermercado contendo leites, bebidas vegetais (So Good) e suplementos/bebidas proteicas. A organização é predominantemente em blocos por marca e tipo. PASSO 2: Prateleira superior: contém leites e WheyLite, com uma pequena lacuna à esquerda. Prateleira 2: So Good e Parmalat, bem organizadas. Prateleira 3: So Good Bliss e Essential, bem preenchidas. Prateleira inferior: So Good, com ligeira desorganização à direita. PASSO 3: Identificada uma lacuna (empty_shelf) na prateleira superior (severidade média) e um desalinhamento (misaligned) na prateleira inferior (severidade baixa). PASSO 4: O preenchimento é elevado, estimado em 92%, com poucas áreas de rutura de stock."
+  },
+  {
+    "inspection_id": "INS_20260603_121703_116",
+    "timestamp": "2026-06-03T12:17:03Z",
+    "image_path": "data\\images\\img_0116.jpg",
+    "zone_id": "Z_S7",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.98,
+    "products_detected": [
+      "Burger Rings",
+      "Red Rock Deli Potato Chips",
+      "Twisties Chicken",
+      "Twisties Wicked Cheddar",
+      "Cheetos Cheese",
+      "Cheetos Cheese & Bacon"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um expositor de snacks. A prateleira superior contém sacos de Burger Rings e Red Rock Deli (Dijon Mustard & Honey). A prateleira do meio contém Twisties (Chicken e Wicked Cheddar) e um saco de Red Rock Deli (Lime & Black Pepper). A prateleira inferior contém Twisties, Cheetos e um saco de Red Rock Deli. Os produtos estão bem alinhados e preenchem quase toda a largura das prateleiras.\n\nPASSO 2: \n- Prateleira superior: Totalmente preenchida, sem espaços vazios.\n- Prateleira do meio: Totalmente preenchida, sem espaços vazios.\n- Prateleira inferior: Totalmente preenchida, sem espaços vazios.\nNão foram detetadas anomalias como produtos fora do lugar, etiquetas em falta ou prateleiras vazias.\n\nPASSO 3: Não existem anomalias a reportar. O estado geral é excelente.\n\nPASSO 4: O fill rate é estimado em 0.98, considerando que as prateleiras estão praticamente cheias, com apenas variações mínimas de alinhamento natural de embalagens flexíveis."
+  },
+  {
+    "inspection_id": "INS_20260603_121706_117",
+    "timestamp": "2026-06-03T12:17:06Z",
+    "image_path": "data\\images\\img_0117.jpg",
+    "zone_id": "Z_N7",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "misaligned",
+        "location": "prateleira superior, centro",
+        "severity": "medium",
+        "description": "Os sacos de batatas Kettle estão desorganizados, inclinados e sobrepostos, dificultando a visualização e o acesso.",
+        "confidence": 0.95,
+        "affected_area_pct": 25.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado direito",
+        "severity": "low",
+        "description": "Espaço vazio visível atrás dos produtos na parte superior direita.",
+        "confidence": 0.85,
+        "affected_area_pct": 15.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "Red Rock Deli Potato Chips",
+      "Kettle Chips"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho contendo sacos de batatas fritas (marcas Kettle e Red Rock Deli). A prateleira inferior está bem organizada com os produtos alinhados. A prateleira superior apresenta desorganização significativa no centro. PASSO 2: Prateleira superior: Esquerda (Red Rock Deli, ok), Centro (Kettle, desorganizado/misaligned), Direita (espaço vazio/empty_shelf). Prateleira inferior: Toda a extensão está bem organizada. PASSO 3: Anomalia 1: Misaligned no centro da prateleira superior. Os sacos estão tombados e misturados. Severidade média, confiança alta. Anomalia 2: Empty_shelf no lado direito da prateleira superior. Severidade baixa, confiança alta. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria do espaço está preenchido, exceto por uma pequena zona vazia e a desorganização que ocupa volume mas não é falta de stock."
+  },
+  {
+    "inspection_id": "INS_20260603_121709_118",
+    "timestamp": "2026-06-03T12:17:09Z",
+    "image_path": "data\\images\\img_0118.jpg",
+    "zone_id": "Z_N10",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado direito",
+        "severity": "medium",
+        "description": "Espaço vazio significativo na prateleira superior, à direita dos produtos 'Dripping'.",
+        "confidence": 0.95,
+        "affected_area_pct": 10.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira do meio, lado esquerdo",
+        "severity": "low",
+        "description": "Os produtos 'Flora' apresentam desalinhamento vertical e desorganização na frente da prateleira.",
+        "confidence": 0.85,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+      "margarina",
+      "banha/gordura culinária",
+      "spreads",
+      "produtos lácteos"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo produtos refrigerados (margarinas, spreads, banha). A organização é predominantemente em blocos. PASSO 2: Prateleira superior: blocos de margarina, Supafry, Frymasta e banha/dripping. Há um espaço vazio à direita. Prateleira do meio: blocos de Flora, spreads genéricos e Dairy Free. Ligeiro desalinhamento nos produtos Flora. Prateleira inferior: Flora, Eta 5 Star e outros spreads. Organização estável. PASSO 3: Identifiquei um espaço vazio na prateleira superior (empty_shelf, severidade média) e um desalinhamento na prateleira do meio (misaligned, severidade baixa). PASSO 4: O fill rate é alto, estimado em 0.9, dado que a maioria das prateleiras está cheia, com apenas uma lacuna notável na parte superior."
+  },
+  {
+    "inspection_id": "INS_20260603_121712_119",
+    "timestamp": "2026-06-03T12:17:12Z",
+    "image_path": "data\\images\\img_0119.jpg",
+    "zone_id": "Z_N8",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira inferior, lado esquerdo",
+        "severity": "medium",
+        "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos, sugerindo rutura de stock.",
+        "confidence": 0.95,
+        "affected_area_pct": 15.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "sumos de fruta em garrafa",
+      "sumos de fruta em pacote (cartão)"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado contendo sumos de fruta. A prateleira superior está totalmente preenchida com garrafas de sumo. A prateleira do meio está preenchida com garrafas e pacotes de cartão. A prateleira inferior contém garrafas e pacotes, mas apresenta um espaço vazio considerável no lado esquerdo. PASSO 2: Prateleira superior: ok. Prateleira do meio: ok. Prateleira inferior: zona esquerda com falta de stock (empty_shelf). PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira inferior, lado esquerdo. Severidade média, pois interrompe a continuidade da exposição. Confiança alta (0.95). PASSO 4: O fill rate é elevado na maioria das prateleiras, mas a lacuna na prateleira inferior reduz a média global para aproximadamente 0.85."
+  },
+  {
+    "inspection_id": "INS_20260603_121715_120",
+    "timestamp": "2026-06-03T12:17:15Z",
+    "image_path": "data\\images\\img_0120.jpg",
+    "zone_id": "Z_N9",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira do meio, lado esquerdo",
+        "severity": "medium",
+        "description": "Espaço vazio significativo na prateleira do meio, indicando falta de stock ou desorganização.",
+        "confidence": 0.95,
+        "affected_area_pct": 25.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira do meio, lado direito",
+        "severity": "low",
+        "description": "Produtos de saúde/farmácia empilhados de forma desordenada e instável.",
+        "confidence": 0.85,
+        "affected_area_pct": 15.0
+      }
+    ],
+    "shelf_fill_rate": 0.75,
+    "products_detected": [
+      "fraldas Huggies",
+      "toalhitas Johnson's Baby",
+      "produtos de higiene infantil",
+      "medicamentos/saúde"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras. Nível superior: caixas de fraldas Huggies bem alinhadas. Nível médio: zona mista com toalhitas à esquerda, espaço vazio no centro e produtos de farmácia/saúde à direita. Nível inferior: embalagens de toalhitas e produtos de cuidado infantil. PASSO 2: Prateleira superior (ok). Prateleira média (esquerda: toalhitas; centro: vazio; direita: produtos de farmácia desorganizados). Prateleira inferior (ok). PASSO 3: Identificada uma zona de 'empty_shelf' no centro da prateleira média (severidade média) e 'misaligned' nos produtos de farmácia à direita (severidade baixa). PASSO 4: O fill rate é estimado em 0.75, considerando o espaço vazio central e a densidade variável dos produtos."
+  },
+  {
+    "inspection_id": "INS_20260603_121718_121",
+    "timestamp": "2026-06-03T12:17:18Z",
+    "image_path": "data\\images\\img_0121.jpg",
+    "zone_id": "Z_N6",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "misaligned",
+        "location": "prateleira do meio, lado esquerdo",
+        "severity": "low",
+        "description": "Produtos de frutos secos estão desalinhados e empilhados de forma desorganizada, dificultando a visualização frontal.",
+        "confidence": 0.9,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "empty_shelf",
+        "location": "prateleira inferior, centro",
+        "severity": "medium",
+        "description": "Espaço vazio visível entre os produtos, indicando falta de stock ou necessidade de 'facing'.",
+        "confidence": 0.85,
+        "affected_area_pct": 10.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "nuts",
+      "peanuts",
+      "rice crackers",
+      "mixed nuts",
+      "beef jerky"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com três níveis visíveis, contendo principalmente snacks (frutos secos, amendoins, crackers). A organização é geralmente boa, mas com algumas irregularidades. PASSO 2: Prateleira superior: bem organizada. Prateleira do meio: lado esquerdo apresenta produtos desalinhados e sobrepostos. Prateleira inferior: apresenta espaços vazios no centro e uma organização menos densa. PASSO 3: Identifiquei desalinhamento na prateleira do meio (severidade baixa) e espaços vazios na prateleira inferior (severidade média). A confiança é alta devido à clareza da imagem. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das faces está preenchida, mas com lacunas pontuais e desorganização local."
+  },
+  {
+    "inspection_id": "INS_20260603_121721_122",
+    "timestamp": "2026-06-03T12:17:21Z",
+    "image_path": "data\\images\\img_0122.jpg",
+    "zone_id": "Z_N3",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado esquerdo",
+        "severity": "medium",
+        "description": "Espaço vazio visível à esquerda da prateleira superior, onde deveriam estar produtos da marca Le Snak.",
+        "confidence": 0.95,
+        "affected_area_pct": 10.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira inferior, centro",
+        "severity": "low",
+        "description": "Produtos (Happy Feet e Roll-Ups) encontram-se desorganizados e desalinhados em relação ao plano frontal da prateleira.",
+        "confidence": 0.85,
+        "affected_area_pct": 15.0
+      }
+    ],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+      "Le Snak",
+      "Nutri-Grain Bar",
+      "Milo",
+      "Uncle Tobys OTs",
+      "Uncle Tobys Roll-Ups",
+      "Snack Pack",
+      "Happy Feet"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 4 níveis de prateleiras contendo snacks, barras de cereais e produtos infantis. A organização é predominantemente por blocos de marca. PASSO 2: Prateleira superior: Espaço vazio à esquerda. Prateleira 2: Bem organizada. Prateleira 3: Bem organizada. Prateleira inferior: Desorganização no centro com produtos misturados e desalinhados. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior (severidade média, pois interrompe o bloco de produto) e 'misaligned' na prateleira inferior (severidade baixa, apenas estética). PASSO 4: O fill rate é elevado, estimado em 0.9, dado que a maioria das prateleiras está cheia, com apenas pequenas lacunas e desorganização pontual."
+  },
+  {
+    "inspection_id": "INS_20260603_121724_123",
+    "timestamp": "2026-06-03T12:17:24Z",
+    "image_path": "data\\images\\img_0123.jpg",
+    "zone_id": "Z_N1",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado esquerdo",
+        "severity": "medium",
+        "description": "Espaço vazio visível à esquerda da garrafa de sumo amarelo, indicando falta de stock ou produto removido.",
+        "confidence": 0.95,
+        "affected_area_pct": 5.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira inferior, lado esquerdo",
+        "severity": "low",
+        "description": "Garrafas de vidro escuro e sumo laranja estão ligeiramente desalinhadas em relação ao padrão de faceamento frontal.",
+        "confidence": 0.85,
+        "affected_area_pct": 10.0
+      }
+    ],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+      "sumos de fruta",
+      "bebidas de fruta",
+      "cordiais"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado preenchidas com garrafas de sumos e bebidas de fruta. A organização é predominantemente por faceamento frontal. PASSO 2: Prateleira superior: lado esquerdo apresenta um espaço vazio parcial. Centro e direita estão bem preenchidos. Prateleira inferior: bem preenchida, mas com ligeiro desalinhamento nas garrafas da esquerda. PASSO 3: Anomalia 1: empty_shelf na prateleira superior esquerda, severidade média, confiança alta. Anomalia 2: misaligned na prateleira inferior esquerda, severidade baixa, confiança alta. PASSO 4: O fill rate é elevado, estimado em 0.92, considerando apenas uma pequena lacuna na prateleira superior e o preenchimento denso no restante."
+  },
+  {
+    "inspection_id": "INS_20260603_121727_124",
+    "timestamp": "2026-06-03T12:17:27Z",
+    "image_path": "data\\images\\img_0124.jpg",
+    "zone_id": "Z_N7",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "misaligned",
+        "location": "prateleira superior, lado esquerdo",
+        "severity": "low",
+        "description": "Produtos (molhos) estão ligeiramente desalinhados em relação à frente da prateleira, criando uma aparência desorganizada.",
+        "confidence": 0.85,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "empty_shelf",
+        "location": "prateleira superior, extremo esquerdo",
+        "severity": "medium",
+        "description": "Espaço vazio visível onde deveriam estar produtos, sugerindo rutura de stock ou falta de reposição.",
+        "confidence": 0.9,
+        "affected_area_pct": 10.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "molhos de pimenta",
+      "molhos de soja",
+      "molhos tailandeses",
+      "molhos sriracha"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado repletas de molhos (chili sauce, soy sauce, sriracha). A organização é predominantemente por marca e tipo. PASSO 2: Prateleira superior: lado esquerdo apresenta um pequeno espaço vazio e alguns produtos desalinhados. Centro e direita estão bem preenchidos. Prateleira inferior: bem organizada, com produtos alinhados frontalmente. PASSO 3: Identifiquei uma zona de 'empty_shelf' no canto superior esquerdo (severidade média) e 'misaligned' na mesma prateleira (severidade baixa). A confiança é alta devido à clareza da imagem. PASSO 4: O fill rate é elevado, estimado em 0.85, considerando que a maioria das prateleiras está cheia, com apenas pequenas lacunas no topo esquerdo."
+  },
+  {
+    "inspection_id": "INS_20260603_121730_125",
+    "timestamp": "2026-06-03T12:17:30Z",
+    "image_path": "data\\images\\img_0125.jpg",
+    "zone_id": "Z_N10",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "misaligned",
+        "location": "prateleira do meio, lado direito",
+        "severity": "low",
+        "description": "As caixas de açúcar de palma (Palm Sugar) estão ligeiramente desalinhadas e inclinadas para fora da prateleira.",
+        "confidence": 0.85,
+        "affected_area_pct": 5.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira inferior, lado esquerdo",
+        "severity": "low",
+        "description": "Latas de cogumelos e outros produtos estão com rótulos virados para direções diferentes, prejudicando a uniformidade visual.",
+        "confidence": 0.75,
+        "affected_area_pct": 10.0
+      }
+    ],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+      "molhos asiáticos",
+      "latas de vegetais",
+      "pastas de caril",
+      "açúcar de palma",
+      "cogumelos em lata",
+      "arroz"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com três níveis principais. Contém latas de conservas (molhos, vegetais, cogumelos), caixas de açúcar de palma e sacos de arroz. A organização é densa. PASSO 2: Prateleira superior: bem organizada, sem falhas. Prateleira do meio: as caixas de açúcar de palma à direita estão desalinhadas. Prateleira inferior: os produtos estão presentes, mas há uma falta de alinhamento nos rótulos das latas à esquerda. PASSO 3: Identifiquei desalinhamento nas caixas de açúcar (severidade baixa, confiança 0.85) e desalinhamento de rótulos nas latas inferiores (severidade baixa, confiança 0.75). Não há prateleiras vazias significativas. PASSO 4: O preenchimento é muito alto, com quase todos os espaços ocupados, estimando um fill rate de 0.92."
+  },
+  {
+    "inspection_id": "INS_20260603_121733_126",
+    "timestamp": "2026-06-03T12:17:33Z",
+    "image_path": "data\\images\\img_0126.jpg",
+    "zone_id": "Z_N8",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado esquerdo",
+        "severity": "medium",
+        "description": "Espaço vazio significativo na prateleira superior, onde deveriam estar produtos.",
+        "confidence": 0.95,
+        "affected_area_pct": 25.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira superior, lado direito",
+        "severity": "low",
+        "description": "Produtos (Roti Wraps) estão ligeiramente desorganizados e empilhados de forma irregular.",
+        "confidence": 0.8,
+        "affected_area_pct": 10.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "Naan bread",
+      "Roti wraps",
+      "Patak's curry sauces",
+      "Sharwood's stir-fry sauces"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A superior contém pães indianos (Naan e Roti Wraps). A inferior contém frascos de molhos (Patak's e Sharwood's). PASSO 2: Prateleira superior: lado esquerdo apresenta uma zona vazia (anomalia), lado direito tem produtos empilhados. Prateleira inferior: bem organizada, sem anomalias visíveis. PASSO 3: Anomalia 1: empty_shelf na prateleira superior esquerda, severidade média, confiança alta. Anomalia 2: misaligned na prateleira superior direita, severidade baixa, confiança moderada. PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira superior e a ocupação total da prateleira inferior."
+  },
+  {
+    "inspection_id": "INS_20260603_121736_127",
+    "timestamp": "2026-06-03T12:17:36Z",
+    "image_path": "data\\images\\img_0127.jpg",
+    "zone_id": "Z_N9",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira do meio, lado esquerdo",
+        "severity": "medium",
+        "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos de queijo.",
+        "confidence": 0.95,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira superior, lado esquerdo",
+        "severity": "low",
+        "description": "Produtos de queijo (Feta) ligeiramente desalinhados e desorganizados na frente da prateleira.",
+        "confidence": 0.85,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "Feta cheese",
+      "Cheese spread",
+      "Gouda cheese",
+      "Jarlsberg cheese",
+      "Saganak cheese",
+      "Edam cheese",
+      "Swiss cheese"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma secção de refrigeração de supermercado com 4 prateleiras visíveis contendo diversos tipos de queijo (Feta, spreads, Gouda, Edam, etc.). PASSO 2: Prateleira superior: bem abastecida, mas com alguma desorganização nos produtos Feta à esquerda. Prateleira 2 (segunda de cima): contém Arla e Buko, bem organizada. Prateleira 3 (terceira de cima): apresenta um espaço vazio notável no lado esquerdo, indicando falta de stock ou produto removido. Prateleira inferior: bem abastecida com queijos em bloco. PASSO 3: Identifiquei um 'empty_shelf' na prateleira 3 (severidade média) e 'misaligned' na prateleira superior (severidade baixa). PASSO 4: O fill rate é alto na maioria das prateleiras, exceto pela lacuna na terceira prateleira, resultando numa estimativa global de 0.85."
+  },
+  {
+    "inspection_id": "INS_20260603_121739_128",
+    "timestamp": "2026-06-03T12:17:39Z",
+    "image_path": "data\\images\\img_0128.jpg",
+    "zone_id": "Z_S2",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+      "Cruiser Black",
+      "Smirnoff Ice",
+      "Bundaberg Rum",
+      "Vodka Cruiser",
+      "Bacardi Breezer",
+      "Smirnoff Twist"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de bebidas alcoólicas (RTDs - Ready to Drink). A prateleira superior contém packs de Smirnoff Ice e Bundaberg Rum, além de garrafas individuais de Cruiser Black e Smirnoff Ice. A prateleira inferior contém packs de Vodka Cruiser, Bacardi Breezer e Smirnoff Twist. PASSO 2: Prateleira superior: bem organizada, sem espaços vazios significativos. Prateleira inferior: bem organizada, com alinhamento frontal consistente. Não foram detetadas anomalias críticas como produtos danificados ou prateleiras vazias. PASSO 3: Não existem anomalias a reportar. O alinhamento está correto e todas as etiquetas de preço parecem corresponder aos produtos. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todo o espaço disponível está ocupado por stock, com apenas pequenos espaços entre embalagens que são normais para a exposição de produtos."
+  },
+  {
+    "inspection_id": "INS_20260603_121742_129",
+    "timestamp": "2026-06-03T12:17:42Z",
+    "image_path": "data\\images\\img_0129.jpg",
+    "zone_id": "Z_N6",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "misaligned",
+        "location": "prateleira do meio, lado esquerdo",
+        "severity": "low",
+        "description": "Latas de 'Water Chestnut' e 'Bamboo Shoot' estão desalinhadas e ligeiramente inclinadas, não seguindo o padrão de faceamento frontal.",
+        "confidence": 0.85,
+        "affected_area_pct": 10.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira inferior, centro",
+        "severity": "low",
+        "description": "Algumas latas de 'Tom Kha' e 'Tom Yum' estão desalinhadas, com rótulos virados para direções diferentes.",
+        "confidence": 0.8,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+      "leite de coco",
+      "latas de vegetais (bamboo shoot, water chestnut)",
+      "molhos (satay, pad thai)",
+      "pastas de caril (tom yum, tom kha, nasi goreng)"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado contendo produtos asiáticos em latas e frascos de vidro. A organização é densa, com produtos bem agrupados por categoria. PASSO 2: Prateleira superior: leite de coco, bem organizada. Prateleira do meio: latas de vegetais e molhos, nota-se algum desalinhamento nas latas à esquerda. Prateleira inferior: pastas e molhos, organização geral boa, mas com algumas latas desalinhadas no centro. PASSO 3: Identifiquei desalinhamentos (misaligned) na prateleira do meio e inferior. Não há prateleiras vazias (empty_shelf) nem produtos claramente fora de lugar (wrong_product). A severidade é baixa pois não compromete a disponibilidade ou a leitura dos preços. PASSO 4: O fill rate é elevado, estimado em 0.95, pois quase todo o espaço disponível está ocupado por produtos, com apenas pequenos espaços vazios entre itens."
+  },
+  {
+    "inspection_id": "INS_20260603_121745_130",
+    "timestamp": "2026-06-03T12:17:45Z",
+    "image_path": "data\\images\\img_0130.jpg",
+    "zone_id": "Z_N3",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "misaligned",
+        "location": "prateleira inferior, lado esquerdo",
+        "severity": "medium",
+        "description": "Produtos em embalagens flexíveis (Pappadams) estão desorganizados e empilhados de forma instável, ocupando o espaço de forma desordenada.",
+        "confidence": 0.9,
+        "affected_area_pct": 25.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "empty_shelf",
+        "location": "prateleira superior, centro",
+        "severity": "low",
+        "description": "Espaço vazio entre as caixas de Pappadam, sugerindo falta de stock ou produto deslocado.",
+        "confidence": 0.85,
+        "affected_area_pct": 10.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "Pappadams",
+      "Dipping Breads",
+      "Patak's Pappadums",
+      "Sharwood's Puppodums"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de metal com produtos alimentares (Pappadams e pães para molhos). A prateleira superior contém caixas de cartão alinhadas. A prateleira inferior contém uma mistura de embalagens flexíveis empilhadas de forma desordenada à esquerda e caixas de cartão à direita. PASSO 2: Prateleira superior: organização aceitável, mas com um pequeno espaço vazio no centro. Prateleira inferior: zona esquerda apresenta desorganização severa com produtos empilhados sem alinhamento. PASSO 3: Identifiquei uma anomalia de desalinhamento/desorganização na prateleira inferior esquerda (severidade média) e um pequeno espaço vazio na prateleira superior (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria do espaço está preenchido, apesar da desorganização na parte inferior esquerda."
+  },
+  {
+    "inspection_id": "INS_20260603_121748_131",
+    "timestamp": "2026-06-03T12:17:48Z",
+    "image_path": "data\\images\\img_0131.jpg",
+    "zone_id": "Z_N2",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+      "Asia at Home meal kits",
+      "Thai Gourmet curry kits",
+      "Crown biscuits/cookies",
+      "Crown Pie"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A prateleira superior contém kits de refeição da marca 'Asia at Home' e outros produtos asiáticos. A prateleira inferior contém kits de caril 'Thai Gourmet', caixas de biscoitos 'Crown' e 'Crown Pie'. PASSO 2: Prateleira superior: totalmente preenchida, sem lacunas. Prateleira inferior: preenchida de forma consistente, com alinhamento adequado dos produtos. Não há produtos danificados visíveis ou etiquetas em falta. PASSO 3: Não foram identificadas anomalias significativas. O alinhamento está dentro dos padrões aceitáveis de retalho. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todo o espaço linear está ocupado por produtos, com apenas espaços mínimos entre unidades."
+  },
+  {
+    "inspection_id": "INS_20260603_121751_132",
+    "timestamp": "2026-06-03T12:17:51Z",
+    "image_path": "data\\images\\img_0132.jpg",
+    "zone_id": "Z_N1",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado esquerdo",
+        "severity": "low",
+        "description": "Espaço vazio visível entre os produtos de algas e os itens centrais.",
+        "confidence": 0.9,
+        "affected_area_pct": 10.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira do meio, lado esquerdo",
+        "severity": "low",
+        "description": "O pacote de nori está ligeiramente inclinado e desalinhado com a frente da prateleira.",
+        "confidence": 0.85,
+        "affected_area_pct": 5.0
+      },
+      {
+        "issue_id": "ISS_003",
+        "type": "empty_shelf",
+        "location": "prateleira inferior, lado direito",
+        "severity": "medium",
+        "description": "Espaço vazio significativo na secção de massas/noodles à direita.",
+        "confidence": 0.95,
+        "affected_area_pct": 20.0
+      }
+    ],
+    "shelf_fill_rate": 0.82,
+    "products_detected": [
+      "algas nori",
+      "arroz japonês",
+      "mistura para tempura",
+      "noodles (somen, udon, soba)",
+      "molhos"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado com produtos asiáticos. A prateleira superior contém molhos e embalagens pequenas. A prateleira do meio contém nori, arroz e misturas para tempura. A prateleira inferior contém vários tipos de noodles embalados. PASSO 2: Prateleira superior: organização aceitável, mas com lacunas. Prateleira do meio: produtos bem agrupados, mas com desalinhamento no nori. Prateleira inferior: zona central bem preenchida, mas com um vazio considerável à direita. PASSO 3: Identificadas anomalias de preenchimento (empty_shelf) e alinhamento (misaligned). A severidade é baixa a média, pois não há rutura total de stock, apenas desorganização e espaços vazios. PASSO 4: O fill rate é estimado em 0.82, considerando que a maioria das secções está preenchida, mas com espaços vazios notáveis na prateleira inferior e superior."
+  },
+  {
+    "inspection_id": "INS_20260603_121754_133",
+    "timestamp": "2026-06-03T12:17:54Z",
+    "image_path": "data\\images\\img_0133.jpg",
+    "zone_id": "Z_N7",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "misaligned",
+        "location": "prateleira do meio, centro",
+        "severity": "medium",
+        "description": "Os pacotes de bolachas estão empilhados de forma desorganizada e inclinada, dificultando a visualização e o acesso.",
+        "confidence": 0.95,
+        "affected_area_pct": 20.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira superior, centro",
+        "severity": "low",
+        "description": "Produtos empilhados de forma irregular, com algumas embalagens a sobressair da prateleira.",
+        "confidence": 0.85,
+        "affected_area_pct": 10.0
+      }
+    ],
+    "shelf_fill_rate": 0.9,
+    "products_detected": [
+      "bolachas",
+      "biscoitos",
+      "tartes de fruta"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 4 níveis visíveis, contendo predominantemente embalagens de bolachas e biscoitos. Há uma rede de ténis à esquerda que não faz parte da prateleira. PASSO 2: Prateleira superior: bem organizada. Prateleira 2 (contando de cima): desorganização no centro com produtos inclinados. Prateleira 3: desorganização significativa no centro, com produtos empilhados de forma caótica. Prateleira inferior: organizada. PASSO 3: Identifiquei desalinhamento (misaligned) nas prateleiras 2 e 3. A severidade é média devido ao risco de queda e má apresentação. Confiança alta baseada na desordem visual das embalagens. PASSO 4: O fill rate é elevado (cerca de 90%), pois as prateleiras estão quase totalmente preenchidas, apesar da desorganização."
+  },
+  {
+    "inspection_id": "INS_20260603_121757_134",
+    "timestamp": "2026-06-03T12:17:57Z",
+    "image_path": "data\\images\\img_0134.jpg",
+    "zone_id": "Z_N10",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, centro",
+        "severity": "medium",
+        "description": "Espaço vazio significativo entre as garrafas de Rosemount Estate e Henschke, indicando falta de stock ou produto deslocado.",
+        "confidence": 0.95,
+        "affected_area_pct": 15.0
+      }
+    ],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+      "vinho branco",
+      "vinho verde"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado contendo garrafas de vinho. A organização é predominantemente por filas verticais. PASSO 2: Prateleira superior: apresenta uma lacuna clara no centro. Prateleira do meio: bem preenchida, alinhada. Prateleira inferior: bem preenchida. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira superior, centro, onde faltam cerca de 3-4 garrafas. Severidade média, pois afeta a estética e a disponibilidade. Confiança alta. PASSO 4: O fill rate é elevado, estimado em 0.92, considerando que apenas uma pequena secção da prateleira superior está vazia."
+  },
+  {
+    "inspection_id": "INS_20260603_121800_135",
+    "timestamp": "2026-06-03T12:18:00Z",
+    "image_path": "data\\images\\img_0135.jpg",
+    "zone_id": "Z_N8",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira do meio, lado esquerdo",
+        "severity": "medium",
+        "description": "Espaço vazio visível atrás da primeira fila de pacotes de batatas fritas, indicando falta de profundidade ou stock insuficiente.",
+        "confidence": 0.85,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira inferior, centro",
+        "severity": "low",
+        "description": "Os pacotes de batatas fritas estão desorganizados e inclinados, não seguindo o alinhamento vertical dos restantes produtos.",
+        "confidence": 0.9,
+        "affected_area_pct": 10.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "Kettle Chips",
+      "Jacks Potato Chips",
+      "Thins Potato Chips"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo pacotes de batatas fritas (Kettle, Jacks, Thins). A organização é geralmente boa, mas com algumas falhas de preenchimento e alinhamento. PASSO 2: Prateleira superior: bem preenchida. Prateleira do meio: apresenta um espaço vazio atrás da primeira fila de produtos à esquerda. Prateleira inferior: os produtos estão um pouco desarrumados no centro. PASSO 3: Identifiquei um 'empty_shelf' parcial na prateleira do meio (severidade média, pois o produto da frente ainda existe, mas a profundidade está comprometida) e um 'misaligned' na prateleira inferior (severidade baixa, apenas estética). PASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das faces está preenchida, mas há lacunas de profundidade e desorganização pontual."
+  },
+  {
+    "inspection_id": "INS_20260603_121803_136",
+    "timestamp": "2026-06-03T12:18:03Z",
+    "image_path": "data\\images\\img_0136.jpg",
+    "zone_id": "Z_N9",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "misaligned",
+        "location": "prateleira do meio, centro",
+        "severity": "medium",
+        "description": "Embalagens de produtos (Bellamy's) estão tombadas e desorganizadas, obstruindo a visualização de outros itens.",
+        "confidence": 0.95,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "other",
+        "location": "prateleira superior, lado direito",
+        "severity": "low",
+        "description": "Estoque de reserva (Farex) empilhado de forma desordenada sobre a prateleira, fora do alinhamento padrão.",
+        "confidence": 0.9,
+        "affected_area_pct": 10.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "cereais infantis",
+      "papinhas de bebé",
+      "snacks orgânicos infantis"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de comida para bebé. A prateleira superior contém caixas de cereais Farex e Heinz alinhadas, com stock extra empilhado à direita. A prateleira do meio contém caixas e sacos de snacks orgânicos (Bellamy's) e caixas Heinz. A prateleira inferior contém frascos de papinhas. PASSO 2: Superior: organização aceitável, mas com stock extra desarrumado. Meio: zona central apresenta desorganização severa com produtos tombados. Inferior: organização correta. PASSO 3: Identificada desorganização (misaligned) na prateleira do meio (severidade média) e stock extra desarrumado na superior (severidade baixa). PASSO 4: O preenchimento é alto, com poucas falhas de stock, estimado em 85%."
+  },
+  {
+    "inspection_id": "INS_20260603_121806_137",
+    "timestamp": "2026-06-03T12:18:06Z",
+    "image_path": "data\\images\\img_0137.jpg",
+    "zone_id": "Z_N6",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "terceira prateleira a contar de cima, lado direito",
+        "severity": "medium",
+        "description": "Espaço vazio significativo onde deveriam estar produtos da marca Dorato ou similar.",
+        "confidence": 0.95,
+        "affected_area_pct": 10.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "segunda prateleira a contar de cima, lado esquerdo",
+        "severity": "low",
+        "description": "Produto Ubaldi ligeiramente desalinhado em relação à frente da prateleira.",
+        "confidence": 0.85,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+      "Latina Fresh tubs",
+      "Latina Fresh pasta packs",
+      "Ubaldi pasta",
+      "San Remo fresh pasta",
+      "Dorato pasta"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado com 4 níveis principais. O nível superior contém embalagens de molhos/sopas (Latina). Os níveis 2, 3 e 4 contêm massas frescas (Latina, Ubaldi, San Remo, Dorato). PASSO 2: Nível 1 (topo): bem abastecido. Nível 2: bem abastecido, com um pequeno desalinhamento no produto Ubaldi. Nível 3: existe uma lacuna visível no lado direito (zona da marca Dorato). Nível 4: bem abastecido. PASSO 3: Identificada uma falha de stock (empty_shelf) na terceira prateleira (lado direito) e um desalinhamento menor na segunda prateleira. Severidade média para o vazio, baixa para o desalinhamento. PASSO 4: O fill rate é elevado, estimado em 0.92, considerando que a maioria das faces está preenchida, exceto pela lacuna identificada."
+  },
+  {
+    "inspection_id": "INS_20260603_121809_138",
+    "timestamp": "2026-06-03T12:18:09Z",
+    "image_path": "data\\images\\img_0138.jpg",
+    "zone_id": "Z_S5",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.98,
+    "products_detected": [
+      "vinho tinto",
+      "vinho branco"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um supermercado dedicadas a vinhos. As garrafas estão organizadas em filas, com etiquetas de preço correspondentes acima de cada grupo de produtos. PASSO 2: Prateleira superior: bem abastecida, sem falhas. Prateleira do meio: bem abastecida, alinhamento consistente. Prateleira inferior: bem abastecida, sem espaços vazios significativos. PASSO 3: Não foram identificadas anomalias como produtos fora do lugar, prateleiras vazias ou etiquetas em falta. O alinhamento está correto e não há danos visíveis nas embalagens. PASSO 4: O fill rate é muito elevado, com quase todas as posições ocupadas, estimado em 0.98."
+  },
+  {
+    "inspection_id": "INS_20260603_121812_139",
+    "timestamp": "2026-06-03T12:18:12Z",
+    "image_path": "data\\images\\img_0139.jpg",
+    "zone_id": "Z_N3",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "misaligned",
+        "location": "prateleira inferior, lado direito",
+        "severity": "medium",
+        "description": "As caixas de Crown Lager estão desalinhadas e projetadas para fora da borda da prateleira, criando um risco de queda.",
+        "confidence": 0.95,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira inferior, centro",
+        "severity": "low",
+        "description": "As caixas de Tooheys Extra Dry estão ligeiramente desalinhadas em relação à face da prateleira.",
+        "confidence": 0.85,
+        "affected_area_pct": 10.0
+      }
+    ],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+      "XXXX Gold",
+      "Carlton Dry",
+      "Hahn Premium",
+      "Tooheys Extra Dry",
+      "Pure Blonde",
+      "Crown Lager"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um expositor de bebidas alcoólicas. A prateleira superior contém packs de 6 garrafas (XXXX Gold, Carlton Dry, Hahn). A prateleira inferior contém caixas de cartão de 24 unidades (XXXX Gold, Tooheys Extra Dry, Pure Blonde, Crown Lager). PASSO 2: Prateleira superior: organização estável e alinhada. Prateleira inferior: zona esquerda (XXXX Gold) está organizada. Zona central (Tooheys) apresenta ligeiro desalinhamento. Zona direita (Crown Lager) apresenta desalinhamento significativo, com as caixas projetadas para fora da prateleira. PASSO 3: Anomalia 1: Crown Lager (inferior direita), desalinhada/instável, severidade média, confiança 0.95. Anomalia 2: Tooheys (inferior centro), desalinhada, severidade baixa, confiança 0.85. PASSO 4: O preenchimento é quase total, com apenas pequenos espaços vazios entre produtos, resultando num fill rate de 0.95."
+  },
+  {
+    "inspection_id": "INS_20260603_121815_140",
+    "timestamp": "2026-06-03T12:18:15Z",
+    "image_path": "data\\images\\img_0140.jpg",
+    "zone_id": "Z_N1",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira do meio, lado esquerdo",
+        "severity": "high",
+        "description": "A secção de prateleira metálica está completamente vazia, sem produtos expostos.",
+        "confidence": 0.95,
+        "affected_area_pct": 30.0
+      }
+    ],
+    "shelf_fill_rate": 0.7,
+    "products_detected": [
+      "copos de vidro",
+      "snacks para animais",
+      "garrafas de água mineral com sabor (frutos vermelhos)",
+      "garrafas de água mineral com sabor (laranja)",
+      "pratos de jantar"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho dividida em duas secções verticais. À esquerda, temos copos, snacks para animais e pratos. À direita, temos garrafas de bebidas (água mineral com sabor). PASSO 2: A prateleira do meio, lado esquerdo, apresenta uma grelha metálica vazia. As outras zonas estão preenchidas com produtos. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira do meio, lado esquerdo. A severidade é alta pois o espaço está totalmente desocupado. Confiança de 0.95. PASSO 4: Considerando a área total da prateleira, cerca de 30% da área de exposição está vazia, resultando num fill rate de 0.7."
+  },
+  {
+    "inspection_id": "INS_20260603_121818_141",
+    "timestamp": "2026-06-03T12:18:18Z",
+    "image_path": "data\\images\\img_0141.jpg",
+    "zone_id": "Z_N7",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, centro",
+        "severity": "medium",
+        "description": "Espaço vazio entre os produtos de babadores, indicando falta de stock ou desorganização.",
+        "confidence": 0.9,
+        "affected_area_pct": 15.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira inferior, lado esquerdo",
+        "severity": "low",
+        "description": "Embalagem de produto (possivelmente um babador) caída ou mal posicionada sobre a prateleira.",
+        "confidence": 0.85,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.85,
+    "products_detected": [
+      "baby bibs",
+      "infant singlets",
+      "baby shoes"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho com artigos de bebé (babadores, camisolas interiores e calçado). A organização é feita por ganchos e prateleiras. PASSO 2: Dividindo a prateleira: Superior (esquerda: babador grande; centro: espaço vazio/vários babadores; direita: babadores Looney Tunes). Inferior (esquerda: babadores 7-pack; centro: singlets; direita: calçado). Anomalias: Espaço vazio notável na prateleira superior central e um item caído/desalinhado na prateleira inferior esquerda. PASSO 3: 1. Empty_shelf na prateleira superior central (severidade média, confiança 0.9). 2. Misaligned na prateleira inferior esquerda (severidade baixa, confiança 0.85). PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria dos ganchos e espaços de prateleira estão ocupados, exceto pela lacuna central superior."
+  },
+  {
+    "inspection_id": "INS_20260603_121821_142",
+    "timestamp": "2026-06-03T12:18:21Z",
+    "image_path": "data\\images\\img_0142.jpg",
+    "zone_id": "Z_E1",
+    "overall_status": "critical",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "damaged",
+        "location": "prateleira superior, centro",
+        "severity": "high",
+        "description": "Garrafas de bebida 'BIG' caídas e desorganizadas, com sinal de derrame de líquido na prateleira.",
+        "confidence": 0.98,
+        "affected_area_pct": 25.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "damaged",
+        "location": "prateleira do meio, centro",
+        "severity": "high",
+        "description": "Embalagens de iogurte Yoplait abertas/danificadas com conteúdo exposto e derrame de produto sobre a prateleira.",
+        "confidence": 0.99,
+        "affected_area_pct": 15.0
+      }
+    ],
+    "shelf_fill_rate": 0.75,
+    "products_detected": [
+      "bebidas lácteas BIG",
+      "iogurtes Yoplait",
+      "sumo de laranja",
+      "leite Australian Fresh"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras. A superior contém garrafas de bebida 'BIG'. A do meio contém iogurtes 'Yoplait' e um frasco de sumo à esquerda. A inferior contém pacotes de leite. PASSO 2: Prateleira superior: desorganização severa e garrafas caídas no centro. Prateleira do meio: iogurtes abertos e danificados no centro, com resíduos de produto escorrendo. Prateleira inferior: aparentemente organizada. PASSO 3: Identificadas duas anomalias críticas de dano/derramamento. A severidade é alta devido ao risco de contaminação e má apresentação. PASSO 4: O fill rate é afetado pela desorganização e produtos danificados, estimado em 0.75 devido ao espaço ocupado pelos produtos caídos e pela falta de alinhamento."
+  },
+  {
+    "inspection_id": "INS_20260603_121824_143",
+    "timestamp": "2026-06-03T12:18:24Z",
+    "image_path": "data\\images\\img_0143.jpg",
+    "zone_id": "Z_N10",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, lado esquerdo",
+        "severity": "low",
+        "description": "Espaço vazio na extremidade esquerda da prateleira superior.",
+        "confidence": 0.95,
+        "affected_area_pct": 5.0
+      },
+      {
+        "issue_id": "ISS_002",
+        "type": "misaligned",
+        "location": "prateleira do meio, lado esquerdo",
+        "severity": "low",
+        "description": "Produto desalinhado em relação à frente da prateleira, recuado em comparação com os vizinhos.",
+        "confidence": 0.85,
+        "affected_area_pct": 2.0
+      },
+      {
+        "issue_id": "ISS_003",
+        "type": "misaligned",
+        "location": "prateleira inferior, centro",
+        "severity": "low",
+        "description": "Produtos ligeiramente desalinhados e com espaçamento irregular entre as latas.",
+        "confidence": 0.8,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+      "Cooper's beer kits",
+      "Cascade beer kits"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de retalho contendo kits de cerveja (latas cilíndricas) das marcas Cooper's e Cascade. A organização é predominantemente por filas. PASSO 2: Prateleira superior: quase cheia, exceto por um pequeno espaço à esquerda. Prateleira do meio: bem organizada, mas com uma lata recuada. Prateleira inferior: contém latas e uma caixa de produto, com algum desalinhamento no centro. PASSO 3: Identifiquei um espaço vazio na prateleira superior (empty_shelf, severidade baixa). Identifiquei desalinhamentos pontuais na prateleira do meio e inferior (misaligned, severidade baixa). Não há produtos danificados visíveis ou etiquetas em falta. PASSO 4: O fill rate é elevado, estimado em 0.92, dado que a maioria das prateleiras está preenchida, com apenas pequenas lacunas ou recuos."
+  },
+  {
+    "inspection_id": "INS_20260603_121827_144",
+    "timestamp": "2026-06-03T12:18:27Z",
+    "image_path": "data\\images\\img_0144.jpg",
+    "zone_id": "Z_N8",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "misaligned",
+        "location": "prateleira inferior, lado direito",
+        "severity": "medium",
+        "description": "Embalagens de produto (provavelmente pacotes de bebidas) estão tombadas e desalinhadas, obstruindo a visibilidade e ocupando espaço de forma desorganizada.",
+        "confidence": 0.95,
+        "affected_area_pct": 10.0
+      }
+    ],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+      "bebidas gaseificadas",
+      "águas aromatizadas",
+      "sumos"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado repletas de garrafas de plástico de bebidas (Schweppes, Diet Waterford, Deep Spring). A organização é predominantemente por blocos de cores e marcas. PASSO 2: Prateleira superior: bem organizada, sem falhas visíveis. Prateleira inferior: lado esquerdo e centro bem organizados; lado direito apresenta produtos tombados e desorganizados. PASSO 3: Identificada uma anomalia de desalinhamento/organização no lado direito da prateleira inferior, onde embalagens de cartão estão caídas sobre a grelha. Severidade média, pois afeta a estética e a acessibilidade. Confiança alta. PASSO 4: O fill rate é elevado, com quase toda a prateleira preenchida, exceto pelo espaço ocupado de forma ineficiente pelos produtos tombados. Estimativa de 0.92."
+  },
+  {
+    "inspection_id": "INS_20260603_121830_145",
+    "timestamp": "2026-06-03T12:18:30Z",
+    "image_path": "data\\images\\img_0145.jpg",
+    "zone_id": "Z_N9",
+    "overall_status": "warning",
+    "issues": [
+      {
+        "issue_id": "ISS_001",
+        "type": "empty_shelf",
+        "location": "prateleira superior, centro",
+        "severity": "medium",
+        "description": "Gancho de exposição vazio, indicando falta de stock de um produto específico.",
+        "confidence": 0.95,
+        "affected_area_pct": 5.0
+      }
+    ],
+    "shelf_fill_rate": 0.92,
+    "products_detected": [
+      "Maybelline Pure Powder",
+      "Maybelline Fit Me Matte",
+      "Maybelline SuperStay",
+      "Maybelline Wet Shine",
+      "Cosméticos faciais em blister"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho de cosméticos (Maybelline) organizada em ganchos. Os produtos estão dispostos em blisters. PASSO 2: Dividindo a prateleira: Superior (contém pós e bases), Meio (batons e glosses), Inferior (batons e produtos de longa duração). Identifiquei um gancho vazio na prateleira superior, no centro. PASSO 3: Anomalia identificada: 'empty_shelf' no centro da prateleira superior. Severidade média, pois afeta apenas um SKU. Confiança alta devido à clareza do gancho metálico exposto. PASSO 4: O fill rate é elevado, com apenas um gancho vazio num total de aproximadamente 20-25 posições, resultando num fill rate estimado de 0.92."
+  },
+  {
+    "inspection_id": "INS_20260603_121833_146",
+    "timestamp": "2026-06-03T12:18:33Z",
+    "image_path": "data\\images\\img_0146.jpg",
+    "zone_id": "Z_N4",
+    "overall_status": "ok",
+    "issues": [],
+    "shelf_fill_rate": 0.95,
+    "products_detected": [
+      "Tasman Bitter",
+      "Grolsch Premium Lager",
+      "Hollandia",
+      "Hahn Premium Light",
+      "Cascade Premium Light",
+      "Crown Lager"
+    ],
+    "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado contendo caixas de cerveja. Os produtos estão organizados em blocos verticais. Há também uma tira de produtos pendurados (palhinhas ou acessórios) no lado esquerdo. PASSO 2: Prateleira superior: Esquerda (Tasman Bitter), Centro (Grolsch), Direita (Hollandia). Prateleira inferior: Esquerda (Hahn Premium Light), Centro (Cascade Premium Light), Direita (Crown Lager). Não se observam espaços vazios significativos, produtos danificados ou etiquetas em falta. PASSO 3: Não foram identificadas anomalias. A organização está consistente com o plano de merchandising. PASSO 4: O fill rate é elevado, com quase todas as posições ocupadas por caixas de produto, estimando-se em 0.95 devido a pequenos espaços marginais entre as caixas."
+  },
+  {
+    "inspection_id": "INS_20260603_121836_147",
+    "timestamp": "2026-06-03T12:18:36Z",
+    "image_path": "data\\images\\img_0147.jpg",
+    "zone_id": "Z_N6",
+    "overall_status": "warning",
+    "issues": [],
+    "shelf_fill_rate": 0.0,
+    "products_detected": [],
+    "model_reasoning": "[análise indisponível] quota diária esgotada (429)",
+    "error": "quota diária esgotada (429)"
+  },
+  {
+    "inspection_id": "INS_20260603_121839_148",
+    "timestamp": "2026-06-03T12:18:39Z",
+    "image_path": "data\\images\\img_0148.jpg",
+    "zone_id": "Z_N3",
+    "overall_status": "warning",
+    "issues": [],
+    "shelf_fill_rate": 0.0,
+    "products_detected": [],
+    "model_reasoning": "[análise indisponível] quota diária esgotada (429)",
+    "error": "quota diária esgotada (429)"
+  },
+  {
+    "inspection_id": "INS_20260603_121842_149",
+    "timestamp": "2026-06-03T12:18:42Z",
+    "image_path": "data\\images\\img_0149.jpg",
+    "zone_id": "Z_N1",
+    "overall_status": "warning",
+    "issues": [],
+    "shelf_fill_rate": 0.0,
+    "products_detected": [],
+    "model_reasoning": "[análise indisponível] quota diária esgotada (429)",
+    "error": "quota diária esgotada (429)"
+  },
+  {
+    "inspection_id": "INS_20260603_121845_150",
+    "timestamp": "2026-06-03T12:18:45Z",
+    "image_path": "data\\images\\img_0150.jpg",
+    "zone_id": "Z_N7",
+    "overall_status": "warning",
+    "issues": [],
+    "shelf_fill_rate": 0.0,
+    "products_detected": [],
+    "model_reasoning": "[análise indisponível] quota diária esgotada (429)",
+    "error": "quota diária esgotada (429)"
+  }
+]

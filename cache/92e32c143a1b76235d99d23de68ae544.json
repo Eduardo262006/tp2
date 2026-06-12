@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260603_121448_071",
+  "timestamp": "2026-06-03T12:14:48Z",
+  "image_path": "data\\images\\img_0071.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, sugerindo falta de stock ou produto deslocado.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Garrafas desalinhadas e com orientação inconsistente na prateleira inferior.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "sumos Berri",
+    "bolas de ténis"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo garrafas de sumo da marca Berri. À esquerda, há uma rede de bolas de ténis pendurada. PASSO 2: Prateleira superior: bem abastecida, sem anomalias. Prateleira do meio: bem abastecida à esquerda e centro, mas com um espaço vazio notável à direita. Prateleira inferior: produtos presentes, mas com desorganização e desalinhamento no centro. PASSO 3: Identifiquei um 'empty_shelf' na prateleira do meio (lado direito) com severidade média e um 'misaligned' na prateleira inferior (centro) com severidade baixa. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na prateleira do meio."
+}

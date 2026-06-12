@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260603_121742_129",
+  "timestamp": "2026-06-03T12:17:42Z",
+  "image_path": "data\\images\\img_0129.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Latas de 'Water Chestnut' e 'Bamboo Shoot' estão desalinhadas e ligeiramente inclinadas, não seguindo o padrão de faceamento frontal.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Algumas latas de 'Tom Kha' e 'Tom Yum' estão desalinhadas, com rótulos virados para direções diferentes.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "leite de coco",
+    "latas de vegetais (bamboo shoot, water chestnut)",
+    "molhos (satay, pad thai)",
+    "pastas de caril (tom yum, tom kha, nasi goreng)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado contendo produtos asiáticos em latas e frascos de vidro. A organização é densa, com produtos bem agrupados por categoria. PASSO 2: Prateleira superior: leite de coco, bem organizada. Prateleira do meio: latas de vegetais e molhos, nota-se algum desalinhamento nas latas à esquerda. Prateleira inferior: pastas e molhos, organização geral boa, mas com algumas latas desalinhadas no centro. PASSO 3: Identifiquei desalinhamentos (misaligned) na prateleira do meio e inferior. Não há prateleiras vazias (empty_shelf) nem produtos claramente fora de lugar (wrong_product). A severidade é baixa pois não compromete a disponibilidade ou a leitura dos preços. PASSO 4: O fill rate é elevado, estimado em 0.95, pois quase todo o espaço disponível está ocupado por produtos, com apenas pequenos espaços vazios entre itens."
+}

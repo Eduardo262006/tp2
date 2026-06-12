@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260605_100759_377",
+  "timestamp": "2026-06-05T10:07:59Z",
+  "image_path": "data\\images\\img_0388.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Espaço vazio na extremidade esquerda da prateleira superior, onde deveriam estar produtos Nestlé.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos Meadowlea desalinhados e com falta de profundidade na organização das filas.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Nestlé All Natural yogurt",
+    "Meadowlea spread"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado. A superior contém iogurtes Nestlé All Natural. As prateleiras do meio e inferior contêm embalagens de margarina/spread Meadowlea. PASSO 2: Prateleira superior: quase cheia, exceto por um pequeno espaço vazio à esquerda. Prateleira do meio: bem abastecida, mas com desalinhamento nas filas da esquerda. Prateleira inferior: bem abastecida e organizada. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior (pequeno, baixa severidade) e um 'misaligned' na prateleira do meio (baixa severidade). PASSO 4: O fill rate é alto, estimado em 0.92, dado que a maioria das prateleiras está totalmente preenchida, com apenas pequenas lacunas."
+}

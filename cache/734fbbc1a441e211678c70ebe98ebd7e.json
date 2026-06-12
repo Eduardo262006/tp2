@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260608_174838_593",
+  "timestamp": "2026-06-08T17:48:38Z",
+  "image_path": "data\\images\\img_0604.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio visível entre os pacotes de tortilhas, indicando falta de stock ou produto deslocado.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "wrong_product",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Presença de um pacote de tortilhas da marca 'Bazaar' misturado com os produtos 'Old El Paso'.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Old El Paso Taco Kits",
+    "Old El Paso Enchilada Kit",
+    "Old El Paso Tortillas",
+    "Bazaar Tortillas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras. A superior contém caixas de kits de tacos e enchiladas da marca Old El Paso, bem alinhadas. A prateleira inferior contém pacotes de tortilhas, com uma mistura de produtos Old El Paso e um pacote da marca Bazaar. PASSO 2: Prateleira superior: organização boa, sem anomalias. Prateleira inferior: zona central apresenta um espaço vazio (gap) e a presença de um produto de marca diferente (Bazaar) no meio dos produtos Old El Paso. PASSO 3: Anomalia 1 (empty_shelf): localização centro inferior, severidade média, confiança 0.95. Anomalia 2 (wrong_product): localização centro inferior, severidade baixa, confiança 0.9. PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira inferior e a ocupação total das prateleiras visíveis."
+}

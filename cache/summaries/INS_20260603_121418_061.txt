@@ -1,0 +1,1 @@
+zona Z_S5; estado ok; fill rate 95%; produtos: Champagne Pommery, Moët & Chandon, Veuve Clicquot, Deutz, Terra Burn, Grandin, Sparkling Wine; data 2026-06-03T12:14:18Z

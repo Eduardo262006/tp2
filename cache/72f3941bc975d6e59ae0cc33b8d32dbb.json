@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260607_113739_585",
+  "timestamp": "2026-06-07T11:37:39Z",
+  "image_path": "data\\images\\img_0596.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "other",
+      "location": "centro da prateleira, sobrepondo as prateleiras média e inferior",
+      "severity": "medium",
+      "description": "Um brinquedo de blocos de encaixe está pendurado verticalmente, obstruindo a visualização e o acesso aos produtos nas prateleiras média e inferior.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Espaço vazio no extremo direito da prateleira superior.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "fraldas descartáveis",
+    "brinquedos infantis"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho com três níveis contendo embalagens de fraldas (Huggies e Ultra Dry). Há um brinquedo de blocos de encaixe pendurado verticalmente no centro. PASSO 2: Prateleira superior: bem organizada, exceto por um pequeno espaço vazio à direita. Prateleira média: obstruída pelo brinquedo no centro. Prateleira inferior: obstruída pelo brinquedo no centro. PASSO 3: Identifiquei o brinquedo como uma anomalia do tipo 'other' (obstrução), pois impede o acesso e visibilidade dos produtos. A severidade é média devido à obstrução física. O espaço vazio na prateleira superior é classificado como 'empty_shelf' de baixa severidade. PASSO 4: O fill rate é estimado em 0.85, considerando a ocupação das embalagens de fraldas e a área de obstrução pelo brinquedo."
+}

@@ -1,0 +1,1 @@
+zona Z_N8; estado warning; fill rate 85%; empty_shelf (medium) em prateleira inferior, lado esquerdo: Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos, sugerindo rutura de stock.; produtos: sumos de fruta em garrafa, sumos de fruta em pacote (cartão); data 2026-06-03T12:17:12Z

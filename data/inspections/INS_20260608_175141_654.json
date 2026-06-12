@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260608_175141_654",
+  "timestamp": "2026-06-08T17:51:41Z",
+  "image_path": "data\\images\\img_0665.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Espaço vazio visível atrás das garrafas de Mount Franklin, sugerindo falta de profundidade ou stock insuficiente.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Garrafão de água posicionado de forma irregular em relação aos outros, criando uma descontinuidade no alinhamento frontal.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "água engarrafada Fiji",
+    "água engarrafada Pump",
+    "água engarrafada Mount Franklin",
+    "garrafões de água de 10L",
+    "garrafas de água individuais"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho com águas engarrafadas. Na prateleira superior, temos packs de Fiji, Pump e Mount Franklin. Na prateleira inferior, temos garrafões de água de grande formato e garrafas individuais. Há etiquetas de preço visíveis. PASSO 2: Prateleira superior: organizada, mas com algum espaço vazio atrás das garrafas à direita. Prateleira inferior: lado esquerdo com garrafões bem alinhados, centro com um garrafão ligeiramente desalinhado, lado direito com garrafas individuais. PASSO 3: Identifiquei um espaço vazio na prateleira superior (empty_shelf, severidade baixa) e um desalinhamento no garrafão central da prateleira inferior (misaligned, severidade baixa). PASSO 4: O fill rate é elevado, estimado em 0.85, dado que a maioria do espaço está ocupado, com apenas pequenas lacunas de profundidade e organização."
+}

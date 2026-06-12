@@ -1,0 +1,32 @@
+{
+  "rule_id": "RULE_002",
+  "created_at": "2026-06-12T11:08:24Z",
+  "natural_language": "Avisa-me quando o fill rate estiver abaixo de 80%",
+  "description": "Emitir um alerta sempre que a taxa de preenchimento (fill rate) de qualquer zona ou localização for inferior a 80%.",
+  "conditions": {
+    "zone_filter": [],
+    "time_filter": {
+      "hours_start": null,
+      "hours_end": null
+    },
+    "issue_types": [],
+    "severity_threshold": null,
+    "fill_rate_threshold": 0.8,
+    "location_filter": "any"
+  },
+  "action": {
+    "alert_level": "warning",
+    "notification_message": "Alerta: O fill rate na zona {zone_id} caiu para {fill_rate}."
+  },
+  "validation": {
+    "is_valid": true,
+    "ambiguities": [
+      "Nível de severidade do alerta não especificado",
+      "Zonas específicas não definidas"
+    ],
+    "assumptions": [
+      "Definido alert_level como 'warning' por padrão",
+      "Aplicável a todas as zonas e localizações"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260605_100617_343",
+  "timestamp": "2026-06-05T10:06:17Z",
+  "image_path": "data\\images\\img_0354.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os garrafões de água e o pack de garrafas, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio entre as caixas de Pureau e os garrafões de água à direita.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "garrafões de água",
+    "packs de garrafas de água",
+    "caixas de água Pureau"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado contendo água engarrafada em diferentes formatos (garrafões, packs de garrafas e caixas). PASSO 2: Prateleira superior: lado esquerdo ocupado por garrafões, centro com espaço vazio, lado direito com pack de garrafas. Prateleira inferior: lado esquerdo com caixas Pureau, centro com espaço vazio, lado direito com garrafões. PASSO 3: Identificadas duas zonas de 'empty_shelf' no centro de ambas as prateleiras. A severidade é média pois, embora haja produto, a organização está incompleta e há espaço de venda desperdiçado. PASSO 4: O fill rate é estimado em 0.75, considerando que cerca de 25% da área útil de exposição está vazia ou mal aproveitada."
+}

@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260604_163140_214",
+  "timestamp": "2026-06-04T16:31:40Z",
+  "image_path": "data\\images\\img_0225.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos de carne para animais.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos de carne para cães/gatos estão desalinhados e sobrepostos de forma desorganizada.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "cat food mince",
+    "VIP gourmet cat food",
+    "dog food rolls"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo comida para animais (gatos e cães). A prateleira superior está bem abastecida com embalagens de 'Mince'. A prateleira do meio contém uma mistura de embalagens de 'Mince' e 'VIP Gourmet', com uma zona vazia à esquerda. A prateleira inferior contém rolos de comida para cães (dog rolls) bem organizados. PASSO 2: Prateleira superior: cheia. Prateleira do meio: zona esquerda com falta de stock e produtos desalinhados; zona central/direita cheia. Prateleira inferior: cheia e organizada. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira do meio, lado esquerdo, com severidade média (afeta cerca de 15% da prateleira). Identificado desalinhamento na mesma zona. PASSO 4: O fill rate global é estimado em 0.85, considerando a área vazia na prateleira do meio e a densidade das restantes."
+}

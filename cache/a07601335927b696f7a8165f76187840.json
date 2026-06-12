@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260604_163052_198",
+  "timestamp": "2026-06-04T16:30:52Z",
+  "image_path": "data\\images\\img_0209.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, à esquerda, onde deveriam estar produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "low",
+      "description": "Algumas embalagens de Kirks Lemon Lime & Bitters estão ligeiramente desalinhadas ou com orientação irregular.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Coca-Cola Zero",
+    "Diet Coke",
+    "Kirks Ginger Ale",
+    "Kirks Tonic Water",
+    "Kirks Lemon Lime & Bitters",
+    "Bundaberg Lemon Lime"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo bebidas gaseificadas. O nível superior contém packs de Coca-Cola Zero e Diet Coke. O nível do meio contém garrafas de Kirks (Ginger Ale, Tonic Water, Lemon Lime & Bitters). O nível inferior contém packs de Bundaberg e um espaço vazio à esquerda. PASSO 2: Prateleira superior: bem organizada. Prateleira do meio: organizada, com pequenos desalinhamentos à direita. Prateleira inferior: presença de um espaço vazio considerável à esquerda. PASSO 3: Identificada anomalia de 'empty_shelf' na prateleira inferior (lado esquerdo) e 'misaligned' na prateleira do meio (lado direito). A severidade do espaço vazio é média pois interrompe a continuidade do stock. PASSO 4: O fill rate é estimado em 0.85, considerando a ocupação total das prateleiras visíveis, descontando o espaço vazio na parte inferior esquerda."
+}

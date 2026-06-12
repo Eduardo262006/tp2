@@ -1,0 +1,26 @@
+{
+  "inspection_id": "INS_20260604_163352_258",
+  "timestamp": "2026-06-04T16:33:52Z",
+  "image_path": "data\\images\\img_0269.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior onde deveriam estar produtos, indicado pela presença de etiquetas de preço sem produto correspondente.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Tena Lady",
+    "Tena Pants",
+    "Poise pads",
+    "Depend underwear"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com produtos de higiene pessoal (incontinência). Existem 4 níveis de prateleiras visíveis. A organização é geralmente boa, com produtos alinhados por marca e tipo. PASSO 2: Prateleira superior: cheia. Segunda prateleira: cheia. Terceira prateleira: cheia. Prateleira inferior: apresenta uma falha de stock no lado esquerdo. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira inferior esquerda. A severidade é média, pois há espaço vazio considerável, mas o resto da prateleira está bem abastecido. Confiança alta devido à visibilidade clara da prateleira vazia. PASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na parte inferior esquerda."
+}

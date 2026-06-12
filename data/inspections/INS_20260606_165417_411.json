@@ -1,0 +1,24 @@
+{
+  "inspection_id": "INS_20260606_165417_411",
+  "timestamp": "2026-06-06T16:54:17Z",
+  "image_path": "data\\images\\img_0422.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo onde deveriam estar garrafas de sumo, visível atrás da fila frontal.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "sumos e cordiais",
+    "garrafas de plástico 2L"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado preenchidas com garrafas de 2L de sumos e cordiais. Existem etiquetas de preço visíveis acima de cada secção. Há também brinquedos de peluche pendurados na extremidade direita. PASSO 2: Dividindo a prateleira: Superior (apenas topos visíveis), Meio (área principal de foco), Inferior (área de foco secundária). Na prateleira do meio, nota-se uma falha de stock (buraco) atrás da fila frontal de garrafas de sumo laranja. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira do meio, lado direito, onde a profundidade do stock é insuficiente, criando um vazio visível. Severidade média, pois o produto ainda está presente na frente, mas a reposição é necessária. Confiança alta. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna identificada na prateleira do meio."
+}

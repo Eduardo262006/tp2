@@ -1,0 +1,12 @@
+Gera um resumo de UMA frase, rico em termos semanticamente relevantes para
+recuperação futura, a partir deste registo de inspeção de prateleira. Inclui: zona,
+fill rate, tipos de problema, localização, severidade e o dia/hora se disponível.
+
+Mau exemplo: "prateleira com problemas."
+Bom exemplo: "prateleira inferior da zona Z_S3 com fill rate de 72%%, detergente líquido
+fora de posição na secção central, embalagem danificada à direita, terça-feira 15h."
+
+Registo (JSON):
+%s
+
+Devolve APENAS a frase de resumo, sem aspas nem prefixos.

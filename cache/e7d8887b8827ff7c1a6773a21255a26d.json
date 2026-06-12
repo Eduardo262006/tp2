@@ -1,0 +1,15 @@
+{
+  "inspection_id": "INS_20260608_175217_666",
+  "timestamp": "2026-06-08T17:52:17Z",
+  "image_path": "data\\images\\img_0677.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "garrafas de água aromatizada Aqua Pura",
+    "garrafas de água Nature's Spring",
+    "produtos diversos de prateleira"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado preenchidas principalmente com garrafas de água aromatizada da marca 'Aqua Pura'. A organização é linear e frontal. PASSO 2: Prateleira superior: preenchida uniformemente com garrafas de água. Prateleira inferior: preenchida com garrafas de água, com uma pequena variação à direita (Nature's Spring). Não há espaços vazios significativos ou produtos desalinhados que comprometam a experiência de compra. PASSO 3: Não foram identificadas anomalias críticas. O alinhamento está adequado e não há falta de stock visível. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase toda a superfície da prateleira está ocupada por produtos, com apenas espaços mínimos entre garrafas."
+}

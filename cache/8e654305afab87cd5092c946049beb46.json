@@ -1,0 +1,26 @@
+{
+  "inspection_id": "INS_20260609_105548_704",
+  "timestamp": "2026-06-09T10:55:48Z",
+  "image_path": "data\\images\\img_0715.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre as caixas de Jim Beam e Woodstock, indicando falta de stock ou produto retirado.",
+      "confidence": 0.98,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Bourbon & Cola",
+    "Rum & Cola",
+    "Vinho Branco",
+    "Chardonnay"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um corredor de bebidas alcoólicas. A prateleira superior contém latas individuais e packs de Bourbon/Cola e vinhos. A prateleira inferior contém caixas de 18 unidades de Bundaberg, Jim Beam e Woodstock, além de caixas de vinho. PASSO 2: Prateleira superior: bem organizada, sem falhas. Prateleira inferior: lado esquerdo com Bundaberg e Jim Beam, centro com um espaço vazio notável, lado direito com Woodstock e vinhos. PASSO 3: Identificada uma anomalia de 'empty_shelf' no centro da prateleira inferior. A severidade é média pois interrompe a continuidade do planoograma. Confiança alta devido à clareza do espaço vazio. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria da prateleira está preenchida, exceto pela lacuna central na prateleira inferior."
+}

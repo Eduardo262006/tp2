@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260609_105645_723",
+  "timestamp": "2026-06-09T10:56:45Z",
+  "image_path": "data\\images\\img_0734.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, sugerindo falta de stock ou produto deslocado.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "low",
+      "description": "Embalagens de Raj Masala ligeiramente desalinhadas e com inclinação lateral.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Sharwood's cooking sauces",
+    "Raj Masala curry pastes",
+    "Patak's curry pastes"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo molhos e pastas de caril (Sharwood's, Raj Masala, Patak's). A organização é geralmente boa, com produtos agrupados por marca. PASSO 2: Prateleira superior: contém molhos Sharwood's e Tikka Masala, com uma lacuna visível à direita. Prateleira do meio: contém pastas Raj Masala, com algum desalinhamento nas embalagens verticais. Prateleira inferior: contém pastas Patak's e Sharwood's, bem organizadas em caixas de exposição. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior (lado direito) e um 'misaligned' na prateleira do meio (produtos Raj Masala). A severidade é média para a falta de stock e baixa para o desalinhamento. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna superior."
+}

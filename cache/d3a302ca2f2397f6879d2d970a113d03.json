@@ -1,0 +1,26 @@
+{
+  "inspection_id": "INS_20260609_105751_745",
+  "timestamp": "2026-06-09T10:57:51Z",
+  "image_path": "data\\images\\img_0756.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar alinhados mais pacotes de fraldas.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Huggies Toddler diapers",
+    "Huggies Crawler diapers",
+    "Huggies Infant diapers",
+    "Snugglers diapers"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho com várias filas de fraldas Huggies. A organização é geralmente boa, com produtos empilhados. PASSO 2: Prateleira superior: cheia. Prateleira do meio: cheia. Prateleira inferior: lado esquerdo e centro ocupados, mas o lado direito apresenta um vazio considerável. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira inferior, lado direito. A severidade é média pois afeta a disponibilidade de stock. Confiança alta devido à visibilidade da grelha metálica de fundo. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na parte inferior direita."
+}

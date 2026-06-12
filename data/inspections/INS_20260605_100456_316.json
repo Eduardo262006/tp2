@@ -1,0 +1,24 @@
+{
+  "inspection_id": "INS_20260605_100456_316",
+  "timestamp": "2026-06-05T10:04:56Z",
+  "image_path": "data\\images\\img_0327.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos de leite da marca Coles e os produtos da marca Canberra.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "leite de vaca (garrafas de plástico)",
+    "leite de vaca (embalagens de cartão)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo garrafas de leite de plástico (2L) e embalagens de cartão (600ml). A organização é predominantemente por marca e tipo. PASSO 2: Prateleira superior: lado esquerdo com embalagens de cartão, centro vazio, lado direito com garrafas de leite. Prateleira do meio: preenchida com garrafas de leite. Prateleira inferior: preenchida com garrafas de leite. Anomalia identificada: lacuna de stock no centro da prateleira superior. PASSO 3: A anomalia é um 'empty_shelf' na prateleira superior, centro, severidade média (afeta a continuidade da exposição), confiança alta. PASSO 4: O fill rate é estimado em 0.85, considerando a lacuna na prateleira superior e o preenchimento denso das prateleiras inferiores."
+}

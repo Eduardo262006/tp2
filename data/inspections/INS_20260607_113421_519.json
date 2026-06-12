@@ -1,0 +1,26 @@
+{
+  "inspection_id": "INS_20260607_113421_519",
+  "timestamp": "2026-06-07T11:34:21Z",
+  "image_path": "data\\images\\img_0530.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, à direita dos produtos Doritos.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Cheezels Mega Stars",
+    "Doritos Tapas",
+    "Cheezels Original",
+    "Doritos Viapas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho com snacks. A prateleira superior contém caixas de Cheezels Mega Stars (esquerda) e sacos de Doritos Tapas (direita). A prateleira inferior contém caixas de Cheezels Original (esquerda) e um saco de Doritos Viapas (direita). PASSO 2: Prateleira superior: bem organizada, sem falhas. Prateleira inferior: lado esquerdo preenchido com Cheezels, lado direito com um único saco de Doritos e um espaço vazio considerável à direita. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira inferior, lado direito, com severidade média devido ao espaço não utilizado. Confiança alta. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das faces está preenchida, exceto pela lacuna na prateleira inferior."
+}

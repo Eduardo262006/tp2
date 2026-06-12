@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260609_105606_710",
+  "timestamp": "2026-06-09T10:56:06Z",
+  "image_path": "data\\images\\img_0721.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Os pacotes de papel higiénico Sorbent estão desalinhados e ligeiramente desorganizados em comparação com o resto da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "O pack de 3 unidades de Sorbent está ligeiramente deslocado para fora da face da prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Sorbent Aloe",
+    "Symphony",
+    "Sorbent Thick & Large",
+    "Sorbent Hypo Allergenic",
+    "Sorbent Vogue"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado repletas de papel higiénico de várias marcas (Sorbent e Symphony). A organização é predominantemente em blocos por tipo de produto. PASSO 2: Prateleira superior: lado esquerdo com packs de 3 e Sorbent Aloe, lado direito com Symphony. Prateleira inferior: lado esquerdo com Sorbent Thick & Large, lado direito com Sorbent Hypo Allergenic e Vogue. Anomalias: Pequeno desalinhamento no pack de 3 à esquerda (superior) e desorganização/desalinhamento nos packs de Sorbent Thick & Large na prateleira inferior esquerda. PASSO 3: Identificadas duas ocorrências de 'misaligned'. Severidade baixa pois o produto está presente e acessível. Confiança alta baseada na clareza visual. PASSO 4: A prateleira está quase totalmente preenchida, com apenas espaços mínimos entre produtos ou nas extremidades. Estimativa de fill rate de 0.95."
+}

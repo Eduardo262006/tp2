@@ -1,0 +1,24 @@
+{
+  "inspection_id": "INS_20260608_174841_594",
+  "timestamp": "2026-06-08T17:48:41Z",
+  "image_path": "data\\images\\img_0605.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, entre os produtos ProtaDog e Platinum.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "comida para gato (saquetas)",
+    "comida para cão (rolos)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado com produtos de alimentação animal. A prateleira superior contém saquetas de comida para gato (marcas Fussy Cat, Coles Mince, Fresh). A prateleira inferior contém rolos de comida para cão (marcas ProtaDog e Platinum). PASSO 2: Prateleira superior: bem abastecida, sem anomalias visíveis. Prateleira inferior: lado esquerdo com ProtaDog, lado direito com Platinum, mas existe um espaço vazio notável no centro. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira inferior, centro, severidade média, confiança alta. PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio central na prateleira inferior e a ocupação total das outras áreas."
+}

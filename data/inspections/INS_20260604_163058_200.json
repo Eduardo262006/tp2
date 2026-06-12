@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260604_163058_200",
+  "timestamp": "2026-06-04T16:30:58Z",
+  "image_path": "data\\images\\img_0211.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "O pacote de batatas Red Rock Deli está ligeiramente inclinado e desalinhado em relação à face frontal dos restantes produtos.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro-direita",
+      "severity": "medium",
+      "description": "Existe um espaço vazio entre os pacotes de 'Dijon Mustard & Honey' e os pacotes de 'Potato Chips' vermelhos, indicando falta de stock ou produto mal posicionado.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Red Rock Deli Potato Chips (Dijon Mustard & Honey)",
+    "Red Rock Deli Potato Chips (Lime & Black Pepper)",
+    "Red Rock Deli Potato Chips (Honey Soy Chicken)",
+    "Twisties Wicked Cheddar"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado com snacks. A prateleira superior contém batatas Red Rock Deli (amarelas e vermelhas). A prateleira inferior contém Twisties (laranjas) e batatas Red Rock Deli (verdes e castanhas). PASSO 2: Prateleira superior: lado esquerdo e centro bem preenchidos; centro-direita apresenta um espaço vazio; lado direito tem um pacote desalinhado. Prateleira inferior: bem organizada e preenchida. PASSO 3: Identifiquei um espaço vazio (empty_shelf) na prateleira superior (centro-direita) e um desalinhamento (misaligned) na mesma prateleira (lado direito). A severidade é média para o espaço vazio e baixa para o desalinhamento. PASSO 4: O fill rate é elevado, estimado em 0.85, dado que a maioria dos espaços está ocupada, exceto pela lacuna identificada."
+}

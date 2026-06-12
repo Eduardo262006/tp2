@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260608_174853_598",
+  "timestamp": "2026-06-08T17:48:53Z",
+  "image_path": "data\\images\\img_0609.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, onde deveriam estar produtos alinhados com o restante da secção.",
+      "confidence": 0.95,
+      "affected_area_pct": 30.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos ligeiramente desalinhados em relação à frente da prateleira, dificultando a uniformidade visual.",
+      "confidence": 0.8,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "água mineral",
+    "bebidas gaseificadas de fruta",
+    "água com sabor",
+    "acessórios de organização (ganchos)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho. A superior contém garrafas de água mineral (Schweppes) à esquerda e um espaço vazio considerável à direita. A prateleira inferior está densamente preenchida com garrafas de bebidas de fruta (Schweppes Frutus) e águas com sabor (Diet Waterfords). Há um expositor vertical de ganchos de plástico à esquerda. PASSO 2: Prateleira superior: esquerda (cheia), direita (vazia). Prateleira inferior: esquerda (cheia, ligeiro desalinhamento), centro/direita (cheia). PASSO 3: Anomalia 1: empty_shelf na prateleira superior direita, severidade média, confiança alta. Anomalia 2: misaligned na prateleira inferior esquerda, severidade baixa, confiança moderada. PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira superior e a ocupação total na inferior."
+}

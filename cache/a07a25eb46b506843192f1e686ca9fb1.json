@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260606_165535_437",
+  "timestamp": "2026-06-06T16:55:35Z",
+  "image_path": "data\\images\\img_0448.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio na prateleira de temperos (Taco Seasoning Mix), indicando rutura de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos de tempero ligeiramente desalinhados e com embalagens de suporte inclinadas.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Taco Seasoning Mix",
+    "Burrito Seasoning Mix",
+    "Fajita Seasoning Mix",
+    "Chili Seasoning Mix",
+    "Salsa",
+    "Corn Chips"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado com produtos de comida mexicana (temperos, molhos e chips). A prateleira superior contém pacotes de temperos em caixas de cartão. A prateleira do meio contém frascos de molho (salsa). A prateleira inferior contém sacos de chips. PASSO 2: Prateleira superior: zona central apresenta um espaço vazio (rutura). Lado esquerdo apresenta embalagens ligeiramente desorganizadas. Prateleira do meio: organização aceitável. Prateleira inferior: organização aceitável. PASSO 3: Anomalia 1: empty_shelf, prateleira superior centro, severidade medium, confiança 0.95. Anomalia 2: misaligned, prateleira superior esquerda, severidade low, confiança 0.85. PASSO 4: O fill rate é elevado, com apenas uma falha pontual na prateleira superior, estimado em 0.85."
+}

@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260608_175117_646",
+  "timestamp": "2026-06-08T17:51:17Z",
+  "image_path": "data\\images\\img_0657.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Caixa de Uncle Tobys Chewy está virada de lado/inclinada em comparação com o alinhamento frontal das restantes.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "low",
+      "description": "Caixa de Uncle Tobys Chewy (White Choc Chip) está ligeiramente recuada e desalinhada em relação à face da prateleira.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Uncle Tobys Chewy Muesli Bars",
+    "Uncle Tobys Crunchy Muesli Bars",
+    "DayDawn Muesli Bars",
+    "Kellogg's Muesli Bars",
+    "Bubble wands (lateral)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo barras de cereais (Uncle Tobys, DayDawn, Kellogg's). A organização é predominantemente frontal. Há um expositor lateral de brinquedos (bolhas de sabão) à direita. PASSO 2: Prateleira superior: bem organizada, exceto por uma caixa à direita. Prateleira do meio: bem organizada, exceto por uma caixa à direita que está recuada. Prateleira inferior: bem organizada e preenchida. PASSO 3: Identifiquei duas anomalias de desalinhamento. A severidade é baixa pois não afeta a disponibilidade ou a legibilidade dos preços. Confiança alta devido à clareza visual. PASSO 4: O preenchimento é muito elevado, com quase todos os espaços ocupados, estimando um fill rate de 0.92."
+}

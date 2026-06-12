@@ -1,0 +1,15 @@
+{
+  "inspection_id": "INS_20260609_105851_765",
+  "timestamp": "2026-06-09T10:58:51Z",
+  "image_path": "data\\images\\img_0776.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Coca-Cola",
+    "Diet Coke",
+    "Pepsi"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado preenchidas com garrafas de refrigerante de 2 litros (Coca-Cola, Diet Coke e Pepsi). As prateleiras estão bem organizadas, com os produtos alinhados frontalmente. PASSO 2: Dividindo a prateleira em superior e inferior: na superior, vemos Coca-Cola à esquerda, Diet Coke ao centro e Pepsi à direita. Na inferior, vemos uma mistura de Coca-Cola e Pepsi. Não há espaços vazios significativos, produtos danificados ou etiquetas em falta visíveis. PASSO 3: Não foram identificadas anomalias. O alinhamento é consistente e a reposição está adequada. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase toda a superfície frontal da prateleira está ocupada por produtos, com apenas pequenos espaços entre garrafas ou nas extremidades."
+}

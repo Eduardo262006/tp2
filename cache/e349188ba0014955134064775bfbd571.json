@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260602_153712_001",
+  "timestamp": "2026-06-02T15:37:12Z",
+  "image_path": "data\\images\\img_0001.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, centro e direita",
+      "severity": "medium",
+      "description": "Os sacos de snacks (Pappadums) estão desorganizados, tombados e misturados, dificultando a visualização e o acesso.",
+      "confidence": 0.95,
+      "affected_area_pct": 40.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Sacos de snacks na prateleira inferior estão inclinados e fora do alinhamento vertical padrão.",
+      "confidence": 0.9,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Pappadums (snacks)",
+    "Molhos de caril (Korma/Jalfrezi)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A superior contém embalagens de plástico rígido com discos de pappadum e sacos de snacks. A inferior contém sacos de molhos de cozinha e mais sacos de snacks. PASSO 2: Prateleira superior: lado esquerdo organizado, centro/direita com produtos tombados e desarrumados. Prateleira inferior: lado esquerdo organizado, centro com produtos inclinados. PASSO 3: Identifiquei desalinhamento severo na prateleira superior (sacos de snacks caídos/misturados) e desalinhamento menor na inferior. Não há prateleiras vazias, mas a desorganização afeta a experiência de compra. PASSO 4: O fill rate é alto (cerca de 85%), pois a maioria do espaço está preenchido, apesar da desorganização visual."
+}

@@ -1,0 +1,1 @@
+zona Z_S3; estado ok; fill rate 95%; produtos: cat food pouches, dog food treats, sausage-style pet food rolls; data 2026-06-06T16:56:17Z

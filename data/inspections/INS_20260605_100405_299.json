@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260605_100405_299",
+  "timestamp": "2026-06-05T10:04:05Z",
+  "image_path": "data\\images\\img_0310.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio visível na prateleira do meio, onde faltam unidades de produto (provavelmente sumos), expondo a grelha metálica.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos (sumos em caixa) ligeiramente desalinhados em relação à frente da prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "sumos em caixa",
+    "sumos em garrafa",
+    "bebidas de fruta"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado contendo sumos em caixa (marcas Dole, Farmland, Popper) e sumos em garrafa (Juice Pops). Há uma estrutura de metal visível. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: lado esquerdo e centro cheios, lado direito apresenta um espaço vazio significativo na grelha. Prateleira inferior: bem abastecida, com pequenos desalinhamentos. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira do meio (lado direito) com severidade média. Identificado 'misaligned' na prateleira inferior (lado esquerdo) com severidade baixa. PASSO 4: O fill rate é elevado, estimado em 0.85, dado que a maioria das prateleiras está cheia, exceto pela lacuna na prateleira do meio."
+}

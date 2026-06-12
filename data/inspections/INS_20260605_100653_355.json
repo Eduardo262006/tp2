@@ -1,0 +1,38 @@
+{
+  "inspection_id": "INS_20260605_100653_355",
+  "timestamp": "2026-06-05T10:06:53Z",
+  "image_path": "data\\images\\img_0366.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo onde deveriam estar produtos, possivelmente sabonetes em barra.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Espaço vazio na secção de sabonetes Sunlight.",
+      "confidence": 0.9,
+      "affected_area_pct": 8.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "sabão líquido refill",
+    "sabonetes em barra Dove",
+    "sabonetes em barra Sapoderm",
+    "sabonetes em barra Gamophen",
+    "sabonetes em barra Solvol",
+    "sabonetes em barra Sunlight",
+    "esponjas de banho"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de retalho com produtos de higiene pessoal (sabões líquidos e em barra). A prateleira superior está bem abastecida com recargas de sabão líquido. A prateleira do meio contém sabonetes em barra (Dove, Sapoderm, Gamophen, Solvol). A prateleira inferior contém sabonetes em barra (Sunlight) e esponjas. PASSO 2: Prateleira superior: organizada. Prateleira do meio: zona esquerda apresenta um vazio notável. Prateleira inferior: zona central apresenta um pequeno vazio. PASSO 3: Anomalia 1: empty_shelf na prateleira do meio, lado esquerdo, severidade média, confiança 0.95. Anomalia 2: empty_shelf na prateleira inferior, centro, severidade baixa, confiança 0.9. PASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pelos dois espaços vazios identificados."
+}

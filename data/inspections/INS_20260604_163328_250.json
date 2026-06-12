@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260604_163328_250",
+  "timestamp": "2026-06-04T16:33:28Z",
+  "image_path": "data\\images\\img_0261.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na extremidade direita da prateleira superior.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Produtos (embalagens pequenas e caixas) desorganizados e fora do alinhamento frontal padrão.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "shampoo",
+    "condicionador",
+    "tratamento capilar"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de retalho contendo produtos de cuidado capilar (Pantene). A organização é predominantemente frontal, com etiquetas de preço visíveis. PASSO 2: Prateleira superior: bem preenchida à esquerda, mas com um espaço vazio à direita. Prateleira do meio: preenchimento completo e alinhado. Prateleira inferior: preenchimento bom, mas com desorganização/desalinhamento no canto inferior direito. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior direita (severidade média) e 'misaligned' na prateleira inferior direita (severidade baixa). PASSO 4: O fill rate é elevado, estimado em 0.88, considerando que a maioria das faces está ocupada, exceto pelo espaço vazio na parte superior e alguma desordem na inferior."
+}

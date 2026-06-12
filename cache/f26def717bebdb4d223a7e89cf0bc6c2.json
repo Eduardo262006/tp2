@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260604_163246_236",
+  "timestamp": "2026-06-04T16:32:46Z",
+  "image_path": "data\\images\\img_0247.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde faltam várias garrafas de vinho/porto, criando uma lacuna na exposição.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas de vinho desalinhadas e com espaçamento irregular em relação ao bloco principal.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "vinhos",
+    "vinho do porto",
+    "whisky",
+    "bebidas espirituosas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado contendo garrafas de bebidas alcoólicas (vinhos, portos e whiskies). A organização é predominantemente por blocos de marca. PASSO 2: Prateleira superior: bem preenchida, sem anomalias. Prateleira do meio: lado esquerdo apresenta um espaço vazio considerável (gap) e garrafas desalinhadas. Lado direito está bem preenchido. Prateleira inferior: bem preenchida com caixas e garrafas. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira do meio, lado esquerdo, com severidade média devido ao impacto visual. Identificado desalinhamento na mesma zona. PASSO 4: O fill rate é elevado, estimado em 0.88, dado que a maioria das prateleiras está cheia, com exceção da lacuna na prateleira do meio."
+}

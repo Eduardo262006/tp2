@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260609_105621_715",
+  "timestamp": "2026-06-09T10:56:21Z",
+  "image_path": "data\\images\\img_0726.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível na prateleira superior, indicando falta de stock de produtos de pão naan.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, centro-direita",
+      "severity": "low",
+      "description": "Os pacotes de Roti Wrap estão ligeiramente desorganizados e sobrepostos de forma irregular.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "pão naan",
+    "roti wraps",
+    "molhos de caril Patak's",
+    "molhos Sharwood's"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A superior contém produtos de padaria (naan, roti wraps) em embalagens plásticas. A inferior contém frascos de molhos (Patak's e Sharwood's) organizados em caixas de cartão. PASSO 2: Prateleira superior: lado esquerdo com espaço vazio (falta de produto), centro com produtos alinhados, direita com produtos. Prateleira inferior: bem organizada, sem anomalias graves. PASSO 3: Identificada uma zona de 'empty_shelf' na parte superior esquerda (severidade média, confiança alta). Identificada uma ligeira desorganização ('misaligned') nos Roti Wraps (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira superior e a ocupação total da prateleira inferior."
+}

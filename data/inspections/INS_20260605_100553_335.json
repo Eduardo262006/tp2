@@ -1,0 +1,38 @@
+{
+  "inspection_id": "INS_20260605_100553_335",
+  "timestamp": "2026-06-05T10:05:53Z",
+  "image_path": "data\\images\\img_0346.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos Metamucil e os produtos Vital/Eno, indicando falta de stock ou organização deficiente.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Produtos Rennie e Alka-Seltzer estão desalinhados e com embalagens ligeiramente desorganizadas na frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "suplementos de fibra",
+    "sais de Epsom",
+    "produtos de saúde sexual",
+    "antiácidos",
+    "testes de gravidez",
+    "medicamentos para gases",
+    "pensos rápidos"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de farmácia/saúde com três níveis de prateleiras. Contém suplementos, antiácidos, testes de diagnóstico e produtos de primeiros socorros. PASSO 2: Prateleira superior: bem organizada. Prateleira do meio: apresenta um espaço vazio notável entre os frascos de Metamucil e os produtos Vital/Eno. Prateleira inferior: produtos de saúde digestiva e primeiros socorros, com ligeiro desalinhamento nos produtos Rennie/Alka-Seltzer. PASSO 3: Identificada uma falha de stock (empty_shelf) na prateleira do meio (severidade média, confiança alta) e desalinhamento (misaligned) na prateleira inferior (severidade baixa, confiança alta). PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na prateleira do meio."
+}

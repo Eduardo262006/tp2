@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260606_165311_389",
+  "timestamp": "2026-06-06T16:53:11Z",
+  "image_path": "data\\images\\img_0400.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível onde deveriam estar produtos pendurados.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Produtos de maquilhagem (paletas) encontram-se ligeiramente desalinhados e desorganizados.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "base de maquilhagem",
+    "corretor",
+    "pó compacto",
+    "acessórios de maquilhagem"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho de cosméticos (marca CoverGirl) com quatro níveis. Os produtos estão maioritariamente pendurados em ganchos ou dispostos em filas. PASSO 2: Dividindo a prateleira: Superior (vários ganchos com produtos, um espaço vazio à esquerda), Meio-Superior (produtos de base/corretor bem alinhados), Meio-Inferior (produtos de base e espelhos bem alinhados), Inferior (produtos variados, alguns desalinhados à direita). PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior esquerda (ganchos vazios) e um 'misaligned' na prateleira inferior direita (produtos de maquilhagem fora do alinhamento padrão). A severidade é baixa/média pois a maioria da prateleira está bem abastecida. PASSO 4: O fill rate é elevado, estimado em 0.88, dado que a grande maioria dos ganchos e espaços de prateleira estão ocupados."
+}

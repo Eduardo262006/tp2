@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260605_100335_289",
+  "timestamp": "2026-06-05T10:03:35Z",
+  "image_path": "data\\images\\img_0300.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Produtos (caixas amarelas) empilhados de forma instável e desorganizada, ocupando espaço de forma irregular.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "low",
+      "description": "Espaço vazio entre os produtos de saúde (Bonjela/Bepanthen) e os produtos de bebé à direita.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "fraldas Huggies",
+    "produtos de saúde infantil",
+    "toalhitas/acessórios de bebé",
+    "cremes e pomadas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras. Nível superior: caixas de fraldas Huggies bem alinhadas. Nível médio: mistura de medicamentos (Bonjela, Bepanthen), produtos de cuidado infantil e uma pilha desorganizada de caixas amarelas à esquerda. Nível inferior: embalagens de toalhitas Huggies e garrafas de loção. PASSO 2: Superior: OK. Meio: Anomalia de organização à esquerda (pilha instável) e um pequeno espaço vazio no centro. Inferior: OK. PASSO 3: A pilha de caixas amarelas no meio está desalinhada/instável (misaligned, medium, 95%). O espaço vazio no meio é pequeno (empty_shelf, low, 85%). PASSO 4: O preenchimento é alto, estimado em 85%, com apenas pequenas lacunas e desorganização pontual."
+}

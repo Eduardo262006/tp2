@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260602_153754_015",
+  "timestamp": "2026-06-02T15:37:54Z",
+  "image_path": "data\\images\\img_0015.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio na prateleira do meio, entre os frascos de molho e a extremidade direita, indicando falta de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Os frascos de molho na prateleira inferior estão ligeiramente desalinhados e alguns virados para fora da zona de exposição frontal.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "curry paste packets",
+    "cooking sauce jars",
+    "chilli sauce bottles",
+    "lentils/pulses bags",
+    "taco shells"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras. Nível superior: pacotes de pasta de caril. Nível médio: frascos de molhos Sharwood's. Nível inferior: frascos de molhos, garrafas de molho picante, sacos de lentilhas e caixas de taco shells. PASSO 2: Prateleira superior: bem organizada. Prateleira média: existe um espaço vazio significativo à direita. Prateleira inferior: organização irregular, com produtos desalinhados. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira média (severidade média) e 'misaligned' na inferior (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira média e a densidade geral dos produtos."
+}

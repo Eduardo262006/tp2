@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260603_121715_120",
+  "timestamp": "2026-06-03T12:17:15Z",
+  "image_path": "data\\images\\img_0120.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "low",
+      "description": "Produtos de saúde/farmácia empilhados de forma desordenada e instável.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "fraldas Huggies",
+    "toalhitas Johnson's Baby",
+    "produtos de higiene infantil",
+    "medicamentos/saúde"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras. Nível superior: caixas de fraldas Huggies bem alinhadas. Nível médio: zona mista com toalhitas à esquerda, espaço vazio no centro e produtos de farmácia/saúde à direita. Nível inferior: embalagens de toalhitas e produtos de cuidado infantil. PASSO 2: Prateleira superior (ok). Prateleira média (esquerda: toalhitas; centro: vazio; direita: produtos de farmácia desorganizados). Prateleira inferior (ok). PASSO 3: Identificada uma zona de 'empty_shelf' no centro da prateleira média (severidade média) e 'misaligned' nos produtos de farmácia à direita (severidade baixa). PASSO 4: O fill rate é estimado em 0.75, considerando o espaço vazio central e a densidade variável dos produtos."
+}

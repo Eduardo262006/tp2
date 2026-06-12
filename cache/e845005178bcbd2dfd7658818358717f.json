@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260609_105518_694",
+  "timestamp": "2026-06-09T10:55:18Z",
+  "image_path": "data\\images\\img_0705.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, sugerindo falta de stock ou produto deslocado.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "low",
+      "description": "Produtos de massa (Asian noodles) ligeiramente desalinhados e sobrepostos na extremidade direita.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "molhos em frasco",
+    "massas frescas (tortellini/ravioli)",
+    "noodles",
+    "gnocchi"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 4 níveis visíveis. Nível superior: molhos em frasco. Nível 2: massas frescas em embalagens planas. Nível 3: noodles e massas. Nível 4: gnocchi e outros produtos. PASSO 2: Prateleira superior: bem organizada. Prateleira 2: bem organizada. Prateleira 3: organizada, mas com ligeiro desalinhamento à direita. Prateleira 4: presença de um espaço vazio considerável no lado direito. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira inferior (severidade média) e 'misaligned' na prateleira 3 (severidade baixa). PASSO 4: O fill rate é elevado, estimado em 0.88, considerando a ocupação quase total das prateleiras superiores e a falha pontual na inferior."
+}

@@ -1,0 +1,16 @@
+{
+  "inspection_id": "INS_20260609_105830_758",
+  "timestamp": "2026-06-09T10:58:30Z",
+  "image_path": "data\\images\\img_0769.jpg",
+  "zone_id": "Z_S7",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.98,
+  "products_detected": [
+    "vinho branco",
+    "vinho rosé",
+    "vinho tinto",
+    "espumante"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um expositor de bebidas. A prateleira superior contém vinhos brancos e espumantes. A prateleira do meio contém vinhos tintos/rosés e espumantes. A prateleira inferior contém vinhos tintos e espumantes. Os produtos estão alinhados e organizados. PASSO 2: Prateleira superior: bem preenchida, sem falhas. Prateleira do meio: bem preenchida, sem falhas. Prateleira inferior: bem preenchida, sem falhas. Não foram detetadas anomalias significativas como produtos em falta, desalinhamentos graves ou etiquetas ausentes. PASSO 3: Não existem anomalias a reportar. PASSO 4: O fill rate é muito elevado, com quase todas as posições ocupadas, estimado em 0.98."
+}

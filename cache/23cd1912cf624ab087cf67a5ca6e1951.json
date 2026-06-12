@@ -1,0 +1,41 @@
+{
+  "inspection_id": "INS_20260606_165438_418",
+  "timestamp": "2026-06-06T16:54:38Z",
+  "image_path": "data\\images\\img_0429.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio visível entre as cervejas Beck's e a extremidade direita da prateleira.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "As embalagens de James Squire estão ligeiramente desalinhadas em relação à frente da prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Cascade Premium Lager",
+    "James Boag's Premium",
+    "Tiger Beer",
+    "Furstenberg",
+    "Beck's",
+    "James Squire Original Amber Ale",
+    "Kirin Ichiban",
+    "Corona",
+    "Cantina",
+    "Crown Lager"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado contendo diversas marcas de cerveja em embalagens de 6 unidades e caixas. A organização é predominantemente por blocos de marca. PASSO 2: Prateleira superior: bem preenchida, exceto por um pequeno espaço vazio à direita. Prateleira do meio: bem preenchida, com alinhamento aceitável, mas com pequenas irregularidades nas caixas de James Squire. Prateleira inferior: caixas grandes de Crown Lager ocupam a maior parte do espaço, com boa organização. PASSO 3: Identifiquei um espaço vazio na prateleira superior (empty_shelf) e um leve desalinhamento na prateleira do meio (misaligned). A severidade é baixa a média, pois o stock está maioritariamente presente. PASSO 4: O fill rate é elevado, estimado em 0.92, dado que a maioria das prateleiras está cheia, com apenas pequenas lacunas."
+}

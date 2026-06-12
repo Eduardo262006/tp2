@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260608_175047_636",
+  "timestamp": "2026-06-08T17:50:47Z",
+  "image_path": "data\\images\\img_0647.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "wrong_product",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Brinquedo (carrinho) pendurado na frente da prateleira de snacks, obstruindo a visão e ocupando espaço de venda.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Espaço vazio entre os pacotes de Doritos Mexicana, indicando falta de produto ou desorganização.",
+      "confidence": 0.85,
+      "affected_area_pct": 8.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Doritos Nacho Cheese",
+    "Doritos Mexicana",
+    "Coles Original Corn Chips",
+    "Brinquedo (Flip Car)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo pacotes de Doritos (Nacho Cheese e Mexicana) e Coles Corn Chips. Há um brinquedo (carrinho) pendurado na prateleira superior esquerda. PASSO 2: Prateleira superior: presença de brinquedo intruso. Prateleira do meio: bem abastecida. Prateleira inferior: presença de um espaço vazio no centro entre os pacotes de Doritos Mexicana. PASSO 3: Anomalia 1: 'wrong_product' (brinquedo) na prateleira superior, severidade média, confiança alta. Anomalia 2: 'empty_shelf' na prateleira inferior, severidade baixa, confiança alta. PASSO 4: O preenchimento é alto, com apenas pequenas interrupções pelo brinquedo e pelo espaço vazio, estimado em 92%."
+}

@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260604_163358_260",
+  "timestamp": "2026-06-04T16:33:58Z",
+  "image_path": "data\\images\\img_0271.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo onde deveriam estar produtos de cuidados faciais.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado central",
+      "severity": "low",
+      "description": "Produtos Nivea Lip Care estão tombados e desalinhados dentro do organizador.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "cremes faciais",
+    "toalhetes de limpeza",
+    "protetores labiais",
+    "loções corporais",
+    "cremes hidratantes"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho de produtos de beleza (skincare). Existem três níveis principais visíveis. O nível superior contém cremes (Olay, Nivea). O nível do meio contém toalhetes, protetores labiais e cremes. O nível inferior contém loções corporais (Dove, Johnson's). PASSO 2: Nível superior: organizado. Nível do meio: zona esquerda com espaço vazio (empty_shelf) e zona central com produtos tombados (misaligned). Nível inferior: bem organizado. PASSO 3: Anomalia 1: empty_shelf na prateleira do meio, esquerda, severidade média, confiança 0.95. Anomalia 2: misaligned na prateleira do meio, centro, severidade baixa, confiança 0.9. PASSO 4: O fill rate é alto, estimado em 0.85, dado que a maioria das prateleiras está cheia, exceto pela lacuna na prateleira do meio."
+}

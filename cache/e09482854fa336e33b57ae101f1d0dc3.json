@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260602_153727_006",
+  "timestamp": "2026-06-02T15:37:27Z",
+  "image_path": "data\\images\\img_0006.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Uma garrafa individual de bebida está posicionada de forma irregular entre os packs de UDL e Absolut Cut.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas individuais de Smirnoff Ice estão desalinhadas e misturadas com os packs de Cruiser Black.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "UDL Vodka",
+    "Absolut Cut",
+    "Cruiser Black",
+    "Smirnoff Ice",
+    "Bundaberg Rum & Cola"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de bebidas alcoólicas (RTDs). A prateleira superior contém packs de UDL, uma garrafa isolada e packs de Absolut Cut. A prateleira inferior contém packs de Cruiser Black, garrafas individuais de Smirnoff Ice, packs de Smirnoff Ice e packs de Bundaberg. PASSO 2: Prateleira superior: organização geral boa, exceto por uma garrafa intrusa à direita. Prateleira inferior: organização aceitável, mas com desalinhamento de garrafas individuais no lado esquerdo. PASSO 3: Identificadas duas anomalias de desalinhamento/organização. Severidade baixa pois os produtos estão presentes e visíveis, apenas mal organizados. PASSO 4: O preenchimento é alto, com poucas lacunas, estimado em 92%."
+}

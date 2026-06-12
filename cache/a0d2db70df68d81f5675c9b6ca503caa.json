@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260604_163437_273",
+  "timestamp": "2026-06-04T16:34:37Z",
+  "image_path": "data\\images\\img_0284.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos, sugerindo rutura de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "low",
+      "description": "Produtos desalinhados e ligeiramente virados para fora da face da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "sumos de fruta em pacote (cartão)",
+    "sumos de fruta em garrafa de plástico"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de supermercado com sumos de fruta. Existem várias filas de produtos em embalagens de cartão (Australian Fresh) e garrafas de plástico. A organização é geralmente boa, com etiquetas de preço visíveis. PASSO 2: Dividindo a prateleira: Superior (cheia, organizada), Meio (maioritariamente cheia, com ligeiro desalinhamento à direita), Inferior (presença de um espaço vazio considerável à direita). PASSO 3: Identifiquei um 'empty_shelf' na prateleira inferior direita (severidade média, confiança alta) e um 'misaligned' na prateleira do meio (severidade baixa, confiança alta). PASSO 4: O fill rate é elevado, mas afetado pelo espaço vazio na base, estimado em 0.88."
+}

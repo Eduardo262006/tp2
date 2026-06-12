@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260608_175029_630",
+  "timestamp": "2026-06-08T17:50:29Z",
+  "image_path": "data\\images\\img_0641.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio entre os pacotes de massa, indicando falta de stock ou organização deficiente.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Garrafas de molho de soja Yeo's ligeiramente desalinhadas em relação à frente da prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "massas asiáticas (somen, udon, soba)",
+    "molhos de soja (ABC, Yeo's, Pearl River Bridge)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras. A superior contém pacotes de massa asiática (somen, udon, soba) organizados em divisórias. A inferior contém garrafas de molho de soja de várias marcas (ABC, Yeo's, Pearl River Bridge). PASSO 2: Prateleira superior: lado esquerdo apresenta um espaço vazio entre os produtos. Prateleira inferior: organização geral boa, mas com ligeiro desalinhamento nas garrafas centrais. PASSO 3: Anomalia 1: empty_shelf na prateleira superior, severidade média, confiança 0.9. Anomalia 2: misaligned na prateleira inferior, severidade baixa, confiança 0.8. PASSO 4: O fill rate é elevado, estimado em 0.85, dado que a maioria dos espaços está preenchida, com apenas pequenas lacunas na prateleira superior."
+}

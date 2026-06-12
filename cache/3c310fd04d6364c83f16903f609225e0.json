@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260609_105942_782",
+  "timestamp": "2026-06-09T10:59:42Z",
+  "image_path": "data\\images\\img_0793.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre as lancheiras e a lateral esquerda da prateleira.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos de limpeza/garrafas estão desorganizados e desalinhados em relação à frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "lancheiras",
+    "latas de leite em pó",
+    "garrafas de plástico",
+    "caixas de armazenamento",
+    "brinquedos em rede"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho. A superior contém lancheiras e latas de leite em pó. A inferior contém garrafas, caixas de plástico e brinquedos em rede. PASSO 2: Prateleira superior: lado esquerdo com espaço vazio (anomalia). Prateleira inferior: lado esquerdo com produtos desalinhados. PASSO 3: Anomalia 1 (empty_shelf): prateleira superior esquerda, severidade média, confiança 0.9. Anomalia 2 (misaligned): prateleira inferior esquerda, severidade baixa, confiança 0.85. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria do espaço está preenchido, exceto por pequenas lacunas na prateleira superior e desorganização na inferior."
+}

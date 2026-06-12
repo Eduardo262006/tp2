@@ -1,0 +1,32 @@
+{
+  "inspection_id": "INS_20260608_175108_643",
+  "timestamp": "2026-06-08T17:51:08Z",
+  "image_path": "data\\images\\img_0654.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Toalhas verdes estão desalinhadas e projetando-se para fora da divisória, invadindo o espaço adjacente.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Pilha de toalhas desorganizada e com orientação irregular.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "toalhas de banho"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho organizada em 4 níveis, contendo toalhas de banho dobradas de várias cores (azul, creme, verde, rosa, preto). Há divisórias metálicas para separar os produtos. PASSO 2: Prateleira superior: organizada. Prateleira média-superior: organizada. Prateleira média-inferior: as toalhas verdes à direita estão desalinhadas e caídas para fora da divisória. Prateleira inferior: as toalhas à direita apresentam uma organização menos rigorosa e desalinhada. PASSO 3: Identifiquei duas anomalias de desalinhamento. A da prateleira média é mais severa pois invade o espaço lateral. A da inferior é apenas desorganização estética. PASSO 4: O fill rate é elevado, com quase todos os compartimentos preenchidos, estimado em 0.92."
+}

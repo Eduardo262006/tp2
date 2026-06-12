@@ -1,0 +1,23 @@
+{
+  "inspection_id": "INS_20260606_165732_476",
+  "timestamp": "2026-06-06T16:57:32Z",
+  "image_path": "data\\images\\img_0487.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "As embalagens de ovos no topo da pilha à direita estão desalinhadas e instáveis, com uma caixa projetando-se para fora da pilha principal.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.9,
+  "products_detected": [
+    "ovos (embalagens de cartão)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado abastecida com embalagens de cartão de ovos (X-Large e Jumbo). A organização é feita em pilhas verticais. PASSO 2: A prateleira está dividida em duas secções principais (superior e inferior). Na secção superior, a zona esquerda e central está bem organizada. A zona superior direita apresenta uma pilha de caixas de ovos que não está perfeitamente alinhada, com uma unidade superior ligeiramente deslocada. PASSO 3: Identifiquei uma anomalia de desalinhamento (misaligned) na parte superior direita. A severidade é média devido ao risco de queda. A confiança é alta. PASSO 4: O fill rate é elevado, estimado em 0.9, pois a maioria do espaço disponível está ocupado por produto, com apenas pequenas lacunas ou irregularidades no empilhamento."
+}

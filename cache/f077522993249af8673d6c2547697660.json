@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260606_165341_399",
+  "timestamp": "2026-06-06T16:53:41Z",
+  "image_path": "data\\images\\img_0410.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço de prateleira vazio ou com stock muito reduzido no centro da prateleira do meio.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "low",
+      "description": "Produto (pacote de batatas) posicionado de forma desorganizada, ocupando espaço de forma ineficiente.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "batatas fritas",
+    "pipocas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com três níveis. Nível superior contém snacks (batatas). Nível médio contém snacks variados (pipocas, batatas). Nível inferior contém sacos de pipocas. PASSO 2: Prateleira superior: organização aceitável, mas um produto está desalinhado. Prateleira média: zona central apresenta um vazio significativo ou stock muito baixo. Prateleira inferior: bem abastecida. PASSO 3: Identificada anomalia de 'empty_shelf' no centro da prateleira do meio (severidade média) e 'misaligned' na prateleira superior (severidade baixa). PASSO 4: O fill rate é estimado em 0.75, considerando o espaço vazio na prateleira do meio e a disposição dos produtos nas restantes."
+}

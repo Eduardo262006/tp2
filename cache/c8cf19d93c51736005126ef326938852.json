@@ -1,0 +1,27 @@
+{
+  "inspection_id": "INS_20260604_163031_191",
+  "timestamp": "2026-06-04T16:30:31Z",
+  "image_path": "data\\images\\img_0202.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro-direita",
+      "severity": "medium",
+      "description": "Espaço vazio visível entre as caixas de James Boag's e as caixas de XXXX Gold, indicando falta de produto ou organização inadequada.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.9,
+  "products_detected": [
+    "James Boag's Premium Light",
+    "XXXX Gold",
+    "Tooheys Extra Dry",
+    "Cascade Premium Light",
+    "Carlton Dry"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um expositor de bebidas. A prateleira superior contém garrafas individuais (James Boag's, XXXX Gold, Carlton Dry). A prateleira inferior contém caixas de cartão (packs) de Cascade, James Boag's, XXXX Gold e Tooheys Extra Dry. PASSO 2: Prateleira superior: bem organizada. Prateleira inferior: organizada em colunas, mas há um espaço vazio notável entre a coluna de James Boag's e a coluna de XXXX Gold. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira inferior, zona central, onde o alinhamento das caixas deixa um vão vazio. Severidade média, pois interrompe a continuidade do stock. Confiança alta. PASSO 4: O fill rate é elevado, estimado em 0.9, dado que a maioria do espaço está preenchido, com apenas uma pequena lacuna no centro da prateleira inferior."
+}

@@ -1,0 +1,28 @@
+{
+  "inspection_id": "INS_20260604_162822_148",
+  "timestamp": "2026-06-04T16:28:22Z",
+  "image_path": "data\\images\\img_0148.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na secção de 'Smiths Thinly Cut Cheesy Potato Bake', com apenas um pacote presente.",
+      "confidence": 0.95,
+      "affected_area_pct": 40.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Smiths Thinly Cut Original",
+    "Smiths Crinkle Cut Salt & Vinegar",
+    "Smiths Thinly Cut Sour Cream & Onion",
+    "Smiths Thinly Cut Cheesy Potato Bake",
+    "Smiths Crinkle Cut Chicken",
+    "Doritos Cheese Supreme"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de retalho contendo pacotes de batatas fritas (Smiths e Doritos). A organização é feita por caixas de cartão que servem de expositores. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: lado esquerdo cheio, centro com falha de stock (apenas um pacote), lado direito cheio. Prateleira inferior: bem abastecida. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira do meio, zona central, onde o produto 'Cheesy Potato Bake' apresenta uma rutura de stock parcial. Severidade média, pois o espaço está visivelmente vazio. PASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das secções está cheia, exceto pela falha central na prateleira do meio."
+}

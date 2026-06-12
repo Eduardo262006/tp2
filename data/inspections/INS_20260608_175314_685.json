@@ -1,0 +1,43 @@
+{
+  "inspection_id": "INS_20260608_175314_685",
+  "timestamp": "2026-06-08T17:53:14Z",
+  "image_path": "data\\images\\img_0696.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Latas de SPC Apple estão ligeiramente desalinhadas e com profundidade irregular.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Algumas latas de Southern Valley estão viradas ou desalinhadas em relação ao bloco principal.",
+      "confidence": 0.8,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio visível na extremidade direita da prateleira inferior.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "latas de fruta em calda (SPC, Southern Valley, Heinz)",
+    "produtos de leite (canto superior direito)",
+    "artigos de decoração/brinquedos (faixa vertical direita)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 4 níveis principais. Os produtos são predominantemente latas de fruta em conserva (marcas SPC, Southern Valley, Heinz). Há uma faixa vertical de produtos não alimentares (brinquedos/decoração) à direita. PASSO 2: Analisando por níveis: Superior (bem abastecido, mas com desalinhamento leve à esquerda); Segundo nível (bem abastecido, organização consistente); Terceiro nível (boa organização, blocos de produtos claros); Inferior (boa ocupação, mas com um pequeno espaço vazio à direita). PASSO 3: Identifiquei desalinhamentos menores em vários níveis que afetam a estética (faceamento). O espaço vazio na prateleira inferior é a anomalia mais notável. PASSO 4: O fill rate é alto, estimado em 92%, pois a grande maioria das prateleiras está preenchida, com apenas pequenas lacunas de profundidade ou faceamento."
+}

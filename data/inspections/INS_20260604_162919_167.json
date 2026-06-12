@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260604_162919_167",
+  "timestamp": "2026-06-04T16:29:19Z",
+  "image_path": "data\\images\\img_0178.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre as caixas de vinho roxas e as caixas verdes da Coolabah.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "As caixas de vinho estão ligeiramente desalinhadas em relação à frente da prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "vinho em caixa (cask wine)",
+    "etiquetas de preço"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo vinhos em caixa (bag-in-box). A prateleira superior está bem preenchida. A prateleira do meio apresenta um espaço vazio considerável à esquerda. A prateleira inferior está quase totalmente preenchida, com um ligeiro desalinhamento nas caixas da direita. PASSO 2: Prateleira superior: ok. Prateleira do meio: zona esquerda com vazio (empty_shelf). Prateleira inferior: zona direita com desalinhamento (misaligned). PASSO 3: Anomalia 1 (empty_shelf): prateleira do meio, lado esquerdo, severidade média, confiança 0.95, área afetada 15%. Anomalia 2 (misaligned): prateleira inferior, lado direito, severidade baixa, confiança 0.8, área afetada 5%. PASSO 4: O fill rate global é estimado em 0.85, considerando o espaço vazio na prateleira do meio e a ocupação densa das outras prateleiras."
+}

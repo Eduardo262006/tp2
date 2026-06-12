@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260603_121415_060",
+  "timestamp": "2026-06-03T12:14:15Z",
+  "image_path": "data\\images\\img_0060.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na extremidade direita da prateleira superior.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Tampa de frasco solta ou mal posicionada sobre um dos produtos.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "compotas",
+    "geleias",
+    "frascos de conservas de fruta"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com várias prateleiras contendo frascos de compotas/geleias de marcas como Rose's, Exotic e St. Dalfour. A organização é geralmente boa, com produtos alinhados por marca e tipo. PASSO 2: Prateleira superior: bem preenchida à esquerda, mas com um espaço vazio à direita. Há um objeto (tampa) fora de lugar no topo de um frasco à esquerda. Prateleira do meio: preenchimento consistente. Prateleira inferior: preenchimento consistente. PASSO 3: Anomalia 1: Espaço vazio (empty_shelf) na prateleira superior direita, severidade média. Anomalia 2: Objeto estranho/tampa (misaligned/other) na prateleira superior esquerda, severidade baixa. PASSO 4: O fill rate é alto, estimado em 0.88, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na parte superior direita."
+}

@@ -1,0 +1,38 @@
+{
+  "inspection_id": "INS_20260603_121736_127",
+  "timestamp": "2026-06-03T12:17:36Z",
+  "image_path": "data\\images\\img_0127.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos de queijo.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos de queijo (Feta) ligeiramente desalinhados e desorganizados na frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Feta cheese",
+    "Cheese spread",
+    "Gouda cheese",
+    "Jarlsberg cheese",
+    "Saganak cheese",
+    "Edam cheese",
+    "Swiss cheese"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de refrigeração de supermercado com 4 prateleiras visíveis contendo diversos tipos de queijo (Feta, spreads, Gouda, Edam, etc.). PASSO 2: Prateleira superior: bem abastecida, mas com alguma desorganização nos produtos Feta à esquerda. Prateleira 2 (segunda de cima): contém Arla e Buko, bem organizada. Prateleira 3 (terceira de cima): apresenta um espaço vazio notável no lado esquerdo, indicando falta de stock ou produto removido. Prateleira inferior: bem abastecida com queijos em bloco. PASSO 3: Identifiquei um 'empty_shelf' na prateleira 3 (severidade média) e 'misaligned' na prateleira superior (severidade baixa). PASSO 4: O fill rate é alto na maioria das prateleiras, exceto pela lacuna na terceira prateleira, resultando numa estimativa global de 0.85."
+}

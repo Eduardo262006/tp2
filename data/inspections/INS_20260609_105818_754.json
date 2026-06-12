@@ -1,0 +1,13 @@
+{
+  "inspection_id": "INS_20260609_105818_754",
+  "timestamp": "2026-06-09T10:58:18Z",
+  "image_path": "data\\images\\img_0765.jpg",
+  "zone_id": "Z_S6",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.98,
+  "products_detected": [
+    "vinho em caixa (cask wine)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um supermercado contendo vinhos em caixa (cask wine) de várias marcas (Coolabah, Sunnyvale, De Bortoli). Os produtos estão organizados em filas horizontais. PASSO 2: Prateleira superior: totalmente preenchida. Prateleira do meio: totalmente preenchida. Prateleira inferior: totalmente preenchida. Não há espaços vazios significativos, produtos danificados visíveis ou etiquetas em falta. PASSO 3: Não foram identificadas anomalias. A organização está consistente com o plano de merchandising. PASSO 4: O fill rate é muito elevado, quase 100%, com apenas espaços marginais entre as caixas, resultando numa estimativa de 0.98."
+}

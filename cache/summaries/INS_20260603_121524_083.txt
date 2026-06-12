@@ -1,0 +1,1 @@
+zona Z_S1; estado ok; fill rate 95%; produtos: sumos, cerveja de gengibre, bebidas gaseificadas Kirks (Pasito e Creaming Soda), bebidas Fuze Tea; data 2026-06-03T12:15:24Z

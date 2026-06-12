@@ -1,0 +1,7 @@
+Com base nesta sessão de inspeção, escreve NO MÁXIMO 5 recomendações concretas e
+acionáveis, ordenadas por urgência (a mais urgente primeiro). Cada recomendação deve ser
+específica o suficiente para ser executada sem interpretação adicional. Devolve uma
+recomendação por linha, prefixada por "1. ", "2. ", etc.
+
+Dados da sessão (JSON):
+%s

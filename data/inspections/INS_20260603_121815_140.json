@@ -1,0 +1,27 @@
+{
+  "inspection_id": "INS_20260603_121815_140",
+  "timestamp": "2026-06-03T12:18:15Z",
+  "image_path": "data\\images\\img_0140.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "high",
+      "description": "A secção de prateleira metálica está completamente vazia, sem produtos expostos.",
+      "confidence": 0.95,
+      "affected_area_pct": 30.0
+    }
+  ],
+  "shelf_fill_rate": 0.7,
+  "products_detected": [
+    "copos de vidro",
+    "snacks para animais",
+    "garrafas de água mineral com sabor (frutos vermelhos)",
+    "garrafas de água mineral com sabor (laranja)",
+    "pratos de jantar"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho dividida em duas secções verticais. À esquerda, temos copos, snacks para animais e pratos. À direita, temos garrafas de bebidas (água mineral com sabor). PASSO 2: A prateleira do meio, lado esquerdo, apresenta uma grelha metálica vazia. As outras zonas estão preenchidas com produtos. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira do meio, lado esquerdo. A severidade é alta pois o espaço está totalmente desocupado. Confiança de 0.95. PASSO 4: Considerando a área total da prateleira, cerca de 30% da área de exposição está vazia, resultando num fill rate de 0.7."
+}

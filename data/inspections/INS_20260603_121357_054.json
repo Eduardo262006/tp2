@@ -1,0 +1,39 @@
+{
+  "inspection_id": "INS_20260603_121357_054",
+  "timestamp": "2026-06-03T12:13:57Z",
+  "image_path": "data\\images\\img_0054.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Caixa de Anticol ICE tombada e fora de alinhamento com as restantes unidades.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Espaço vazio visível entre as embalagens de Strepsils.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "Lemsip",
+    "Nurofen",
+    "Strepsils",
+    "Anticol",
+    "Herron",
+    "Heel Balm",
+    "Tinasolve",
+    "Nyal"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de farmácia com medicamentos (pastilhas, analgésicos, cremes). A organização é geralmente por blocos de marca. PASSO 2: Prateleira superior: bem organizada. Prateleira do meio: lado esquerdo apresenta uma caixa de Anticol tombada (misaligned). Prateleira inferior: lado esquerdo apresenta um pequeno espaço vazio entre produtos (empty_shelf). PASSO 3: A caixa tombada é uma anomalia de alinhamento de severidade média. O espaço vazio é uma anomalia de stock de severidade baixa. PASSO 4: O fill rate é elevado, estimado em 88%, dado que a maioria das prateleiras está cheia, com apenas pequenas lacunas ou desorganização pontual."
+}

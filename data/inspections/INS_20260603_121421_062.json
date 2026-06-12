@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260603_121421_062",
+  "timestamp": "2026-06-03T12:14:21Z",
+  "image_path": "data\\images\\img_0062.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo após a última garrafa de sumo de framboesa, antes da zona de peluches.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas de sumo Extra Juicy desalinhadas e ligeiramente rodadas, não seguindo o padrão de faceamento frontal.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "sumo de fruta (cordial)",
+    "peluches"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado contendo garrafas de 2L de sumo (marcas Extra Juicy e Farmland). Há também uma secção de peluches pendurados na extremidade direita. PASSO 2: Prateleira superior: bem preenchida à esquerda e centro, mas com um espaço vazio à direita antes dos peluches. Prateleira inferior: preenchida, mas com desorganização no alinhamento das garrafas à esquerda. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior (lado direito) devido ao espaço não utilizado e 'misaligned' na prateleira inferior (lado esquerdo) devido à orientação irregular das garrafas. A severidade é média para o espaço vazio e baixa para o desalinhamento. PASSO 4: O fill rate é estimado em 0.85, considerando o espaço ocupado pelas garrafas em relação à largura total disponível das prateleiras."
+}

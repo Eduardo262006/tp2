@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260606_165708_468",
+  "timestamp": "2026-06-06T16:57:08Z",
+  "image_path": "data\\images\\img_0479.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "damaged",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Uma garrafa de água encontra-se deitada (horizontal) em vez de vertical, ocupando espaço de forma desorganizada.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro-direita",
+      "severity": "low",
+      "description": "Espaço vazio visível atrás da garrafa deitada, indicando falta de stock ou má organização.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "água mineral natural",
+    "bebida aromatizada Deep Spring"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado. A superior contém garrafas de água mineral natural. A inferior contém garrafas de água e garrafas de bebida 'Deep Spring' (frutos vermelhos). PASSO 2: Prateleira superior: lado esquerdo e centro bem organizados; lado direito apresenta uma garrafa deitada e um espaço vazio atrás. Prateleira inferior: bem organizada, com produtos alinhados. PASSO 3: Identificada uma garrafa deitada (damaged/misaligned) na prateleira superior direita e um espaço vazio (empty_shelf) adjacente. Severidade média devido à má apresentação. PASSO 4: O fill rate é elevado, estimado em 0.85, dado que a maioria das prateleiras está cheia, exceto pela pequena zona de desorganização à direita."
+}

@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260609_105512_692",
+  "timestamp": "2026-06-09T10:55:12Z",
+  "image_path": "data\\images\\img_0703.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre as caixas de BrunchBar Raisin e BrunchBar Cranberry.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio entre as caixas de All-Bran e as caixas de Special K.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "BrunchBar",
+    "Special K",
+    "All-Bran",
+    "Muffin Bars"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo barras de cereais (BrunchBar, All-Bran, Special K, Muffin Bars). A organização é por blocos de marca/sabor. PASSO 2: Prateleira superior: preenchida nas extremidades, com um vazio central. Prateleira do meio: preenchida nas extremidades, com um vazio central notável. Prateleira inferior: bem preenchida com caixas de Muffin Bars. PASSO 3: Identificadas duas zonas de 'empty_shelf' no centro das duas prateleiras superiores. Severidade média pois o produto está disponível, mas a exposição está incompleta. Confiança alta devido à visibilidade clara das grelhas metálicas de fundo. PASSO 4: Estimativa de fill rate global de 0.85, considerando que cerca de 15% do espaço linear total das prateleiras superiores está desocupado."
+}

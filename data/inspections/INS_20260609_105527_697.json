@@ -1,0 +1,25 @@
+{
+  "inspection_id": "INS_20260609_105527_697",
+  "timestamp": "2026-06-09T10:55:27Z",
+  "image_path": "data\\images\\img_0708.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos da marca Patak's.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Patak's curry sauces",
+    "Patak's curry pastes",
+    "Patak's pickles"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de retalho contendo frascos de molhos e pastas da marca Patak's. A prateleira superior está totalmente preenchida. A prateleira do meio apresenta uma falha de stock (espaço vazio) no centro. A prateleira inferior está bem preenchida com várias filas de produtos. PASSO 2: Prateleira superior: OK. Prateleira do meio: Zona central apresenta um vazio (empty_shelf). Prateleira inferior: OK. PASSO 3: Anomalia identificada na prateleira do meio, centro. Tipo: empty_shelf. Severidade: média (afeta a continuidade da exposição). Confiança: 0.95. PASSO 4: Considerando a área total das três prateleiras, o espaço vazio representa aproximadamente 15% da área total de exposição, resultando num fill rate de 0.85."
+}

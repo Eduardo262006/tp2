@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260609_105836_760",
+  "timestamp": "2026-06-09T10:58:36Z",
+  "image_path": "data\\images\\img_0771.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Frascos de molho e embalagens de noodles estão desalinhados e ligeiramente desorganizados na frente da prateleira.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio visível na prateleira inferior, indicando falta de stock ou produto deslocado.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "molhos asiáticos",
+    "noodles instantâneos",
+    "pacotes de noodles Mi Goreng",
+    "Shin Ramyun"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras com produtos asiáticos (molhos, noodles em caixa e pacotes de noodles). A organização é geralmente boa, mas há desordem pontual. PASSO 2: Prateleira superior: bem organizada. Prateleira do meio: os produtos estão um pouco desalinhados, com alguns frascos e caixas fora do alinhamento frontal. Prateleira inferior: lado esquerdo cheio com pacotes de Mi Goreng, lado direito apresenta um espaço vazio significativo onde deveriam estar mais produtos. PASSO 3: Identifiquei desalinhamento na prateleira do meio (baixa severidade) e um espaço vazio na prateleira inferior (severidade média). PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na parte inferior direita."
+}

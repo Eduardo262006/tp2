@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260602_153742_011",
+  "timestamp": "2026-06-02T15:37:42Z",
+  "image_path": "data\\images\\img_0011.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na extremidade direita da prateleira superior, onde deveriam estar produtos pendurados.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "terceira prateleira a contar de cima, lado direito",
+      "severity": "low",
+      "description": "Espaço vazio entre os produtos pendurados, indicando falta de stock ou desorganização.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "cosméticos",
+    "batons",
+    "sombras de olhos",
+    "produtos de higiene pessoal"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho de cosméticos (marca Rimmel) com produtos pendurados em ganchos (blisters). Existem 4 níveis principais de exposição. Produtos de maquilhagem (batons, sombras) ocupam a maioria dos ganchos. Há produtos de higiene pessoal (Palmolive) visíveis à esquerda.\nPASSO 2: \n- Superior: Lado direito apresenta um espaço vazio considerável.\n- Segunda prateleira: Bem preenchida, organização consistente.\n- Terceira prateleira: Espaço vazio notável no lado direito, entre os produtos.\n- Inferior: Preenchimento regular, embora com alguns espaços entre unidades.\nPASSO 3: \n- Anomalia 1: Empty_shelf na prateleira superior direita. Severidade média, confiança alta.\n- Anomalia 2: Empty_shelf na terceira prateleira, lado direito. Severidade baixa, confiança alta.\nPASSO 4: O fill rate é estimado em 0.85, considerando que a maioria dos ganchos está ocupada, mas existem lacunas pontuais e uma zona vazia maior no topo."
+}

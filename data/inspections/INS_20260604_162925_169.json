@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260604_162925_169",
+  "timestamp": "2026-06-04T16:29:25Z",
+  "image_path": "data\\images\\img_0180.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "other",
+      "location": "centro, prateleiras do meio e inferior",
+      "severity": "medium",
+      "description": "Um conjunto de bolas de ténis/brinquedos está pendurado verticalmente na frente da prateleira, obstruindo a visão e o acesso aos produtos de gelados (cones).",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos empilhados de forma desorganizada e desalinhada na extremidade esquerda.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "cones de gelado",
+    "bolas de ténis/brinquedos",
+    "snacks embalados"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de corredor de supermercado com várias prateleiras. Na parte superior, cones de gelado. No centro, uma obstrução vertical de bolas de ténis penduradas. Abaixo, mais cones e snacks. PASSO 2: Superior: organização aceitável, exceto desalinhamento à esquerda. Meio: obstrução severa por objetos estranhos (bolas) que bloqueiam o acesso aos cones. Inferior: snacks e produtos diversos, aparentemente organizados. PASSO 3: Anomalia 1: Objeto estranho (bolas) bloqueando a prateleira central. Severidade média, pois impede o acesso ao cliente. Anomalia 2: Desalinhamento na prateleira superior esquerda. Severidade baixa. PASSO 4: O fill rate é alto, pois as prateleiras estão maioritariamente cheias, mas a obstrução reduz a eficiência de exposição."
+}

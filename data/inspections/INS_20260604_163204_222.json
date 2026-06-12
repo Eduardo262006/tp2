@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260604_163204_222",
+  "timestamp": "2026-06-04T16:32:04Z",
+  "image_path": "data\\images\\img_0233.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, à direita da secção de produtos Huggies.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Produto posicionado de forma irregular/inclinada na extremidade direita da prateleira superior.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Huggies Walker",
+    "Huggies Junior",
+    "Huggies Toddler"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com fraldas Huggies organizadas em três níveis. Os produtos estão maioritariamente alinhados, mas há espaços vazios e desalinhamentos. PASSO 2: Prateleira superior: cheia, com um item ligeiramente desalinhado à direita. Prateleira do meio: cheia, organização correta. Prateleira inferior: lado esquerdo cheio, lado direito apresenta uma zona vazia considerável na grelha metálica. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira inferior direita (severidade média) e um 'misaligned' na prateleira superior direita (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando a ocupação total das prateleiras visíveis menos a área vazia na parte inferior direita."
+}

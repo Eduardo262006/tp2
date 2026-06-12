@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260602_153903_038",
+  "timestamp": "2026-06-02T15:39:03Z",
+  "image_path": "data\\images\\img_0038.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, indicando falta de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 30.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "Smiths Stax potato chips",
+    "Smiths Crinkle Cut chips",
+    "Red Rock Deli potato chips"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de retalho contendo batatas fritas (tubos Stax e sacos Smiths/Red Rock Deli). A prateleira superior está bem abastecida. A prateleira do meio apresenta uma falha de stock no centro. A prateleira inferior apresenta uma falha de stock no centro e à esquerda. PASSO 2: Prateleira superior: cheia. Prateleira do meio: centro vazio. Prateleira inferior: centro e parte da esquerda vazios. PASSO 3: Identificadas duas zonas de 'empty_shelf' com severidade média, pois afetam a disponibilidade do produto e a estética da prateleira. Confiança alta devido à visibilidade clara das grelhas metálicas. PASSO 4: Estimativa de fill rate: superior (~100%), meio (~70%), inferior (~50%). Média global estimada em 0.75."
+}

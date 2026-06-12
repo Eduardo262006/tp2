@@ -1,0 +1,7 @@
+Avalia se a RESPOSTA é integralmente suportada pelo CONTEXTO fornecido (sem inventar
+factos). Responde APENAS com JSON: {"faithfulness": 0.0, "justification": "..."}.
+
+CONTEXTO:
+%s
+
+RESPOSTA: %s

@@ -1,0 +1,1 @@
+zona Z_N3; estado warning; fill rate 92%; misaligned (medium) em prateleira superior, centro: Uma caixa de lenços está colocada de lado sobre as outras caixas, obstruindo a organização linear e o alinhamento do produto.; produtos: Kleenex Aloe Vera, Kleenex Eucalyptus, Coles Persona Facial Tissues; data 2026-06-03T12:16:30Z

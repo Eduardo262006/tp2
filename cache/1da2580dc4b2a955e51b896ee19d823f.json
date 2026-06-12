@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260608_174944_615",
+  "timestamp": "2026-06-08T17:49:44Z",
+  "image_path": "data\\images\\img_0626.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo à esquerda da caixa de Beck's, onde deveria estar outro produto.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "A caixa de Coopers está ligeiramente desalinhada em relação à borda da prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Heineken",
+    "Beck's",
+    "Pure Blonde",
+    "Coopers",
+    "König Pilsener",
+    "Corona Extra"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de metal com caixas de cerveja. Na prateleira superior, vejo Pure Blonde (parcial), Beck's e Heineken. Na prateleira inferior, vejo Coopers, König Pilsener e Corona Extra. PASSO 2: Prateleira superior: lado esquerdo tem um espaço vazio considerável. Prateleira inferior: os produtos estão bem organizados, mas a caixa de Coopers parece um pouco desalinhada. PASSO 3: Anomalia 1: empty_shelf na prateleira superior esquerda (severidade média, confiança alta). Anomalia 2: misaligned na prateleira inferior esquerda (severidade baixa, confiança média). PASSO 4: O fill rate é alto, mas com uma lacuna clara na parte superior esquerda. Estimo 0.85."
+}

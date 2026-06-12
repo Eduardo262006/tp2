@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260607_113724_580",
+  "timestamp": "2026-06-07T11:37:24Z",
+  "image_path": "data\\images\\img_0591.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Uma garrafa de Coca-Cola Zero está ligeiramente desalinhada em relação à fila principal.",
+      "confidence": 0.85,
+      "affected_area_pct": 2.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Garrafa de Coca-Cola posicionada de forma irregular, destacando-se da organização das restantes garrafas de Coca-Cola Zero.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Diet Coke",
+    "Coca-Cola Zero",
+    "Coca-Cola"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras completas de garrafas de 1.5L de refrigerantes (Diet Coke, Coca-Cola Zero e Coca-Cola). Há também um expositor lateral de plástico com garrafas vazias. PASSO 2: Prateleira superior: bem organizada, com alinhamento consistente. Prateleira do meio: a maioria está alinhada, exceto uma garrafa de Coca-Cola à esquerda que está fora do padrão de profundidade/alinhamento. Prateleira inferior: visível apenas parcialmente, parece organizada. PASSO 3: Identifiquei um desalinhamento na prateleira do meio (severidade média) e um pequeno desalinhamento na superior (severidade baixa). Não há prateleiras vazias. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todo o espaço disponível está preenchido com produto."
+}

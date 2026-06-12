@@ -1,0 +1,1159 @@
+{
+  "traffic": {
+    "visitors_per_day": {
+      "2025-03-10": 473,
+      "2025-03-11": 430,
+      "2025-03-12": 504,
+      "2025-03-13": 518,
+      "2025-03-14": 490,
+      "2025-03-15": 601,
+      "2025-03-16": 548
+    },
+    "avg_visitors_per_hour": {
+      "9": 30.14,
+      "10": 52.71,
+      "11": 74.0,
+      "12": 86.29,
+      "13": 89.29,
+      "14": 71.86,
+      "15": 62.43,
+      "16": 67.86,
+      "17": 89.14,
+      "18": 86.0,
+      "19": 78.71,
+      "20": 52.71,
+      "21": 16.29
+    },
+    "visitors_per_weekday": {
+      "Friday": 490,
+      "Monday": 473,
+      "Saturday": 601,
+      "Sunday": 548,
+      "Thursday": 518,
+      "Tuesday": 430,
+      "Wednesday": 504
+    },
+    "avg_visit_duration_s": 2506.07
+  },
+  "zones": {
+    "zone_stats": {
+      "Z_C1": {
+        "total_visitors": 3284,
+        "avg_dwell_s": 23.62,
+        "stop_rate": 1.0
+      },
+      "Z_C2": {
+        "total_visitors": 3271,
+        "avg_dwell_s": 23.65,
+        "stop_rate": 1.0
+      },
+      "Z_C3": {
+        "total_visitors": 2949,
+        "avg_dwell_s": 23.74,
+        "stop_rate": 1.0
+      },
+      "Z_CK": {
+        "total_visitors": 2423,
+        "avg_dwell_s": 188.79,
+        "stop_rate": 1.0
+      },
+      "Z_E1": {
+        "total_visitors": 2635,
+        "avg_dwell_s": 13.76,
+        "stop_rate": 1.0
+      },
+      "Z_E2": {
+        "total_visitors": 2562,
+        "avg_dwell_s": 13.7,
+        "stop_rate": 1.0
+      },
+      "Z_N1": {
+        "total_visitors": 1267,
+        "avg_dwell_s": 190.07,
+        "stop_rate": 1.0
+      },
+      "Z_N10": {
+        "total_visitors": 1579,
+        "avg_dwell_s": 193.26,
+        "stop_rate": 1.0
+      },
+      "Z_N2": {
+        "total_visitors": 1227,
+        "avg_dwell_s": 193.04,
+        "stop_rate": 1.0
+      },
+      "Z_N3": {
+        "total_visitors": 1296,
+        "avg_dwell_s": 191.25,
+        "stop_rate": 1.0
+      },
+      "Z_N4": {
+        "total_visitors": 1147,
+        "avg_dwell_s": 192.28,
+        "stop_rate": 1.0
+      },
+      "Z_N5": {
+        "total_visitors": 1631,
+        "avg_dwell_s": 192.43,
+        "stop_rate": 1.0
+      },
+      "Z_N6": {
+        "total_visitors": 1376,
+        "avg_dwell_s": 192.03,
+        "stop_rate": 1.0
+      },
+      "Z_N7": {
+        "total_visitors": 1247,
+        "avg_dwell_s": 192.36,
+        "stop_rate": 1.0
+      },
+      "Z_N8": {
+        "total_visitors": 1489,
+        "avg_dwell_s": 189.66,
+        "stop_rate": 1.0
+      },
+      "Z_N9": {
+        "total_visitors": 1427,
+        "avg_dwell_s": 195.16,
+        "stop_rate": 1.0
+      },
+      "Z_S1": {
+        "total_visitors": 871,
+        "avg_dwell_s": 193.16,
+        "stop_rate": 1.0
+      },
+      "Z_S2": {
+        "total_visitors": 531,
+        "avg_dwell_s": 198.86,
+        "stop_rate": 1.0
+      },
+      "Z_S3": {
+        "total_visitors": 1096,
+        "avg_dwell_s": 194.96,
+        "stop_rate": 1.0
+      },
+      "Z_S4": {
+        "total_visitors": 871,
+        "avg_dwell_s": 196.75,
+        "stop_rate": 1.0
+      },
+      "Z_S5": {
+        "total_visitors": 1150,
+        "avg_dwell_s": 107.89,
+        "stop_rate": 1.0
+      },
+      "Z_S6": {
+        "total_visitors": 735,
+        "avg_dwell_s": 195.0,
+        "stop_rate": 1.0
+      },
+      "Z_S7": {
+        "total_visitors": 638,
+        "avg_dwell_s": 192.09,
+        "stop_rate": 1.0
+      }
+    },
+    "top_zone_sequences": [
+      {
+        "from_zone": "Z_C2",
+        "to_zone": "Z_C1",
+        "count": 5492
+      },
+      {
+        "from_zone": "Z_C2",
+        "to_zone": "Z_C3",
+        "count": 4932
+      },
+      {
+        "from_zone": "Z_C1",
+        "to_zone": "Z_C2",
+        "count": 3766
+      },
+      {
+        "from_zone": "Z_C1",
+        "to_zone": "Z_CK",
+        "count": 2341
+      },
+      {
+        "from_zone": "Z_C2",
+        "to_zone": "Z_C2",
+        "count": 2143
+      },
+      {
+        "from_zone": "Z_E2",
+        "to_zone": "Z_C1",
+        "count": 1716
+      },
+      {
+        "from_zone": "Z_E1",
+        "to_zone": "Z_C1",
+        "count": 1707
+      },
+      {
+        "from_zone": "Z_C1",
+        "to_zone": "Z_C1",
+        "count": 1461
+      },
+      {
+        "from_zone": "Z_C3",
+        "to_zone": "Z_C2",
+        "count": 1259
+      },
+      {
+        "from_zone": "Z_CK",
+        "to_zone": "Z_E1",
+        "count": 1134
+      }
+    ]
+  },
+  "funnel": {
+    "conversion_rate": 0.9815,
+    "non_converting_gender_dist": {
+      "F": 0.5909,
+      "M": 0.4091
+    },
+    "non_converting_age_dist": {
+      "adult": 0.3333,
+      "middle_aged": 0.2273,
+      "young_adult": 0.1818,
+      "senior": 0.1212,
+      "teenager": 0.0758,
+      "child": 0.0606
+    },
+    "funnel_by_zone": {
+      "Z_C1": {
+        "visitors": 3284,
+        "pct_of_total": 0.9214
+      },
+      "Z_C2": {
+        "visitors": 3271,
+        "pct_of_total": 0.9178
+      },
+      "Z_C3": {
+        "visitors": 2949,
+        "pct_of_total": 0.8274
+      },
+      "Z_CK": {
+        "visitors": 2423,
+        "pct_of_total": 0.6799
+      },
+      "Z_E1": {
+        "visitors": 2635,
+        "pct_of_total": 0.7393
+      },
+      "Z_E2": {
+        "visitors": 2562,
+        "pct_of_total": 0.7189
+      },
+      "Z_N1": {
+        "visitors": 1267,
+        "pct_of_total": 0.3555
+      },
+      "Z_N10": {
+        "visitors": 1579,
+        "pct_of_total": 0.443
+      },
+      "Z_N2": {
+        "visitors": 1227,
+        "pct_of_total": 0.3443
+      },
+      "Z_N3": {
+        "visitors": 1296,
+        "pct_of_total": 0.3636
+      },
+      "Z_N4": {
+        "visitors": 1147,
+        "pct_of_total": 0.3218
+      },
+      "Z_N5": {
+        "visitors": 1631,
+        "pct_of_total": 0.4576
+      },
+      "Z_N6": {
+        "visitors": 1376,
+        "pct_of_total": 0.3861
+      },
+      "Z_N7": {
+        "visitors": 1247,
+        "pct_of_total": 0.3499
+      },
+      "Z_N8": {
+        "visitors": 1489,
+        "pct_of_total": 0.4178
+      },
+      "Z_N9": {
+        "visitors": 1427,
+        "pct_of_total": 0.4004
+      },
+      "Z_S1": {
+        "visitors": 871,
+        "pct_of_total": 0.2444
+      },
+      "Z_S2": {
+        "visitors": 531,
+        "pct_of_total": 0.149
+      },
+      "Z_S3": {
+        "visitors": 1096,
+        "pct_of_total": 0.3075
+      },
+      "Z_S4": {
+        "visitors": 871,
+        "pct_of_total": 0.2444
+      },
+      "Z_S5": {
+        "visitors": 1150,
+        "pct_of_total": 0.3227
+      },
+      "Z_S6": {
+        "visitors": 735,
+        "pct_of_total": 0.2062
+      },
+      "Z_S7": {
+        "visitors": 638,
+        "pct_of_total": 0.179
+      }
+    }
+  },
+  "demographics": {
+    "gender_by_hour": {
+      "9": {
+        "F": 101,
+        "M": 110
+      },
+      "10": {
+        "F": 179,
+        "M": 190
+      },
+      "11": {
+        "F": 259,
+        "M": 259
+      },
+      "12": {
+        "F": 305,
+        "M": 299
+      },
+      "13": {
+        "F": 298,
+        "M": 327
+      },
+      "14": {
+        "F": 229,
+        "M": 274
+      },
+      "15": {
+        "F": 221,
+        "M": 216
+      },
+      "16": {
+        "F": 244,
+        "M": 231
+      },
+      "17": {
+        "F": 311,
+        "M": 313
+      },
+      "18": {
+        "F": 302,
+        "M": 300
+      },
+      "19": {
+        "F": 261,
+        "M": 290
+      },
+      "20": {
+        "F": 178,
+        "M": 191
+      },
+      "21": {
+        "F": 54,
+        "M": 60
+      }
+    },
+    "age_by_hour": {
+      "9": {
+        "adult": 62,
+        "child": 17,
+        "middle_aged": 52,
+        "senior": 29,
+        "teenager": 14,
+        "young_adult": 37
+      },
+      "10": {
+        "adult": 114,
+        "child": 28,
+        "middle_aged": 88,
+        "senior": 43,
+        "teenager": 29,
+        "young_adult": 67
+      },
+      "11": {
+        "adult": 142,
+        "child": 42,
+        "middle_aged": 125,
+        "senior": 60,
+        "teenager": 52,
+        "young_adult": 97
+      },
+      "12": {
+        "adult": 178,
+        "child": 49,
+        "middle_aged": 135,
+        "senior": 77,
+        "teenager": 65,
+        "young_adult": 100
+      },
+      "13": {
+        "adult": 174,
+        "child": 50,
+        "middle_aged": 169,
+        "senior": 74,
+        "teenager": 47,
+        "young_adult": 111
+      },
+      "14": {
+        "adult": 143,
+        "child": 39,
+        "middle_aged": 142,
+        "senior": 52,
+        "teenager": 32,
+        "young_adult": 95
+      },
+      "15": {
+        "adult": 117,
+        "child": 34,
+        "middle_aged": 115,
+        "senior": 46,
+        "teenager": 37,
+        "young_adult": 88
+      },
+      "16": {
+        "adult": 121,
+        "child": 32,
+        "middle_aged": 117,
+        "senior": 62,
+        "teenager": 43,
+        "young_adult": 100
+      },
+      "17": {
+        "adult": 154,
+        "child": 45,
+        "middle_aged": 146,
+        "senior": 83,
+        "teenager": 71,
+        "young_adult": 125
+      },
+      "18": {
+        "adult": 166,
+        "child": 43,
+        "middle_aged": 159,
+        "senior": 78,
+        "teenager": 50,
+        "young_adult": 106
+      },
+      "19": {
+        "adult": 158,
+        "child": 42,
+        "middle_aged": 143,
+        "senior": 61,
+        "teenager": 37,
+        "young_adult": 110
+      },
+      "20": {
+        "adult": 116,
+        "child": 26,
+        "middle_aged": 91,
+        "senior": 36,
+        "teenager": 24,
+        "young_adult": 76
+      },
+      "21": {
+        "adult": 41,
+        "child": 4,
+        "middle_aged": 27,
+        "senior": 10,
+        "teenager": 9,
+        "young_adult": 23
+      }
+    },
+    "dwell_by_gender": {
+      "F": 83.5,
+      "M": 83.73
+    },
+    "dwell_by_age": {
+      "adult": 83.27,
+      "child": 58.56,
+      "middle_aged": 92.53,
+      "senior": 88.1,
+      "teenager": 77.86,
+      "young_adult": 78.83
+    },
+    "dwell_by_gender_zone": {
+      "Z_C1": {
+        "F": 23.58,
+        "M": 23.65
+      },
+      "Z_C2": {
+        "F": 23.69,
+        "M": 23.61
+      },
+      "Z_C3": {
+        "F": 23.63,
+        "M": 23.85
+      },
+      "Z_CK": {
+        "F": 188.3,
+        "M": 189.27
+      },
+      "Z_E1": {
+        "F": 13.95,
+        "M": 13.58
+      },
+      "Z_E2": {
+        "F": 13.74,
+        "M": 13.65
+      },
+      "Z_N1": {
+        "F": 189.03,
+        "M": 191.01
+      },
+      "Z_N10": {
+        "F": 189.96,
+        "M": 196.37
+      },
+      "Z_N2": {
+        "F": 189.36,
+        "M": 196.55
+      },
+      "Z_N3": {
+        "F": 189.22,
+        "M": 193.16
+      },
+      "Z_N4": {
+        "F": 191.65,
+        "M": 192.91
+      },
+      "Z_N5": {
+        "F": 189.94,
+        "M": 194.94
+      },
+      "Z_N6": {
+        "F": 191.62,
+        "M": 192.43
+      },
+      "Z_N7": {
+        "F": 192.93,
+        "M": 191.79
+      },
+      "Z_N8": {
+        "F": 192.77,
+        "M": 186.7
+      },
+      "Z_N9": {
+        "F": 195.41,
+        "M": 194.92
+      },
+      "Z_S1": {
+        "F": 199.98,
+        "M": 186.61
+      },
+      "Z_S2": {
+        "F": 197.97,
+        "M": 199.65
+      },
+      "Z_S3": {
+        "F": 191.03,
+        "M": 198.53
+      },
+      "Z_S4": {
+        "F": 193.34,
+        "M": 200.02
+      },
+      "Z_S5": {
+        "F": 107.91,
+        "M": 107.87
+      },
+      "Z_S6": {
+        "F": 196.5,
+        "M": 193.65
+      },
+      "Z_S7": {
+        "F": 190.01,
+        "M": 194.17
+      }
+    },
+    "dwell_by_age_zone": {
+      "Z_C1": {
+        "adult": 23.59,
+        "child": 23.44,
+        "middle_aged": 23.66,
+        "senior": 23.44,
+        "teenager": 23.96,
+        "young_adult": 23.62
+      },
+      "Z_C2": {
+        "adult": 23.61,
+        "child": 23.24,
+        "middle_aged": 23.64,
+        "senior": 23.72,
+        "teenager": 23.91,
+        "young_adult": 23.72
+      },
+      "Z_C3": {
+        "adult": 23.69,
+        "child": 23.66,
+        "middle_aged": 23.85,
+        "senior": 23.95,
+        "teenager": 24.08,
+        "young_adult": 23.43
+      },
+      "Z_CK": {
+        "adult": 189.2,
+        "child": 193.58,
+        "middle_aged": 188.19,
+        "senior": 182.68,
+        "teenager": 193.94,
+        "young_adult": 188.29
+      },
+      "Z_E1": {
+        "adult": 13.71,
+        "child": 13.75,
+        "middle_aged": 13.68,
+        "senior": 13.73,
+        "teenager": 13.92,
+        "young_adult": 13.9
+      },
+      "Z_E2": {
+        "adult": 13.75,
+        "child": 13.23,
+        "middle_aged": 13.93,
+        "senior": 13.37,
+        "teenager": 13.91,
+        "young_adult": 13.61
+      },
+      "Z_N1": {
+        "adult": 182.53,
+        "child": 128.81,
+        "middle_aged": 208.93,
+        "senior": 216.84,
+        "teenager": 185.96,
+        "young_adult": 176.31
+      },
+      "Z_N10": {
+        "adult": 186.67,
+        "child": 126.25,
+        "middle_aged": 215.14,
+        "senior": 217.54,
+        "teenager": 179.42,
+        "young_adult": 178.21
+      },
+      "Z_N2": {
+        "adult": 188.38,
+        "child": 125.78,
+        "middle_aged": 214.72,
+        "senior": 219.99,
+        "teenager": 170.46,
+        "young_adult": 177.17
+      },
+      "Z_N3": {
+        "adult": 182.61,
+        "child": 119.51,
+        "middle_aged": 207.91,
+        "senior": 225.73,
+        "teenager": 170.68,
+        "young_adult": 184.37
+      },
+      "Z_N4": {
+        "adult": 184.98,
+        "child": 127.93,
+        "middle_aged": 209.95,
+        "senior": 219.53,
+        "teenager": 177.69,
+        "young_adult": 186.58
+      },
+      "Z_N5": {
+        "adult": 185.65,
+        "child": 112.14,
+        "middle_aged": 209.78,
+        "senior": 212.52,
+        "teenager": 194.98,
+        "young_adult": 184.01
+      },
+      "Z_N6": {
+        "adult": 183.95,
+        "child": 119.49,
+        "middle_aged": 221.26,
+        "senior": 215.79,
+        "teenager": 170.55,
+        "young_adult": 176.98
+      },
+      "Z_N7": {
+        "adult": 184.94,
+        "child": 132.25,
+        "middle_aged": 210.81,
+        "senior": 218.65,
+        "teenager": 173.09,
+        "young_adult": 188.44
+      },
+      "Z_N8": {
+        "adult": 184.91,
+        "child": 130.02,
+        "middle_aged": 204.67,
+        "senior": 229.59,
+        "teenager": 167.47,
+        "young_adult": 178.25
+      },
+      "Z_N9": {
+        "adult": 188.57,
+        "child": 116.09,
+        "middle_aged": 222.55,
+        "senior": 216.14,
+        "teenager": 171.99,
+        "young_adult": 182.95
+      },
+      "Z_S1": {
+        "adult": 185.54,
+        "child": 137.69,
+        "middle_aged": 215.06,
+        "senior": 204.57,
+        "teenager": 177.94,
+        "young_adult": 188.1
+      },
+      "Z_S2": {
+        "adult": 193.81,
+        "child": 123.03,
+        "middle_aged": 222.58,
+        "senior": 202.0,
+        "teenager": 189.4,
+        "young_adult": 194.44
+      },
+      "Z_S3": {
+        "adult": 190.76,
+        "child": 115.19,
+        "middle_aged": 220.46,
+        "senior": 216.98,
+        "teenager": 170.02,
+        "young_adult": 181.75
+      },
+      "Z_S4": {
+        "adult": 183.72,
+        "child": 128.96,
+        "middle_aged": 222.46,
+        "senior": 206.85,
+        "teenager": 205.31,
+        "young_adult": 188.2
+      },
+      "Z_S5": {
+        "adult": 109.66,
+        "child": 72.22,
+        "middle_aged": 112.7,
+        "senior": 107.42,
+        "teenager": 107.11,
+        "young_adult": 107.43
+      },
+      "Z_S6": {
+        "adult": 194.21,
+        "child": 126.11,
+        "middle_aged": 208.96,
+        "senior": 211.35,
+        "teenager": 166.74,
+        "young_adult": 190.11
+      },
+      "Z_S7": {
+        "adult": 179.95,
+        "child": 134.94,
+        "middle_aged": 220.41,
+        "senior": 203.08,
+        "teenager": 181.6,
+        "young_adult": 178.84
+      }
+    },
+    "overall_gender_dist": {
+      "M": 0.5025,
+      "F": 0.4975
+    },
+    "overall_age_dist": {
+      "adult": 0.2598,
+      "middle_aged": 0.2228,
+      "young_adult": 0.2006,
+      "senior": 0.126,
+      "teenager": 0.0965,
+      "child": 0.0943
+    }
+  },
+  "anomalies": {
+    "sigma_threshold": 2.0,
+    "baseline_days": [
+      "2025-03-10",
+      "2025-03-11",
+      "2025-03-12",
+      "2025-03-13",
+      "2025-03-14",
+      "2025-03-15"
+    ],
+    "target_day": "2025-03-16",
+    "total_anomalies": 36,
+    "anomalies": [
+      {
+        "zone_id": "Z_S6",
+        "hour_of_day": 21,
+        "date": "2025-03-16",
+        "observed_visitors": 5,
+        "baseline_mean": 2.25,
+        "baseline_std": 0.5,
+        "deviation_sigma": 5.5,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_S4",
+        "hour_of_day": 21,
+        "date": "2025-03-16",
+        "observed_visitors": 6,
+        "baseline_mean": 1.8,
+        "baseline_std": 0.84,
+        "deviation_sigma": 5.02,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_S2",
+        "hour_of_day": 21,
+        "date": "2025-03-16",
+        "observed_visitors": 3,
+        "baseline_mean": 1.2,
+        "baseline_std": 0.45,
+        "deviation_sigma": 4.02,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_N4",
+        "hour_of_day": 21,
+        "date": "2025-03-16",
+        "observed_visitors": 6,
+        "baseline_mean": 2.4,
+        "baseline_std": 0.89,
+        "deviation_sigma": 4.02,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_S4",
+        "hour_of_day": 13,
+        "date": "2025-03-16",
+        "observed_visitors": 23,
+        "baseline_mean": 15.17,
+        "baseline_std": 2.4,
+        "deviation_sigma": 3.26,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_C1",
+        "hour_of_day": 21,
+        "date": "2025-03-16",
+        "observed_visitors": 21,
+        "baseline_mean": 10.67,
+        "baseline_std": 3.33,
+        "deviation_sigma": 3.11,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_N10",
+        "hour_of_day": 10,
+        "date": "2025-03-16",
+        "observed_visitors": 25,
+        "baseline_mean": 17.5,
+        "baseline_std": 2.51,
+        "deviation_sigma": 2.99,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_N4",
+        "hour_of_day": 10,
+        "date": "2025-03-16",
+        "observed_visitors": 21,
+        "baseline_mean": 12.83,
+        "baseline_std": 2.79,
+        "deviation_sigma": 2.93,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_S5",
+        "hour_of_day": 20,
+        "date": "2025-03-16",
+        "observed_visitors": 17,
+        "baseline_mean": 9.33,
+        "baseline_std": 2.66,
+        "deviation_sigma": 2.88,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_C2",
+        "hour_of_day": 12,
+        "date": "2025-03-16",
+        "observed_visitors": 81,
+        "baseline_mean": 71.33,
+        "baseline_std": 3.39,
+        "deviation_sigma": 2.85,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_S1",
+        "hour_of_day": 14,
+        "date": "2025-03-16",
+        "observed_visitors": 24,
+        "baseline_mean": 10.5,
+        "baseline_std": 4.76,
+        "deviation_sigma": 2.83,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_S3",
+        "hour_of_day": 21,
+        "date": "2025-03-16",
+        "observed_visitors": 4,
+        "baseline_mean": 2.0,
+        "baseline_std": 0.71,
+        "deviation_sigma": 2.83,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_N3",
+        "hour_of_day": 21,
+        "date": "2025-03-16",
+        "observed_visitors": 5,
+        "baseline_mean": 2.6,
+        "baseline_std": 0.89,
+        "deviation_sigma": 2.68,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_CK",
+        "hour_of_day": 21,
+        "date": "2025-03-16",
+        "observed_visitors": 19,
+        "baseline_mean": 9.83,
+        "baseline_std": 3.43,
+        "deviation_sigma": 2.67,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_N1",
+        "hour_of_day": 13,
+        "date": "2025-03-16",
+        "observed_visitors": 17,
+        "baseline_mean": 22.0,
+        "baseline_std": 1.9,
+        "deviation_sigma": -2.64,
+        "direction": "below"
+      },
+      {
+        "zone_id": "Z_S4",
+        "hour_of_day": 10,
+        "date": "2025-03-16",
+        "observed_visitors": 14,
+        "baseline_mean": 8.17,
+        "baseline_std": 2.23,
+        "deviation_sigma": 2.62,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_C3",
+        "hour_of_day": 21,
+        "date": "2025-03-16",
+        "observed_visitors": 14,
+        "baseline_mean": 7.0,
+        "baseline_std": 2.68,
+        "deviation_sigma": 2.61,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_N6",
+        "hour_of_day": 15,
+        "date": "2025-03-16",
+        "observed_visitors": 24,
+        "baseline_mean": 13.67,
+        "baseline_std": 3.98,
+        "deviation_sigma": 2.59,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_N3",
+        "hour_of_day": 19,
+        "date": "2025-03-16",
+        "observed_visitors": 31,
+        "baseline_mean": 20.67,
+        "baseline_std": 3.98,
+        "deviation_sigma": 2.59,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_N4",
+        "hour_of_day": 18,
+        "date": "2025-03-16",
+        "observed_visitors": 14,
+        "baseline_mean": 18.0,
+        "baseline_std": 1.55,
+        "deviation_sigma": -2.58,
+        "direction": "below"
+      },
+      {
+        "zone_id": "Z_C2",
+        "hour_of_day": 21,
+        "date": "2025-03-16",
+        "observed_visitors": 22,
+        "baseline_mean": 11.0,
+        "baseline_std": 4.29,
+        "deviation_sigma": 2.56,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_C3",
+        "hour_of_day": 12,
+        "date": "2025-03-16",
+        "observed_visitors": 68,
+        "baseline_mean": 62.67,
+        "baseline_std": 2.16,
+        "deviation_sigma": 2.47,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_N8",
+        "hour_of_day": 19,
+        "date": "2025-03-16",
+        "observed_visitors": 35,
+        "baseline_mean": 21.67,
+        "baseline_std": 5.47,
+        "deviation_sigma": 2.44,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_N9",
+        "hour_of_day": 11,
+        "date": "2025-03-16",
+        "observed_visitors": 11,
+        "baseline_mean": 20.67,
+        "baseline_std": 3.98,
+        "deviation_sigma": -2.43,
+        "direction": "below"
+      },
+      {
+        "zone_id": "Z_C3",
+        "hour_of_day": 13,
+        "date": "2025-03-16",
+        "observed_visitors": 82,
+        "baseline_mean": 60.5,
+        "baseline_std": 8.89,
+        "deviation_sigma": 2.42,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_N2",
+        "hour_of_day": 14,
+        "date": "2025-03-16",
+        "observed_visitors": 27,
+        "baseline_mean": 16.83,
+        "baseline_std": 4.22,
+        "deviation_sigma": 2.41,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_N6",
+        "hour_of_day": 14,
+        "date": "2025-03-16",
+        "observed_visitors": 30,
+        "baseline_mean": 17.17,
+        "baseline_std": 5.49,
+        "deviation_sigma": 2.34,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_C1",
+        "hour_of_day": 10,
+        "date": "2025-03-16",
+        "observed_visitors": 55,
+        "baseline_mean": 43.67,
+        "baseline_std": 5.05,
+        "deviation_sigma": 2.25,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_S5",
+        "hour_of_day": 12,
+        "date": "2025-03-16",
+        "observed_visitors": 27,
+        "baseline_mean": 18.0,
+        "baseline_std": 4.05,
+        "deviation_sigma": 2.22,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_N10",
+        "hour_of_day": 13,
+        "date": "2025-03-16",
+        "observed_visitors": 40,
+        "baseline_mean": 30.17,
+        "baseline_std": 4.54,
+        "deviation_sigma": 2.17,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_E2",
+        "hour_of_day": 10,
+        "date": "2025-03-16",
+        "observed_visitors": 42,
+        "baseline_mean": 29.33,
+        "baseline_std": 6.02,
+        "deviation_sigma": 2.1,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_N7",
+        "hour_of_day": 13,
+        "date": "2025-03-16",
+        "observed_visitors": 28,
+        "baseline_mean": 20.67,
+        "baseline_std": 3.5,
+        "deviation_sigma": 2.09,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_S7",
+        "hour_of_day": 14,
+        "date": "2025-03-16",
+        "observed_visitors": 15,
+        "baseline_mean": 8.0,
+        "baseline_std": 3.41,
+        "deviation_sigma": 2.06,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_S3",
+        "hour_of_day": 10,
+        "date": "2025-03-16",
+        "observed_visitors": 15,
+        "baseline_mean": 9.33,
+        "baseline_std": 2.8,
+        "deviation_sigma": 2.02,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_N7",
+        "hour_of_day": 20,
+        "date": "2025-03-16",
+        "observed_visitors": 19,
+        "baseline_mean": 12.83,
+        "baseline_std": 3.06,
+        "deviation_sigma": 2.01,
+        "direction": "above"
+      },
+      {
+        "zone_id": "Z_E2",
+        "hour_of_day": 20,
+        "date": "2025-03-16",
+        "observed_visitors": 40,
+        "baseline_mean": 27.67,
+        "baseline_std": 6.15,
+        "deviation_sigma": 2.0,
+        "direction": "above"
+      }
+    ]
+  }
+}

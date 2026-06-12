@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260608_174908_603",
+  "timestamp": "2026-06-08T17:49:08Z",
+  "image_path": "data\\images\\img_0614.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Os recipientes de Gatorade em pó estão desalinhados e com espaçamento irregular, criando uma aparência desorganizada.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio visível entre os produtos de Gatorade e os produtos Glucodin, indicando falta de stock ou recuo de produto.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Gatorade powder",
+    "Glucodin",
+    "Red Bull",
+    "Powerade",
+    "Gatorade liquid"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado contendo bebidas desportivas (Gatorade, Powerade), suplementos (Glucodin) e bebidas energéticas (Red Bull). PASSO 2: Prateleira superior: contém Gatorade em pó à esquerda e Glucodin/Red Bull à direita; há um espaço vazio no centro. Prateleira do meio: contém Powerade e Gatorade líquido; organização razoável. Prateleira inferior: contém várias bebidas energéticas e desportivas. PASSO 3: Identifiquei um desalinhamento nos recipientes de Gatorade em pó (superior esquerda) e um espaço vazio (gap) entre o Gatorade e o Glucodin na prateleira superior. A severidade é baixa para o desalinhamento e média para o espaço vazio. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está bem preenchida, exceto pelo gap na prateleira superior e alguma desorganização no alinhamento."
+}

@@ -1,0 +1,43 @@
+{
+  "inspection_id": "INS_20260604_163413_265",
+  "timestamp": "2026-06-04T16:34:13Z",
+  "image_path": "data\\images\\img_0276.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos de higiene feminina.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos Stayfree desalinhados e tombados na prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Embalagens de produtos de higiene feminina desalinhadas e fora do padrão de faceamento.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "absorventes higiénicos",
+    "protetores diários",
+    "produtos de higiene feminina"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho de produtos de higiene feminina (absorventes e protetores). A organização é geralmente boa, mas com algumas falhas de faceamento e espaços vazios. PASSO 2: Prateleira superior: apresenta um espaço vazio à esquerda. Prateleira do meio: produtos Stayfree desalinhados. Prateleira inferior: alguns produtos desalinhados no centro. PASSO 3: Identifiquei um 'empty_shelf' na parte superior (severidade média), 'misaligned' na parte do meio e inferior (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está bem abastecida, apesar de pequenas lacunas e desorganização."
+}

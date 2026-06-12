@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260605_100811_381",
+  "timestamp": "2026-06-05T10:08:11Z",
+  "image_path": "data\\images\\img_0392.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, sugerindo falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos desalinhados e com espaçamento irregular na zona de cafés solúveis.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "café solúvel",
+    "frascos de café",
+    "Nescafé",
+    "Moccona"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra quatro níveis de prateleiras de supermercado contendo frascos de café solúvel de várias marcas (Nescafé, Moccona, etc.). A organização é geralmente boa, mas com algumas falhas de preenchimento. PASSO 2: Prateleira superior: bem preenchida. Prateleira intermédia superior: bem preenchida. Prateleira intermédia inferior: apresenta desalinhamentos e lacunas. Prateleira inferior: apresenta um espaço vazio notável no lado esquerdo. PASSO 3: Identifiquei uma zona de 'empty_shelf' na prateleira inferior (severidade média) e 'misaligned' na prateleira intermédia inferior (severidade baixa). PASSO 4: O fill rate global é estimado em 0.88, considerando que a maioria das prateleiras está cheia, exceto por lacunas pontuais na parte inferior."
+}

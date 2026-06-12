@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260607_113718_578",
+  "timestamp": "2026-06-07T11:37:18Z",
+  "image_path": "data\\images\\img_0589.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os pacotes de ramen verdes e vermelhos, indicando falta de stock ou má organização.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos de ramen estão desorganizados e desalinhados, dificultando a visualização frontal.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Nissin Ramen",
+    "Patak's Cashew Masala",
+    "Patak's Tandoori Masala"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras contendo pacotes de ramen (Nissin) e frascos de molhos (Patak's). A organização é geralmente boa, mas há lacunas visíveis. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: apresenta um espaço vazio central entre os produtos verdes e vermelhos. Prateleira inferior: produtos de ramen um pouco desordenados. PASSO 3: Identificada uma zona de 'empty_shelf' no centro da prateleira do meio (severidade média, pois interrompe o fluxo de stock) e 'misaligned' na prateleira inferior esquerda. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna central e alguma desorganização na base."
+}

@@ -1,0 +1,1 @@
+zona Z_N1; estado warning; fill rate 85%; empty_shelf (medium) em prateleira superior, centro: Espaço vazio significativo na prateleira superior entre os sumos Smart Juice e P&N, onde se vê a grelha de fundo.; produtos: sumos de fruta, bebidas de fruta, brinquedos (carrinhos em fita); data 2026-06-06T16:53:47Z

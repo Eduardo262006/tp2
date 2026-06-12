@@ -1,0 +1,14 @@
+{
+  "inspection_id": "INS_20260605_100453_315",
+  "timestamp": "2026-06-05T10:04:53Z",
+  "image_path": "data\\images\\img_0326.jpg",
+  "zone_id": "Z_N4",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "sumos e cordiais",
+    "garrafas de plástico de 2L"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado contendo garrafas de sumos e cordiais. Os produtos estão organizados em filas, maioritariamente alinhados. PASSO 2: Prateleira superior: contém garrafas de sumos. Prateleira inferior: contém garrafas de cordiais e sumos. Não se observam espaços vazios significativos, produtos danificados ou etiquetas em falta. O alinhamento é consistente com a operação normal de retalho. PASSO 3: Não foram identificadas anomalias críticas ou de baixa severidade. A organização é satisfatória. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todas as posições de frente estão ocupadas, com apenas pequenas variações de profundidade ou espaçamento mínimo entre garrafas."
+}

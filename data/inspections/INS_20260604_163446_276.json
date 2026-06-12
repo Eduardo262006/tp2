@@ -1,0 +1,43 @@
+{
+  "inspection_id": "INS_20260604_163446_276",
+  "timestamp": "2026-06-04T16:34:46Z",
+  "image_path": "data\\images\\img_0287.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro-direita",
+      "severity": "medium",
+      "description": "Espaço vazio visível na prateleira superior, atrás da coluna de ovos Coles Free Range.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "low",
+      "description": "As embalagens de ovos Natural Grain estão desalinhadas em relação à coluna principal, projetando-se para fora.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, entre as colunas de ovos Coles e Pace Farm.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "Coles Natural Grain Eggs",
+    "Coles Free Range Eggs",
+    "Pace Farm Eggs"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado contendo embalagens de ovos de cartão. Na prateleira superior, há ovos 'Natural Grain' (esquerda) e 'Coles Free Range' (direita). Na prateleira inferior, há ovos 'Coles Free Range' (centro/direita) e 'Pace Farm' (esquerda/direita). PASSO 2: Prateleira superior: o lado esquerdo está cheio, o centro apresenta desalinhamento nas embalagens Natural Grain, e o lado direito tem um espaço vazio atrás das embalagens. Prateleira inferior: o lado esquerdo tem uma coluna de Pace Farm, o centro tem um espaço vazio considerável, e o lado direito está preenchido com Coles Free Range. PASSO 3: Identifiquei três anomalias: 1) Empty shelf na prateleira superior (atrás dos ovos), severidade média. 2) Misaligned na prateleira superior (Natural Grain), severidade baixa. 3) Empty shelf na prateleira inferior (centro), severidade média. PASSO 4: Ocupação visual estimada em 75%, considerando os espaços vazios visíveis nas profundidades e vãos entre produtos."
+}

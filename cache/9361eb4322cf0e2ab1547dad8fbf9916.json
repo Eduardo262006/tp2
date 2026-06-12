@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260605_100423_305",
+  "timestamp": "2026-06-05T10:04:23Z",
+  "image_path": "data\\images\\img_0316.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio visível na extremidade direita da prateleira superior, onde deveriam estar mais garrafas.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, centro-direita",
+      "severity": "low",
+      "description": "As garrafas de Bundaberg estão ligeiramente desalinhadas em relação ao padrão de faceamento das garrafas de Tiger.",
+      "confidence": 0.8,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Tiger Ginger Beer",
+    "Bundaberg Diet Ginger Beer",
+    "Pepsi Max"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras. A superior contém garrafas de vidro de Ginger Beer (Tiger e Bundaberg). A inferior contém latas de Pepsi Max. PASSO 2: Prateleira superior: lado esquerdo e centro bem preenchidos com Tiger Ginger Beer; lado direito apresenta Bundaberg Diet Ginger Beer com um espaço vazio no final. Prateleira inferior: latas de Pepsi Max bem alinhadas. PASSO 3: Identificada uma zona de 'empty_shelf' na extremidade direita da prateleira superior (severidade média). Identificado um ligeiro desalinhamento nas garrafas de Bundaberg (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira superior e a ocupação total da prateleira inferior."
+}

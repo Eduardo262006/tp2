@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260606_165547_441",
+  "timestamp": "2026-06-06T16:55:47Z",
+  "image_path": "data\\images\\img_0452.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Pacotes de noodles estão empilhados de forma desorganizada e tombados lateralmente, fora do alinhamento padrão.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "low",
+      "description": "Espaço vazio entre os produtos Nicecook e os noodles à direita, sugerindo falta de stock ou má organização.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "molhos em frasco",
+    "noodles instantâneos",
+    "massas secas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras. Nível superior: frascos de molhos (Hoisin, Garlic, etc.). Nível médio: pacotes de noodles 'Nicecook' e outros produtos de massa. Nível inferior: pacotes de noodles 'Indomie'. PASSO 2: Superior: bem organizado. Médio: lado esquerdo e centro com produtos alinhados, mas há um espaço vazio no centro e desorganização/tombamento de pacotes no lado direito. Inferior: bem preenchido. PASSO 3: Identificada desorganização (misaligned) no lado direito da prateleira do meio e um pequeno espaço vazio (empty_shelf) no centro da mesma prateleira. Severidade média para o desalinhamento devido ao risco de queda. PASSO 4: Ocupação visual estimada em 88%, considerando o preenchimento denso da maioria das prateleiras, exceto pela pequena lacuna no nível médio."
+}

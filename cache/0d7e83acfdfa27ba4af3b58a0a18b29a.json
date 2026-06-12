@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260609_105748_744",
+  "timestamp": "2026-06-09T10:57:48Z",
+  "image_path": "data\\images\\img_0755.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "damaged",
+      "location": "prateleira superior, centro-esquerda",
+      "severity": "low",
+      "description": "A embalagem de cartão (display) que contém os produtos Tasty Bite está rasgada e dobrada na parte inferior.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "low",
+      "description": "Os produtos Tasty Bite estão ligeiramente desalinhados dentro da caixa de exposição.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Tasty Bite ready meals",
+    "Healthy Curry Company curry powders",
+    "Ghee",
+    "Pappadams"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A superior contém refeições prontas da marca 'Tasty Bite' em caixas de exposição. A inferior contém pós de caril, frascos de Ghee e embalagens de Pappadams. PASSO 2: Prateleira superior: os produtos estão maioritariamente organizados, mas a caixa de exposição central apresenta danos físicos (rasgões). Prateleira inferior: organização estável, sem anomalias visíveis. PASSO 3: Identifiquei danos na embalagem de cartão da prateleira superior (severidade baixa, confiança alta). O desalinhamento dos produtos na mesma zona é menor. PASSO 4: O fill rate é elevado, com quase todos os espaços ocupados, estimado em 0.92."
+}

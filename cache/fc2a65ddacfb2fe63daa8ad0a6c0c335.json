@@ -1,0 +1,23 @@
+{
+  "inspection_id": "INS_20260604_163237_233",
+  "timestamp": "2026-06-04T16:32:37Z",
+  "image_path": "data\\images\\img_0244.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Ausência de produtos nos ganchos da secção inferior esquerda, indicando rutura de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "máscaras de pestanas Maybelline"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra um expositor de retalho de cosméticos (máscaras de pestanas Maybelline) organizado em ganchos. Existem três níveis principais visíveis. Os produtos estão maioritariamente alinhados. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: bem abastecida. Prateleira inferior: apresenta uma zona vazia significativa no lado esquerdo, onde os ganchos estão desprovidos de produto. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira inferior esquerda. Severidade média, pois afeta a disponibilidade de uma referência específica. Confiança alta devido à clareza dos ganchos vazios. PASSO 4: O fill rate é estimado em 0.85, considerando que a grande maioria dos ganchos está ocupada, exceto pela falha localizada na parte inferior esquerda."
+}

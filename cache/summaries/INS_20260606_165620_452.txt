@@ -1,0 +1,1 @@
+zona Z_S4; estado ok; fill rate 95%; produtos: Jack Daniel's Cola, Tooheys New, VB Beer, Jim Beam Cola, Bundaberg Cola; data 2026-06-06T16:56:20Z

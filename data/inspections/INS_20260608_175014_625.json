@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260608_175014_625",
+  "timestamp": "2026-06-08T17:50:14Z",
+  "image_path": "data\\images\\img_0636.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "As caixas de Sharwood's estão ligeiramente desalinhadas e sobrepostas, criando uma aparência desorganizada.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro-esquerda",
+      "severity": "medium",
+      "description": "Espaço vazio visível atrás das caixas de Pappadam, indicando falta de stock ou recuo excessivo.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Tasty Bite meals",
+    "Pattu Indian meals",
+    "Maharaja's Choice Pappadam",
+    "Sharwood's Puppodums"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado com produtos de culinária indiana. A prateleira superior contém refeições prontas (Tasty Bite, Pattu). A prateleira inferior contém acompanhamentos (Pappadam, Sharwood's). PASSO 2: Prateleira superior: bem organizada, produtos alinhados. Prateleira inferior: zona esquerda com Pappadam (algum espaço vazio atrás), zona central/direita com Sharwood's (desalinhamento e sobreposição de caixas). PASSO 3: Identifiquei um desalinhamento na prateleira inferior direita (Sharwood's) e um espaço vazio parcial na prateleira inferior esquerda (atrás dos Pappadam). Severidade baixa a média. PASSO 4: O fill rate é alto, estimado em 0.85, pois a maioria dos espaços está preenchida, apesar de pequenas desorganizações."
+}

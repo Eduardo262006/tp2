@@ -1,0 +1,38 @@
+{
+  "inspection_id": "INS_20260605_100750_374",
+  "timestamp": "2026-06-05T10:07:50Z",
+  "image_path": "data\\images\\img_0385.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo/centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos Carman's e os produtos à direita, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Produtos de cereais/barras estão desalinhados e misturados na zona de exposição.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.82,
+  "products_detected": [
+    "Fruity Bix Bars",
+    "Nut Delight bars",
+    "Be Natural bars",
+    "Carman's muesli bars",
+    "Amore bars",
+    "XanaBar",
+    "Organic oat bars"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo barras de cereais e muesli. A prateleira superior está bem preenchida. A prateleira do meio apresenta uma lacuna notável no centro. A prateleira inferior contém vários produtos, mas com alguma desorganização no lado direito. PASSO 2: Prateleira superior: preenchida. Prateleira do meio: zona central com falta de produto (empty_shelf). Prateleira inferior: lado direito com produtos desalinhados (misaligned). PASSO 3: Identificada uma falha de stock na prateleira do meio (severidade média) e desalinhamento na inferior (severidade baixa). PASSO 4: O fill rate é estimado em 0.82, considerando a ocupação total das três prateleiras, descontando o espaço vazio central e as áreas de exposição menos densas."
+}

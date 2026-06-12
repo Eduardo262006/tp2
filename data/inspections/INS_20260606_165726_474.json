@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260606_165726_474",
+  "timestamp": "2026-06-06T16:57:26Z",
+  "image_path": "data\\images\\img_0485.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio visível na extremidade direita da prateleira superior.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos (Roti Wraps) estão ligeiramente desorganizados dentro do separador de arame.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Taco Dinner Kits",
+    "Burrito Tortillas",
+    "Roti Wraps",
+    "Enchilada Tortillas",
+    "Canned Refried Beans"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado com produtos de culinária mexicana (kits de tacos, tortilhas, wraps e latas de feijão). PASSO 2: Prateleira superior: bem abastecida, exceto por um pequeno espaço vazio à direita. Prateleira do meio: bem abastecida, com produtos organizados em divisórias, mas com ligeira desordem nos Roti Wraps. Prateleira inferior: latas de feijão bem alinhadas. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira superior direita (severidade média) e uma 'misaligned' na prateleira do meio (severidade baixa). PASSO 4: O fill rate é elevado, estimado em 0.85, dado que a maioria do espaço está ocupado, com apenas pequenas lacunas."
+}

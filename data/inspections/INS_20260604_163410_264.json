@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260604_163410_264",
+  "timestamp": "2026-06-04T16:34:10Z",
+  "image_path": "data\\images\\img_0275.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo onde deveriam estar produtos, sugerindo rutura de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos desalinhados e com espaçamento irregular na frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.82,
+  "products_detected": [
+    "sumos de fruta em garrafa",
+    "sumos de fruta em pacote (tetrapak)",
+    "bebidas de fruta"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com 4 níveis visíveis. Contém sumos em garrafas de plástico e pacotes de cartão. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: lado esquerdo cheio, lado direito com um grande vazio (gap). Prateleira inferior: lado esquerdo com produtos desalinhados, lado direito com sumos em garrafa. Base: produtos alinhados. PASSO 3: Identifiquei um 'empty_shelf' na prateleira do meio (lado direito) com severidade média, pois interrompe a continuidade da gama. Identifiquei 'misaligned' na prateleira inferior esquerda, onde os pacotes não estão perfeitamente alinhados com a frente da prateleira. PASSO 4: O fill rate é estimado em 0.82, considerando o espaço vazio na prateleira do meio e o espaçamento entre produtos na inferior."
+}

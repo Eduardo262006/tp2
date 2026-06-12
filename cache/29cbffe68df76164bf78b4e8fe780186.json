@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260609_105709_731",
+  "timestamp": "2026-06-09T10:57:09Z",
+  "image_path": "data\\images\\img_0742.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio na prateleira superior, sugerindo falta de stock ou produto deslocado.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Espaço vazio na extremidade direita da prateleira inferior.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "pratos",
+    "pratos de jantar",
+    "taças de servir"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras com produtos da marca 'Smash'. Nível superior: pratos de sobremesa (rosa e bege). Nível médio: pratos de jantar (rosa, bege e decorados). Nível inferior: taças de servir (rosa, bege e brancas). PASSO 2: Prateleira superior: dois slots ocupados, um vazio à direita. Prateleira média: três slots ocupados. Prateleira inferior: três slots ocupados, com um pequeno espaço vazio na extremidade direita. PASSO 3: Identifiquei dois espaços vazios (empty_shelf). O da prateleira superior é mais significativo (25% da área da prateleira). O da inferior é menor. Não há produtos danificados ou desalinhados visíveis. PASSO 4: Considerando a ocupação total das prateleiras, o fill rate é estimado em 0.85, dado que a maioria dos slots está preenchida, mas existem lacunas notáveis."
+}

@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260604_163319_247",
+  "timestamp": "2026-06-04T16:33:19Z",
+  "image_path": "data\\images\\img_0258.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos alinhados com as etiquetas de preço.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, toda a extensão",
+      "severity": "low",
+      "description": "Os produtos (embalagens de pão/wraps) estão empilhados de forma desorganizada e desalinhada, dificultando a leitura das etiquetas.",
+      "confidence": 0.9,
+      "affected_area_pct": 40.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Tasty Bite ready meals",
+    "Healthy Curry Company curry powders",
+    "Ghee",
+    "Pappadams",
+    "Wraps/Roti bread"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras. Superior: refeições prontas Tasty Bite. Meio: pós de caril, ghee e pappadams. Inferior: vários tipos de pães e wraps. PASSO 2: Prateleira superior está bem abastecida. Prateleira do meio apresenta um espaço vazio à esquerda (falta de produto). Prateleira inferior apresenta produtos (wraps) empilhados de forma caótica e desalinhada. PASSO 3: Identifiquei um 'empty_shelf' na prateleira do meio (severidade média, pois há espaço para mais unidades) e 'misaligned' na prateleira inferior (severidade baixa, pois o produto está presente mas desorganizado). PASSO 4: O fill rate é alto na superior, médio na do meio e alto na inferior, mas com má organização. Estimo um fill rate global de 0.85."
+}

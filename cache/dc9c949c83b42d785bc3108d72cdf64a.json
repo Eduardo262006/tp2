@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260604_162946_176",
+  "timestamp": "2026-06-04T16:29:46Z",
+  "image_path": "data\\images\\img_0187.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "high",
+      "description": "Espaço vazio significativo onde deveriam estar produtos, possivelmente devido a rutura de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Produtos desalinhados e com espaçamento irregular na extremidade direita.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "fruta em calda (pêssegos, peras, alperces)",
+    "marshmallows"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 5 níveis de prateleiras contendo frascos de fruta em calda (pêssegos, peras, alperces) e um pacote de marshmallows no canto superior esquerdo. PASSO 2: A prateleira superior apresenta uma falha clara no centro (vazio). As prateleiras inferiores estão bem abastecidas, com alinhamento aceitável. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira superior (centro), severidade alta devido à falta de produto. Identificado desalinhamento menor na prateleira superior direita. PASSO 4: O fill rate é alto, estimado em 0.88, considerando que apenas uma pequena secção da prateleira superior está vazia."
+}

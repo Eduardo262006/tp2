@@ -1,19 +1,4 @@
-"""
-rule_engine.py — Componente 2: Rule Engine.
 
-A ponte entre linguagem natural e deteção estruturada. O LLM converte regras em
-português para o schema de configuração (Secção 5.3), detetando ambiguidades
-(Secção 5.4). Após cada inspeção, o executor percorre as regras guardadas e gera
-notificações para as que disparam, produzindo logs (Secção 5.5).
-
-Este ficheiro é autossuficiente: inclui a sua própria camada de acesso ao Gemini.
-
-Uso CLI:
-    python rule_engine.py add "Avisa-me quando a prateleira inferior estiver mais de 40% vazia"
-    python rule_engine.py list
-    python rule_engine.py delete RULE_003
-    python rule_engine.py test RULE_001 --inspection data/inspections/INS_xxx.json
-"""
 
 from __future__ import annotations
 
@@ -31,10 +16,7 @@ from typing import Any, Optional
 import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 
-# =========================================================================== #
-# Camada de acesso ao LLM (embutida) — Gemini 3.5 Flash.
-# Conversão de texto; rate-limiting 15 req/min com backoff; degradação graciosa.
-# =========================================================================== #
+
 try:
     from dotenv import load_dotenv
     load_dotenv()
@@ -228,49 +210,6 @@ LOCATION_KEYWORDS = {
     "top": ["superior", "topo", "cima", "top"],
 }
 
-'''CONVERT_PROMPT = """És um conversor de regras de negócio de retalho. O gestor de loja escreve uma regra
-em português; converte-a para um objeto JSON com EXATAMENTE este schema (sem markdown,
-sem texto antes ou depois):
-
-{
-  "natural_language": "<texto original da regra>",
-  "description": "reformulação clara e inequívoca em português formal",
-  "conditions": {
-    "zone_filter": [],
-    "time_filter": {"hours_start": null, "hours_end": null},
-    "issue_types": [],
-    "severity_threshold": null,
-    "fill_rate_threshold": null,
-    "location_filter": "any"
-  },
-  "action": {
-    "alert_level": "info|warning|critical",
-    "notification_message": "template com {zone_id}, {fill_rate}, {issue_type}, {severity}, {location}"
-  },
-  "validation": {
-    "is_valid": true,
-    "ambiguities": [],
-    "assumptions": []
-  }
-}
-
-Regras de conversão:
-- zone_filter: lista de zonas (ex.: ["Z_S1"]). Vazio = todas as zonas.
-- time_filter: horas inteiras 0-23; null se a regra não referir horário.
-- issue_types: subconjunto de [empty_shelf, wrong_product, damaged, misaligned, label_missing, other].
-- severity_threshold: low|medium|high (mínimo) ou null.
-- fill_rate_threshold: fração 0-1; a regra dispara quando o fill rate fica ABAIXO deste valor.
-  "X% vazia" deve ser convertido para fill_rate_threshold = 1 - X/100.
-- location_filter: bottom|middle|top|any.
-- ambiguities: lista TODA a informação em falta ou ambígua (ex.: "vazia" sem percentagem,
-  urgência não indicada, zonas não especificadas). Se houver ambiguidades, NÃO inventes valores
-  silenciosamente: regista o pressuposto assumido em assumptions e a dúvida em ambiguities.
-- is_valid = false só se a regra for incompreensível.
-
-Regra do gestor:
-\"\"\"%s\"\"\"
-"""'''
-
 def _now_iso() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
@@ -366,12 +305,7 @@ class RuleEngine:
         return f"RULE_{(max(existing) + 1) if existing else 1:03d}"
 
     def evaluate(self, rule: dict, inspection: dict) -> dict:
-        """
-        Avalia uma regra contra um inspection record.
-        Zona e horário são FILTROS de elegibilidade; issue_types, severidade,
-        fill_rate e localização são CONDIÇÕES de disparo. A regra dispara se passar
-        os filtros E pelo menos uma condição de disparo for satisfeita.
-        """
+
         cond = rule["conditions"]
         log: list[str] = []
         reasons: list[str] = []

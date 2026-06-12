@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260605_100350_294",
+  "timestamp": "2026-06-05T10:03:50Z",
+  "image_path": "data\\images\\img_0305.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Garrafas de cordials de sabugueiro (elderflower) estão desalinhadas e ligeiramente inclinadas para trás.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas de 'Lime Refresher' estão desalinhadas e com espaçamento irregular entre si.",
+      "confidence": 0.8,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Buderim Lime Refresher",
+    "Bickford's Lime Juice Cordial",
+    "Schweppes Lime Cordial",
+    "Bickford's Elderflower Cordial",
+    "Bickford's Bitter Lemon Cordial",
+    "Bickford's Raspberry Cordial"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado contendo bebidas (cordials e refrescos). A prateleira superior contém garrafas de Lime Refresher, Lime Juice e Elderflower. A prateleira inferior contém Lime Refresher, Bitter Lemon, Schweppes e Raspberry Cordial. PASSO 2: Prateleira superior: organização geral boa, mas desalinhamento no lado direito (garrafas de elderflower). Prateleira inferior: organização geral boa, mas desalinhamento no lado esquerdo (garrafas de Lime Refresher). PASSO 3: Identificadas duas zonas de desalinhamento (misaligned). Severidade baixa, pois os produtos estão presentes e acessíveis. Confiança alta baseada na geometria das garrafas. PASSO 4: O preenchimento é elevado, com poucas lacunas visíveis, estimando um fill rate de 0.92."
+}

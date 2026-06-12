@@ -1,0 +1,15 @@
+{
+  "inspection_id": "INS_20260608_175253_678",
+  "timestamp": "2026-06-08T17:52:53Z",
+  "image_path": "data\\images\\img_0689.jpg",
+  "zone_id": "Z_N2",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.98,
+  "products_detected": [
+    "vinho tinto",
+    "vinho branco",
+    "acessórios de vinho (saca-rolhas)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um expositor de vinhos. Os produtos estão organizados em filas verticais, com etiquetas de preço correspondentes abaixo de cada grupo. Há uma grande variedade de marcas e tipos de vinho. No lado direito, há dois saca-rolhas pendurados em embalagens verticais. PASSO 2: Prateleira superior: cheia, organização consistente. Prateleira do meio: cheia, organização consistente. Prateleira inferior: cheia, organização consistente. Não foram observados espaços vazios significativos, produtos fora do lugar ou etiquetas em falta. PASSO 3: Não foram identificadas anomalias. A organização está alinhada e os produtos estão bem posicionados. PASSO 4: O fill rate é muito elevado, com quase todas as posições ocupadas, estimando-se em 0.98."
+}

@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260606_165453_423",
+  "timestamp": "2026-06-06T16:54:53Z",
+  "image_path": "data\\images\\img_0434.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "high",
+      "description": "O compartimento destinado aos 'Burger Rings' está completamente vazio.",
+      "confidence": 1.0,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "O compartimento destinado aos 'Smiths Thinly Cut Cheesy Potato Bake' está vazio.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.7,
+  "products_detected": [
+    "Smiths Crinkle Cut Original",
+    "Smiths Thinly Cut Original",
+    "Smiths Crinkle Cut Salt & Vinegar",
+    "Smiths Thinly Cut Sour Cream & Onion",
+    "Smiths Crinkle Cut Chicken"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com três níveis visíveis contendo pacotes de batatas fritas (Smiths). Existem divisórias de cartão para organizar os produtos. PASSO 2: Nível superior: parcialmente visível, produtos presentes. Nível médio: lado esquerdo vazio (Burger Rings), centro e direita ocupados. Nível inferior: lado esquerdo ocupado, centro vazio (Thinly Cut Cheesy Potato Bake), direita ocupada. PASSO 3: Identificadas duas zonas de 'empty_shelf'. A zona dos Burger Rings é a mais crítica por ser um compartimento inteiro vazio. A zona central inferior também apresenta falta de stock. PASSO 4: Considerando 3 níveis com 3 secções cada (total 9), temos 2 secções vazias. O fill rate estimado é de aproximadamente 7/9, ou seja, 0.77, ajustado para 0.7 devido à densidade variável."
+}

@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260605_100532_328",
+  "timestamp": "2026-06-05T10:05:32Z",
+  "image_path": "data\\images\\img_0339.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior onde deveriam estar produtos, com apenas algumas latas isoladas.",
+      "confidence": 0.95,
+      "affected_area_pct": 40.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos desalinhados e desorganizados na prateleira superior.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "halva",
+    "tomates enlatados",
+    "feijão enlatado",
+    "grão-de-bico enlatado",
+    "biscoitos"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado. A superior contém biscoitos e etiquetas de 'Discontinued line'. A prateleira do meio contém latas de halva e tomates. A prateleira inferior contém latas de feijão e grão-de-bico, com uma área vazia considerável à esquerda. PASSO 2: Prateleira superior: organização irregular. Prateleira do meio: bem abastecida. Prateleira inferior: zona esquerda vazia, zona direita com produtos. PASSO 3: Identifiquei uma área de 'empty_shelf' na prateleira inferior esquerda (severidade média, confiança alta). Identifiquei desalinhamento na prateleira superior (severidade baixa). PASSO 4: O fill rate global é estimado em 0.75, considerando que a prateleira inferior está parcialmente vazia e as outras estão razoavelmente cheias."
+}

@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260605_100347_293",
+  "timestamp": "2026-06-05T10:03:47Z",
+  "image_path": "data\\images\\img_0304.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos de açúcar de palma e os pacotes de arroz/papel de arroz.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Produtos de especiarias/ervas secas estão desorganizados e inclinados, ocupando o espaço de forma irregular.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "especiarias",
+    "açúcar de palma",
+    "papel de arroz",
+    "cogumelos secos",
+    "arroz tailandês"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado com produtos asiáticos (especiarias, açúcar, arroz, kits de papel de arroz). PASSO 2: Prateleira superior: produtos de especiarias, alguns desorganizados à direita. Prateleira do meio: açúcar de palma à esquerda, espaço vazio no centro, kits de papel de arroz e cogumelos à direita. Prateleira inferior: sacos de arroz de 10kg e pacotes menores de arroz. PASSO 3: Identifiquei um espaço vazio (empty_shelf) na prateleira do meio (aprox. 15% da largura da prateleira) e uma desorganização (misaligned) na prateleira superior direita. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está bem abastecida, exceto pela lacuna central na prateleira do meio."
+}

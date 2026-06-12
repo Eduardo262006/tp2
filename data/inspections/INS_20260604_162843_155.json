@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260604_162843_155",
+  "timestamp": "2026-06-04T16:28:43Z",
+  "image_path": "data\\images\\img_0166.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos de molhos e os sacos de arroz, indicando falta de stock ou má organização.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos de massa/noodles estão desorganizados e empilhados de forma irregular.",
+      "confidence": 0.8,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "molhos asiáticos",
+    "arroz",
+    "mistura para tempura",
+    "noodles/massa"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado com produtos asiáticos (molhos, arroz, noodles). A prateleira superior contém molhos e arroz. A prateleira do meio contém molhos e misturas para tempura. A prateleira inferior contém noodles e mais molhos. PASSO 2: Prateleira superior: lado esquerdo apresenta um vazio entre os molhos e o arroz. Prateleira do meio: bem organizada. Prateleira inferior: lado esquerdo apresenta produtos de noodles desorganizados. PASSO 3: Anomalia 1: empty_shelf na prateleira superior esquerda (severidade média, confiança 0.9). Anomalia 2: misaligned na prateleira inferior esquerda (severidade baixa, confiança 0.8). PASSO 4: O fill rate é alto, estimado em 0.85, pois a maioria das prateleiras está bem preenchida, exceto pelas lacunas mencionadas."
+}

@@ -1,0 +1,1 @@
+zona Z_N8; estado warning; fill rate 90%; misaligned (medium) em prateleira superior, lado direito: As embalagens de ovos no topo da pilha à direita estão desalinhadas e instáveis, com uma caixa projetando-se para fora da pilha principal.; produtos: ovos (embalagens de cartão); data 2026-06-06T16:57:32Z

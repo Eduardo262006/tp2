@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260604_163007_183",
+  "timestamp": "2026-06-04T16:30:07Z",
+  "image_path": "data\\images\\img_0194.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "As embalagens de manteiga estão desalinhadas e com orientação irregular na pilha da extrema direita.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "low",
+      "description": "Algumas embalagens de manteiga/margarina estão ligeiramente fora do alinhamento vertical da coluna.",
+      "confidence": 0.85,
+      "affected_area_pct": 3.0
+    }
+  ],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "manteiga",
+    "margarina",
+    "creme vegetal"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de refrigeração contendo embalagens de manteiga e margarina de várias marcas (Country Gold, Devondale, Bertolli, etc.). A organização é predominantemente em colunas verticais. PASSO 2: Prateleira superior: bem organizada, exceto pela coluna da extrema direita que apresenta desalinhamento. Prateleira do meio: colunas bem definidas, com pequenos desalinhamentos pontuais. Prateleira inferior: organização muito boa, com produtos bem alinhados. PASSO 3: Identifiquei desalinhamentos leves na prateleira superior e do meio. Não há prateleiras vazias ou produtos fora de lugar (wrong_product). A severidade é baixa pois não compromete a disponibilidade ou a legibilidade dos preços. PASSO 4: O fill rate é elevado, estimado em 0.95, pois quase todo o espaço disponível está ocupado por produto, com apenas espaços mínimos entre embalagens."
+}

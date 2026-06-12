@@ -1,18 +1,4 @@
-"""
-interface.py — Componente 5: Interface Conversacional (CLI).
 
-Orquestra os restantes componentes e expõe os modos de operação do enunciado
-(Secção 8): inspeção, definição de regras, consulta histórica e relatório.
-Mantém estado de sessão e responde de forma informativa a comandos inválidos —
-nunca expõe stack traces.
-
-Não depende de llm.py: o estado do LLM é obtido a partir do shelf_inspector, que já
-é importado como componente.
-
-Uso:
-    python interface.py            # modo interativo (REPL)
-    python interface.py --help-cmds
-"""
 
 from __future__ import annotations
 

@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260607_113603_553",
+  "timestamp": "2026-06-07T11:36:03Z",
+  "image_path": "data\\images\\img_0564.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos 'Soy' e 'Copha', indicando falta de stock ou organização.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "low",
+      "description": "Produtos da marca 'Flora' e 'Canola' apresentam desalinhamento nas colunas, com algumas unidades ligeiramente fora da fila.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "margarinas",
+    "spreads",
+    "óleos vegetais"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado refrigerada com várias marcas de margarinas e spreads (Soy, Copha, Fairy, Flora, Meadowlea, Gold, Canola, Eta). A organização é predominantemente em colunas verticais. PASSO 2: Prateleira superior: bem preenchida, exceto por um pequeno gap à esquerda. Prateleira do meio: preenchida, com ligeiro desalinhamento à direita. Prateleira inferior: bem preenchida e organizada. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior (gap entre produtos) e 'misaligned' na prateleira do meio (colunas irregulares). A severidade é baixa/média pois o stock está quase completo. PASSO 4: O fill rate é elevado, estimado em 0.92, dado que a grande maioria das posições está ocupada, com apenas pequenas lacunas e desalinhamentos."
+}

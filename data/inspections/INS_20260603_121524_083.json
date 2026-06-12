@@ -1,0 +1,16 @@
+{
+  "inspection_id": "INS_20260603_121524_083",
+  "timestamp": "2026-06-03T12:15:24Z",
+  "image_path": "data\\images\\img_0083.jpg",
+  "zone_id": "Z_S1",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "sumos",
+    "cerveja de gengibre",
+    "bebidas gaseificadas Kirks (Pasito e Creaming Soda)",
+    "bebidas Fuze Tea"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado organizada com várias bebidas. Na prateleira superior, vemos garrafas de sumo e embalagens de Bundaberg. Na prateleira inferior, há caixas de 10 latas da marca Kirks (sabores Pasito e Creaming Soda) empilhadas de forma organizada, além de packs de Fuze Tea à direita. PASSO 2: A prateleira está bem preenchida. Não há espaços vazios significativos, os produtos estão alinhados e as etiquetas de preço parecem corresponder aos produtos. PASSO 3: Não foram detetadas anomalias. A organização é consistente, os produtos estão virados para a frente (facing) e não há sinais de danos ou falta de etiquetas. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todo o espaço disponível está ocupado por stock, com apenas pequenas folgas naturais entre embalagens."
+}

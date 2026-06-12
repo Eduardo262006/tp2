@@ -1,0 +1,44 @@
+{
+  "inspection_id": "INS_20260609_105657_727",
+  "timestamp": "2026-06-09T10:56:57Z",
+  "image_path": "data\\images\\img_0738.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, onde deveriam estar produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "damaged",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Lata de café aberta/sem tampa visível, comprometendo a integridade do produto.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos desalinhados e com orientação frontal inconsistente.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Nescafé Blend 43",
+    "Nescafé Gold",
+    "Nescafé Espresso",
+    "Riva Coffee"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de café solúvel (Nescafé). A prateleira superior tem lacunas. A prateleira do meio está bem preenchida, mas com alguns produtos desalinhados. A prateleira inferior contém frascos e latas, com uma lata aberta/danificada à direita. PASSO 2: Superior: lacuna à esquerda. Meio: alinhamento irregular à esquerda. Inferior: lata aberta à direita. PASSO 3: Identifiquei um empty_shelf na superior (severidade média), um damaged na inferior (severidade média) e um misaligned na do meio (severidade baixa). PASSO 4: O fill rate é alto, estimado em 0.85, considerando que a maioria das faces está ocupada, apesar das anomalias pontuais."
+}

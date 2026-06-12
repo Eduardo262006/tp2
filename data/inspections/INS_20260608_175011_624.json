@@ -1,0 +1,44 @@
+{
+  "inspection_id": "INS_20260608_175011_624",
+  "timestamp": "2026-06-08T17:50:11Z",
+  "image_path": "data\\images\\img_0635.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, indicando falta de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira intermédia, lado esquerdo",
+      "severity": "medium",
+      "description": "Lacuna no alinhamento dos produtos Nescafé na prateleira intermédia.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Lata de café aberta ou mal posicionada, interrompendo o alinhamento dos frascos.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.82,
+  "products_detected": [
+    "Nescafé Espresso",
+    "Nescafé Blend 43",
+    "International Roast",
+    "Riva Coffee"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 4 níveis de prateleiras contendo café solúvel (principalmente Nescafé). Há uma organização geral por marca e tipo. PASSO 2: Prateleira superior: lacuna à esquerda. Prateleira intermédia: lacuna no centro-esquerda. Prateleira inferior: alinhamento interrompido por uma lata aberta/diferente. PASSO 3: Identificadas duas zonas de 'empty_shelf' (superior e intermédia) e uma zona de 'misaligned' (inferior). A severidade é média devido à perda de espaço de venda. PASSO 4: O fill rate é estimado em 0.82, considerando as lacunas visíveis e o preenchimento denso nas outras áreas."
+}

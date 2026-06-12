@@ -1,0 +1,44 @@
+{
+  "inspection_id": "INS_20260602_153806_019",
+  "timestamp": "2026-06-02T15:38:06Z",
+  "image_path": "data\\images\\img_0019.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "critical",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "damaged",
+      "location": "prateleira superior, centro",
+      "severity": "high",
+      "description": "Garrafa de Schweppes deitada/tombada sobre as outras, obstruindo o alinhamento e potencialmente danificada.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro-esquerda",
+      "severity": "medium",
+      "description": "Garrafa deitada horizontalmente entre as garrafas verticais de Ginger Ale.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "low",
+      "description": "Espaço vazio entre as garrafas de Ginger Ale e as garrafas de Lemon Lime.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.82,
+  "products_detected": [
+    "Schweppes Ginger Ale",
+    "Schweppes Tonic Water",
+    "Schweppes Lemon Lime",
+    "Schweppes Diet"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras principais de bebidas (garrafas de plástico de 1L/1.5L da marca Schweppes). A prateleira superior contém variedades Diet e Tonic. A prateleira do meio contém Ginger Ale e Lemon Lime. PASSO 2: Prateleira superior: centro apresenta uma garrafa tombada. Prateleira do meio: centro-esquerda apresenta uma garrafa deitada e um espaço vazio entre os tipos de produto. PASSO 3: Anomalia 1 (superior): garrafa tombada, severidade alta, risco de queda/dano. Anomalia 2 (meio): garrafa deitada, desalinhada. Anomalia 3 (meio): espaço vazio (empty_shelf) entre categorias. PASSO 4: O fill rate é estimado em 0.82, considerando que a maioria das posições está preenchida, mas há lacunas e desorganização significativa no centro de ambas as prateleiras."
+}

@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260603_121533_086",
+  "timestamp": "2026-06-03T12:15:33Z",
+  "image_path": "data\\images\\img_0086.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo à esquerda dos produtos Nyal/Infacol, indicando falta de stock ou organização deficiente.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "low",
+      "description": "Produtos (Bonjela/Bepanthen) ligeiramente desalinhados em relação à frente da prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "medicamentos infantis",
+    "cremes e pomadas",
+    "toalhitas e produtos de higiene",
+    "Huggies change mats"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de retalho (baby toiletries). Estão presentes produtos de saúde infantil (Nyal, Infacol, Bonjela, Bepanthen), toalhitas (Curash, Johnson's) e tapetes de muda (Huggies). PASSO 2: Prateleira superior: zona esquerda com espaço vazio, centro com produtos alinhados mas com alguma desordem. Prateleira média: bem preenchida com toalhitas e Huggies. Prateleira inferior: bem preenchida com toalhitas. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior esquerda (falta de produto ou recuo excessivo) e um ligeiro 'misaligned' no centro da prateleira superior. A severidade é baixa/média pois a maioria da prateleira está organizada. PASSO 4: O fill rate é elevado, estimado em 0.85, dado que a maioria das prateleiras está cheia, com apenas pequenas lacunas na parte superior esquerda."
+}

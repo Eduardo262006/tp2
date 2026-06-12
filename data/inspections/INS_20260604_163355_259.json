@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260604_163355_259",
+  "timestamp": "2026-06-04T16:33:55Z",
+  "image_path": "data\\images\\img_0270.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível onde deveriam estar produtos, possivelmente devido a rutura de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Algumas garrafas de molho estão ligeiramente desalinhadas em relação ao padrão de faceamento.",
+      "confidence": 0.8,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "molhos asiáticos",
+    "misturas para noodles",
+    "molho de soja",
+    "molho de peixe",
+    "molho hoisin"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado com molhos e misturas para cozinhar. A prateleira superior contém pacotes de misturas (Lee Kum Kee, Indofood). A prateleira do meio e a inferior contêm garrafas de molhos (Lee Kum Kee, Thai Fish Sauce). PASSO 2: Prateleira superior: existe um espaço vazio à esquerda. Prateleira do meio: organização geral boa, mas com ligeiro desalinhamento. Prateleira inferior: organização densa e correta. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira superior (lado esquerdo) com severidade média. Identificado 'misaligned' na prateleira do meio com severidade baixa. PASSO 4: O fill rate é elevado, estimado em 0.92, dado que a grande maioria do espaço está preenchido, com apenas uma pequena rutura na prateleira superior."
+}

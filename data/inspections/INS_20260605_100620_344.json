@@ -1,0 +1,25 @@
+{
+  "inspection_id": "INS_20260605_100620_344",
+  "timestamp": "2026-06-05T10:06:20Z",
+  "image_path": "data\\images\\img_0355.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "centro da prateleira",
+      "severity": "medium",
+      "description": "Um expositor de autocolantes está pendurado sobre a prateleira, obstruindo a visão e o acesso aos produtos (garrafas de água) que estão atrás.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "garrafas de água Mount Franklin",
+    "garrafas de água Coles",
+    "expositor de autocolantes"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado com garrafas de água (Mount Franklin e Coles). Há um expositor vertical de autocolantes pendurado no centro, bloqueando parte da prateleira. PASSO 2: Região esquerda: garrafas de água bem organizadas. Região centro: obstruída pelo expositor de autocolantes. Região direita: garrafas de água Coles. PASSO 3: O expositor de autocolantes é uma anomalia de posicionamento (misaligned/other), pois não pertence à prateleira de águas e dificulta o acesso. Severidade média, pois o produto ainda está presente, mas a experiência de compra é afetada. PASSO 4: O fill rate é alto (cerca de 85%), pois as garrafas ocupam a maior parte do espaço, apesar da obstrução central."
+}

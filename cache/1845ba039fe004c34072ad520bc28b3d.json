@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260602_153906_039",
+  "timestamp": "2026-06-02T15:39:06Z",
+  "image_path": "data\\images\\img_0039.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Os pacotes de 'Shrimp Cracker' estão empilhados de forma desorganizada e tombados, obstruindo a visibilidade e o acesso.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Os pacotes de noodles estão ligeiramente desalinhados e misturados na frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "biscoitos",
+    "snacks de camarão",
+    "crackers",
+    "noodles instantâneos",
+    "molhos/condimentos"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado. A prateleira superior contém caixas de biscoitos e snacks. A prateleira do meio contém vários pacotes de snacks (Shrimp Crackers, Garuda). A prateleira inferior contém pacotes de noodles instantâneos e frascos de molhos. PASSO 2: Prateleira superior: organizada. Prateleira do meio: zona central apresenta desorganização severa com pacotes de snacks tombados e empilhados de forma instável. Prateleira inferior: zona central apresenta desalinhamento dos pacotes de noodles. PASSO 3: Anomalia 1 (meio, centro): misaligned, severidade medium, confiança 0.95, afeta cerca de 25% da área da prateleira. Anomalia 2 (inferior, centro): misaligned, severidade low, confiança 0.85, afeta cerca de 15% da área. PASSO 4: O fill rate é alto, estimado em 0.85, pois as prateleiras estão quase totalmente preenchidas, apesar da desorganização visual."
+}

@@ -1,0 +1,1 @@
+zona Z_N8; estado warning; fill rate 92%; misaligned (medium) em prateleira inferior, lado direito: Embalagens de produto (provavelmente pacotes de bebidas) estão tombadas e desalinhadas, obstruindo a visibilidade e ocupando espaço de forma desorganizada.; produtos: bebidas gaseificadas, águas aromatizadas, sumos; data 2026-06-03T12:18:27Z

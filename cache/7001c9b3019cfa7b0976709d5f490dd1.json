@@ -1,0 +1,24 @@
+{
+  "inspection_id": "INS_20260604_163458_280",
+  "timestamp": "2026-06-04T16:34:58Z",
+  "image_path": "data\\images\\img_0291.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "wrong_product",
+      "location": "prateleira superior e inferior, centro-direita",
+      "severity": "medium",
+      "description": "Um conjunto de luvas de tecido está pendurado sobre a prateleira, obstruindo a visão e ocupando o espaço destinado aos refrigerantes.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "refrigerantes (Pepsi, Sprite, Coca-Cola)",
+    "luvas de tecido"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado contendo garrafas de refrigerante (Pepsi, Sprite e Coca-Cola). Há um conjunto de luvas de tecido pendurado verticalmente no centro da imagem, sobrepondo-se às prateleiras. PASSO 2: Prateleira superior: lado esquerdo com Coca-Cola, centro/direita com Pepsi, mas com obstrução de luvas. Prateleira inferior: lado esquerdo com Sprite, centro/direita com Pepsi, também com obstrução de luvas. Anomalia identificada: presença de produto não alimentar (luvas) em zona de bebidas. PASSO 3: Tipo: wrong_product (ou obstrução). Localização: centro da prateleira. Severidade: medium (afeta a organização e visibilidade). Confiança: 0.95. PASSO 4: O fill rate é alto, pois as garrafas estão bem alinhadas, mas a presença das luvas reduz a área de exposição efetiva dos produtos de prateleira em cerca de 15%."
+}

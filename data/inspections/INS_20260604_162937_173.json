@@ -1,0 +1,14 @@
+{
+  "inspection_id": "INS_20260604_162937_173",
+  "timestamp": "2026-06-04T16:29:37Z",
+  "image_path": "data\\images\\img_0184.jpg",
+  "zone_id": "Z_N4",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "vinho espumante",
+    "vinho tinto"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um expositor de bebidas. A prateleira superior contém garrafas de espumante 'Great Western'. A prateleira do meio contém garrafas de espumante 'Jacob's Creek'. A prateleira inferior contém garrafas de vinho 'Wolf Blass'. À esquerda, há garrafas de vinho tinto em todas as prateleiras. À direita, há uma coluna de embalagens de presente (gift wrap). PASSO 2: Prateleira superior: bem organizada, sem falhas. Prateleira do meio: bem organizada, sem falhas. Prateleira inferior: bem organizada, sem falhas. As zonas de produtos estão claramente definidas e preenchidas. PASSO 3: Não foram detetadas anomalias significativas. O alinhamento está correto e não há espaços vazios ou produtos trocados. PASSO 4: O fill rate é elevado, estimado em 0.95, considerando que as prateleiras estão quase totalmente preenchidas com os produtos correspondentes, descontando apenas o espaço ocupado pelas decorações laterais."
+}

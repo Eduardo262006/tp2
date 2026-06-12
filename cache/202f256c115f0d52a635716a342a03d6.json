@@ -1,0 +1,15 @@
+{
+  "inspection_id": "INS_20260604_162910_164",
+  "timestamp": "2026-06-04T16:29:10Z",
+  "image_path": "data\\images\\img_0175.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "água mineral Mount Franklin",
+    "autocolantes decorativos",
+    "água mineral marca própria"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho com garrafas de água (Mount Franklin e marca própria) e uma tira de autocolantes pendurada verticalmente. PASSO 2: A prateleira está organizada com garrafas de água alinhadas. A zona central está ocupada por uma tira de autocolantes que obstrui parcialmente a visão das garrafas, mas não constitui uma anomalia de stock. Não há espaços vazios significativos, produtos danificados ou etiquetas em falta visíveis. PASSO 3: Não foram identificadas anomalias. A disposição é funcional. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que a prateleira está quase totalmente preenchida com garrafas, com apenas pequenos espaços entre as unidades."
+}

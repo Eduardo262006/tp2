@@ -1,0 +1,25 @@
+{
+  "inspection_id": "INS_20260607_113742_586",
+  "timestamp": "2026-06-07T11:37:42Z",
+  "image_path": "data\\images\\img_0597.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Uma garrafa de Diet Waterfords está deitada horizontalmente em vez de estar na vertical, ocupando espaço de forma desorganizada.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Diet Waterfords",
+    "Água mineral",
+    "De-lite"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de metal carregadas com garrafas de bebidas (Diet Waterfords, águas e De-lite). A organização é geralmente boa, com produtos alinhados. PASSO 2: Prateleira superior: contém garrafas de Diet Waterfords e águas. Observa-se uma garrafa deitada no lado esquerdo. Prateleira do meio: bem organizada, cheia de garrafas de Diet Waterfords e De-lite. Prateleira inferior: cheia de garrafas, sem anomalias visíveis. PASSO 3: Identificada uma garrafa deitada (misaligned) na prateleira superior esquerda. Severidade média, pois impede o acesso correto e ocupa espaço de outras unidades. Confiança alta. PASSO 4: O fill rate é elevado, com apenas pequenos espaços vazios ou a garrafa deitada a reduzir a eficiência do espaço. Estimativa de 0.92."
+}

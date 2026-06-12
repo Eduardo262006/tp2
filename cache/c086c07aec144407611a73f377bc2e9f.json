@@ -1,0 +1,39 @@
+{
+  "inspection_id": "INS_20260606_165514_430",
+  "timestamp": "2026-06-06T16:55:14Z",
+  "image_path": "data\\images\\img_0441.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro-direita",
+      "severity": "medium",
+      "description": "Espaço vazio entre as latas de Bacardi & Cola e Southern Comfort, indicando falta de stock ou produto deslocado.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas individuais de bebidas alcoólicas desalinhadas e com espaçamento irregular na frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "UDL Vodka",
+    "Absolut Cut",
+    "Bacardi & Cola",
+    "Southern Comfort",
+    "Canadian Club",
+    "Smirnoff Ice",
+    "Bundaberg Rum & Cola",
+    "Bundaberg Rum Dry & Lime"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de bebidas alcoólicas (RTD - Ready to Drink). A prateleira superior contém latas e packs de Bacardi, Absolut, UDL e Canadian Club. A prateleira inferior contém packs de Bundaberg e Smirnoff. PASSO 2: Prateleira superior: organização geral boa, mas há um espaço vazio notável entre o Bacardi e o Southern Comfort. Prateleira inferior: organização densa, mas com desalinhamento nas garrafas individuais à esquerda. PASSO 3: Identificada uma lacuna (empty_shelf) na prateleira superior (severidade média) e desalinhamento (misaligned) na inferior (severidade baixa). PASSO 4: O fill rate é elevado, estimado em 92%, dado que a maioria dos espaços está preenchida com packs de 6 ou 10 unidades, com apenas pequenas lacunas pontuais."
+}

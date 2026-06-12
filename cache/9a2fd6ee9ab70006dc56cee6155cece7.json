@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260608_175041_634",
+  "timestamp": "2026-06-08T17:50:41Z",
+  "image_path": "data\\images\\img_0645.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "As embalagens de ovos na parte inferior esquerda estão desalinhadas e ligeiramente projetadas para fora da prateleira em comparação com as colunas adjacentes.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "label_missing",
+      "location": "prateleira inferior",
+      "severity": "medium",
+      "description": "As embalagens de ovos na prateleira inferior não possuem etiquetas de preço ou identificação visíveis na frente, ao contrário da prateleira superior.",
+      "confidence": 0.9,
+      "affected_area_pct": 100.0
+    }
+  ],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "The Free Range eggs",
+    "Coles Smart Buy cage eggs"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um expositor refrigerado. A prateleira superior contém embalagens de ovos 'The Free Range' organizadas em colunas. A prateleira inferior contém embalagens de ovos 'Coles Smart Buy' (cage eggs). PASSO 2: Prateleira superior: bem organizada, sem anomalias. Prateleira inferior: as embalagens estão empilhadas, mas o bloco da esquerda apresenta um desalinhamento frontal. Além disso, não há etiquetas de preço visíveis na prateleira inferior. PASSO 3: Anomalia 1 (misaligned): prateleira inferior esquerda, severidade baixa, confiança 0.85. Anomalia 2 (label_missing): prateleira inferior, severidade média, confiança 0.9. PASSO 4: O preenchimento é muito alto, com quase todo o espaço ocupado, estimado em 0.95."
+}

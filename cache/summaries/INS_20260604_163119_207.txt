@@ -1,0 +1,1 @@
+Prateleira da zona Z_C1 com fill rate de 65% e estado crítico, apresentando múltiplas falhas de stock (empty shelf) na prateleira superior central (alta severidade), meio lado direito (alta severidade) e inferior central (média severidade), quarta-feira, 4 de junho de 2026, às 16h31.

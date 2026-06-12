@@ -1,0 +1,46 @@
+{
+  "inspection_id": "INS_20260605_100529_327",
+  "timestamp": "2026-06-05T10:05:29Z",
+  "image_path": "data\\images\\img_0338.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior entre os produtos 'In the Garden' e os brinquedos à direita.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio considerável entre os brinquedos 'Dingly Dangly' e os 'Water Teethers'.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Espaço vazio entre os 'Chewy Stacking Cups' e os 'Link 'ems'.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.65,
+  "products_detected": [
+    "In the Garden toys",
+    "Dingly Dangly toys",
+    "Water Teethers",
+    "Chewy Stacking Cups",
+    "Link 'ems",
+    "Light/White circular items"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de brinquedos para bebés. Existem três níveis principais. Os produtos estão organizados em blocos, mas com lacunas visíveis entre as categorias. PASSO 2: Prateleira superior: produtos à esquerda e direita, centro vazio. Prateleira do meio: produtos à esquerda e direita, centro vazio. Prateleira inferior: produtos à esquerda e direita, centro com algum espaço vazio. PASSO 3: Identifiquei três zonas de 'empty_shelf' devido à falta de stock ou má organização (facings). A severidade é média pois o espaço vazio é notável mas não total. PASSO 4: O fill rate global é estimado em 0.65, considerando que cerca de 35% da área de exposição está desocupada ou com lacunas entre os produtos."
+}

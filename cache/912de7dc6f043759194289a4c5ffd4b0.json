@@ -1,0 +1,38 @@
+{
+  "inspection_id": "INS_20260603_121424_063",
+  "timestamp": "2026-06-03T12:14:24Z",
+  "image_path": "data\\images\\img_0063.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível entre os produtos Moccona e Nescafé Noir.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Produtos Nescafé Espresso desalinhados e ligeiramente virados para fora da frente da prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Moccona Coffee",
+    "Nescafé Noir",
+    "Nescafé Gold",
+    "Nescafé Decaf",
+    "Nescafé Blend 43",
+    "Nescafé Espresso",
+    "Nescafé Mild Roast"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de café solúvel. Os produtos estão maioritariamente organizados por marca (Moccona, Nescafé Gold, Noir, Decaf, Blend 43, Espresso). PASSO 2: Prateleira superior: apresenta um pequeno espaço vazio entre Moccona e Noir. Prateleira do meio: bem organizada, preenchida. Prateleira inferior: produtos Nescafé Espresso estão ligeiramente desalinhados. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior (severidade média, confiança 0.9) e 'misaligned' na inferior (severidade baixa, confiança 0.8). PASSO 4: O fill rate é elevado, estimado em 0.92, dado que a maioria das prateleiras está cheia, com apenas pequenas lacunas."
+}

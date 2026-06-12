@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260604_163416_266",
+  "timestamp": "2026-06-04T16:34:16Z",
+  "image_path": "data\\images\\img_0277.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre as caixas de Golden Curry e o produto seguinte, indicando falta de stock ou organização deficiente.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "low",
+      "description": "Produtos (utensílios/embalagens pequenas) encontram-se desorganizados e tombados entre as secções de Golden Curry.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "livros de culinária",
+    "sopas instantâneas",
+    "Golden Curry sauce mix",
+    "Sushi Kit",
+    "pasta de miso",
+    "molhos/condimentos"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado com produtos asiáticos. Nível superior: livros e sopas. Nível médio: Golden Curry, Sushi Kits e itens diversos. Nível inferior: pastas de miso e molhos. PASSO 2: Prateleira superior está bem organizada. Prateleira do meio apresenta um vazio notável à esquerda do centro e itens desorganizados/tombados. Prateleira inferior está razoavelmente cheia. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira do meio (lado esquerdo) e itens 'misaligned' (utensílios/embalagens pequenas) na mesma prateleira. Severidade média para o vazio, baixa para o desalinhamento. PASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na prateleira do meio."
+}

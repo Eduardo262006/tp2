@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260607_113318_498",
+  "timestamp": "2026-06-07T11:33:18Z",
+  "image_path": "data\\images\\img_0509.jpg",
+  "zone_id": "Z_C2",
+  "overall_status": "critical",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "high",
+      "description": "Espaço de prateleira totalmente vazio, sem produtos expostos.",
+      "confidence": 1.0,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "high",
+      "description": "Espaço de prateleira totalmente vazio, sem produtos expostos.",
+      "confidence": 1.0,
+      "affected_area_pct": 25.0
+    }
+  ],
+  "shelf_fill_rate": 0.5,
+  "products_detected": [
+    "Vodka Cruiser",
+    "Bundaberg Cola",
+    "Strongbow Cider",
+    "Woodstock Bourbon Cola"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de bebidas alcoólicas. Existem produtos à esquerda e à direita, mas as secções centrais das duas prateleiras visíveis estão vazias. PASSO 2: Dividindo a prateleira: Superior (com produtos), Meio (vazio no centro), Inferior (vazio no centro). As anomalias estão localizadas nas zonas centrais das prateleiras do meio e inferior. PASSO 3: Identifiquei duas zonas de 'empty_shelf' (prateleira vazia) no centro. A severidade é alta pois representa uma quebra de stock significativa. Confiança de 1.0 devido à clareza da grelha metálica vazia. PASSO 4: Considerando que existem 4 colunas de espaço de prateleira e 2 estão vazias, o fill rate global é estimado em 0.5."
+}

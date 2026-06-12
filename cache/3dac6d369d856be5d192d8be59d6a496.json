@@ -1,0 +1,24 @@
+{
+  "inspection_id": "INS_20260607_113454_530",
+  "timestamp": "2026-06-07T11:34:54Z",
+  "image_path": "data\\images\\img_0541.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os sacos de Doritos Tapas e os Doritos Sweet Chili & Sour Cream, onde deveriam estar produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Doritos chips",
+    "Old El Paso salsa jars"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras. Nível superior: sacos de chips (Poppy Seed, Dippas). Nível médio: sacos de Doritos (Tapas à esquerda, Sweet Chili & Sour Cream à direita) com um espaço vazio central. Nível inferior: frascos de molho salsa Old El Paso. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: zona central vazia entre os produtos. Prateleira inferior: bem abastecida. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira do meio, centro, com severidade média, pois interrompe a continuidade do stock. Confiança alta devido à visibilidade da grelha metálica de fundo. PASSO 4: O fill rate global é estimado em 0.85, considerando a ocupação total das três prateleiras, sendo que a prateleira do meio apresenta uma quebra de stock de aproximadamente 25% da sua área útil."
+}

@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260604_163249_237",
+  "timestamp": "2026-06-04T16:32:49Z",
+  "image_path": "data\\images\\img_0248.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos da marca Lemsip ou similares.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Pequeno espaço vazio na extremidade direita da prateleira inferior.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "Nyal Cold & Flu",
+    "Ease A Cold",
+    "Lemsip",
+    "Strepsils",
+    "Anticol"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de farmácia com 4 níveis de prateleiras contendo medicamentos para constipação e pastilhas para a garganta. Os produtos estão organizados em filas. PASSO 2: Prateleira superior (cheia), prateleira média-superior (cheia), prateleira média-inferior (apresenta um espaço vazio à direita), prateleira inferior (apresenta um pequeno espaço vazio à direita). PASSO 3: Identifiquei duas zonas de 'empty_shelf'. A da prateleira média-inferior é mais notável (severidade média), enquanto a da inferior é menor (severidade baixa). Não há produtos desalinhados ou etiquetas em falta óbvias. PASSO 4: O fill rate é alto, estimado em 0.88, considerando que a maioria das faces está preenchida, exceto pelos dois espaços vazios identificados."
+}

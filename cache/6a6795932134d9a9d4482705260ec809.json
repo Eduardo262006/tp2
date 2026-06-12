@@ -1,0 +1,17 @@
+{
+  "inspection_id": "INS_20260604_163431_271",
+  "timestamp": "2026-06-04T16:34:31Z",
+  "image_path": "data\\images\\img_0282.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Kettle Chips (Crispy Bacon & Sour Cream)",
+    "Kettle Chips (Chilli)",
+    "Red Rock Deli Potato Chips (Sea Salt)",
+    "Kettle Chips (Honey Baked Ham)",
+    "Kettle Chips (Herb & Spice)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho bem abastecidas com sacos de batatas fritas das marcas Kettle e Red Rock Deli. Os produtos estão alinhados e organizados por tipo. PASSO 2: Prateleira superior: contém Kettle Crispy Bacon & Sour Cream e Chilli. Prateleira inferior: contém Red Rock Deli Sea Salt, Kettle Honey Baked Ham e Kettle Herb & Spice. Não existem espaços vazios significativos ou produtos fora do lugar. PASSO 3: Não foram detetadas anomalias. Todos os produtos estão alinhados, com etiquetas de preço visíveis e integridade das embalagens preservada. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todo o espaço disponível está preenchido com stock, com apenas pequenas folgas naturais entre os sacos."
+}

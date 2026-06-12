@@ -1,0 +1,14 @@
+{
+  "inspection_id": "INS_20260604_163519_287",
+  "timestamp": "2026-06-04T16:35:19Z",
+  "image_path": "data\\images\\img_0298.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Schweppes Frutus",
+    "Diet Waterford"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado repletas de garrafas de bebidas (Schweppes Frutus e Diet Waterford). Há também expositores verticais de ganchos (clips) no lado esquerdo. PASSO 2: Prateleira superior: totalmente preenchida, sem falhas. Prateleira inferior: totalmente preenchida, sem falhas. Não há produtos danificados, desalinhados ou etiquetas em falta visíveis. PASSO 3: Não foram identificadas anomalias. O estado geral é excelente. PASSO 4: O fill rate é muito elevado, estimado em 0.95, considerando que as prateleiras estão praticamente cheias em toda a sua extensão horizontal e profundidade visível."
+}

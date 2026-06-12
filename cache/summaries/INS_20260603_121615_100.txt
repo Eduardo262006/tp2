@@ -1,0 +1,1 @@
+zona Z_N10; estado warning; fill rate 92%; empty_shelf (low) em prateleira superior, lado esquerdo: Espaço vazio entre os produtos Maybelline e Covergirl.; misaligned (low) em prateleira inferior, lado esquerdo: Produtos desalinhados e inclinados na zona de cosméticos.; produtos: máscaras de pestanas, batons, gloss, sombras/pós compactos, delineadores; data 2026-06-03T12:16:15Z

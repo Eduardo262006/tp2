@@ -1,0 +1,38 @@
+{
+  "inspection_id": "INS_20260608_175026_629",
+  "timestamp": "2026-06-08T17:50:26Z",
+  "image_path": "data\\images\\img_0640.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos de cuidados faciais.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "low",
+      "description": "Produtos Nivea e embalagens adjacentes estão ligeiramente desorganizados e inclinados.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "Dove",
+    "Johnson's",
+    "Nivea",
+    "Simple",
+    "Swisspers",
+    "Lenços de limpeza facial",
+    "Cremes hidratantes"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com 4 níveis visíveis, contendo produtos de cuidados pessoais (limpeza facial, cremes, toalhetes). A organização é geralmente boa, com etiquetas de preço alinhadas. PASSO 2: Prateleira superior: bem abastecida. Prateleira 2 (topo): bem abastecida. Prateleira 3 (meio): bem abastecida, mas com alguma desorganização à direita. Prateleira 4 (inferior): apresenta um espaço vazio notável no lado direito. PASSO 3: Identifiquei um 'empty_shelf' na prateleira inferior direita (severidade média, pois interrompe a continuidade da categoria) e um 'misaligned' na prateleira do meio (severidade baixa, apenas estética). PASSO 4: O fill rate é elevado, estimado em 0.88, considerando que a maioria das faces está preenchida, exceto pela lacuna na prateleira inferior."
+}

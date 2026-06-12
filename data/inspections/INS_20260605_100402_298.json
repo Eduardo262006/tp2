@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260605_100402_298",
+  "timestamp": "2026-06-05T10:04:02Z",
+  "image_path": "data\\images\\img_0309.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, sugerindo falta de stock.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos de noodles ligeiramente desalinhados em relação à frente da prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Thai Gourmet Curry Kits",
+    "Crown White Heim",
+    "Crown Pie",
+    "Thai Gourmet Noodles",
+    "Onion Flavoured Rings",
+    "Neoguri Noodles"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado com produtos alimentares asiáticos (kits de caril, bolachas, noodles e snacks). A organização é geralmente boa, com etiquetas de preço alinhadas. PASSO 2: Prateleira superior: lado esquerdo e centro preenchidos, lado direito com um espaço vazio. Prateleira inferior: bem preenchida, com alguns produtos ligeiramente desalinhados. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior direita (severidade média, pois há um gap visível) e um 'misaligned' na prateleira inferior esquerda (severidade baixa, apenas estética). PASSO 4: O fill rate é alto, estimado em 0.85, considerando que a maioria dos espaços está ocupada, exceto pelo gap na prateleira superior."
+}

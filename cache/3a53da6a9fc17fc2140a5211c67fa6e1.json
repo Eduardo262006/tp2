@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260609_105803_749",
+  "timestamp": "2026-06-09T10:58:03Z",
+  "image_path": "data\\images\\img_0760.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior esquerda, onde deveriam estar produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio na prateleira inferior esquerda, com apenas alguns itens dispersos.",
+      "confidence": 0.9,
+      "affected_area_pct": 30.0
+    }
+  ],
+  "shelf_fill_rate": 0.65,
+  "products_detected": [
+    "snacks de batata",
+    "chips",
+    "bebidas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com duas prateleiras visíveis. Contém sacos de snacks (chips/batatas fritas) e algumas garrafas na parte inferior esquerda. Há etiquetas de preço visíveis. PASSO 2: Dividindo a prateleira: Superior Esquerda (vazia/parcialmente vazia), Superior Direita (cheia), Inferior Esquerda (vazia/desorganizada), Inferior Direita (cheia). Anomalias: Falta de stock nas zonas esquerdas de ambas as prateleiras. PASSO 3: Identificação de 'empty_shelf' nas zonas esquerdas. Severidade média pois o produto está disponível noutras zonas, mas a exposição está comprometida. Confiança alta devido à visibilidade das grelhas metálicas vazias. PASSO 4: O fill rate é estimado em 0.65, considerando que cerca de 35% do espaço total visível nas prateleiras está vazio ou subutilizado."
+}

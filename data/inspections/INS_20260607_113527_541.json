@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260607_113527_541",
+  "timestamp": "2026-06-07T11:35:27Z",
+  "image_path": "data\\images\\img_0552.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Produtos desalinhados e com espaçamento irregular na zona central da prateleira inferior.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Patak's curry sauces",
+    "Sharwood's stir-fry sauces"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo frascos de molhos (Patak's e Sharwood's). A prateleira superior e a do meio estão bem abastecidas e organizadas. A prateleira inferior apresenta lacunas e desorganização. PASSO 2: Prateleira superior: OK. Prateleira do meio: OK. Prateleira inferior: Lado esquerdo apresenta um espaço vazio (empty_shelf), centro apresenta produtos desalinhados (misaligned). PASSO 3: Anomalia 1 (empty_shelf): prateleira inferior esquerda, severidade média, confiança 0.95. Anomalia 2 (misaligned): prateleira inferior centro, severidade baixa, confiança 0.85. PASSO 4: O fill rate global é estimado em 0.85, considerando que as duas prateleiras superiores estão cheias e a inferior tem cerca de 40-50% de ocupação."
+}

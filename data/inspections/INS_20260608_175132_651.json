@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260608_175132_651",
+  "timestamp": "2026-06-08T17:51:32Z",
+  "image_path": "data\\images\\img_0662.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior onde deveriam estar produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 30.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "A caixa de vidro está posicionada de forma irregular/inclinada na prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Wiltshire Fresco Tumbler",
+    "Wiltshire Fresco Champagne Flute",
+    "Wiltshire Fresco White Wine Glass",
+    "Bushells Tea"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras contendo caixas de copos da marca Wiltshire (modelos Fresco) e uma caixa de chá Bushells. PASSO 2: Prateleira superior: contém um conjunto de copos à esquerda e um espaço vazio considerável à direita, com uma caixa ligeiramente desalinhada. Prateleira do meio: totalmente preenchida com caixas de flutes de champanhe. Prateleira inferior: preenchida com caixas de copos de vinho branco e uma caixa de chá à esquerda. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira superior direita (severidade média) e uma 'misaligned' na mesma zona (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira superior."
+}

@@ -1,0 +1,13 @@
+{
+  "inspection_id": "INS_20260607_113518_538",
+  "timestamp": "2026-06-07T11:35:18Z",
+  "image_path": "data\\images\\img_0549.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "garrafas de leite (2L e 3L)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um supermercado preenchidas com garrafas de leite de plástico. A prateleira superior contém garrafas de 2L (Canberra Milk e Coles Milk). A prateleira do meio contém garrafas de 2L (Canberra Milk e Coles Milk). A prateleira inferior contém garrafas de 3L (Canberra Milk). PASSO 2: Analisando as regiões: Superior (bem abastecida, alinhada), Meio (bem abastecida, alinhada), Inferior (bem abastecida, alinhada). Não foram detetadas zonas vazias significativas, produtos fora do lugar ou etiquetas em falta. PASSO 3: Não existem anomalias detetadas. O alinhamento é consistente com a natureza do produto (garrafas de plástico). PASSO 4: O fill rate é elevado, estimado em 0.95, dado que as prateleiras estão quase totalmente preenchidas com apenas pequenos espaços vazios nas extremidades ou entre unidades."
+}

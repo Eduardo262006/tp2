@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260608_174923_608",
+  "timestamp": "2026-06-08T17:49:23Z",
+  "image_path": "data\\images\\img_0619.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "wrong_product",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Presença de um pacote de snacks (batatas fritas) numa prateleira dedicada a bebidas, ocupando espaço de produto.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Garrafas de Coca-Cola Zero e Diet Coke apresentam desalinhamento frontal, dificultando a leitura das etiquetas e estética.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Diet Coke",
+    "Coca-Cola",
+    "Coca-Cola Zero",
+    "Sprite",
+    "Snacks"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho. A superior está totalmente preenchida com garrafas de 1.25L de Coca-Cola e Diet Coke. A inferior contém uma mistura de Diet Coke, Coca-Cola Zero, Sprite e um pacote de snacks. PASSO 2: Prateleira superior: organização excelente, sem anomalias. Prateleira inferior: lado esquerdo apresenta um pacote de snacks (anomalia de categoria); centro apresenta garrafas desalinhadas. PASSO 3: Identificada a presença de snacks (wrong_product) na zona de bebidas (severidade média) e desalinhamento de garrafas (misaligned, severidade baixa). PASSO 4: O fill rate é elevado, com apenas pequenas lacunas ou ocupação indevida, estimado em 0.92."
+}

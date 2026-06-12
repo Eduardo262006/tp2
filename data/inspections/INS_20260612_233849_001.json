@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260612_233849_001",
+  "timestamp": "2026-06-12T22:38:49Z",
+  "image_path": "test_images\\img_0155.jpg",
+  "zone_id": "Z_S5",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Os pacotes de snacks roxos estão desalinhados e inclinados, ocupando o espaço de forma desorganizada.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "O pacote de Tiny Teddy está ligeiramente deslocado para fora da face da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Arnott's Shapes",
+    "Arnott's In A Biskit",
+    "Arnott's Tiny Teddy",
+    "Arnott's Shapes Crispy Puffs"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado bem abastecida com snacks da marca Arnott's (Shapes, In A Biskit, Tiny Teddy). A organização é predominantemente por blocos verticais. PASSO 2: Analisando as regiões: Superior (bem cheia, mas com desalinhamento nos pacotes roxos à esquerda), Meio (bem organizada, exceto por um leve desalinhamento no Tiny Teddy), Inferior (bem organizada). PASSO 3: Identifiquei dois pontos de desalinhamento (misaligned). Não há prateleiras vazias (empty_shelf) nem produtos fora do lugar (wrong_product) óbvios, pois a categorização parece respeitar os planosogramas. A severidade é baixa pois não compromete a disponibilidade. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todos os espaços estão preenchidos com produto."
+}

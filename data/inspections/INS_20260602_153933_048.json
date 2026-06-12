@@ -1,0 +1,26 @@
+{
+  "inspection_id": "INS_20260602_153933_048",
+  "timestamp": "2026-06-02T15:39:33Z",
+  "image_path": "data\\images\\img_0048.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "high",
+      "description": "Espaço vazio significativo onde deveriam estar produtos, visível através da grelha da prateleira.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "sumo de maçã",
+    "sumo de laranja",
+    "sumo de frutos tropicais",
+    "sumo de groselha"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado com três níveis visíveis contendo garrafas de sumos de várias marcas (Coles, Golden Circle, Just Juice). A organização é feita por filas verticais. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: lado esquerdo e centro preenchidos, lado direito apresenta um vazio notável. Prateleira inferior: bem abastecida. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira do meio, lado direito, onde a grelha está exposta e não há produtos. Severidade alta devido à falta de stock visível. Confiança elevada. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das posições está ocupada, exceto pela falha na prateleira do meio."
+}

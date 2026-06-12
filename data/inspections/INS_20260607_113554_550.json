@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260607_113554_550",
+  "timestamp": "2026-06-07T11:35:54Z",
+  "image_path": "data\\images\\img_0561.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior onde deveriam estar produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "low",
+      "description": "Caixa de produto Wiltshire posicionada de forma irregular/inclinada.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "chá Bushells",
+    "conjuntos de copos Wiltshire"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com três níveis visíveis. Contém caixas de chá Bushells e conjuntos de copos da marca Wiltshire. PASSO 2: Prateleira superior: lado esquerdo vazio, centro com caixa desalinhada. Prateleira do meio: bem organizada com caixas de copos. Prateleira inferior: bem organizada com caixas de chá e copos. PASSO 3: Identifiquei um 'empty_shelf' na parte superior esquerda (severidade média) e um 'misaligned' no centro da mesma prateleira (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira superior e a ocupação densa nas restantes."
+}

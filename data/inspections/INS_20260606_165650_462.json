@@ -1,0 +1,14 @@
+{
+  "inspection_id": "INS_20260606_165650_462",
+  "timestamp": "2026-06-06T16:56:50Z",
+  "image_path": "data\\images\\img_0473.jpg",
+  "zone_id": "Z_S6",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Ferrero Rocher",
+    "Lindt Lindor"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de retalho contendo chocolates premium. A prateleira superior e a do meio estão preenchidas com caixas de Ferrero Rocher. A prateleira inferior contém caixas de Lindt Lindor. PASSO 2: Prateleira superior: bem organizada, sem falhas. Prateleira do meio: bem organizada, sem falhas. Prateleira inferior: bem organizada, sem falhas. Não foram detetadas anomalias como produtos em falta, desalinhamentos significativos ou etiquetas ausentes. PASSO 3: Não existem anomalias a reportar. PASSO 4: O fill rate é elevado, com quase todos os espaços de prateleira ocupados por produto, estimado em 0.95."
+}

@@ -1,0 +1,16 @@
+{
+  "inspection_id": "INS_20260605_100626_346",
+  "timestamp": "2026-06-05T10:06:26Z",
+  "image_path": "data\\images\\img_0357.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "sumos de fruta",
+    "sumos de laranja",
+    "sumos tropicais",
+    "sumos de maçã"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um supermercado preenchidas com garrafas de sumo de várias marcas (Berri, Golden Circle, etc.). A organização é densa e alinhada. PASSO 2: Prateleira superior: bem preenchida, sem falhas. Prateleira do meio: bem preenchida, alinhamento consistente. Prateleira inferior: bem preenchida, alinhamento consistente. Não foram detetadas zonas vazias significativas ou produtos fora de lugar. PASSO 3: Não existem anomalias detetadas. O stock está completo e organizado. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todo o espaço disponível na prateleira está ocupado por produtos, com apenas espaços mínimos entre garrafas."
+}

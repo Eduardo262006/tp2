@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260606_165750_482",
+  "timestamp": "2026-06-06T16:57:50Z",
+  "image_path": "data\\images\\img_0493.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio na extremidade esquerda da prateleira superior.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "low",
+      "description": "Produtos ligeiramente desalinhados ou inclinados na secção central da prateleira superior.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "massas frescas (Latina, Ubaldi)",
+    "pão de alho (Garlic Bread)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra 4 níveis de prateleiras de supermercado. O nível superior contém massas frescas, o segundo e terceiro níveis contêm massas frescas (Latina/Ubaldi), e o nível inferior contém pão de alho. PASSO 2: Prateleira superior: espaço vazio à esquerda. Prateleiras 2 e 3: bem organizadas. Prateleira inferior: bem organizada. PASSO 3: Identificada uma zona vazia na prateleira superior (empty_shelf, severidade média) e um ligeiro desalinhamento de produtos na mesma prateleira (misaligned, severidade baixa). PASSO 4: A ocupação é elevada, com apenas uma pequena falha no topo esquerdo. Estimativa de fill rate de 0.92."
+}

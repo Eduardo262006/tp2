@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260604_163155_219",
+  "timestamp": "2026-06-04T16:31:55Z",
+  "image_path": "data\\images\\img_0230.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos, sugerindo rutura de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Algumas embalagens de margarina estão desalinhadas ou ligeiramente fora da sua coluna de stock.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "margarina",
+    "manteiga",
+    "produtos de barrar"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado preenchidas com embalagens de margarina/manteiga. As prateleiras superior e média estão bem organizadas. A prateleira inferior apresenta uma zona vazia à esquerda e alguma desorganização no centro. PASSO 2: Prateleira superior: organizada. Prateleira média: organizada. Prateleira inferior: lado esquerdo com espaço vazio (empty_shelf), centro com produtos desalinhados (misaligned). PASSO 3: Identificada uma rutura de stock (empty_shelf) na prateleira inferior esquerda (severidade média, confiança 0.95) e desalinhamento (misaligned) na mesma prateleira ao centro (severidade baixa, confiança 0.85). PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na parte inferior esquerda."
+}

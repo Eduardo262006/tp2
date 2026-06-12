@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260606_165544_440",
+  "timestamp": "2026-06-06T16:55:44Z",
+  "image_path": "data\\images\\img_0451.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "A caixa de Solo está posicionada de forma irregular, inclinada sobre a caixa inferior.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro-direita",
+      "severity": "medium",
+      "description": "Espaço vazio visível atrás das caixas de Kirks, indicando falta de profundidade ou stock insuficiente.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Solo Lemon",
+    "Coles Lemon Soft Drink",
+    "Kirks Club Lemon Squash"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado com caixas de refrigerantes (Solo, Coles Lemon, Kirks). A organização é densa, mas apresenta algumas irregularidades de alinhamento e profundidade. PASSO 2: Superior esquerda: caixa de Solo desalinhada. Superior centro/direita: espaço vazio atrás das caixas de Kirks. Meio/Inferior: produtos bem alinhados e preenchidos. PASSO 3: Anomalia 1 (misaligned): caixa de Solo superior, severidade baixa, confiança 0.9. Anomalia 2 (empty_shelf): espaço vazio atrás das caixas de Kirks, severidade média, confiança 0.85. PASSO 4: O preenchimento é bom, mas há lacunas de profundidade e desalinhamento, resultando num fill rate estimado de 0.85."
+}

@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260607_113524_540",
+  "timestamp": "2026-06-07T11:35:24Z",
+  "image_path": "data\\images\\img_0551.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "O produto 'cotton blanket' está tombado/deitado, ocupando espaço de forma desorganizada e dificultando a visualização da etiqueta.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos têxteis (tecidos dobrados) estão empilhados de forma irregular, sem suporte lateral adequado.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "pillows",
+    "fitted sheets",
+    "quilt cover sets",
+    "cotton blankets",
+    "mattress protectors"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com três níveis visíveis contendo artigos de cama (almofadas, lençóis, cobertores e protetores de colchão). A organização é geralmente boa, mas há desordem em itens têxteis. PASSO 2: Prateleira superior: organizada. Prateleira do meio: o cobertor azul está deitado (anomalia) e os tecidos à esquerda estão desalinhados. Prateleira inferior: organizada. PASSO 3: Identificada a má disposição do cobertor azul (misaligned) e a desorganização dos tecidos na prateleira do meio. Severidade média devido ao impacto na experiência do cliente e visibilidade do produto. PASSO 4: O fill rate é alto, estimado em 0.85, pois a maioria dos espaços está preenchida, apesar da desorganização pontual."
+}

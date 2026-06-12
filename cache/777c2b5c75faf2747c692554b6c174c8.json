@@ -1,0 +1,13 @@
+{
+  "inspection_id": "INS_20260608_174911_604",
+  "timestamp": "2026-06-08T17:49:11Z",
+  "image_path": "data\\images\\img_0615.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "sumos e cordiais (Golden Circle, Sunnyboy, Farmland)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho preenchidas com garrafas de 2 litros de sumos e cordiais. Os produtos estão organizados em filas verticais por marca e sabor. PASSO 2: Prateleira superior: contém garrafas de Farmland Raspberry, Golden Circle Pineapple, Orange e Sunnyboy Apple Berry. Prateleira inferior: contém garrafas de Golden Circle Lime, Fruit Cup e Sunnyboy Loopy Lime. Não se observam espaços vazios significativos, produtos trocados ou etiquetas em falta. PASSO 3: Não foram identificadas anomalias. A organização é consistente e o stock está bem alinhado. PASSO 4: O fill rate é elevado, com quase todas as posições ocupadas, estimando-se em 0.95."
+}

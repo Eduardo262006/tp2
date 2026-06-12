@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260605_100820_384",
+  "timestamp": "2026-06-05T10:08:20Z",
+  "image_path": "data\\images\\img_0395.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "damaged",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Tampa de um produto desodorizante Brut solta/caída na prateleira.",
+      "confidence": 0.95,
+      "affected_area_pct": 2.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos Brut ligeiramente desalinhados e inclinados para a direita.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Listerine",
+    "Brut Aftershave",
+    "Adidas Skincare",
+    "L'Oreal Men Expert",
+    "Brut Deodorant",
+    "Nivea Men"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de produtos de higiene masculina (cuidados faciais e desodorizantes). A prateleira superior contém Listerine, Brut e L'Oreal Men Expert. A prateleira inferior contém desodorizantes Brut, L'Oreal Men Expert e Nivea Men. PASSO 2: Prateleira superior: organização geral boa, mas com ligeira inclinação nos produtos Brut à esquerda. Prateleira inferior: organização boa, mas há uma tampa de produto solta na base à esquerda. PASSO 3: Identifiquei uma tampa solta (damaged/other) na prateleira inferior esquerda e um desalinhamento menor na prateleira superior esquerda. A severidade é baixa pois não compromete a venda. PASSO 4: O preenchimento é elevado, com poucas falhas de stock, estimado em 92%."
+}

@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260602_153839_030",
+  "timestamp": "2026-06-02T15:38:39Z",
+  "image_path": "data\\images\\img_0030.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos da marca Dove estão desalinhados e inclinados, ocupando espaço de forma desorganizada.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo no final da prateleira inferior, sugerindo falta de stock ou organização incompleta.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "shampoo",
+    "condicionador",
+    "loções capilares"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de retalho contendo produtos de cuidado capilar (shampoos e condicionadores). As marcas visíveis incluem Dove, Schwarzkopf e Decore. PASSO 2: Prateleira superior: bem organizada, preenchida. Prateleira do meio: lado esquerdo apresenta produtos Dove desalinhados e inclinados. Prateleira inferior: lado esquerdo com produtos verdes (frutados) bem alinhados, centro com produtos Decore, lado direito apresenta um espaço vazio considerável. PASSO 3: Identifiquei desalinhamento na prateleira do meio (Dove) e um espaço vazio (empty_shelf) na prateleira inferior direita. A severidade é baixa para o desalinhamento e média para o espaço vazio, pois afeta a disponibilidade visual. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na parte inferior direita."
+}

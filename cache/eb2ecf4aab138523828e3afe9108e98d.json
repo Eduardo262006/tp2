@@ -1,0 +1,24 @@
+{
+  "inspection_id": "INS_20260603_121600_095",
+  "timestamp": "2026-06-03T12:16:00Z",
+  "image_path": "data\\images\\img_0095.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "critical",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "high",
+      "description": "Uma garrafa de sumo está deitada horizontalmente, bloqueando o espaço e obstruindo a visibilidade dos produtos atrás.",
+      "confidence": 0.98,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "sumos de fruta em garrafa",
+    "sumos de fruta em pacote"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado com sumos de fruta. A prateleira superior contém garrafas alinhadas. A prateleira do meio contém garrafas de 'Just Juice' e uma embalagem de 'Sun-Juice'. PASSO 2: Prateleira superior: organizada. Prateleira do meio: lado esquerdo ok, centro apresenta uma garrafa deitada (anomalia), lado direito ok. PASSO 3: Identificada uma garrafa deitada no centro da prateleira do meio. Classificação: misaligned. Severidade: high, pois impede o acesso e a correta exposição. Confiança: 0.98. PASSO 4: O fill rate é alto, mas a desorganização no centro reduz a eficiência do espaço. Estimativa de 0.85."
+}

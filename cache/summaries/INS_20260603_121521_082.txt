@@ -1,0 +1,1 @@
+zona Z_N7; estado warning; fill rate 85%; damaged (medium) em prateleira do meio, lado esquerdo: Garrafa de bebida deitada/tombada sobre as outras, ocupando espaço de forma irregular.; produtos: bebidas gaseificadas, sumos, água mineral; data 2026-06-03T12:15:21Z

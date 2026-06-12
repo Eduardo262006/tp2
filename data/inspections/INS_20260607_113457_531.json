@@ -1,0 +1,15 @@
+{
+  "inspection_id": "INS_20260607_113457_531",
+  "timestamp": "2026-06-07T11:34:57Z",
+  "image_path": "data\\images\\img_0542.jpg",
+  "zone_id": "Z_S4",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Latina Fresh pasta",
+    "Latina Fresh sauces",
+    "Dairy Free spreads"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado organizada com produtos da marca 'Latina Fresh' (massas frescas e molhos) e alguns recipientes de 'Dairy Free' à esquerda. A organização é consistente, com produtos alinhados frontalmente. PASSO 2: A prateleira está dividida em 3 níveis principais. Nível superior: molhos em potes. Nível médio: massas frescas (fettuccine, gnocchi). Nível inferior: massas frescas (tortellini, ravioli). Não foram observadas falhas de stock significativas ou produtos fora do lugar. PASSO 3: Não foram identificadas anomalias. Todos os produtos estão alinhados, com etiquetas de preço visíveis e prateleiras cheias. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todo o espaço disponível está ocupado por produtos, com apenas espaços mínimos entre unidades."
+}

@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260606_165444_420",
+  "timestamp": "2026-06-06T16:54:44Z",
+  "image_path": "data\\images\\img_0431.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "O pacote de EZY-COOK NOODLES está tombado/desalinhado, ocupando espaço de forma desorganizada.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível atrás dos produtos de arroz/vermicelli, indicando falta de stock ou recuo excessivo.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "EZY-COOK NOODLES",
+    "WRAPS OF THE WORLD (Malaysian, Greek, Roti, Chapati)",
+    "WAI WAI RICE VERMICELLI"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A superior contém pacotes de noodles e kits de wraps. A inferior contém pacotes de vermicelli e wraps de roti/chapati. PASSO 2: Prateleira superior: lado esquerdo com noodles (um pacote tombado), lado direito com wraps. Prateleira inferior: lado esquerdo com vermicelli (algum espaço vazio atrás), lado direito com wraps. PASSO 3: Identifiquei um desalinhamento no produto EZY-COOK (tombado) e um espaço vazio na prateleira inferior (falta de profundidade de stock). PASSO 4: O fill rate é alto, mas não total, estimado em 0.85 devido aos espaços vazios e organização."
+}

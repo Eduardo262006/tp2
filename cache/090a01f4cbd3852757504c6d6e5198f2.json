@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260603_121427_064",
+  "timestamp": "2026-06-03T12:14:27Z",
+  "image_path": "data\\images\\img_0064.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Espaço vazio visível à esquerda das garrafas de Coca-Cola Zero.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre as garrafas de Coca-Cola e a lateral esquerda.",
+      "confidence": 0.98,
+      "affected_area_pct": 25.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Coca-Cola Zero",
+    "Coca-Cola Original"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado contendo garrafas de 1.5L de Coca-Cola (Original e Zero). Há etiquetas de preço de $1.99. À direita, há embalagens plásticas penduradas. PASSO 2: Prateleira superior: contém Coca-Cola Zero, com um espaço vazio à esquerda. Prateleira inferior: contém Coca-Cola Original, com um espaço vazio considerável à esquerda. PASSO 3: Identifiquei duas zonas de 'empty_shelf'. A da prateleira inferior é mais severa (maior área afetada). Confiança alta devido à clareza da imagem. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das posições está preenchida, mas há lacunas notáveis nas extremidades esquerdas de ambas as prateleiras."
+}

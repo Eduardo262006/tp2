@@ -1,0 +1,16 @@
+{
+  "inspection_id": "INS_20260606_165456_424",
+  "timestamp": "2026-06-06T16:54:56Z",
+  "image_path": "data\\images\\img_0435.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Coca-Cola bottles",
+    "Diet Coke Vanilla bottles",
+    "Coca-Cola Zero Sugar cases",
+    "Diet Coke cases"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho. A prateleira superior contém garrafas de plástico de Coca-Cola e Diet Coke Vanilla alinhadas. A prateleira inferior contém caixas de cartão (packs) de Coca-Cola Zero Sugar e Diet Coke. PASSO 2: Prateleira superior: produtos bem alinhados, sem espaços vazios. Prateleira inferior: produtos organizados em blocos, sem falhas de stock visíveis. PASSO 3: Não foram detetadas anomalias. Todos os produtos estão corretamente posicionados, as etiquetas de preço estão presentes e alinhadas com os produtos, e não há sinais de danos ou produtos fora do lugar. PASSO 4: O fill rate é elevado, estimado em 0.95, considerando que a prateleira está quase totalmente preenchida com o stock disponível, sem lacunas significativas."
+}

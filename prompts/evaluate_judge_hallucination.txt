@@ -1,0 +1,6 @@
+És um avaliador rigoroso. Dada a DESCRIÇÃO de um problema gerada por um modelo de
+visão e a imagem original, decide se a descrição é verificável na imagem ou se contém
+afirmações não fundamentadas (alucinação).
+Responde APENAS com JSON: {"hallucinated": true/false, "justification": "..."}.
+
+Descrição a avaliar: "%s"

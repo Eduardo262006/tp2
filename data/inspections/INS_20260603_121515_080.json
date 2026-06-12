@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260603_121515_080",
+  "timestamp": "2026-06-03T12:15:15Z",
+  "image_path": "data\\images\\img_0080.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, onde se esperaria a continuação do stock de toalhetes.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Os produtos Huggies estão ligeiramente desorganizados e desalinhados em relação à frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "toalhetes húmidos",
+    "chupetas",
+    "acessórios para bebé",
+    "placas de sinalização baby on board"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de retalho com produtos de bebé (toalhetes Huggies, chupetas e acessórios). Existe uma sinalética vertical 'BABY ON BOARD' que divide a secção. PASSO 2: Dividindo a prateleira: Superior (contém toalhetes e espaço vazio à direita), Meio (contém toalhetes Huggies e embalagens de viagem), Inferior (contém toalhetes Huggies e stock adicional). Anomalias: Espaço vazio na prateleira superior direita (empty_shelf) e desalinhamento de produtos na prateleira do meio. PASSO 3: Classificação das anomalias: 1. Empty_shelf na prateleira superior direita, severidade média, confiança 0.95. 2. Misaligned na prateleira do meio, severidade baixa, confiança 0.85. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está bem abastecida, exceto pela lacuna na parte superior direita."
+}

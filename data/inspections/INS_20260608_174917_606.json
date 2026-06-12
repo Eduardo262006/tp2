@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260608_174917_606",
+  "timestamp": "2026-06-08T17:49:17Z",
+  "image_path": "data\\images\\img_0617.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Produtos (snacks/papadums) estão desorganizados, tombados e misturados, ocupando o espaço de forma caótica.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "low",
+      "description": "As embalagens de curry paste estão ligeiramente desalinhadas e inclinadas para a direita.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "molhos de caril (curry paste)",
+    "snacks (papadums)",
+    "molhos em frasco (jarred sauces)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras. A superior contém sacos de molhos e snacks (papadums). A do meio contém embalagens verticais de 'Raj Masala' curry paste. A inferior contém frascos de vidro 'Sharwood's'. PASSO 2: Prateleira superior: lado esquerdo organizado, lado direito desorganizado. Prateleira do meio: organizada, mas com ligeiro desalinhamento à direita. Prateleira inferior: organizada. PASSO 3: Identifiquei desalinhamento severo na prateleira superior (snacks tombados) e desalinhamento menor na do meio. Não há prateleiras vazias. PASSO 4: O preenchimento é alto, estimado em 85%, pois a maioria dos espaços está ocupada, apesar da desorganização visual no topo."
+}

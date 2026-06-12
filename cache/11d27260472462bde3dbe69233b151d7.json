@@ -1,0 +1,26 @@
+{
+  "inspection_id": "INS_20260609_105742_742",
+  "timestamp": "2026-06-09T10:57:42Z",
+  "image_path": "data\\images\\img_0753.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "other",
+      "location": "centro da prateleira",
+      "severity": "medium",
+      "description": "Um conjunto de palhinhas coloridas está pendurado no centro da prateleira, obstruindo a visão e ocupando espaço de exposição de forma inadequada.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "vinhos fortificados",
+    "vinho do porto",
+    "xerez",
+    "embalagens de cartão de vinho"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho de bebidas alcoólicas (vinhos, porto, xerez). A organização é feita por filas de garrafas e algumas caixas de cartão. Há um elemento estranho no centro. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: bem abastecida, mas com um objeto estranho (palhinhas) pendurado. Prateleira inferior: bem abastecida. PASSO 3: Identifiquei um objeto não relacionado (palhinhas) pendurado no centro, que obstrui a visualização e não pertence à categoria de bebidas. Severidade média, pois não é um produto danificado, mas é uma má prática de merchandising. PASSO 4: O fill rate é elevado, estimado em 0.92, pois quase todos os espaços estão preenchidos com produtos, exceto pela obstrução central."
+}

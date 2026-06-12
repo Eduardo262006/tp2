@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260608_174938_613",
+  "timestamp": "2026-06-08T17:49:38Z",
+  "image_path": "data\\images\\img_0624.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os sumos de laranja e a garrafa escura isolada.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas de sumo desalinhadas e com espaçamento irregular na frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "sumos de fruta em garrafa",
+    "sumos de fruta em pacote (tetrapak)",
+    "iogurtes/sobremesas lácteas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado com 4 níveis. Contém sumos em garrafas de plástico, pacotes de cartão (tetrapak) e iogurtes em copo. PASSO 2: Prateleira superior: zona esquerda com falha de stock. Prateleira 2: bem organizada. Prateleira 3: bem organizada. Prateleira inferior: organização caótica/desalinhada à esquerda. PASSO 3: Identificada uma lacuna de stock na prateleira superior (empty_shelf) e desalinhamento na prateleira inferior (misaligned). A severidade é média para o vazio e baixa para o desalinhamento. PASSO 4: O fill rate é elevado, estimado em 0.88, dado que a maioria das prateleiras está cheia, exceto por pequenas lacunas pontuais."
+}

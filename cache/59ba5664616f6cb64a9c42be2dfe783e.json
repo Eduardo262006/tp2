@@ -1,0 +1,25 @@
+{
+  "inspection_id": "INS_20260609_105524_696",
+  "timestamp": "2026-06-09T10:55:24Z",
+  "image_path": "data\\images\\img_0707.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Existe um espaço vazio significativo entre as garrafas de água Purea e as garrafas de água Evian/Fiji, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "água mineral",
+    "água com gás",
+    "garrafas de plástico"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho preenchidas com garrafas de água de várias marcas (Purea, Evian, Fiji, Peats Ridge, Cool Ridge). A organização é predominantemente por blocos de marca. PASSO 2: Prateleira superior: lado esquerdo com Purea, centro com um espaço vazio notável, lado direito com Evian, Fiji e outras. Prateleira inferior: preenchida uniformemente com Peats Ridge e outras marcas. PASSO 3: Identifiquei uma anomalia de 'empty_shelf' na prateleira superior, centro, onde falta produto, criando um gap visual. A severidade é média pois afeta a estética e a disponibilidade imediata. Confiança alta devido à clareza da imagem. PASSO 4: O fill rate global é estimado em 0.85, considerando o espaço vazio na prateleira superior e o preenchimento denso na inferior."
+}

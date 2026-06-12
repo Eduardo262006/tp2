@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260608_175105_642",
+  "timestamp": "2026-06-08T17:51:05Z",
+  "image_path": "data\\images\\img_0653.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio visível entre os frascos de café Moccona na prateleira superior.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Produtos Nescafe Blend 43 desalinhados em relação à frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Café solúvel Moccona",
+    "Café solúvel Nescafe Gold",
+    "Café solúvel Nescafe Blend 43",
+    "Café Jarrah"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo frascos de café solúvel (Moccona, Nescafe). A organização é predominantemente por marca e tipo. PASSO 2: Prateleira superior: contém Jarrah e Moccona, com uma falha de stock no centro. Prateleira do meio: Moccona e Nescafe Gold, bem organizados. Prateleira inferior: Moccona e Nescafe Blend 43, com ligeiro desalinhamento à direita. PASSO 3: Identificada uma falha de stock (empty_shelf) na prateleira superior (centro) e um desalinhamento (misaligned) na prateleira inferior (direita). A severidade é média para o vazio e baixa para o desalinhamento. PASSO 4: O preenchimento é elevado, estimado em 92%, dado que a maioria das prateleiras está cheia, com apenas pequenas lacunas."
+}

@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260608_175229_670",
+  "timestamp": "2026-06-08T17:52:29Z",
+  "image_path": "data\\images\\img_0681.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar produtos Avent.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos ligeiramente desalinhados na frente da prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "copos de treino",
+    "bicos de mamadeira",
+    "acessórios de alimentação infantil",
+    "talheres infantis"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de retalho com produtos de puericultura (copos, bicos, acessórios). A estrutura é dividida por um separador vertical central. PASSO 2: Dividi em 3 níveis verticais e 2 colunas (esquerda/direita). Anomalias: Espaço vazio notável na prateleira do meio à direita (Avent) e ligeiro desalinhamento na prateleira superior esquerda. PASSO 3: Identifiquei o espaço vazio como 'empty_shelf' (severidade média) e o desalinhamento como 'misaligned' (severidade baixa). PASSO 4: O fill rate é alto, mas com uma quebra clara na prateleira do meio, estimado em 0.85."
+}

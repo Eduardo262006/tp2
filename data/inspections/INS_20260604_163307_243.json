@@ -1,0 +1,15 @@
+{
+  "inspection_id": "INS_20260604_163307_243",
+  "timestamp": "2026-06-04T16:33:07Z",
+  "image_path": "data\\images\\img_0254.jpg",
+  "zone_id": "Z_S7",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Coles Smart Buy Corn Chips",
+    "Doritos Nacho Cheese",
+    "Rositas Guacamole Corn Chips"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A prateleira superior contém sacos de 'Coles Smart Buy Corn Chips'. A prateleira inferior contém sacos de 'Doritos Nacho Cheese' à esquerda e 'Rositas Guacamole Corn Chips' à direita. Há também uma estrutura de suporte à direita com produtos de papelaria/jogos. PASSO 2: Prateleira superior: totalmente preenchida com o mesmo produto. Prateleira inferior: preenchida com duas variedades de chips, sem espaços vazios significativos. Não há produtos danificados ou desalinhados de forma crítica. PASSO 3: Não foram identificadas anomalias. A organização está correta e os produtos estão bem posicionados. PASSO 4: O fill rate é elevado, estimado em 0.95, considerando que as prateleiras estão quase totalmente ocupadas com os produtos de frente para o cliente."
+}

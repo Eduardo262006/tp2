@@ -1,0 +1,26 @@
+{
+  "inspection_id": "INS_20260604_163346_256",
+  "timestamp": "2026-06-04T16:33:46Z",
+  "image_path": "data\\images\\img_0267.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo e centro",
+      "severity": "medium",
+      "description": "Grande espaço vazio na prateleira do meio, onde apenas uma caixa de Kirks está presente, deixando a maior parte da área desocupada.",
+      "confidence": 0.95,
+      "affected_area_pct": 60.0
+    }
+  ],
+  "shelf_fill_rate": 0.65,
+  "products_detected": [
+    "palhinhas",
+    "bebidas gaseificadas (ginger ale)",
+    "água com gás",
+    "caixas de refrigerante (Kirks)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras. A esquerda contém pacotes de palhinhas pendurados verticalmente. A prateleira superior contém garrafas de ginger ale e Schweppes. A prateleira do meio contém uma caixa de Kirks e uma garrafa de água com gás, com um grande espaço vazio. A prateleira inferior contém mais garrafas de ginger ale e Schweppes. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: apresenta um vazio significativo à esquerda e ao centro. Prateleira inferior: bem abastecida. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira do meio, ocupando cerca de 60% da área disponível, severidade média. PASSO 4: O fill rate global é estimado em 0.65, considerando a densidade das prateleiras superior e inferior compensada pelo vazio na prateleira central."
+}

@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260604_163128_210",
+  "timestamp": "2026-06-04T16:31:28Z",
+  "image_path": "data\\images\\img_0221.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "segunda prateleira a contar de cima, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos 'Fruit Toast' e 'Mighty Soft', indicando falta de stock ou organização deficiente.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "terceira prateleira a contar de cima, lado direito",
+      "severity": "low",
+      "description": "Espaço vazio na extremidade direita da prateleira.",
+      "confidence": 0.9,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "pão de forma",
+    "pão de passas",
+    "muffins",
+    "crumpets",
+    "english muffins"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 5 níveis de prateleiras contendo produtos de padaria (pães, muffins, crumpets). A organização é geralmente boa, mas com algumas lacunas. PASSO 2: Analisando por regiões: Superior (cheia), Segunda (lacuna visível no centro-esquerda), Terceira (cheia, exceto pequena lacuna à direita), Quarta (cheia), Inferior (cheia). PASSO 3: Identifiquei uma anomalia de 'empty_shelf' na segunda prateleira (gap entre marcas) e uma pequena lacuna na terceira prateleira. A severidade é média para a lacuna maior e baixa para a menor. PASSO 4: O fill rate global é alto, estimado em 0.88, considerando que a maioria das prateleiras está bem preenchida, com apenas pequenas áreas de rutura de stock."
+}

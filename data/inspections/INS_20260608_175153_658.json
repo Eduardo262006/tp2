@@ -1,0 +1,24 @@
+{
+  "inspection_id": "INS_20260608_175153_658",
+  "timestamp": "2026-06-08T17:51:53Z",
+  "image_path": "data\\images\\img_0669.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os dois grupos de garrafas de água na prateleira do meio.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "garrafas de água mineral",
+    "utensílios de limpeza (escovas)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de retalho contendo principalmente garrafas de água mineral e alguns utensílios de limpeza pendurados à direita. A organização é predominantemente por blocos de produtos. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: apresenta uma lacuna visível no centro, separando dois tipos de garrafas de água. Prateleira inferior: visível, mas parcialmente obstruída. PASSO 3: Identifiquei uma anomalia de 'empty_shelf' na prateleira do meio, centro, onde falta produto para preencher o espaço entre as marcas de água. Severidade média, pois afeta a estética e a disponibilidade imediata. Confiança alta. PASSO 4: O fill rate global é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna central na prateleira do meio."
+}

@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260602_153857_036",
+  "timestamp": "2026-06-02T15:38:57Z",
+  "image_path": "data\\images\\img_0036.jpg",
+  "zone_id": "Z_N8",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, sugerindo falta de stock ou produto deslocado.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas de sumo Golden Circle ligeiramente desalinhadas em relação ao padrão de faceamento.",
+      "confidence": 0.7,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "sumos Golden Circle",
+    "sumos Coltee's",
+    "bebidas de fruta"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo garrafas de sumos e bebidas de fruta (marcas Golden Circle e Coltee's). As prateleiras estão maioritariamente cheias, com organização por tipo de produto. PASSO 2: Prateleira superior: bem organizada, produtos alinhados. Prateleira do meio: bem organizada, produtos alinhados. Prateleira inferior: apresenta uma lacuna visível no lado direito, indicando falta de stock. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira inferior (lado direito) com severidade média. Identificado um ligeiro desalinhamento na prateleira superior (lado esquerdo) com severidade baixa. PASSO 4: O fill rate é estimado em 0.85, considerando a ocupação quase total das prateleiras superior e média, e a lacuna na inferior."
+}

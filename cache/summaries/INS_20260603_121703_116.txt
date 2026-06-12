@@ -1,0 +1,1 @@
+zona Z_S7; estado ok; fill rate 98%; produtos: Burger Rings, Red Rock Deli Potato Chips, Twisties Chicken, Twisties Wicked Cheddar, Cheetos Cheese, Cheetos Cheese & Bacon; data 2026-06-03T12:17:03Z

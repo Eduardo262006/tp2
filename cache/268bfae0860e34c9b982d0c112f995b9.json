@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260608_175111_644",
+  "timestamp": "2026-06-08T17:51:11Z",
+  "image_path": "data\\images\\img_0655.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, onde deveriam estar produtos similares aos adjacentes.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Produtos de pipocas estão desorganizados e empilhados de forma irregular, dificultando a visualização da etiqueta.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "batatas fritas",
+    "pipocas",
+    "bebidas (garrafas)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho. A superior contém garrafas de bebidas e alguns snacks. A inferior está preenchida maioritariamente por sacos de pipocas de várias marcas. PASSO 2: Prateleira superior: lado esquerdo com snacks, centro com espaço vazio considerável, lado direito com garrafas. Prateleira inferior: bem preenchida, mas com desorganização no lado direito. PASSO 3: Identifiquei um 'empty_shelf' no centro da prateleira superior (severidade média) e 'misaligned' na prateleira inferior direita (severidade baixa). PASSO 4: O fill rate é estimado em 0.75, considerando o espaço vazio na prateleira superior e a densidade na inferior."
+}

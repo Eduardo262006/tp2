@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260607_113630_562",
+  "timestamp": "2026-06-07T11:36:30Z",
+  "image_path": "data\\images\\img_0573.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre as garrafas de vinho espumante e as caixas de vinho Banrock Station.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "other",
+      "location": "prateleira do meio, centro-esquerda",
+      "severity": "low",
+      "description": "Presença de fitas decorativas/promocionais penduradas que obstruem a visão e o acesso aos produtos.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "vinhos em garrafa",
+    "vinhos em caixa (bag-in-box)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado contendo vinhos em garrafa e vinhos em caixa. A organização é geralmente boa, mas há elementos estranhos. PASSO 2: Prateleira superior: bem preenchida. Prateleira do meio: lado esquerdo com garrafas, centro com um espaço vazio considerável e fitas decorativas penduradas, lado direito com caixas de vinho. Prateleira inferior: bem preenchida com garrafas e caixas. PASSO 3: Identifiquei um 'empty_shelf' no centro da prateleira do meio (severidade média, pois interrompe o fluxo de produtos) e um problema de 'other' devido às fitas decorativas que obstruem a prateleira. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna central na prateleira do meio."
+}

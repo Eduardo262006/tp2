@@ -1,0 +1,26 @@
+{
+  "inspection_id": "INS_20260603_121436_067",
+  "timestamp": "2026-06-03T12:14:36Z",
+  "image_path": "data\\images\\img_0067.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "wrong_product",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Presença de brinquedos (Kids'r Cool) pendurados na frente da prateleira de snacks, obstruindo a visualização e ocupando espaço de produto.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Doritos Dippas",
+    "Doritos Cheese Supreme",
+    "Doritos Sweet Chili",
+    "Brinquedos Kids'r Cool"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho contendo sacos de Doritos (vários sabores e tamanhos) e uma tira de brinquedos pendurada. PASSO 2: Prateleira superior: bem organizada com Doritos Dippas e Cheese Supreme. Prateleira inferior: contém Doritos Sweet Chili e Cheese Supreme, mas há uma tira de brinquedos 'Kids'r Cool' pendurada verticalmente sobre a prateleira, bloqueando parte dos produtos. PASSO 3: Identificada a anomalia de 'wrong_product' (ou 'other' - obstrução) devido aos brinquedos estarem na zona de snacks. Severidade média, pois não é um produto de prateleira, mas sim um item de cross-merchandising que ocupa espaço de faceamento. Confiança alta. PASSO 4: O fill rate é alto (cerca de 85%), pois as prateleiras estão quase cheias, com apenas uma pequena obstrução visual causada pelos brinquedos."
+}

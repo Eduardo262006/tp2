@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260604_162949_177",
+  "timestamp": "2026-06-04T16:29:49Z",
+  "image_path": "data\\images\\img_0188.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Produtos ligeiramente desorganizados ou fora do alinhamento frontal padrão.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Carefree liners",
+    "Freestyle pads",
+    "Stayfree pads",
+    "U by Kotex pads",
+    "Kotex pads"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho de produtos de higiene feminina (pensos higiénicos e protetores diários). A organização é geralmente boa, com produtos alinhados em quatro níveis. PASSO 2: Prateleira superior: cheia. Prateleira intermédia superior: cheia. Prateleira intermédia inferior: cheia. Prateleira inferior: apresenta uma lacuna clara no lado esquerdo (empty_shelf) e alguma desorganização no centro. PASSO 3: Identificada uma zona vazia na prateleira inferior (severidade média, confiança alta) e desalinhamento de produtos na mesma prateleira (severidade baixa, confiança alta). PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na parte inferior esquerda."
+}

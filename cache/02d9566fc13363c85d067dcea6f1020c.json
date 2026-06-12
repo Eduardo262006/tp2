@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260607_113330_502",
+  "timestamp": "2026-06-07T11:33:30Z",
+  "image_path": "data\\images\\img_0513.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas de sumo estão desalinhadas e ligeiramente viradas para fora do alinhamento frontal.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio entre as garrafas de 'Fruit Cup Crush' e 'Extra Juicy', indicando falta de stock ou produto removido.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "sumos/cordiais Cottee's",
+    "sumos Extra Juicy"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado contendo garrafas de plástico de sumos/cordiais (marcas Cottee's e Extra Juicy). A organização é predominantemente por blocos de sabor/tipo. PASSO 2: Prateleira superior: bem preenchida, mas com desalinhamento nas garrafas à esquerda. Prateleira inferior: preenchida, mas com um espaço vazio notável no centro entre os produtos Cottee's e Extra Juicy. PASSO 3: Identifiquei um desalinhamento na prateleira superior (severidade baixa) e um espaço vazio (empty_shelf) na prateleira inferior (severidade média). A confiança é alta devido à clareza da imagem. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria do espaço está ocupado, exceto pela lacuna central na prateleira inferior e pequenos espaços entre garrafas."
+}

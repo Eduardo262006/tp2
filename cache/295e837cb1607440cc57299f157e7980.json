@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260604_163125_209",
+  "timestamp": "2026-06-04T16:31:25Z",
+  "image_path": "data\\images\\img_0220.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os iogurtes e as garrafas de sumo, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos Vegie Delights estão ligeiramente desalinhados e com as embalagens sobrepostas de forma irregular.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "iogurtes",
+    "sumos de fruta",
+    "produtos vegetarianos (Vegie Delights)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de refrigeração com três prateleiras principais. A prateleira superior contém iogurtes e garrafas de sumo. A prateleira do meio contém embalagens de produtos vegetarianos (Vegie Delights) à esquerda e pacotes de sumo (Coles/Sunrise) ao centro e direita. A prateleira inferior contém mais pacotes de sumo. PASSO 2: Prateleira superior: zona esquerda com iogurtes, zona central com um espaço vazio notável antes das garrafas de sumo. Prateleira do meio: zona esquerda com produtos Vegie Delights (ligeiramente desarrumados), zona central/direita bem organizada com sumos. Prateleira inferior: bem organizada. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira superior (espaço vazio entre iogurtes e sumos) e 'misaligned' na prateleira do meio (produtos Vegie Delights). PASSO 4: O fill rate é elevado, mas com lacunas pontuais, estimado em 0.85."
+}

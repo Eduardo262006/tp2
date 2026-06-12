@@ -1,0 +1,24 @@
+{
+  "inspection_id": "INS_20260607_113606_554",
+  "timestamp": "2026-06-07T11:36:06Z",
+  "image_path": "data\\images\\img_0565.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, onde deveriam estar produtos Sorbent.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.9,
+  "products_detected": [
+    "papel higiénico Sorbent",
+    "máscaras faciais (penduradas)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho organizada com rolos de papel higiénico da marca Sorbent. Há também um conjunto de máscaras faciais penduradas na lateral esquerda. PASSO 2: Dividindo a prateleira: Superior (esquerda/centro cheios, direita com falha), Meio (totalmente preenchido), Inferior (preenchido). A anomalia principal é um espaço vazio na prateleira superior, lado direito. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira superior direita. Severidade média, pois afeta a disponibilidade do produto. Confiança alta devido à clareza da imagem. PASSO 4: O fill rate é elevado, estimado em 0.9, considerando que apenas uma pequena secção da prateleira superior está vazia."
+}

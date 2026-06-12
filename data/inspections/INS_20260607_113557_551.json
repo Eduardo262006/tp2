@@ -1,0 +1,44 @@
+{
+  "inspection_id": "INS_20260607_113557_551",
+  "timestamp": "2026-06-07T11:35:57Z",
+  "image_path": "data\\images\\img_0562.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo onde deveriam estar produtos, sugerindo rutura de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio na prateleira do meio, indicando falta de stock de produtos de empilhar.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio na prateleira inferior, sugerindo falta de stock de Bath Mobiles.",
+      "confidence": 0.9,
+      "affected_area_pct": 30.0
+    }
+  ],
+  "shelf_fill_rate": 0.65,
+  "products_detected": [
+    "Chewy Stacking Cups",
+    "Baby Link 'ems",
+    "Rock 'n Stack",
+    "Bath Mobile"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de brinquedos para bebés com três níveis. Estão presentes produtos como 'Chewy Stacking Cups', 'Link 'ems', 'Rock 'n Stack' e 'Bath Mobile'. PASSO 2: Dividindo a prateleira: Superior (esquerda: copos, direita: vazio/link 'ems), Meio (esquerda: brinquedos de empilhar, direita: vazio), Inferior (esquerda: Bath Mobile, direita: vazio). PASSO 3: Identifiquei três zonas de 'empty_shelf' significativas no lado direito de cada prateleira, indicando falta de reposição. A severidade é média pois o stock existente está organizado, mas há lacunas claras. PASSO 4: O fill rate é estimado em 0.65, considerando que cerca de 35% do espaço de exposição visível está desocupado."
+}

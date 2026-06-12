@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260605_100717_363",
+  "timestamp": "2026-06-05T10:07:17Z",
+  "image_path": "data\\images\\img_0374.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível na extremidade esquerda da prateleira superior, onde deveriam estar produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "low",
+      "description": "O produto 'Selections Thinly Cut' está ligeiramente desalinhado e inclinado para a direita.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Smiths Crinkle Cut Original",
+    "Smiths Crinkle Cut Salt & Vinegar",
+    "Smiths Selections Thinly Cut",
+    "Batatas fritas diversas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo sacos de batatas fritas da marca Smiths. A prateleira superior contém sacos azuis (Original). A prateleira do meio contém sacos azuis (Original) e um saco amarelo (Selections) à direita. A prateleira inferior contém sacos cor-de-rosa (Salt & Vinegar) e um saco azul (Sour Cream & Onion) à direita. PASSO 2: Prateleira superior: espaço vazio à esquerda. Prateleira do meio: alinhamento ok, exceto pelo produto à direita que está ligeiramente inclinado. Prateleira inferior: organização satisfatória. PASSO 3: Identificada uma lacuna (empty_shelf) na prateleira superior (severidade média, confiança alta). Identificado um desalinhamento (misaligned) na prateleira do meio (severidade baixa, confiança alta). PASSO 4: O fill rate é estimado em 0.85, considerando a lacuna na prateleira superior e o preenchimento denso nas restantes."
+}

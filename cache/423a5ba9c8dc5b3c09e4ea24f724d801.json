@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260607_113657_571",
+  "timestamp": "2026-06-07T11:36:57Z",
+  "image_path": "data\\images\\img_0582.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio visível à direita dos sacos de Guacamole Corn Chips, indicando falta de stock ou produto deslocado.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Os frascos de molho estão desalinhados e alguns parecem estar tombados ou fora da fila organizada.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Doritos Nacho Cheese",
+    "Rositas Guacamole Corn Chips",
+    "MasterFoods Salsa",
+    "C&S Salsa",
+    "Munchables Mexigos"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A superior contém sacos de Doritos e Guacamole Corn Chips. A inferior contém frascos de molho (Salsa) e caixas de Munchables. PASSO 2: Prateleira superior: esquerda/centro ocupados, direita com espaço vazio. Prateleira inferior: esquerda com frascos desalinhados, centro/direita com produtos organizados. PASSO 3: Identifiquei um 'empty_shelf' na parte superior direita (severidade média) e 'misaligned' nos frascos da prateleira inferior (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira superior e a densidade de produtos na inferior."
+}

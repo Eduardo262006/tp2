@@ -1,0 +1,26 @@
+{
+  "inspection_id": "INS_20260605_100438_310",
+  "timestamp": "2026-06-05T10:04:38Z",
+  "image_path": "data\\images\\img_0321.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço de prateleira vazio onde deveriam estar produtos (etiqueta de preço presente).",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Twisties Chicken",
+    "Kettle Chips",
+    "Smiths Crinkle Cut Original",
+    "Smiths Crinkle Cut Salt & Vinegar"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de retalho contendo snacks (batatas fritas e Twisties). A prateleira superior tem uma secção vazia à esquerda. As prateleiras do meio e inferior estão bem abastecidas com produtos Smiths. PASSO 2: Prateleira superior: lado esquerdo vazio, centro/direita com Twisties e Kettle. Prateleira média: totalmente preenchida com Smiths Original. Prateleira inferior: totalmente preenchida com Smiths Salt & Vinegar. Anomalia identificada: espaço vazio na prateleira superior. PASSO 3: Anomalia 'empty_shelf' na prateleira superior esquerda, severidade média (perda de exposição), confiança 0.95, área afetada estimada em 20%. PASSO 4: O fill rate global é alto, estimado em 0.85, considerando que apenas uma pequena fração da prateleira superior está vazia."
+}

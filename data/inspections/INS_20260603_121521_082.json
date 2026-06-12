@@ -1,0 +1,25 @@
+{
+  "inspection_id": "INS_20260603_121521_082",
+  "timestamp": "2026-06-03T12:15:21Z",
+  "image_path": "data\\images\\img_0082.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "damaged",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "medium",
+      "description": "Garrafa de bebida deitada/tombada sobre as outras, ocupando espaço de forma irregular.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "bebidas gaseificadas",
+    "sumos",
+    "água mineral"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de metal contendo garrafas de plástico de bebidas (sumos, refrigerantes e águas). A organização é geralmente por filas, mas há uma anomalia clara. PASSO 2: Prateleira superior: organizada. Prateleira do meio: existe uma garrafa deitada horizontalmente sobre as outras no lado esquerdo, interrompendo o alinhamento. Prateleira inferior: organizada. PASSO 3: Identificada uma garrafa tombada (damaged/misaligned) na prateleira do meio, lado esquerdo. Severidade média pois impede o acesso correto e compromete a estética. Confiança alta. PASSO 4: O fill rate é elevado, com a maioria das prateleiras cheias, exceto pelo espaço ocupado pela garrafa tombada e pequenos vãos, estimado em 0.85."
+}

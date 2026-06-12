@@ -1,0 +1,38 @@
+{
+  "inspection_id": "INS_20260607_113506_534",
+  "timestamp": "2026-06-07T11:35:06Z",
+  "image_path": "data\\images\\img_0545.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Garrafas de sumo Just Juice e Coles estão desalinhadas e ligeiramente recuadas em relação à frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas de P&N e Just Juice apresentam desalinhamento na profundidade e orientação dos rótulos.",
+      "confidence": 0.8,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "P&N Grape Juice",
+    "P&N Apple Juice",
+    "Just Juice Apple Juice",
+    "Coles Orange Juice",
+    "P&N Orange Juice",
+    "Just Juice Orange Juice",
+    "Coles Apple Juice"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado repletas de sumos de fruta em garrafas de plástico. As marcas visíveis incluem P&N, Just Juice e Coles. Os produtos estão organizados por tipo e marca. PASSO 2: Prateleira superior: lado esquerdo (P&N), centro (Just Juice), direita (Coles). Prateleira inferior: lado esquerdo (P&N), centro (Just Juice), direita (Coles/Just Juice). Anomalias: Desalinhamento menor na prateleira superior direita e inferior esquerda, onde algumas garrafas não estão perfeitamente alinhadas com a borda frontal. PASSO 3: Identifiquei desalinhamentos (misaligned) como a principal anomalia. Severidade baixa, pois o stock está presente e visível. Confiança alta baseada na clareza visual. PASSO 4: O fill rate é elevado, estimado em 0.95, pois quase todo o espaço disponível está ocupado por produto, com apenas pequenos espaços vazios ou recuos."
+}

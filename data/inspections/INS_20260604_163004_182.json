@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260604_163004_182",
+  "timestamp": "2026-06-04T16:30:04Z",
+  "image_path": "data\\images\\img_0193.jpg",
+  "zone_id": "Z_N6",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na extremidade direita da prateleira superior.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "wrong_product",
+      "location": "prateleira do meio, lado direito",
+      "severity": "low",
+      "description": "Presença de um produto 'Thinly Cut' misturado na secção de 'Crinkle Cut Salt & Vinegar'.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Smiths Crinkle Cut Original",
+    "Smiths Crinkle Cut Salt & Vinegar",
+    "Smiths Crinkle Cut Cheese & Onion",
+    "Smiths Thinly Cut Thai Sweet Chilli",
+    "Smiths Deli Potato Chips"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado com pacotes de batatas fritas da marca Smith's. A prateleira superior contém pacotes azuis (Original). A prateleira do meio contém pacotes cor-de-rosa (Salt & Vinegar). A prateleira inferior contém pacotes amarelos (Cheese & Onion) e vermelhos (Thai Sweet Chilli). PASSO 2: Prateleira superior: lado direito com espaço vazio. Prateleira do meio: alinhamento correto, exceto por um produto intruso à direita. Prateleira inferior: bem organizada. PASSO 3: Anomalia 1: empty_shelf na prateleira superior direita (severidade média). Anomalia 2: wrong_product na prateleira do meio, lado direito (severidade baixa). PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira superior e a densidade geral de ocupação."
+}

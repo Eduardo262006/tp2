@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260606_165538_438",
+  "timestamp": "2026-06-06T16:55:38Z",
+  "image_path": "data\\images\\img_0449.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar mais produtos da marca a.o.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Produtos BrunchBar Minis estão desorganizados e ligeiramente desalinhados na prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Kellogg's K-time bars",
+    "a.o. brownie bars",
+    "Tasty Thins snacks",
+    "Cadbury BrunchBar Minis"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de retalho contendo snacks embalados (barras de cereais, bolachas e snacks salgados). À esquerda, sacos grandes de 'Tasty Thins' e 'Top 20'. À direita, caixas de 'K-time', 'a.o.' e 'BrunchBar'. PASSO 2: Prateleira superior: bem abastecida com K-time. Prateleira do meio: contém caixas 'a.o.', mas há um espaço vazio considerável à direita. Prateleira inferior: contém 'Tasty Thins' e 'BrunchBar', com alguma desorganização nos BrunchBar. PASSO 3: Identifiquei um 'empty_shelf' na prateleira do meio (lado direito) devido à falta de stock de 'a.o.' e um 'misaligned' na prateleira inferior (centro) com os 'BrunchBar'. Severidade média para o vazio, baixa para o desalinhamento. PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira do meio e a ocupação densa das outras áreas."
+}

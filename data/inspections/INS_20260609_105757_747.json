@@ -1,0 +1,25 @@
+{
+  "inspection_id": "INS_20260609_105757_747",
+  "timestamp": "2026-06-09T10:57:57Z",
+  "image_path": "data\\images\\img_0758.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "O pacote de batatas fritas vermelho está tombado e projetado para fora da prateleira, obstruindo a visão e ocupando espaço de forma desorganizada.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.9,
+  "products_detected": [
+    "Tasty Jacks chips",
+    "Thins chips",
+    "Coles Smart Buy potato chips"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A prateleira superior contém sacos de batatas fritas de marcas premium (Tasty Jacks, Thins). A prateleira inferior contém sacos de batatas fritas de marca própria (Coles Smart Buy). PASSO 2: Prateleira superior: organização geral boa, exceto por um pacote vermelho à direita que está tombado. Prateleira inferior: organização alinhada e preenchida. PASSO 3: Identificada uma anomalia de desalinhamento (misaligned) na prateleira superior direita. Severidade média, pois o produto está instável e pode cair. Confiança alta. PASSO 4: O fill rate é elevado, com quase todos os espaços ocupados, estimado em 0.9."
+}

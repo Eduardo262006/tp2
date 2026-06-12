@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260604_163301_241",
+  "timestamp": "2026-06-04T16:33:01Z",
+  "image_path": "data\\images\\img_0252.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre as garrafas Kirks e os produtos Gatorade.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "high",
+      "description": "Grande área vazia na prateleira inferior, onde deveriam estar produtos alinhados com as etiquetas de preço.",
+      "confidence": 0.98,
+      "affected_area_pct": 40.0
+    }
+  ],
+  "shelf_fill_rate": 0.65,
+  "products_detected": [
+    "refrigerantes Kirks",
+    "suplementos Gatorade",
+    "bebidas desportivas Powerade",
+    "palhinhas (acessórios)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A superior contém refrigerantes Kirks à esquerda, um espaço vazio no centro e suplementos Gatorade à direita. A prateleira inferior contém uma garrafa Kirks à esquerda, um grande espaço vazio no centro e bebidas Powerade à direita, com um expositor de palhinhas pendurado no centro-direita. PASSO 2: Prateleira superior: esquerda (ok), centro (vazio), direita (ok). Prateleira inferior: esquerda (ok), centro (vazio), direita (ok). PASSO 3: Identificadas duas zonas de 'empty_shelf'. A da prateleira inferior é mais severa devido à maior área de exposição vazia. PASSO 4: O fill rate é estimado em 0.65, considerando que cerca de 35% da área total visível das prateleiras está desocupada."
+}

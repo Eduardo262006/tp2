@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260603_121551_092",
+  "timestamp": "2026-06-03T12:15:51Z",
+  "image_path": "data\\images\\img_0092.jpg",
+  "zone_id": "Z_N10",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Espaço vazio significativo à esquerda dos livros, indicando falta de stock ou má organização.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio considerável no lado direito da prateleira do meio, onde deveriam estar mais livros.",
+      "confidence": 0.98,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "livros infantis",
+    "livros de capa dura",
+    "livros de atividades"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de uma estante de livraria infantil. A prateleira superior contém livros de capa fina e livros de cartão (board books). A prateleira do meio contém livros de capa dura. Há espaços vazios em ambas as prateleiras. PASSO 2: Prateleira superior: lado esquerdo vazio, centro/direita ocupados. Prateleira do meio: lado esquerdo/centro ocupados, lado direito vazio. PASSO 3: Identifiquei duas zonas de 'empty_shelf'. A da prateleira do meio é mais notável pois interrompe a continuidade da exposição. A severidade é classificada como média para o vazio da prateleira do meio e baixa para a superior. PASSO 4: Estimo que cerca de 75% da área total disponível nas prateleiras visíveis está ocupada por produtos, considerando os espaços vazios laterais."
+}

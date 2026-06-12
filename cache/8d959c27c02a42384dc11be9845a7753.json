@@ -1,0 +1,25 @@
+{
+  "inspection_id": "INS_20260612_233846_001",
+  "timestamp": "2026-06-12T22:38:46Z",
+  "image_path": "test_images\\img_0154.jpg",
+  "zone_id": "Z_S4",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "high",
+      "description": "Grande lacuna de stock na prateleira do meio, onde apenas um pacote de papel higiénico está presente, deixando uma área significativa vazia.",
+      "confidence": 0.95,
+      "affected_area_pct": 40.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "papel higiénico Quilton",
+    "papel higiénico Sorbent",
+    "esponjas de banho"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de supermercado contendo principalmente papel higiénico (marcas Quilton e Sorbent) e esponjas de banho penduradas na lateral esquerda. A organização é por blocos de marca. PASSO 2: Prateleira superior: bem abastecida com Quilton. Prateleira do meio: lado esquerdo vazio (apenas um pacote), lado direito bem abastecido. Prateleira inferior: bem abastecida com Sorbent e Quilton. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira do meio, lado esquerdo. Severidade alta devido ao espaço vazio considerável. Confiança elevada. PASSO 4: O fill rate é estimado em 0.75, considerando que a prateleira do meio está parcialmente vazia, enquanto as outras estão quase cheias."
+}

@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260608_175156_659",
+  "timestamp": "2026-06-08T17:51:56Z",
+  "image_path": "data\\images\\img_0670.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, entre os produtos Logical e MeadowLea",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, sugerindo falta de stock ou desorganização no facings.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos Logical (embalagens verticais) apresentam desalinhamento em relação ao bloco principal.",
+      "confidence": 0.85,
+      "affected_area_pct": 3.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Logical spreads",
+    "MeadowLea spreads",
+    "Copha vegetable shortening",
+    "ProActiv spreads",
+    "Omega spreads"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de refrigeração de supermercado com 4 níveis de prateleiras. Os produtos são maioritariamente embalagens de margarina/spreads de várias marcas (Logical, MeadowLea, Copha, ProActiv). A organização é feita por blocos verticais. PASSO 2: Prateleira superior: bem preenchida, exceto por um pequeno gap entre Logical e MeadowLea. Prateleira 2: bem preenchida, com um bloco de produtos Logical à esquerda. Prateleira 3: bem preenchida. Prateleira inferior: bem preenchida. PASSO 3: Identifiquei um 'empty_shelf' na prateleira superior (gap entre marcas) e um ligeiro 'misaligned' nos produtos Logical da segunda prateleira. A severidade é baixa/média pois a maioria do stock está presente. PASSO 4: O fill rate é elevado, estimado em 0.92, dado que a grande maioria das prateleiras está totalmente ocupada, com apenas pequenas lacunas pontuais."
+}

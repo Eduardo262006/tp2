@@ -1,0 +1,24 @@
+{
+  "inspection_id": "INS_20260609_105912_772",
+  "timestamp": "2026-06-09T10:59:12Z",
+  "image_path": "data\\images\\img_0783.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior, onde deveriam estar produtos alinhados com as etiquetas de preço.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "sumos de fruta",
+    "leite/bebidas lácteas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de retalho com três níveis visíveis contendo sumos de fruta em embalagens de cartão e garrafas de plástico. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: bem abastecida. Prateleira inferior: lado esquerdo e centro com produtos, lado direito com um espaço vazio considerável. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira inferior, lado direito, ocupando cerca de 25% da largura daquela secção. Severidade média, pois interrompe a continuidade do stock. Confiança alta. PASSO 4: O fill rate global é estimado em 0.88, considerando que a maioria das prateleiras está cheia, exceto pela lacuna na parte inferior direita."
+}

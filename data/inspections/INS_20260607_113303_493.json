@@ -1,0 +1,27 @@
+{
+  "inspection_id": "INS_20260607_113303_493",
+  "timestamp": "2026-06-07T11:33:03Z",
+  "image_path": "data\\images\\img_0504.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio entre os produtos 'singlet' e 'nightgown', indicando falta de stock ou organização deficiente.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "baby bibs",
+    "baby singlets",
+    "baby shoes",
+    "baby nightgowns",
+    "baby socks"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de vestuário de bebé organizada em três níveis de prateleiras suspensas. O nível superior contém babetes, singlets e sapatos. O nível intermédio contém singlets e camisas de dormir. O nível inferior contém várias meias de bebé. PASSO 2: Nível superior: bem preenchido. Nível intermédio: existe uma lacuna visível no centro, entre os produtos de vestuário. Nível inferior: bem preenchido com meias. PASSO 3: Identificada uma anomalia de 'empty_shelf' no centro da prateleira intermédia. A severidade é média pois interrompe a continuidade da exposição. Confiança elevada devido à clareza do espaço vazio. PASSO 4: O fill rate é estimado em 0.85, considerando que a maioria dos ganchos e espaços estão ocupados, exceto pela lacuna central na prateleira do meio."
+}

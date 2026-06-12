@@ -1,0 +1,18 @@
+{
+  "inspection_id": "INS_20260604_163055_199",
+  "timestamp": "2026-06-04T16:30:55Z",
+  "image_path": "data\\images\\img_0210.jpg",
+  "zone_id": "Z_S1",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "P&N Apple Blackcurrant Juice",
+    "Just Juice Breakfast Juice",
+    "Just Juice Apple Mango Juice",
+    "P&N Dark Grape Juice",
+    "P&N Apple Juice",
+    "Coles Orange Juice"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado contendo sumos de fruta em garrafas de plástico. Na prateleira superior, vemos sumos 'Just Juice' e 'P&N'. Na prateleira inferior, vemos uma mistura de sumos 'P&N', 'Just Juice' e 'Coles'. Há etiquetas de preço visíveis abaixo dos produtos.\nPASSO 2: \n- Prateleira superior: Organizada, produtos alinhados, sem espaços vazios significativos.\n- Prateleira inferior: Organizada, produtos alinhados, preenchimento completo.\nPASSO 3: Não foram detetadas anomalias. Os produtos estão bem alinhados, as etiquetas de preço correspondem às categorias de produtos e não há espaços vazios ou produtos danificados visíveis.\nPASSO 4: O fill rate é elevado, estimado em 0.95, dado que as prateleiras estão quase totalmente preenchidas com apenas pequenos espaços entre garrafas ou nas extremidades laterais."
+}

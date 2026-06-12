@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260604_163428_270",
+  "timestamp": "2026-06-04T16:34:28Z",
+  "image_path": "data\\images\\img_0281.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Uma caixa de tinta de cabelo está tombada/fora de alinhamento, ocupando espaço de forma irregular.",
+      "confidence": 0.9,
+      "affected_area_pct": 2.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio visível na prateleira inferior, sugerindo falta de stock ou produto deslocado.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "ovos de chocolate em embalagens verticais",
+    "tintas de cabelo (Garnier Nutrisse, Nice'n Easy)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de retalho com dois tipos de produtos: à esquerda, ovos de chocolate em embalagens verticais suspensas; à direita, prateleiras de tintas de cabelo. PASSO 2: Dividindo a secção de tintas (direita): Superior (cheia), Meio (cheia), Inferior (apresenta uma caixa tombada e um pequeno espaço vazio). PASSO 3: Identifiquei uma caixa tombada na prateleira inferior (misaligned) e um pequeno espaço vazio adjacente (empty_shelf). A severidade é baixa/média pois a maioria do stock está organizado. PASSO 4: O fill rate é elevado, estimado em 92%, dado que a grande maioria das prateleiras está totalmente preenchida, com apenas pequenas falhas na secção inferior."
+}

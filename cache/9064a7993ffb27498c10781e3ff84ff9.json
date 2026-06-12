@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260603_121400_055",
+  "timestamp": "2026-06-03T12:14:00Z",
+  "image_path": "data\\images\\img_0055.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "wrong_product",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Presença de um pacote de snacks (Chee-tos) numa prateleira dedicada a bebidas Coca-Cola.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Algumas garrafas de Diet Coke estão ligeiramente desalinhadas em relação à frente da prateleira.",
+      "confidence": 0.8,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Diet Coke",
+    "Coca-Cola",
+    "Coca-Cola Zero",
+    "Snacks (Chee-tos)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de retalho bem abastecidas com garrafas de 1.5L de Coca-Cola (várias variantes). Há um expositor vertical de plástico à esquerda. PASSO 2: Prateleira superior: maioritariamente Diet Coke, bem organizada. Prateleira inferior: mistura de Coca-Cola, Diet Coke e Coca-Cola Zero. Anomalia identificada: um pacote de snacks no meio das bebidas. PASSO 3: O pacote de snacks é um 'wrong_product' (severidade média, pois quebra a planograma). O desalinhamento na prateleira superior é menor. PASSO 4: O fill rate é elevado, estimado em 92%, dado que quase todo o espaço está ocupado por produto, com apenas pequenas lacunas ou desorganização."
+}

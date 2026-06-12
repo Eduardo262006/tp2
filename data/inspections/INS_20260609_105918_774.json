@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260609_105918_774",
+  "timestamp": "2026-06-09T10:59:18Z",
+  "image_path": "data\\images\\img_0785.jpg",
+  "zone_id": "Z_N3",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio na prateleira do meio, onde deveriam estar produtos da marca Asian Home Gourmet, sugerindo rutura de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos (saquetas) desalinhados e inclinados, prejudicando a apresentação visual.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "molhos asiáticos",
+    "saquetas de temperos e caril",
+    "frascos de especiarias/condimentos"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado com produtos asiáticos (saquetas de caril, pastas de tempero e frascos). A organização é predominantemente por blocos de marca e tipo de produto. PASSO 2: Prateleira superior: bem preenchida, mas com ligeiro desalinhamento à esquerda. Prateleira do meio: apresenta uma falha de stock (espaço vazio) no lado direito. Prateleira inferior: bem preenchida com frascos. PASSO 3: Identificada uma rutura de stock (empty_shelf) na prateleira do meio, ocupando cerca de 10% daquela secção. Identificado desalinhamento (misaligned) na prateleira superior. PASSO 4: O fill rate é elevado, estimado em 0.92, dado que a maioria das prateleiras está cheia, com apenas uma pequena zona de rutura e alguns produtos ligeiramente fora de posição."
+}

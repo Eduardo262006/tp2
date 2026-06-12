@@ -1,0 +1,24 @@
+{
+  "inspection_id": "INS_20260608_174914_605",
+  "timestamp": "2026-06-08T17:49:14Z",
+  "image_path": "data\\images\\img_0616.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira do meio, onde deveriam estar alinhadas mais unidades de leite.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "leite de vaca (embalagens de cartão)",
+    "leite de vaca (garrafas de plástico)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de um supermercado contendo leite da marca Coles. O nível superior e o nível do meio contêm embalagens de cartão de 1L. O nível inferior contém garrafas de plástico de leite. PASSO 2: Prateleira superior: totalmente preenchida. Prateleira do meio: preenchida à esquerda e centro, mas com um espaço vazio considerável à direita. Prateleira inferior: preenchida com garrafas. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira do meio, lado direito, ocupando cerca de 15% da largura da prateleira. Severidade média, pois indica falta de stock. Confiança alta. PASSO 4: O fill rate global é estimado em 0.85, considerando a lacuna na prateleira do meio e a ocupação total das outras áreas visíveis."
+}

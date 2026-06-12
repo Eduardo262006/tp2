@@ -1,0 +1,24 @@
+{
+  "inspection_id": "INS_20260602_153757_016",
+  "timestamp": "2026-06-02T15:37:57Z",
+  "image_path": "data\\images\\img_0016.jpg",
+  "zone_id": "Z_C1",
+  "overall_status": "critical",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, lado direito",
+      "severity": "high",
+      "description": "Espaço de prateleira completamente vazio, sem produtos expostos.",
+      "confidence": 1.0,
+      "affected_area_pct": 35.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "batatas fritas (chips)",
+    "snacks salgados"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de metal contendo sacos de batatas fritas de várias marcas (Thins, Smith's, etc.). PASSO 2: Prateleira superior: cheia. Prateleira do meio: lado esquerdo com produtos, lado direito vazio. Prateleira inferior: cheia. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira do meio, lado direito. A severidade é alta pois o espaço está totalmente desprovido de stock. Confiança de 1.0. PASSO 4: Considerando as três prateleiras visíveis, a prateleira do meio está cerca de 60% preenchida, enquanto as outras estão cheias. O fill rate global estimado é de aproximadamente 0.75."
+}

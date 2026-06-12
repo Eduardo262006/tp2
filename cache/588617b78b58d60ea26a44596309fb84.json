@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260606_165550_442",
+  "timestamp": "2026-06-06T16:55:50Z",
+  "image_path": "data\\images\\img_0453.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Garrafas de Pepsi Light e variantes estão ligeiramente desalinhadas em relação ao padrão de faceamento frontal.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Algumas garrafas apresentam rótulos virados para direções diferentes, prejudicando a uniformidade visual.",
+      "confidence": 0.8,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Pepsi Regular",
+    "Pepsi Light"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado totalmente abastecidas com garrafas de 2L de Pepsi. A organização é predominantemente por faceamento frontal. PASSO 2: Prateleira superior: bem organizada, mas com ligeiro desalinhamento nas garrafas à direita. Prateleira inferior: bem abastecida, mas com alguns rótulos desalinhados (virados para o lado). PASSO 3: Identifiquei desalinhamentos menores que não afetam a disponibilidade, mas prejudicam a estética (estética de retalho). Não há prateleiras vazias ou produtos errados. PASSO 4: O fill rate é muito alto, estimado em 0.95, pois quase não há espaços vazios entre as garrafas."
+}

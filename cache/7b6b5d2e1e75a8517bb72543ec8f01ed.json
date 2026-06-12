@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260606_165429_415",
+  "timestamp": "2026-06-06T16:54:29Z",
+  "image_path": "data\\images\\img_0426.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas de Coca-Cola e Diet Coke estão ligeiramente desalinhadas em relação ao bloco de Pepsi à direita.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "wrong_product",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Mistura de produtos (Coca-Cola e outros) na zona que parece ser de alinhamento de marca, criando desorganização visual.",
+      "confidence": 0.75,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Coca-Cola",
+    "Diet Coke",
+    "Pepsi"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado repletas de garrafas de refrigerante de 2L. A prateleira superior contém Coca-Cola, Diet Coke e Pepsi. A prateleira inferior contém uma mistura de Coca-Cola e Pepsi. PASSO 2: Prateleira superior: organizada por blocos de marca, mas com desalinhamento leve na transição entre Diet Coke e Pepsi. Prateleira inferior: desorganizada, com produtos misturados e falta de um padrão de faceamento claro. PASSO 3: Identifiquei desalinhamento na prateleira superior (baixa severidade) e uma mistura de produtos na prateleira inferior que prejudica o planoograma (severidade média). PASSO 4: O fill rate é alto, próximo de 0.95, pois quase não há espaços vazios, apenas desorganização."
+}

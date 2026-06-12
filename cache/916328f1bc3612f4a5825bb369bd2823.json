@@ -1,0 +1,37 @@
+{
+  "inspection_id": "INS_20260609_105630_718",
+  "timestamp": "2026-06-09T10:56:30Z",
+  "image_path": "data\\images\\img_0729.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Produtos embalados em sacos plásticos estão desorganizados e inclinados, ocupando o espaço de forma irregular.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "low",
+      "description": "Produtos de culinária asiática (cogumelos secos/ervas) estão tombados e misturados, dificultando a visualização da etiqueta.",
+      "confidence": 0.8,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "latas de molho",
+    "especiarias",
+    "açúcar de palma",
+    "kits de papel de arroz",
+    "cogumelos secos",
+    "arroz"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com três níveis. Nível superior: especiarias e produtos secos. Nível médio: açúcar de palma, kits de papel de arroz e ingredientes asiáticos. Nível inferior: sacos de arroz de vários tamanhos. PASSO 2: Prateleira superior: organização aceitável, mas com produtos à direita desarrumados. Prateleira média: lado esquerdo organizado, lado direito com produtos tombados. Prateleira inferior: bem preenchida, organização satisfatória. PASSO 3: Identificadas duas zonas de desalinhamento (misaligned) na parte superior e média direita. Severidade baixa, pois os produtos estão presentes e identificáveis. PASSO 4: O preenchimento é alto, com poucas lacunas visíveis, estimado em 85%."
+}

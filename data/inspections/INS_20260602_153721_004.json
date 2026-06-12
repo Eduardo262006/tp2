@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260602_153721_004",
+  "timestamp": "2026-06-02T15:37:21Z",
+  "image_path": "data\\images\\img_0004.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "low",
+      "description": "Sacos de batatas fritas verdes estão empilhados de forma desorganizada e inclinados para a frente.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "other",
+      "location": "prateleira inferior, centro",
+      "severity": "medium",
+      "description": "Cartaz promocional de grandes dimensões colocado sobre a prateleira, obstruindo a visibilidade dos produtos atrás.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.9,
+  "products_detected": [
+    "batatas fritas (chips)",
+    "batatas palha (potato stix)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado com sacos de batatas fritas. A prateleira superior contém sacos verdes (chips) e vermelhos (potato stix). A prateleira inferior contém sacos azuis e amarelos (Jacks/Classic). Há um cartaz promocional grande no centro da prateleira inferior. PASSO 2: Prateleira superior: os produtos estão maioritariamente alinhados, mas há uma desorganização no centro. Prateleira inferior: os produtos estão organizados, mas um cartaz promocional bloqueia a visão de parte do stock. PASSO 3: Anomalia 1: Desalinhamento na prateleira superior (severidade baixa). Anomalia 2: Obstrução visual por cartaz promocional na prateleira inferior (severidade média). PASSO 4: O fill rate é elevado, estimado em 0.9, pois as prateleiras estão quase totalmente preenchidas, apesar da desorganização pontual e da obstrução pelo cartaz."
+}

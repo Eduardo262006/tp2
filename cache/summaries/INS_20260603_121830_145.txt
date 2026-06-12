@@ -1,0 +1,1 @@
+zona Z_N9; estado warning; fill rate 92%; empty_shelf (medium) em prateleira superior, centro: Gancho de exposição vazio, indicando falta de stock de um produto específico.; produtos: Maybelline Pure Powder, Maybelline Fit Me Matte, Maybelline SuperStay, Maybelline Wet Shine, Cosméticos faciais em blister; data 2026-06-03T12:18:30Z

@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260605_100414_302",
+  "timestamp": "2026-06-05T10:04:14Z",
+  "image_path": "data\\images\\img_0313.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, centro-direita",
+      "severity": "medium",
+      "description": "Espaço vazio visível entre as latas de Pepsi Light, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Latas de Diet Coke e Pepsi Light desalinhadas em relação à frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Pepsi",
+    "Pepsi Light",
+    "Diet Coke"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um expositor de bebidas. A prateleira superior contém latas de Pepsi (375ml). A prateleira inferior contém uma mistura de latas de Diet Coke e Pepsi Light. PASSO 2: Prateleira superior: bem organizada, sem anomalias. Prateleira inferior: apresenta um espaço vazio no centro-direita e um desalinhamento das latas no lado esquerdo. PASSO 3: Anomalia 1 (empty_shelf): localização centro-direita da prateleira inferior, severidade média, confiança 0.95. Anomalia 2 (misaligned): localização lado esquerdo da prateleira inferior, severidade baixa, confiança 0.85. PASSO 4: O fill rate global é estimado em 0.85, considerando que a prateleira superior está cheia e a inferior apresenta uma lacuna e algum desordenamento."
+}

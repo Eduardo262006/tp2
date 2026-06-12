@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260603_121821_142",
+  "timestamp": "2026-06-03T12:18:21Z",
+  "image_path": "data\\images\\img_0142.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "critical",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "damaged",
+      "location": "prateleira superior, centro",
+      "severity": "high",
+      "description": "Garrafas de bebida 'BIG' caídas e desorganizadas, com sinal de derrame de líquido na prateleira.",
+      "confidence": 0.98,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "damaged",
+      "location": "prateleira do meio, centro",
+      "severity": "high",
+      "description": "Embalagens de iogurte Yoplait abertas/danificadas com conteúdo exposto e derrame de produto sobre a prateleira.",
+      "confidence": 0.99,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "bebidas lácteas BIG",
+    "iogurtes Yoplait",
+    "sumo de laranja",
+    "leite Australian Fresh"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras. A superior contém garrafas de bebida 'BIG'. A do meio contém iogurtes 'Yoplait' e um frasco de sumo à esquerda. A inferior contém pacotes de leite. PASSO 2: Prateleira superior: desorganização severa e garrafas caídas no centro. Prateleira do meio: iogurtes abertos e danificados no centro, com resíduos de produto escorrendo. Prateleira inferior: aparentemente organizada. PASSO 3: Identificadas duas anomalias críticas de dano/derramamento. A severidade é alta devido ao risco de contaminação e má apresentação. PASSO 4: O fill rate é afetado pela desorganização e produtos danificados, estimado em 0.75 devido ao espaço ocupado pelos produtos caídos e pela falta de alinhamento."
+}

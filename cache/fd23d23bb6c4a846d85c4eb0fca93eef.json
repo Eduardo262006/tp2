@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260605_100756_376",
+  "timestamp": "2026-06-05T10:07:56Z",
+  "image_path": "data\\images\\img_0387.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os produtos de limpeza de bebé, indicando falta de stock ou desorganização.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos de limpeza de bebé (wipes) estão desalinhados e empilhados de forma irregular.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "Huggies baby wipes",
+    "Johnson's baby wipes",
+    "Diapers/Baby care products"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de retalho contendo produtos de higiene para bebé (Huggies e Johnson's). A prateleira superior contém caixas de fraldas/produtos com personagens Disney. A prateleira do meio contém pacotes de toalhitas (wipes) com uma zona central vazia. A prateleira inferior contém caixas de toalhitas Huggies bem organizadas. PASSO 2: Prateleira superior: organizada. Prateleira do meio: lado esquerdo com produtos desalinhados, centro com espaço vazio (anomalia), lado direito com produtos Johnson's. Prateleira inferior: bem organizada. PASSO 3: Identificada uma zona de 'empty_shelf' no centro da prateleira do meio (severidade média) e 'misaligned' no lado esquerdo da mesma prateleira (severidade baixa). PASSO 4: O fill rate é estimado em 0.75, considerando que a prateleira do meio tem uma lacuna de stock notável, enquanto as outras estão bem preenchidas."
+}

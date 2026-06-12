@@ -1,0 +1,41 @@
+{
+  "inspection_id": "INS_20260603_121624_103",
+  "timestamp": "2026-06-03T12:16:24Z",
+  "image_path": "data\\images\\img_0103.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "critical",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "high",
+      "description": "Caixas de ovos empilhadas de forma instável e desalinhada, ocupando espaço de forma desorganizada.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira inferior onde deveriam estar produtos.",
+      "confidence": 0.9,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "empty_shelf",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio na prateleira inferior, indicando falta de stock.",
+      "confidence": 0.9,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.65,
+  "products_detected": [
+    "ovos (caixas de 12 unidades)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado com ovos em embalagens de cartão. Existem duas prateleiras visíveis. A superior contém ovos 'Pace Farm' à esquerda e caixas desalinhadas à direita. A inferior contém caixas 'Coles Smart Buy' com espaços vazios. PASSO 2: Prateleira superior: esquerda (organizada), direita (desalinhada/instável). Prateleira inferior: esquerda (vazia), centro (organizada), direita (vazia). PASSO 3: Identifiquei desalinhamento crítico na prateleira superior direita (risco de queda) e falta de stock (empty_shelf) em ambos os lados da prateleira inferior. PASSO 4: O fill rate é estimado em 0.65, considerando as áreas vazias e a ocupação irregular."
+}

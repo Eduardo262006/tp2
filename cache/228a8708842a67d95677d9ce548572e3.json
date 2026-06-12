@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260603_121754_133",
+  "timestamp": "2026-06-03T12:17:54Z",
+  "image_path": "data\\images\\img_0133.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Os pacotes de bolachas estão empilhados de forma desorganizada e inclinada, dificultando a visualização e o acesso.",
+      "confidence": 0.95,
+      "affected_area_pct": 20.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, centro",
+      "severity": "low",
+      "description": "Produtos empilhados de forma irregular, com algumas embalagens a sobressair da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.9,
+  "products_detected": [
+    "bolachas",
+    "biscoitos",
+    "tartes de fruta"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de supermercado com 4 níveis visíveis, contendo predominantemente embalagens de bolachas e biscoitos. Há uma rede de ténis à esquerda que não faz parte da prateleira. PASSO 2: Prateleira superior: bem organizada. Prateleira 2 (contando de cima): desorganização no centro com produtos inclinados. Prateleira 3: desorganização significativa no centro, com produtos empilhados de forma caótica. Prateleira inferior: organizada. PASSO 3: Identifiquei desalinhamento (misaligned) nas prateleiras 2 e 3. A severidade é média devido ao risco de queda e má apresentação. Confiança alta baseada na desordem visual das embalagens. PASSO 4: O fill rate é elevado (cerca de 90%), pois as prateleiras estão quase totalmente preenchidas, apesar da desorganização."
+}

@@ -1,0 +1,36 @@
+{
+  "inspection_id": "INS_20260606_165541_439",
+  "timestamp": "2026-06-06T16:55:41Z",
+  "image_path": "data\\images\\img_0450.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, indicando falta de stock.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Produtos de temperos (Taco/Burrito) estão desorganizados dentro das caixas expositoras.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "tortilhas",
+    "latas de feijão",
+    "temperos para taco",
+    "temperos para burrito",
+    "picles/jalapenos"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A superior contém embalagens de tortilhas (algumas áreas vazias à direita). A inferior contém latas de feijão Old El Paso, frascos de picles/jalapenos e caixas expositoras com pacotes de temperos (Taco/Burrito). PASSO 2: Prateleira superior: esquerda e centro ocupados, direita vazia. Prateleira inferior: esquerda ocupada por latas, centro/direita ocupada por temperos com alguma desorganização. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira superior direita (severidade média). Identificada 'misaligned' na prateleira inferior central devido à desorganização dos pacotes de tempero. PASSO 4: O fill rate é estimado em 0.75, considerando o espaço vazio na prateleira superior e a densidade de ocupação na inferior."
+}

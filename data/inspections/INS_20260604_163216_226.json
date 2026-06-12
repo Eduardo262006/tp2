@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260604_163216_226",
+  "timestamp": "2026-06-04T16:32:16Z",
+  "image_path": "data\\images\\img_0237.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Os produtos 'Demak Up' estão empilhados horizontalmente de forma desorganizada, ocupando o espaço de forma irregular.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "prateleira superior, centro-direita",
+      "severity": "low",
+      "description": "Espaço vazio visível entre os termómetros e os produtos de algodão.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "medicamentos para tosse",
+    "termómetros",
+    "discos de algodão",
+    "bolas de algodão"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de farmácia/supermercado com medicamentos (Nyal) à esquerda e produtos de higiene (algodão, discos desmaquilhantes) à direita. PASSO 2: Dividindo a prateleira: Superior Esquerda (medicamentos alinhados), Superior Direita (discos desmaquilhantes desorganizados), Inferior Esquerda (bolas de algodão), Inferior Direita (algodão). PASSO 3: Identifiquei desalinhamento nos discos desmaquilhantes (Demak Up) na prateleira superior direita, que estão deitados e desarrumados, e um pequeno espaço vazio entre os termómetros e os discos. PASSO 4: O fill rate é alto, estimado em 0.85, pois a maioria dos espaços está preenchida, apesar da desorganização pontual."
+}

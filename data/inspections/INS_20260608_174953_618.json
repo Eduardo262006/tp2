@@ -1,0 +1,15 @@
+{
+  "inspection_id": "INS_20260608_174953_618",
+  "timestamp": "2026-06-08T17:49:53Z",
+  "image_path": "data\\images\\img_0629.jpg",
+  "zone_id": "Z_S3",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Parker's Baked Wheat Pretzel Twists",
+    "Kettle Brand Teriyaki Chicken Chips",
+    "Kettle Brand Crinkle Cut Rock Salt & Vinegar Chips"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de metal carregadas com sacos de snacks (pretzels e batatas fritas). Os produtos estão organizados em filas verticais. PASSO 2: Prateleira superior: lado esquerdo com Parker's, lado direito com Kettle Teriyaki. Prateleira inferior: lado esquerdo com Parker's, lado direito com Kettle Crinkle Cut. Não há espaços vazios significativos ou produtos desalinhados que comprometam a visibilidade. PASSO 3: Não foram identificadas anomalias. Todos os produtos estão presentes, alinhados e com etiquetas de preço visíveis. PASSO 4: O fill rate é elevado, estimado em 0.95, pois as prateleiras estão quase totalmente preenchidas com apenas pequenos espaços residuais nas extremidades ou entre embalagens."
+}

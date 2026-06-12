@@ -1,0 +1,16 @@
+{
+  "inspection_id": "INS_20260605_100444_312",
+  "timestamp": "2026-06-05T10:04:44Z",
+  "image_path": "data\\images\\img_0323.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.98,
+  "products_detected": [
+    "Spring Valley juice",
+    "Ocean Spray Ruby Red Grapefruit",
+    "Ocean Spray Cranberry Classic",
+    "Ocean Spray Cranberry Light"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado repletas de garrafas de sumo (marcas Spring Valley e Ocean Spray). Os produtos estão organizados em filas verticais, com etiquetas de preço correspondentes abaixo de cada grupo. PASSO 2: Prateleira superior: contém Spring Valley (tomate, manga, banana) e Ocean Spray (Ruby Red, Cranberry). Prateleira inferior: contém Spring Valley Vibe e Ocean Spray (Ruby Red, Cranberry Classic, Cranberry Light). Não há espaços vazios significativos ou produtos fora do lugar. PASSO 3: Não foram identificadas anomalias. A organização é consistente, os produtos estão alinhados e as etiquetas de preço estão presentes. PASSO 4: O fill rate é muito elevado, estimado em 0.98, pois quase não há espaços vazios entre as garrafas e a prateleira está totalmente preenchida."
+}

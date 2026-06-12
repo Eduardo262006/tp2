@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260607_113357_511",
+  "timestamp": "2026-06-07T11:33:57Z",
+  "image_path": "data\\images\\img_0522.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, onde deveriam estar produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "terceira prateleira (contando de cima), lado direito",
+      "severity": "medium",
+      "description": "Espaço vazio na extremidade direita da terceira prateleira, indicando falta de stock.",
+      "confidence": 0.98,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "garrafas de água",
+    "sumos de fruta (garrafas pequenas)",
+    "sumos de fruta (garrafas grandes/galões)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma estante de retalho com 4 níveis. Nível 1 (topo): Águas e sumos pequenos. Nível 2: Sumos em garrafas grandes (galões). Nível 3: Sumos em garrafas grandes, com uma zona vazia à direita. Nível 4 (base): Sumos em garrafas grandes. PASSO 2: Nível 1: Zona esquerda vazia. Nível 2: Bem preenchido. Nível 3: Zona direita vazia. Nível 4: Bem preenchido. PASSO 3: Anomalia 1: empty_shelf, prateleira superior esquerda, severidade média, confiança 0.95. Anomalia 2: empty_shelf, terceira prateleira direita, severidade média, confiança 0.98. PASSO 4: O fill rate é estimado em 0.88, considerando que a maioria das prateleiras está cheia, exceto pelos dois espaços vazios identificados."
+}

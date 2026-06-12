@@ -1,0 +1,16 @@
+{
+  "inspection_id": "INS_20260609_105815_753",
+  "timestamp": "2026-06-09T10:58:15Z",
+  "image_path": "data\\images\\img_0764.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.98,
+  "products_detected": [
+    "vinhos",
+    "whisky",
+    "licores",
+    "porto"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um supermercado repletas de garrafas de bebidas alcoólicas (vinhos, whisky, porto). A organização é densa e alinhada por tipo de produto. PASSO 2: Prateleira superior: cheia, sem falhas. Prateleira do meio: cheia, sem falhas. Prateleira inferior: cheia, sem falhas. Não há espaços vazios significativos, produtos fora do lugar ou etiquetas ausentes visíveis. PASSO 3: Não foram identificadas anomalias. A organização está consistente com o plano de merchandising. PASSO 4: O fill rate é muito elevado, estimado em 0.98, dado que quase todo o espaço disponível está ocupado por produtos, com apenas espaços mínimos entre garrafas para manuseamento."
+}

@@ -1,0 +1,33 @@
+{
+  "inspection_id": "INS_20260604_163240_234",
+  "timestamp": "2026-06-04T16:32:40Z",
+  "image_path": "data\\images\\img_0245.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira do meio, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre as caixas de pipoca, indicando falta de stock ou organização deficiente.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Produtos (sacos de pipoca) encontram-se desorganizados e tombados, dificultando a visualização.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.82,
+  "products_detected": [
+    "pipoca de micro-ondas",
+    "snacks de milho"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três níveis de prateleiras de supermercado contendo caixas de pipoca de micro-ondas (marcas Poppin e Uncle Tobys) e alguns sacos de snacks. PASSO 2: Prateleira superior: bem abastecida. Prateleira do meio: apresenta um espaço vazio notável no centro. Prateleira inferior: produtos presentes, mas com desorganização no lado direito. PASSO 3: Identificada uma zona de 'empty_shelf' no centro da prateleira do meio (severidade média, confiança alta). Identificada desorganização ('misaligned') na prateleira inferior direita (severidade baixa, confiança alta). PASSO 4: O fill rate é estimado em 0.82, considerando que a maioria das prateleiras está cheia, exceto pelas lacunas mencionadas."
+}

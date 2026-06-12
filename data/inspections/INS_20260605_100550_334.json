@@ -1,0 +1,26 @@
+{
+  "inspection_id": "INS_20260605_100550_334",
+  "timestamp": "2026-06-05T10:05:50Z",
+  "image_path": "data\\images\\img_0345.jpg",
+  "zone_id": "Z_N9",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os rolos de carne e os sacos de comida para cão.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "comida para cão (rolos)",
+    "comida para cão (sacos)",
+    "comida para gato (sacos)",
+    "comida para cão (embalagens plásticas/bandejas)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um corredor de comida para animais. A prateleira superior contém rolos de carne para cão à esquerda e sacos de comida para cão à direita. A prateleira inferior contém sacos de comida para gato (Fresh) e embalagens de comida para cão (4legs). PASSO 2: Prateleira superior: lado esquerdo tem um espaço vazio notável entre os rolos e os sacos. Prateleira inferior: bem organizada, sem falhas de stock aparentes. PASSO 3: Identificada uma anomalia de 'empty_shelf' na prateleira superior, lado esquerdo, com severidade média, pois interrompe a continuidade do produto. Confiança alta. PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira superior e a ocupação densa na inferior."
+}

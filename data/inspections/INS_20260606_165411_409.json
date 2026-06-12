@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260606_165411_409",
+  "timestamp": "2026-06-06T16:54:11Z",
+  "image_path": "data\\images\\img_0420.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "wrong_product",
+      "location": "prateleira superior e média, lado esquerdo",
+      "severity": "medium",
+      "description": "Brinquedos (carros de fricção) estão pendurados na frente das prateleiras de snacks, obstruindo a visão e o acesso aos sacos de Doritos.",
+      "confidence": 0.95,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "low",
+      "description": "Sacos de batatas fritas desorganizados e empilhados de forma irregular.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "molhos salsa",
+    "snacks Doritos",
+    "brinquedos (carros)",
+    "batatas fritas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de prateleiras de supermercado. Na parte superior, há frascos de molho salsa. Abaixo, prateleiras com sacos de Doritos (Nacho Cheese) e outros snacks. Há uma anomalia clara: brinquedos (carros) estão pendurados verticalmente sobre a prateleira, bloqueando o acesso aos produtos. PASSO 2: Superior: Molhos (ok). Meio: Doritos obstruídos por brinquedos à esquerda. Inferior: Doritos e outros snacks, com desorganização à direita. PASSO 3: Anomalia 1: Wrong_product/Obstrução (brinquedos) na zona esquerda (meio/superior), severidade média. Anomalia 2: Misaligned (produtos desorganizados) na prateleira inferior direita, severidade baixa. PASSO 4: O fill rate é alto, pois as prateleiras estão cheias, mas a organização está comprometida pela intrusão dos brinquedos e desarrumação na base. Estimativa de 0.85."
+}

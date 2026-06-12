@@ -1,0 +1,34 @@
+{
+  "inspection_id": "INS_20260606_165729_475",
+  "timestamp": "2026-06-06T16:57:29Z",
+  "image_path": "data\\images\\img_0486.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "wrong_product",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Uma garrafa de Sprite está colocada no espaço destinado à água mineral com sabor (Coles Apple & Berry).",
+      "confidence": 0.95,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro-direita",
+      "severity": "low",
+      "description": "Uma das garrafas de água mineral está ligeiramente rodada, com o rótulo virado para trás ou lateralmente.",
+      "confidence": 0.85,
+      "affected_area_pct": 5.0
+    }
+  ],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Coles Mineral Water (Apple & Berry)",
+    "Sprite",
+    "Outras águas minerais (prateleira superior)"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras. A superior contém garrafas de água mineral (rótulos claros). A inferior contém principalmente garrafas de 'Coles Apple & Berry Mineral Water', com uma garrafa de Sprite intrusa à direita. PASSO 2: Prateleira superior: bem organizada. Prateleira inferior: a maioria dos produtos está alinhada, exceto uma garrafa de Sprite no bloco de águas e uma garrafa de água ligeiramente desalinhada/rodada. PASSO 3: Identificada a Sprite como 'wrong_product' (severidade média, pois quebra o planograma) e uma garrafa desalinhada (severidade baixa). PASSO 4: O preenchimento é muito alto, quase total, estimado em 0.95."
+}

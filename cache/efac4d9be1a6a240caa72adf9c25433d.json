@@ -1,0 +1,17 @@
+{
+  "inspection_id": "INS_20260602_153751_014",
+  "timestamp": "2026-06-02T15:37:51Z",
+  "image_path": "data\\images\\img_0014.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Uncle Tobys Le Snak",
+    "Nutri-Grain Bar",
+    "Uncle Tobys O's Cereal Bars",
+    "Uncle Tobys Roll-Ups",
+    "Farmland Snack Pack"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado organizada com produtos da marca Uncle Tobys (Le Snak, O's, Roll-Ups) e Farmland. Os produtos estão alinhados e preenchem a maior parte do espaço disponível. PASSO 2: A prateleira está dividida em três níveis principais. Nível superior: Le Snak e Nutri-Grain. Nível médio: Le Snak Value Pack e O's Cereal Bars. Nível inferior: Roll-Ups e Snack Pack. Não foram observadas falhas de stock significativas ou produtos fora do lugar. PASSO 3: Não foram identificadas anomalias. Todos os produtos estão alinhados, com etiquetas de preço visíveis e sem danos aparentes. PASSO 4: O fill rate é elevado, estimado em 0.95, dado que quase todas as frentes estão preenchidas e não há espaços vazios significativos."
+}

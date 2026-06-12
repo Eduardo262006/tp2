@@ -1,0 +1,43 @@
+{
+  "inspection_id": "INS_20260608_175020_627",
+  "timestamp": "2026-06-08T17:50:20Z",
+  "image_path": "data\\images\\img_0638.jpg",
+  "zone_id": "Z_N1",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "segunda prateleira a contar de cima, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio visível entre os iogurtes Ski e os iogurtes Vaalia.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "empty_shelf",
+      "location": "terceira prateleira a contar de cima, centro",
+      "severity": "medium",
+      "description": "Espaço vazio significativo entre os iogurtes de fruta e os iogurtes de beber (Jalna).",
+      "confidence": 0.95,
+      "affected_area_pct": 8.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Produtos de iogurte em embalagens múltiplas estão desorganizados e desalinhados em relação à frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.88,
+  "products_detected": [
+    "iogurtes",
+    "iogurtes de beber",
+    "sobremesas lácteas"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de refrigeração de supermercado com 4 prateleiras visíveis contendo iogurtes e produtos lácteos. A organização é geralmente boa, mas existem lacunas. PASSO 2: Prateleira 1 (topo): cheia. Prateleira 2: lacuna no lado esquerdo. Prateleira 3: lacuna no centro. Prateleira 4 (base): produtos desalinhados. PASSO 3: Identificadas duas zonas de 'empty_shelf' (falta de stock ou produtos recuados) e uma zona de 'misaligned' na base. A severidade é média para as lacunas e baixa para o desalinhamento. PASSO 4: O fill rate é elevado, estimado em 0.88, dado que a maioria do espaço está ocupado, apesar das pequenas falhas de faceamento."
+}

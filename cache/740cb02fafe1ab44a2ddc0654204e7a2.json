@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260607_113306_494",
+  "timestamp": "2026-06-07T11:33:06Z",
+  "image_path": "data\\images\\img_0505.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, onde deveriam estar produtos alinhados com o restante da secção.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, centro",
+      "severity": "low",
+      "description": "Garrafas e recipientes na prateleira inferior apresentam desalinhamento e desorganização no posicionamento frontal.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    }
+  ],
+  "shelf_fill_rate": 0.75,
+  "products_detected": [
+    "brinquedos para bebé",
+    "lancheiras térmicas",
+    "garrafas de água",
+    "recipientes de plástico"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma secção de retalho com duas prateleiras principais. A prateleira superior contém lancheiras térmicas à direita e um espaço vazio considerável à esquerda. A prateleira inferior contém brinquedos de bebé (My 1st Keys) à esquerda e garrafas/recipientes de plástico à direita. PASSO 2: Prateleira superior: lado esquerdo vazio (anomalia). Prateleira inferior: lado esquerdo organizado, lado direito com produtos desalinhados. PASSO 3: Identificada uma zona de 'empty_shelf' na prateleira superior (severidade média) e 'misaligned' na prateleira inferior (severidade baixa). PASSO 4: O fill rate é estimado em 0.75, considerando o espaço vazio na prateleira superior e a densidade variável na inferior."
+}

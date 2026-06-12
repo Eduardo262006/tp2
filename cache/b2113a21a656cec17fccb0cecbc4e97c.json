@@ -1,0 +1,43 @@
+{
+  "inspection_id": "INS_20260604_163452_278",
+  "timestamp": "2026-06-04T16:34:52Z",
+  "image_path": "data\\images\\img_0289.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "medium",
+      "description": "Garrafa de bebida rosa deitada horizontalmente em vez de vertical.",
+      "confidence": 0.95,
+      "affected_area_pct": 5.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira do meio, lado direito",
+      "severity": "medium",
+      "description": "Dois garrafões de sumo estão posicionados de forma irregular/inclinada, ocupando espaço de forma desorganizada.",
+      "confidence": 0.9,
+      "affected_area_pct": 10.0
+    },
+    {
+      "issue_id": "ISS_003",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado direito",
+      "severity": "medium",
+      "description": "Garrafão de sumo deitado horizontalmente sobre outros produtos, causando desorganização.",
+      "confidence": 0.9,
+      "affected_area_pct": 8.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "bebidas lácteas",
+    "iogurtes",
+    "sumos em garrafão"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra uma prateleira de supermercado com três níveis visíveis. O nível superior contém garrafas de bebidas (estilo iogurte/leite). O nível do meio contém iogurtes em copo e garrafões de sumo. O nível inferior contém garrafões de sumo e iogurtes. PASSO 2: Prateleira superior: uma garrafa rosa está deitada. Prateleira do meio: dois garrafões de sumo estão desalinhados/inclinados. Prateleira inferior: um garrafão de sumo está deitado sobre os iogurtes. PASSO 3: Identificadas três anomalias de desalinhamento (misaligned). A severidade é média pois os produtos estão presentes, mas a apresentação está comprometida. Confiança alta devido à clareza visual. PASSO 4: O preenchimento é elevado, com poucas falhas de stock, estimado em 92%."
+}

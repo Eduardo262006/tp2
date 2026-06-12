@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260603_121733_126",
+  "timestamp": "2026-06-03T12:17:33Z",
+  "image_path": "data\\images\\img_0126.jpg",
+  "zone_id": "Z_UNKNOWN",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "empty_shelf",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "medium",
+      "description": "Espaço vazio significativo na prateleira superior, onde deveriam estar produtos.",
+      "confidence": 0.95,
+      "affected_area_pct": 25.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira superior, lado direito",
+      "severity": "low",
+      "description": "Produtos (Roti Wraps) estão ligeiramente desorganizados e empilhados de forma irregular.",
+      "confidence": 0.8,
+      "affected_area_pct": 10.0
+    }
+  ],
+  "shelf_fill_rate": 0.85,
+  "products_detected": [
+    "Naan bread",
+    "Roti wraps",
+    "Patak's curry sauces",
+    "Sharwood's stir-fry sauces"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de um supermercado. A superior contém pães indianos (Naan e Roti Wraps). A inferior contém frascos de molhos (Patak's e Sharwood's). PASSO 2: Prateleira superior: lado esquerdo apresenta uma zona vazia (anomalia), lado direito tem produtos empilhados. Prateleira inferior: bem organizada, sem anomalias visíveis. PASSO 3: Anomalia 1: empty_shelf na prateleira superior esquerda, severidade média, confiança alta. Anomalia 2: misaligned na prateleira superior direita, severidade baixa, confiança moderada. PASSO 4: O fill rate é estimado em 0.85, considerando o espaço vazio na prateleira superior e a ocupação total da prateleira inferior."
+}

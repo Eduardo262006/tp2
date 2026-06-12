@@ -1,0 +1,35 @@
+{
+  "inspection_id": "INS_20260605_100602_338",
+  "timestamp": "2026-06-05T10:06:02Z",
+  "image_path": "data\\images\\img_0349.jpg",
+  "zone_id": "Z_N7",
+  "overall_status": "warning",
+  "issues": [
+    {
+      "issue_id": "ISS_001",
+      "type": "misaligned",
+      "location": "prateleira superior, lado esquerdo",
+      "severity": "low",
+      "description": "Garrafas de Diet Coke estão desalinhadas e ligeiramente recuadas em relação à frente da prateleira.",
+      "confidence": 0.85,
+      "affected_area_pct": 15.0
+    },
+    {
+      "issue_id": "ISS_002",
+      "type": "misaligned",
+      "location": "prateleira inferior, lado esquerdo",
+      "severity": "low",
+      "description": "Algumas garrafas na parte traseira e lateral esquerda estão desorganizadas e desalinhadas com o alinhamento frontal principal.",
+      "confidence": 0.8,
+      "affected_area_pct": 20.0
+    }
+  ],
+  "shelf_fill_rate": 0.92,
+  "products_detected": [
+    "Diet Coke 1.5L",
+    "Diet Coke Lime 1.5L",
+    "Diet Coke Vanilla 1.5L",
+    "Coca-Cola Zero 1.5L"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra duas prateleiras de supermercado repletas de garrafas de 1.5L de refrigerantes da marca Coca-Cola (Diet Coke, Diet Coke Lime, Diet Coke Vanilla e Coca-Cola Zero). Há também embalagens plásticas penduradas na lateral esquerda. PASSO 2: Prateleira superior: bem abastecida, mas com ligeiro desalinhamento à esquerda. Prateleira inferior: bem abastecida, mas com desorganização nas fileiras de trás e à esquerda. PASSO 3: Identifiquei desalinhamentos (misaligned) em ambas as prateleiras. Não há prateleiras vazias (empty_shelf) nem produtos errados (wrong_product) evidentes, pois a categoria é consistente. A severidade é baixa, pois o produto está disponível e acessível. PASSO 4: O fill rate é alto, estimado em 0.92, dado que quase todo o espaço disponível está ocupado por produto, com apenas pequenos espaços vazios ou desorganização."
+}

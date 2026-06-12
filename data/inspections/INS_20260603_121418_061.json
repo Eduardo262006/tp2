@@ -1,0 +1,19 @@
+{
+  "inspection_id": "INS_20260603_121418_061",
+  "timestamp": "2026-06-03T12:14:18Z",
+  "image_path": "data\\images\\img_0061.jpg",
+  "zone_id": "Z_S5",
+  "overall_status": "ok",
+  "issues": [],
+  "shelf_fill_rate": 0.95,
+  "products_detected": [
+    "Champagne Pommery",
+    "Moët & Chandon",
+    "Veuve Clicquot",
+    "Deutz",
+    "Terra Burn",
+    "Grandin",
+    "Sparkling Wine"
+  ],
+  "model_reasoning": "PASSO 1: A imagem mostra três prateleiras de um expositor de vinhos espumantes e champanhes. Os produtos estão organizados em filas, com etiquetas de preço visíveis abaixo de cada grupo. Há dispositivos de segurança (tags) nos gargalos das garrafas da prateleira superior. PASSO 2: Prateleira superior: cheia, organizada. Prateleira do meio: cheia, organizada, com uma pequena caixa de 'Pink' à direita. Prateleira inferior: cheia, organizada. Não foram detetadas falhas de stock significativas ou produtos fora do lugar. PASSO 3: Não existem anomalias detetadas. A organização é consistente e o stock está completo. PASSO 4: O fill rate é elevado, estimado em 0.95, considerando que quase todos os espaços de prateleira estão ocupados por garrafas, com apenas espaços marginais vazios ou ocupados por sinalética de segurança."
+}
